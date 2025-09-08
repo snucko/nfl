@@ -11090,6 +11090,11 @@
                   "value": 7.0,
                   "displayValue": "7",
                   "period": 1
+                },
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 2
                 }
               ],
               "statistics": [],
@@ -11180,12 +11185,17 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png"
               },
-              "score": "3",
+              "score": "9",
               "linescores": [
                 {
                   "value": 3.0,
                   "displayValue": "3",
                   "period": 1
+                },
+                {
+                  "value": 6.0,
+                  "displayValue": "6",
+                  "period": 2
                 }
               ],
               "statistics": [],
@@ -11212,75 +11222,95 @@
           "notes": [],
           "situation": {
             "lastPlay": {
-              "id": "401772918763",
+              "id": "401772918949",
               "type": {
-                "id": "74",
-                "text": "Official Timeout",
-                "abbreviation": "Off TO"
+                "id": "68",
+                "text": "Rushing Touchdown",
+                "abbreviation": "TD"
               },
-              "text": "Official Timeout at 01:39.",
-              "scoreValue": 0,
+              "text": "D.Henry right tackle for 30 yards, TOUCHDOWN.",
+              "scoreValue": 6,
               "team": {
                 "id": "33"
               },
               "probability": {
                 "tiePercentage": 0.0,
-                "homeWinPercentage": 0.6118,
-                "awayWinPercentage": 0.3882,
+                "homeWinPercentage": 0.4397,
+                "awayWinPercentage": 0.5603,
                 "secondsLeft": 0
               },
               "drive": {
-                "description": "3 plays, 7 yards, 1:59",
+                "description": "6 plays, 85 yards, 3:04",
                 "start": {
-                  "yardLine": 35,
-                  "text": "BUF 35"
+                  "yardLine": 85,
+                  "text": "BAL 15"
                 },
                 "end": {
-                  "yardLine": 42,
-                  "text": "BUF 42"
+                  "yardLine": 0,
+                  "text": "BUF 0"
                 },
                 "timeElapsed": {
-                  "displayValue": "1:59"
+                  "displayValue": "3:04"
                 },
-                "result": "PUNT"
+                "result": "TD"
               },
               "start": {
-                "yardLine": 85,
+                "yardLine": 30,
                 "team": {
                   "id": "33"
                 }
               },
               "end": {
-                "yardLine": 85,
+                "yardLine": 0,
                 "team": {
                   "id": "33"
                 }
               },
-              "statYardage": 0
+              "statYardage": 30,
+              "athletesInvolved": [
+                {
+                  "id": "3043078",
+                  "fullName": "Derrick Henry",
+                  "displayName": "Derrick Henry",
+                  "shortName": "D. Henry",
+                  "links": [
+                    {
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/nfl/player/_/id/3043078/derrick-henry"
+                    }
+                  ],
+                  "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3043078.png",
+                  "jersey": "22",
+                  "position": "RB",
+                  "team": {
+                    "id": "33"
+                  }
+                }
+              ]
             },
-            "down": 1,
-            "yardLine": 85,
+            "down": -1,
+            "yardLine": 0,
             "distance": 10,
-            "downDistanceText": "1st & 10 at BAL 15",
-            "shortDownDistanceText": "1st & 10",
-            "possessionText": "BAL 15",
-            "isRedZone": false,
+            "isRedZone": true,
             "homeTimeouts": 3,
-            "awayTimeouts": 3,
-            "possession": "33"
+            "awayTimeouts": 3
           },
           "status": {
-            "clock": 99.0,
-            "displayClock": "1:39",
-            "period": 1,
+            "clock": 815.0,
+            "displayClock": "13:35",
+            "period": 2,
             "type": {
               "id": "2",
               "name": "STATUS_IN_PROGRESS",
               "state": "in",
               "completed": false,
               "description": "In Progress",
-              "detail": "1:39 - 1st Quarter",
-              "shortDetail": "1:39 - 1st"
+              "detail": "13:35 - 2nd Quarter",
+              "shortDetail": "13:35 - 2nd"
             },
             "isTBDFlex": false
           },
@@ -11300,13 +11330,13 @@
               "abbreviation": "PYDS",
               "leaders": [
                 {
-                  "displayValue": "3/4, 22 YDS, 1 TD",
-                  "value": 22.0,
+                  "displayValue": "5/6, 45 YDS",
+                  "value": 45.0,
                   "athlete": {
-                    "id": "3918298",
-                    "fullName": "Josh Allen",
-                    "displayName": "Josh Allen",
-                    "shortName": "J. Allen",
+                    "id": "3916387",
+                    "fullName": "Lamar Jackson",
+                    "displayName": "Lamar Jackson",
+                    "shortName": "L. Jackson",
                     "links": [
                       {
                         "rel": [
@@ -11314,21 +11344,21 @@
                           "desktop",
                           "athlete"
                         ],
-                        "href": "https://www.espn.com/nfl/player/_/id/3918298/josh-allen"
+                        "href": "https://www.espn.com/nfl/player/_/id/3916387/lamar-jackson"
                       }
                     ],
-                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3918298.png",
-                    "jersey": "17",
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3916387.png",
+                    "jersey": "8",
                     "position": {
                       "abbreviation": "QB"
                     },
                     "team": {
-                      "id": "2"
+                      "id": "33"
                     },
                     "active": true
                   },
                   "team": {
-                    "id": "2"
+                    "id": "33"
                   }
                 }
               ]
@@ -11340,13 +11370,13 @@
               "abbreviation": "RYDS",
               "leaders": [
                 {
-                  "displayValue": "1 CAR, 17 YDS",
-                  "value": 17.0,
+                  "displayValue": "6 CAR, 52 YDS, 1 TD",
+                  "value": 52.0,
                   "athlete": {
-                    "id": "3915411",
-                    "fullName": "Ty Johnson",
-                    "displayName": "Ty Johnson",
-                    "shortName": "T. Johnson",
+                    "id": "3043078",
+                    "fullName": "Derrick Henry",
+                    "displayName": "Derrick Henry",
+                    "shortName": "D. Henry",
                     "links": [
                       {
                         "rel": [
@@ -11354,21 +11384,21 @@
                           "desktop",
                           "athlete"
                         ],
-                        "href": "https://www.espn.com/nfl/player/_/id/3915411/ty-johnson"
+                        "href": "https://www.espn.com/nfl/player/_/id/3043078/derrick-henry"
                       }
                     ],
-                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3915411.png",
-                    "jersey": "26",
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3043078.png",
+                    "jersey": "22",
                     "position": {
                       "abbreviation": "RB"
                     },
                     "team": {
-                      "id": "2"
+                      "id": "33"
                     },
                     "active": true
                   },
                   "team": {
-                    "id": "2"
+                    "id": "33"
                   }
                 }
               ]
@@ -11380,13 +11410,13 @@
               "abbreviation": "RECYDS",
               "leaders": [
                 {
-                  "displayValue": "1 REC, 15 YDS, 1 TD",
-                  "value": 15.0,
+                  "displayValue": "1 REC, 20 YDS",
+                  "value": 20.0,
                   "athlete": {
-                    "id": "4385690",
-                    "fullName": "Dalton Kincaid",
-                    "displayName": "Dalton Kincaid",
-                    "shortName": "D. Kincaid",
+                    "id": "4429615",
+                    "fullName": "Zay Flowers",
+                    "displayName": "Zay Flowers",
+                    "shortName": "Z. Flowers",
                     "links": [
                       {
                         "rel": [
@@ -11394,21 +11424,21 @@
                           "desktop",
                           "athlete"
                         ],
-                        "href": "https://www.espn.com/nfl/player/_/id/4385690/dalton-kincaid"
+                        "href": "https://www.espn.com/nfl/player/_/id/4429615/zay-flowers"
                       }
                     ],
-                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4385690.png",
-                    "jersey": "86",
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4429615.png",
+                    "jersey": "4",
                     "position": {
-                      "abbreviation": "TE"
+                      "abbreviation": "WR"
                     },
                     "team": {
-                      "id": "2"
+                      "id": "33"
                     },
                     "active": true
                   },
                   "team": {
-                    "id": "2"
+                    "id": "33"
                   }
                 }
               ]
@@ -11500,17 +11530,17 @@
         }
       },
       "status": {
-        "clock": 99.0,
-        "displayClock": "1:39",
-        "period": 1,
+        "clock": 815.0,
+        "displayClock": "13:35",
+        "period": 2,
         "type": {
           "id": "2",
           "name": "STATUS_IN_PROGRESS",
           "state": "in",
           "completed": false,
           "description": "In Progress",
-          "detail": "1:39 - 1st Quarter",
-          "shortDetail": "1:39 - 1st"
+          "detail": "13:35 - 2nd Quarter",
+          "shortDetail": "13:35 - 2nd"
         }
       }
     },
@@ -11766,7 +11796,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $210",
-              "numberAvailable": 1220,
+              "numberAvailable": 1215,
               "links": [
                 {
                   "href": "https://www.vividseats.com/chicago-bears-tickets-soldier-field-3-3-2026--sports-nfl-football/production/5470713?wsUser=717"
@@ -12400,7 +12430,7 @@
                   "odds": "+3548",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=02ea496a-a023-4436-8ac1-5d9d4e669a85",
                   "startTime": "2025-09-09T00:15Z",
-                  "betsPlaced": "196",
+                  "betsPlaced": "203",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $364.81",
@@ -12632,7 +12662,7 @@
                   "odds": "+1917",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=923fee78-e0fa-4763-930f-d9f7a0ecc6d4",
                   "startTime": "2025-09-09T00:15Z",
-                  "betsPlaced": "100",
+                  "betsPlaced": "101",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $201.73",
@@ -13140,10 +13170,10 @@
                   "id": "70e21ebe-c037-415f-99c4-23ccdfb17a32",
                   "displayName": "Viking Raid",
                   "type": "PARLAY_PLUS",
-                  "odds": "+641",
+                  "odds": "+640",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=70e21ebe-c037-415f-99c4-23ccdfb17a32",
                   "startTime": "2025-09-09T00:15Z",
-                  "payoutText": "$10.00 pays $74.05",
+                  "payoutText": "$10.00 pays $73.98",
                   "displayOrder": 18,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
