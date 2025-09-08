@@ -1,0 +1,27 @@
+{
+  "name": "nfl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snap": "node scripts/capture.js",
+    "snap:trmnl": "SNAP_WIDTH=800 SNAP_HEIGHT=480 node scripts/capture.js",
+    "snap:hires": "SNAP_WIDTH=1600 SNAP_HEIGHT=960 node scripts/capture.js",
+    "snap:both": "node scripts/capture.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snucko/nfl.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snucko/nfl/issues"
+  },
+  "homepage": "https://github.com/snucko/nfl#readme",
+  "dependencies": {
+    "puppeteer-core": "^21.11.0"
+  }
+}
