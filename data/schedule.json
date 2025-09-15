@@ -1530,18 +1530,6 @@
         {
           "language": "en-US",
           "rel": [
-            "highlights",
-            "desktop"
-          ],
-          "href": "https://www.espn.com/nfl/video?gameId=401772830",
-          "text": "Highlights",
-          "shortText": "Highlights",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
             "pbp",
             "desktop",
             "event"
@@ -2747,7 +2735,7 @@
                   "name": "overall",
                   "abbreviation": "Any",
                   "type": "total",
-                  "summary": "0-1"
+                  "summary": "1-1"
                 },
                 {
                   "name": "Home",
@@ -2757,7 +2745,7 @@
                 {
                   "name": "Road",
                   "type": "road",
-                  "summary": "0-0"
+                  "summary": "1-0"
                 }
               ]
             },
