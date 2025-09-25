@@ -976,14 +976,14 @@
               "region": "us"
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Recap",
               "description": "Justin Herbert finished off the Los Angeles Chargers' season-opening victory in style, sliding for a first down that effectively ended the game.",
               "shortLinkText": "Herbert outduels Mahomes to help the Chargers beat the Chiefs 27-21 in Brazil"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
@@ -4574,14 +4574,14 @@
               "region": "us"
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Recap",
               "description": "\u2014 When Washington lost in the NFC title game in January, the Commanders were so overmatched against Philadelphia's tush push that officials threatened to...",
               "shortLinkText": "Samuel scores in Washington debut, and the Commanders stifle the Giants in a 21-6 win"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -8226,18 +8226,6 @@
           "href": "https://www.espn.com/nfl/boxscore/_/gameId/401772810",
           "text": "Box Score",
           "shortText": "Box Score",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "highlights",
-            "desktop"
-          ],
-          "href": "https://www.espn.com/nfl/video?gameId=401772810",
-          "text": "Highlights",
-          "shortText": "Highlights",
           "isExternal": false,
           "isPremium": false
         },
