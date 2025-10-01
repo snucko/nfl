@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/snucko/nfl#readme",
   "dependencies": {
+    "puppeteer": "^24.23.0",
     "puppeteer-core": "^21.11.0"
   }
 }

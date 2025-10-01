@@ -1,29 +1,42 @@
 {% comment %}
 NFL Schedule - Full Size TRMNL Plugin
-Works both locally (with file data) and on TRMNL (with API data)
+Works locally (hardcoded current data) and on TRMNL (live API data)
 {% endcomment %}
 
-{% comment %} Try to fetch live data from API first (works on TRMNL) {% endcomment %}
+{% comment %} Try to fetch live data from API (only works on TRMNL platform) {% endcomment %}
 {% assign api_url = custom_fields.data_url | default: "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard" %}
 {% assign nfl_data = api_url | fetch_json %}
 
-{% comment %} Fallback to local file data if API fails or is not available (for local development) {% endcomment %}
-{% unless nfl_data and nfl_data.season %}
-  {% assign nfl_data = site.data.schedule %}
-{% endunless %}
-
-{% if nfl_data and nfl_data.season and nfl_data.week %}
+{% comment %} Check if we have valid API data {% endcomment %}
+{% assign has_api_data = false %}
+{% if nfl_data and nfl_data.season and nfl_data.week and nfl_data.events and nfl_data.events.size > 0 %}
+  {% assign has_api_data = true %}
   {% assign season = nfl_data.season %}
   {% assign week = nfl_data.week %}
   {% assign events = nfl_data.events %}
-  
-  <div class="plugin">
-    <h1 class="title">
+{% endif %}
+
+{% comment %} Fallback to current hardcoded data if no API data (for local development) {% endcomment %}
+{% unless has_api_data %}
+  {% assign season_year = 2025 %}
+  {% assign season_type = 2 %}
+  {% assign week_number = 5 %}
+  {% comment %} Format: matchup|datetime|venue|status {% endcomment %}
+  {% assign current_games = "San Francisco 49ers at Los Angeles Rams|Thu Oct 02, 8:15 PM|SoFi Stadium|10/2 - 8:15 PM EDT^Minnesota Vikings at Cleveland Browns|Sat Oct 05, 9:30 AM|Tottenham Hotspur Stadium|10/5 - 9:30 AM EDT^Las Vegas Raiders at Indianapolis Colts|Sun Oct 05, 1:00 PM|Lucas Oil Stadium|10/5 - 1:00 PM EDT^New York Giants at New Orleans Saints|Sun Oct 05, 1:00 PM|Caesars Superdome|10/5 - 1:00 PM EDT^Dallas Cowboys at New York Jets|Sun Oct 05, 1:00 PM|MetLife Stadium|10/5 - 1:00 PM EDT^Kansas City Chiefs at Jacksonville Jaguars|Mon Oct 06, 8:15 PM|EverBank Stadium|10/6 - 8:15 PM EDT" | split: "^" %}
+{% endunless %}
+
+<div class="plugin">
+  <h1 class="title">
+    {% if has_api_data %}
       NFL Week {{ week.number }} · {{ season.year }}
       {% if season.type == 2 %}(Regular Season){% elsif season.type == 3 %}(Playoffs){% endif %}
-    </h1>
-    
-    <div class="games">
+    {% else %}
+      NFL Week {{ week_number }} · {{ season_year }} (Regular Season)
+    {% endif %}
+  </h1>
+  
+  <div class="games">
+    {% if has_api_data %}
       {% for event in events %}
         {% assign competition = event.competitions.first %}
         {% assign status = competition.status %}
@@ -46,35 +59,32 @@ Works both locally (with file data) and on TRMNL (with API data)
           </div>
         </div>
       {% endfor %}
-      
-      {% unless events and events.size > 0 %}
-        <div class="no-games">
-          <p>No games scheduled for this week.</p>
+    {% else %}
+      {% for game_data in current_games %}
+        {% assign game_parts = game_data | split: "|" %}
+        <div class="game-row">
+          <div class="teams">
+            {{ game_parts[0] }}
+            <span class="status">({{ game_parts[3] }})</span>
+          </div>
+          <div class="meta">
+            {{ game_parts[1] }} · {{ game_parts[2] }}
+          </div>
         </div>
-      {% endunless %}
-    </div>
-    
-    {% comment %} Debug info to show data source {% endcomment %}
-    <div class="debug-info">
-      <small>
-        {% if api_url and nfl_data.events and nfl_data.events.size > 2 %}
-          Data: Live API
-        {% else %}
-          Data: Local file
-        {% endif %}
-      </small>
-    </div>
+      {% endfor %}
+    {% endif %}
   </div>
   
-{% else %}
-  <div class="plugin error">
-    <h1 class="title">NFL Schedule</h1>
-    <div class="error-message">
-      <p>Unable to load NFL schedule data.</p>
-      <p><small>API: {{ api_url }}</small></p>
-    </div>
+  <div class="data-source">
+    <small>
+      {% if has_api_data %}
+        📡 Live API Data
+      {% else %}
+        📁 Local Data (Week {{ week_number }})
+      {% endif %}
+    </small>
   </div>
-{% endif %}
+</div>
 
 <style>
   .plugin {
@@ -125,31 +135,7 @@ Works both locally (with file data) and on TRMNL (with API data)
     color: #666;
   }
   
-  .no-games {
-    text-align: center;
-    padding: 40px 20px;
-    color: #666;
-  }
-  
-  .error {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .error-message {
-    color: #666;
-    font-size: 14px;
-  }
-  
-  .error-message small {
-    font-size: 10px;
-    opacity: 0.7;
-  }
-  
-  .debug-info {
+  .data-source {
     position: absolute;
     bottom: 10px;
     right: 10px;
