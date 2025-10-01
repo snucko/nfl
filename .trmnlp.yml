@@ -1,0 +1,21 @@
+# TRMNL Plugin Configuration
+---
+# auto-reload when files change
+watch:
+  - src
+  - .trmnlp.yml
+  - data
+
+# Time zone for display
+time_zone: America/New_York
+
+# Custom fields (none needed for this plugin)
+custom_fields: {}
+
+# Override variables for development
+variables:
+  trmnl:
+    user:
+      name: NFL Fan
+    plugin_settings:
+      instance_name: NFL Schedule

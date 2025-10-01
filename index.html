@@ -30,14 +30,42 @@
 
         const teams = document.createElement('div');
         teams.className = 'teams';
-        teams.textContent = event.name;
+        
+        // Add scores if game is completed
+        const competition = event.competitions[0];
+        const status = competition.status;
+        const isCompleted = status.type.completed;
+        
+        if (isCompleted && competition.competitors.length >= 2) {
+          const awayTeam = competition.competitors.find(c => c.homeAway === 'away');
+          const homeTeam = competition.competitors.find(c => c.homeAway === 'home');
+          
+          if (awayTeam && homeTeam) {
+            teams.textContent = `${awayTeam.team.displayName} ${awayTeam.score} - ${homeTeam.score} ${homeTeam.team.displayName} (${status.type.shortDetail})`;
+          } else {
+            teams.textContent = `${event.name} (${status.type.shortDetail})`;
+          }
+        } else {
+          teams.textContent = `${event.name} (${status.type.shortDetail})`;
+        }
+        
         row.appendChild(teams);
 
         const meta = document.createElement('div');
         meta.className = 'meta';
-        const competition = event.competitions[0];
         const venue = competition.venue.fullName;
-        meta.textContent = `${event.date} · ${venue}`;
+        
+        // Format the date nicely
+        const gameDate = new Date(event.date);
+        const formattedDate = gameDate.toLocaleDateString('en-US', {
+          weekday: 'short',
+          month: 'short', 
+          day: 'numeric',
+          hour: 'numeric',
+          minute: '2-digit'
+        });
+        
+        meta.textContent = `${formattedDate} · ${venue}`;
         row.appendChild(meta);
 
         scheduleDiv.appendChild(row);

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>NFL TRMNL Plugin Preview</title>
+    <style>
+        body { 
+            font-family: system-ui, -apple-system, sans-serif; 
+            margin: 0; 
+            padding: 20px; 
+            background: #f5f5f5; 
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+        h1 { color: #333; margin-bottom: 30px; }
+        .layout-grid { 
+            display: grid; 
+            grid-template-columns: 1fr 1fr; 
+            gap: 20px; 
+            margin-bottom: 40px; 
+        }
+        .layout-preview { 
+            background: white; 
+            border: 2px solid #ddd; 
+            border-radius: 8px; 
+            overflow: hidden; 
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1); 
+        }
+        .layout-header { 
+            background: #333; 
+            color: white; 
+            padding: 10px 15px; 
+            font-weight: bold; 
+            font-size: 14px; 
+        }
+        .layout-content { 
+            padding: 15px; 
+            overflow: hidden; 
+        }
+        .full-size { width: 800px; height: 480px; }
+        .half-horizontal { width: 800px; height: 240px; }
+        .half-vertical { width: 400px; height: 480px; }
+        .quadrant { width: 400px; height: 240px; }
+        
+        /* Preview styles matching TRMNL templates */
+        .game-row { padding: 8px 0; border-bottom: 1px solid #eee; }
+        .game-row:last-child { border-bottom: none; }
+        .teams { font-weight: bold; margin-bottom: 4px; }
+        .meta { font-size: 12px; color: #666; }
+        .status { color: #888; font-weight: normal; }
+        
+        .links { 
+            background: #e8f4f8; 
+            padding: 15px; 
+            border-radius: 8px; 
+            margin-top: 20px; 
+        }
+        .links h3 { margin-top: 0; color: #2c5aa0; }
+        .links a { 
+            display: inline-block; 
+            margin: 5px 10px 5px 0; 
+            padding: 8px 12px; 
+            background: #2c5aa0; 
+            color: white; 
+            text-decoration: none; 
+            border-radius: 4px; 
+            font-size: 14px; 
+        }
+        .links a:hover { background: #1a3f73; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏈 NFL TRMNL Plugin Preview</h1>
+        
+        <div class="layout-grid">
+            <div class="layout-preview">
+                <div class="layout-header">Full Size (800×480)</div>
+                <div class="layout-content full-size" id="full-preview">
+                    Loading NFL data...
+                </div>
+            </div>
+            
+            <div class="layout-preview">
+                <div class="layout-header">Half Horizontal (800×240)</div>
+                <div class="layout-content half-horizontal" id="half-h-preview">
+                    Loading NFL data...
+                </div>
+            </div>
+            
+            <div class="layout-preview">
+                <div class="layout-header">Half Vertical (400×480)</div>
+                <div class="layout-content half-vertical" id="half-v-preview">
+                    Loading NFL data...
+                </div>
+            </div>
+            
+            <div class="layout-preview">
+                <div class="layout-header">Quadrant (400×240)</div>
+                <div class="layout-content quadrant" id="quadrant-preview">
+                    Loading NFL data...
+                </div>
+            </div>
+        </div>
+        
+        <div class="links">
+            <h3>🔗 Quick Links</h3>
+            <a href="data/schedule.json" target="_blank">📊 Raw NFL Data (JSON)</a>
+            <a href="index.html" target="_blank">📱 Original HTML Version</a>
+            <a href="src/full.liquid" target="_blank">📝 Full Template</a>
+            <a href="src/half_horizontal.liquid" target="_blank">📝 Half Horizontal Template</a>
+            <a href="src/half_vertical.liquid" target="_blank">📝 Half Vertical Template</a>
+            <a href="src/quadrant.liquid" target="_blank">📝 Quadrant Template</a>
+        </div>
+    </div>
+
+    <script>
+        async function loadNFLData() {
+            try {
+                const response = await fetch('data/schedule.json');
+                const data = await response.json();
+                
+                renderFullPreview(data);
+                renderHalfHorizontalPreview(data);
+                renderHalfVerticalPreview(data);
+                renderQuadrantPreview(data);
+            } catch (error) {
+                console.error('Error loading NFL data:', error);
+                document.querySelectorAll('[id$="-preview"]').forEach(el => {
+                    el.innerHTML = '<div style="color: red;">Error loading NFL data</div>';
+                });
+            }
+        }
+        
+        function formatDate(dateStr) {
+            const date = new Date(dateStr);
+            return date.toLocaleDateString('en-US', {
+                weekday: 'short',
+                month: 'short',
+                day: 'numeric',
+                hour: 'numeric',
+                minute: '2-digit'
+            });
+        }
+        
+        function renderFullPreview(data) {
+            const container = document.getElementById('full-preview');
+            let html = `
+                <h2 style="margin: 0 0 15px; font-size: 18px; border-bottom: 2px solid #000; padding-bottom: 5px;">
+                    NFL Week ${data.week.number} · ${data.season.year} 
+                    ${data.season.type === 2 ? '(Regular Season)' : '(Playoffs)'}
+                </h2>
+            `;
+            
+            data.events.forEach(event => {
+                const comp = event.competitions[0];
+                const status = comp.status;
+                const awayTeam = comp.competitors.find(c => c.homeAway === 'away');
+                const homeTeam = comp.competitors.find(c => c.homeAway === 'home');
+                
+                html += `<div class="game-row">`;
+                
+                if (status.type.completed && awayTeam && homeTeam) {
+                    html += `<div class="teams">${awayTeam.team.displayName} ${awayTeam.score} - ${homeTeam.score} ${homeTeam.team.displayName} <span class="status">(${status.type.shortDetail})</span></div>`;
+                } else {
+                    html += `<div class="teams">${event.name} <span class="status">(${status.type.shortDetail})</span></div>`;
+                }
+                
+                html += `<div class="meta">${formatDate(event.date)} · ${comp.venue.fullName}</div>`;
+                html += `</div>`;
+            });
+            
+            container.innerHTML = html;
+        }
+        
+        function renderHalfHorizontalPreview(data) {
+            const container = document.getElementById('half-h-preview');
+            let html = `<h3 style="margin: 0 0 10px; font-size: 14px;">NFL Week ${data.week.number}</h3>`;
+            
+            data.events.slice(0, 3).forEach(event => {
+                const comp = event.competitions[0];
+                const status = comp.status;
+                const awayTeam = comp.competitors.find(c => c.homeAway === 'away');
+                const homeTeam = comp.competitors.find(c => c.homeAway === 'home');
+                
+                html += `<div style="padding: 4px 0; border-bottom: 1px solid #eee; font-size: 12px;">`;
+                
+                if (status.type.completed && awayTeam && homeTeam) {
+                    html += `<div style="font-weight: bold;">${awayTeam.team.abbreviation} ${awayTeam.score} - ${homeTeam.score} ${homeTeam.team.abbreviation}</div>`;
+                } else {
+                    html += `<div style="font-weight: bold;">${event.shortName}</div>`;
+                }
+                
+                html += `<div style="font-size: 10px; color: #666;">${formatDate(event.date)}</div>`;
+                html += `</div>`;
+            });
+            
+            container.innerHTML = html;
+        }
+        
+        function renderHalfVerticalPreview(data) {
+            const container = document.getElementById('half-v-preview');
+            let html = `
+                <h3 style="margin: 0; font-size: 16px;">NFL</h3>
+                <div style="font-size: 12px; color: #666; margin-bottom: 12px;">Week ${data.week.number}</div>
+            `;
+            
+            data.events.slice(0, 2).forEach(event => {
+                const comp = event.competitions[0];
+                const status = comp.status;
+                const awayTeam = comp.competitors.find(c => c.homeAway === 'away');
+                const homeTeam = comp.competitors.find(c => c.homeAway === 'home');
+                
+                html += `<div style="padding: 6px 0; border-bottom: 1px solid #eee;">`;
+                
+                if (status.type.completed && awayTeam && homeTeam) {
+                    html += `
+                        <div style="font-weight: bold; font-size: 11px; line-height: 1.3;">${awayTeam.team.abbreviation} ${awayTeam.score}</div>
+                        <div style="font-weight: bold; font-size: 11px; line-height: 1.3;">${homeTeam.team.abbreviation} ${homeTeam.score}</div>
+                    `;
+                } else {
+                    html += `<div style="font-weight: bold; font-size: 11px;">${event.shortName}</div>`;
+                }
+                
+                html += `<div style="font-size: 9px; color: #666;">${formatDate(event.date).split(',')[0]}</div>`;
+                html += `</div>`;
+            });
+            
+            container.innerHTML = html;
+        }
+        
+        function renderQuadrantPreview(data) {
+            const container = document.getElementById('quadrant-preview');
+            const firstGame = data.events[0];
+            
+            if (firstGame) {
+                const comp = firstGame.competitions[0];
+                const status = comp.status;
+                const awayTeam = comp.competitors.find(c => c.homeAway === 'away');
+                const homeTeam = comp.competitors.find(c => c.homeAway === 'home');
+                
+                let html = `
+                    <div style="text-align: center; height: 100%; display: flex; flex-direction: column; justify-content: center;">
+                        <h4 style="margin: 0 0 6px; font-size: 12px;">NFL</h4>
+                `;
+                
+                if (status.type.completed && awayTeam && homeTeam) {
+                    html += `
+                        <div style="font-size: 24px; font-weight: bold; margin-bottom: 4px;">${awayTeam.score}-${homeTeam.score}</div>
+                        <div style="font-size: 10px; font-weight: bold; margin-bottom: 2px;">${awayTeam.team.abbreviation} @ ${homeTeam.team.abbreviation}</div>
+                    `;
+                } else {
+                    html += `<div style="font-size: 10px; font-weight: bold; margin-bottom: 2px;">${firstGame.shortName}</div>`;
+                }
+                
+                html += `<div style="font-size: 8px; color: #666;">${status.type.shortDetail}</div>`;
+                html += `</div>`;
+                
+                container.innerHTML = html;
+            }
+        }
+        
+        // Load data when page loads
+        loadNFLData();
+    </script>
+</body>
+</html>

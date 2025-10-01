@@ -1,0 +1,24 @@
+---
+# Plugin Settings
+plugin_name: NFL Schedule
+description: Display NFL game schedules and scores
+version: 1.0.0
+author: NFL Fan
+
+# Plugin configuration - no custom fields needed
+custom_fields: []
+
+# Data sources
+data_sources:
+  - name: ESPN NFL API
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard
+    
+# Update frequency
+update_interval: 3600  # 1 hour
+
+# Supported layouts
+layouts:
+  - full
+  - half_horizontal  
+  - half_vertical
+  - quadrant
