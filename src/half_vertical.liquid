@@ -1,33 +1,50 @@
 {% comment %}
 NFL Schedule - Half Vertical TRMNL Plugin
+Fetches live NFL data from ESPN API
 {% endcomment %}
 
-{% capture schedule_json %}{% include_relative ../data/schedule.json %}{% endcapture %}
-{% assign schedule_data = schedule_json | from_json %}
+{% assign api_url = custom_fields.data_url | default: "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard" %}
+{% assign nfl_data = api_url | fetch_json %}
 
-<div class="plugin half-vertical">
-  <h2 class="title">NFL</h2>
-  <div class="subtitle">Week {{ schedule_data.week.number }}</div>
+{% if nfl_data and nfl_data.season and nfl_data.week %}
+  {% assign season = nfl_data.season %}
+  {% assign week = nfl_data.week %}
+  {% assign events = nfl_data.events %}
   
-  <div class="games">
-    {% for event in schedule_data.events limit: 2 %}
-      {% assign competition = event.competitions.first %}
-      {% assign status = competition.status %}
-      {% assign away_team = competition.competitors | where: 'homeAway', 'away' | first %}
-      {% assign home_team = competition.competitors | where: 'homeAway', 'home' | first %}
+  <div class="plugin half-vertical">
+    <h2 class="title">NFL</h2>
+    <div class="subtitle">Week {{ week.number }}</div>
+    
+    <div class="games">
+      {% for event in events limit: 3 %}
+        {% assign competition = event.competitions.first %}
+        {% assign status = competition.status %}
+        {% assign away_team = competition.competitors | where: 'homeAway', 'away' | first %}
+        {% assign home_team = competition.competitors | where: 'homeAway', 'home' | first %}
+        
+        <div class="game-row">
+          {% if status.type.completed and away_team and home_team %}
+            <div class="teams-compact">{{ away_team.team.abbreviation }} {{ away_team.score }}</div>
+            <div class="teams-compact">{{ home_team.team.abbreviation }} {{ home_team.score }}</div>
+          {% else %}
+            <div class="teams-compact">{{ event.shortName }}</div>
+          {% endif %}
+          <div class="meta-compact">{{ event.date | date: "%a" }}</div>
+        </div>
+      {% endfor %}
       
-      <div class="game-row">
-        {% if status.type.completed and away_team and home_team %}
-          <div class="teams-compact">{{ away_team.team.abbreviation }} {{ away_team.score }}</div>
-          <div class="teams-compact">{{ home_team.team.abbreviation }} {{ home_team.score }}</div>
-        {% else %}
-          <div class="teams-compact">{{ event.shortName }}</div>
-        {% endif %}
-        <div class="meta-compact">{{ event.date | date: "%a" }}</div>
-      </div>
-    {% endfor %}
+      {% unless events and events.size > 0 %}
+        <div class="no-games">No games</div>
+      {% endunless %}
+    </div>
   </div>
-</div>
+  
+{% else %}
+  <div class="plugin half-vertical error">
+    <h2 class="title">NFL</h2>
+    <div class="error-message">No data</div>
+  </div>
+{% endif %}
 
 <style>
   .plugin.half-vertical {
@@ -64,5 +81,12 @@ NFL Schedule - Half Vertical TRMNL Plugin
   .meta-compact {
     font-size: 9px;
     color: #666;
+  }
+  
+  .no-games, .error-message {
+    text-align: center;
+    color: #666;
+    font-size: 11px;
+    padding: 20px;
   }
 </style>

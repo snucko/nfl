@@ -1,20 +1,30 @@
 ---
-# Plugin Settings
+# Plugin Settings for TRMNL
 plugin_name: NFL Schedule
-description: Display NFL game schedules and scores
+description: Display current NFL game schedules and scores
 version: 1.0.0
 author: NFL Fan
 
-# Plugin configuration - no custom fields needed
-custom_fields: []
+# Custom fields for configuration
+custom_fields:
+  - name: data_url
+    label: NFL Data URL
+    type: url
+    default: "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"
+    description: "ESPN NFL API endpoint for live data"
+  - name: refresh_minutes
+    label: Refresh Interval (minutes)
+    type: number
+    default: 60
+    description: "How often to fetch new data"
 
 # Data sources
 data_sources:
   - name: ESPN NFL API
-    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard
+    url: "{{ custom_fields.data_url }}"
     
-# Update frequency
-update_interval: 3600  # 1 hour
+# Update frequency  
+update_interval: "{{ custom_fields.refresh_minutes | times: 60 }}"
 
 # Supported layouts
 layouts:
