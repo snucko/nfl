@@ -1,10 +1,16 @@
 {% comment %}
 NFL Schedule - Full Size TRMNL Plugin
-Fetches live NFL data from ESPN API
+Works both locally (with file data) and on TRMNL (with API data)
 {% endcomment %}
 
+{% comment %} Try to fetch live data from API first (works on TRMNL) {% endcomment %}
 {% assign api_url = custom_fields.data_url | default: "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard" %}
 {% assign nfl_data = api_url | fetch_json %}
+
+{% comment %} Fallback to local file data if API fails or is not available (for local development) {% endcomment %}
+{% unless nfl_data and nfl_data.season %}
+  {% assign nfl_data = site.data.schedule %}
+{% endunless %}
 
 {% if nfl_data and nfl_data.season and nfl_data.week %}
   {% assign season = nfl_data.season %}
@@ -26,13 +32,12 @@ Fetches live NFL data from ESPN API
         
         <div class="game-row">
           <div class="teams">
-            {% if status.type.completed and away_team and home_team %}
+            {% if status.type.completed and away_team.score and home_team.score %}
               {{ away_team.team.displayName }} {{ away_team.score }} - {{ home_team.score }} {{ home_team.team.displayName }}
-              <span class="status">({{ status.type.shortDetail }})</span>
             {% else %}
               {{ event.name }}
-              <span class="status">({{ status.type.shortDetail }})</span>
             {% endif %}
+            <span class="status">({{ status.type.shortDetail }})</span>
           </div>
           
           <div class="meta">
@@ -44,9 +49,20 @@ Fetches live NFL data from ESPN API
       
       {% unless events and events.size > 0 %}
         <div class="no-games">
-          <p>No games scheduled. Check back during NFL season!</p>
+          <p>No games scheduled for this week.</p>
         </div>
       {% endunless %}
+    </div>
+    
+    {% comment %} Debug info to show data source {% endcomment %}
+    <div class="debug-info">
+      <small>
+        {% if api_url and nfl_data.events and nfl_data.events.size > 2 %}
+          Data: Live API
+        {% else %}
+          Data: Local file
+        {% endif %}
+      </small>
     </div>
   </div>
   
@@ -54,7 +70,7 @@ Fetches live NFL data from ESPN API
   <div class="plugin error">
     <h1 class="title">NFL Schedule</h1>
     <div class="error-message">
-      <p>Unable to load NFL data. Please check your connection.</p>
+      <p>Unable to load NFL schedule data.</p>
       <p><small>API: {{ api_url }}</small></p>
     </div>
   </div>
@@ -131,5 +147,63 @@ Fetches live NFL data from ESPN API
   .error-message small {
     font-size: 10px;
     opacity: 0.7;
+  }
+  
+  .debug-info {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    opacity: 0.5;
+    font-size: 8px;
+  }
+</style>
+
+<style>
+  .plugin {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    padding: 16px;
+    color: #000;
+    background: #fff;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 12px 0;
+    border-bottom: 2px solid #000;
+    padding-bottom: 4px;
+  }
+  
+  .games {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .game-row {
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .game-row:last-child {
+    border-bottom: none;
+  }
+  
+  .teams {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+  
+  .status {
+    font-weight: normal;
+    color: #666;
+  }
+  
+  .meta {
+    font-size: 11px;
+    color: #666;
   }
 </style>

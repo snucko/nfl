@@ -1,55 +1,60 @@
 {% comment %}
-NFL Schedule - Half Horizontal TRMNL Plugin
-Fetches live NFL data from ESPN API
+NFL Schedule - Half Horizontal TRMNL Plugin (800×240)
+Works both locally and on TRMNL platform
 {% endcomment %}
 
+{% comment %} Try API first, fallback to local data {% endcomment %}
 {% assign api_url = custom_fields.data_url | default: "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard" %}
 {% assign nfl_data = api_url | fetch_json %}
+{% unless nfl_data and nfl_data.season %}
+  {% assign nfl_data = site.data.schedule %}
+{% endunless %}
 
 {% if nfl_data and nfl_data.season and nfl_data.week %}
   {% assign season = nfl_data.season %}
   {% assign week = nfl_data.week %}
   {% assign events = nfl_data.events %}
   
-  <div class="plugin half-horizontal">
-    <h2 class="title">NFL Week {{ week.number }}</h2>
+  <div class="plugin">
+    <h1 class="title">
+      NFL Week {{ week.number }} · {{ season.year }}
+    </h1>
     
     <div class="games">
-      {% for event in events limit: 4 %}
+      {% for event in events limit: 6 %}
         {% assign competition = event.competitions.first %}
         {% assign status = competition.status %}
         {% assign away_team = competition.competitors | where: 'homeAway', 'away' | first %}
         {% assign home_team = competition.competitors | where: 'homeAway', 'home' | first %}
         
-        <div class="game-row">
-          {% if status.type.completed and away_team and home_team %}
-            <div class="teams-compact">{{ away_team.team.abbreviation }} {{ away_team.score }} - {{ home_team.score }} {{ home_team.team.abbreviation }}</div>
-          {% else %}
-            <div class="teams-compact">{{ event.shortName }}</div>
-          {% endif %}
-          <div class="meta-compact">{{ event.date | date: "%a %l:%M %p" }}</div>
+        <div class="game-compact">
+          <div class="matchup">
+            {% if status.type.completed and away_team.score and home_team.score %}
+              {{ away_team.team.abbreviation }} {{ away_team.score }}-{{ home_team.score }} {{ home_team.team.abbreviation }}
+            {% else %}
+              {{ away_team.team.abbreviation }} @ {{ home_team.team.abbreviation }}
+            {% endif %}
+          </div>
+          <div class="time">{{ status.type.shortDetail }}</div>
         </div>
       {% endfor %}
-      
-      {% unless events and events.size > 0 %}
-        <div class="no-games">No games scheduled</div>
-      {% endunless %}
     </div>
   </div>
   
 {% else %}
-  <div class="plugin half-horizontal error">
-    <h2 class="title">NFL Schedule</h2>
-    <div class="error-message">Unable to load data</div>
+  <div class="plugin error">
+    <h1 class="title">NFL Schedule</h1>
+    <p>Unable to load data</p>
   </div>
 {% endif %}
 
 <style>
-  .plugin.half-horizontal {
-    font-family: system-ui, sans-serif;
+  .plugin {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     padding: 12px;
-    height: 240px;
-    width: 800px;
+    color: #000;
+    background: #fff;
+    height: 100vh;
     overflow: hidden;
   }
   
@@ -57,27 +62,37 @@ Fetches live NFL data from ESPN API
     font-size: 14px;
     font-weight: bold;
     margin: 0 0 8px 0;
+    border-bottom: 1px solid #000;
+    padding-bottom: 2px;
   }
   
-  .game-row {
-    padding: 4px 0;
-    border-bottom: 1px solid #eee;
+  .games {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
   }
   
-  .teams-compact {
+  .game-compact {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  
+  .matchup {
     font-weight: bold;
-    font-size: 12px;
+    font-size: 11px;
   }
   
-  .meta-compact {
-    font-size: 10px;
+  .time {
+    font-size: 9px;
     color: #666;
   }
   
-  .no-games, .error-message {
+  .error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    color: #666;
-    font-size: 12px;
-    padding: 20px;
   }
 </style>
