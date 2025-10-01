@@ -1,24 +1,30 @@
 {% comment %}
 NFL Schedule - Quadrant TRMNL Plugin (400×240)
-Works both locally and on TRMNL platform
+Works locally (hardcoded data) and on TRMNL (live API data)
 {% endcomment %}
 
-{% comment %} Try API first, fallback to local data {% endcomment %}
+{% comment %} Try API first {% endcomment %}
 {% assign api_url = custom_fields.data_url | default: "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard" %}
 {% assign nfl_data = api_url | fetch_json %}
-{% unless nfl_data and nfl_data.season %}
-  {% assign nfl_data = site.data.schedule %}
-{% endunless %}
 
-{% if nfl_data and nfl_data.season and nfl_data.week %}
+{% assign has_api_data = false %}
+{% if nfl_data and nfl_data.season and nfl_data.week and nfl_data.events and nfl_data.events.size > 0 %}
+  {% assign has_api_data = true %}
   {% assign season = nfl_data.season %}
   {% assign week = nfl_data.week %}
   {% assign events = nfl_data.events %}
+{% endif %}
+
+{% unless has_api_data %}
+  {% assign week_number = 5 %}
+  {% assign current_games = "SF@LAR|Thu^MIN@CLE|Sat^KC@JAX|Mon" | split: "^" %}
+{% endunless %}
+
+<div class="plugin">
+  <h1 class="title">NFL W{{ week_number | default: week.number }}</h1>
   
-  <div class="plugin">
-    <h1 class="title">NFL W{{ week.number }}</h1>
-    
-    <div class="games">
+  <div class="games">
+    {% if has_api_data %}
       {% for event in events limit: 3 %}
         {% assign competition = event.competitions.first %}
         {% assign status = competition.status %}
@@ -32,15 +38,17 @@ Works both locally and on TRMNL platform
           <div class="time">{{ status.type.shortDetail }}</div>
         </div>
       {% endfor %}
-    </div>
+    {% else %}
+      {% for game_data in current_games %}
+        {% assign game_parts = game_data | split: "|" %}
+        <div class="game-mini">
+          <div class="teams">{{ game_parts[0] }}</div>
+          <div class="time">{{ game_parts[1] }}</div>
+        </div>
+      {% endfor %}
+    {% endif %}
   </div>
-  
-{% else %}
-  <div class="plugin error">
-    <h1 class="title">NFL</h1>
-    <p>No data</p>
-  </div>
-{% endif %}
+</div>
 
 <style>
   .plugin {
