@@ -1,18 +1,94 @@
 {% comment %}
-NFL Schedule - Quadrant TRMNL Plugin - Auto-generated
+NFL Schedule - Quadrant TRMNL Plugin
+Fetches live NFL data from ESPN API
 {% endcomment %}
 
-<div class="plugin quadrant">
-  <h3 class="title">NFL Week 5</h3><div class="game"><div class="teams-mini">SF @ LAR</div><div class="status-mini">10/2 - 8:15 PM EDT</div></div>
-</div>
+{% assign api_url = custom_fields.data_url | default: "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard" %}
+{% assign nfl_data = api_url | fetch_json %}
+
+{% if nfl_data and nfl_data.season and nfl_data.week %}
+  {% assign season = nfl_data.season %}
+  {% assign week = nfl_data.week %}
+  {% assign events = nfl_data.events %}
+  {% assign first_game = events.first %}
+  
+  <div class="plugin quadrant">
+    <h3 class="title">NFL Week {{ week.number }}</h3>
+    
+    {% if first_game %}
+      {% assign competition = first_game.competitions.first %}
+      {% assign status = competition.status %}
+      {% assign away_team = competition.competitors | where: 'homeAway', 'away' | first %}
+      {% assign home_team = competition.competitors | where: 'homeAway', 'home' | first %}
+      
+      <div class="game">
+        {% if status.type.completed and away_team and home_team %}
+          <div class="score">{{ away_team.score }}-{{ home_team.score }}</div>
+          <div class="teams-mini">{{ away_team.team.abbreviation }} @ {{ home_team.team.abbreviation }}</div>
+        {% else %}
+          <div class="teams-mini">{{ first_game.shortName }}</div>
+        {% endif %}
+        <div class="status-mini">{{ status.type.shortDetail }}</div>
+      </div>
+    {% else %}
+      <div class="game">
+        <div class="teams-mini">No games</div>
+        <div class="status-mini">Check back later</div>
+      </div>
+    {% endif %}
+  </div>
+  
+{% else %}
+  <div class="plugin quadrant error">
+    <h3 class="title">NFL</h3>
+    <div class="error-message">No data</div>
+  </div>
+{% endif %}
 
 <style>
   .plugin.quadrant {
-    font-family: system-ui, sans-serif; padding: 8px; height: 240px; width: 400px; overflow: hidden; text-align: center;
+    font-family: system-ui, sans-serif;
+    padding: 8px;
+    height: 240px;
+    width: 400px;
+    overflow: hidden;
+    text-align: center;
   }
-  .title { font-size: 12px; font-weight: bold; margin: 0 0 6px 0; }
-  .game { display: flex; flex-direction: column; align-items: center; justify-content: center; height: calc(100% - 20px); }
-  .score { font-size: 24px; font-weight: bold; margin-bottom: 4px; }
-  .teams-mini { font-size: 10px; font-weight: bold; margin-bottom: 2px; }
-  .status-mini { font-size: 8px; color: #666; }
+  
+  .title {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 0 6px 0;
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 20px);
+  }
+  
+  .score {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  
+  .teams-mini {
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 2px;
+  }
+  
+  .status-mini {
+    font-size: 8px;
+    color: #666;
+  }
+  
+  .error-message {
+    font-size: 10px;
+    color: #666;
+    margin-top: 20px;
+  }
 </style>

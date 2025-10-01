@@ -1,51 +1,135 @@
 {% comment %}
-NFL Schedule - Full Size TRMNL Plugin - Auto-generated
+NFL Schedule - Full Size TRMNL Plugin
+Fetches live NFL data from ESPN API
 {% endcomment %}
 
-<div class="plugin">
-  <h1 class="title">NFL Week 5 · 2025 (Regular Season)</h1>
-  <div class="games">
-    <div class="game-row">
-      <div class="teams">San Francisco 49ers at Los Angeles Rams <span class="status">(10/2 - 8:15 PM EDT)</span></div><div class="meta">Fri Oct 03, 12:15 AM · SoFi Stadium</div></div>
-    <div class="game-row">
-      <div class="teams">Minnesota Vikings at Cleveland Browns <span class="status">(10/5 - 9:30 AM EDT)</span></div><div class="meta">Sun Oct 05, 01:30 PM · Tottenham Hotspur Stadium</div></div>
-    <div class="game-row">
-      <div class="teams">Las Vegas Raiders at Indianapolis Colts <span class="status">(10/5 - 1:00 PM EDT)</span></div><div class="meta">Sun Oct 05, 05:00 PM · Lucas Oil Stadium</div></div>
-    <div class="game-row">
-      <div class="teams">New York Giants at New Orleans Saints <span class="status">(10/5 - 1:00 PM EDT)</span></div><div class="meta">Sun Oct 05, 05:00 PM · Caesars Superdome</div></div>
-    <div class="game-row">
-      <div class="teams">Dallas Cowboys at New York Jets <span class="status">(10/5 - 1:00 PM EDT)</span></div><div class="meta">Sun Oct 05, 05:00 PM · MetLife Stadium</div></div>
-    <div class="game-row">
-      <div class="teams">Denver Broncos at Philadelphia Eagles <span class="status">(10/5 - 1:00 PM EDT)</span></div><div class="meta">Sun Oct 05, 05:00 PM · Lincoln Financial Field</div></div>
-    <div class="game-row">
-      <div class="teams">Miami Dolphins at Carolina Panthers <span class="status">(10/5 - 1:00 PM EDT)</span></div><div class="meta">Sun Oct 05, 05:00 PM · Bank of America Stadium</div></div>
-    <div class="game-row">
-      <div class="teams">Houston Texans at Baltimore Ravens <span class="status">(10/5 - 1:00 PM EDT)</span></div><div class="meta">Sun Oct 05, 05:00 PM · M&T Bank Stadium</div></div>
-    <div class="game-row">
-      <div class="teams">Tennessee Titans at Arizona Cardinals <span class="status">(10/5 - 4:05 PM EDT)</span></div><div class="meta">Sun Oct 05, 08:05 PM · State Farm Stadium</div></div>
-    <div class="game-row">
-      <div class="teams">Tampa Bay Buccaneers at Seattle Seahawks <span class="status">(10/5 - 4:05 PM EDT)</span></div><div class="meta">Sun Oct 05, 08:05 PM · Lumen Field</div></div>
-    <div class="game-row">
-      <div class="teams">Detroit Lions at Cincinnati Bengals <span class="status">(10/5 - 4:25 PM EDT)</span></div><div class="meta">Sun Oct 05, 08:25 PM · Paycor Stadium</div></div>
-    <div class="game-row">
-      <div class="teams">Washington Commanders at Los Angeles Chargers <span class="status">(10/5 - 4:25 PM EDT)</span></div><div class="meta">Sun Oct 05, 08:25 PM · SoFi Stadium</div></div>
-    <div class="game-row">
-      <div class="teams">New England Patriots at Buffalo Bills <span class="status">(10/5 - 8:20 PM EDT)</span></div><div class="meta">Mon Oct 06, 12:20 AM · Highmark Stadium</div></div>
-    <div class="game-row">
-      <div class="teams">Kansas City Chiefs at Jacksonville Jaguars <span class="status">(10/6 - 8:15 PM EDT)</span></div><div class="meta">Tue Oct 07, 12:15 AM · EverBank Stadium</div></div>
+{% assign api_url = custom_fields.data_url | default: "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard" %}
+{% assign nfl_data = api_url | fetch_json %}
+
+{% if nfl_data and nfl_data.season and nfl_data.week %}
+  {% assign season = nfl_data.season %}
+  {% assign week = nfl_data.week %}
+  {% assign events = nfl_data.events %}
+  
+  <div class="plugin">
+    <h1 class="title">
+      NFL Week {{ week.number }} · {{ season.year }}
+      {% if season.type == 2 %}(Regular Season){% elsif season.type == 3 %}(Playoffs){% endif %}
+    </h1>
+    
+    <div class="games">
+      {% for event in events %}
+        {% assign competition = event.competitions.first %}
+        {% assign status = competition.status %}
+        {% assign away_team = competition.competitors | where: 'homeAway', 'away' | first %}
+        {% assign home_team = competition.competitors | where: 'homeAway', 'home' | first %}
+        
+        <div class="game-row">
+          <div class="teams">
+            {% if status.type.completed and away_team and home_team %}
+              {{ away_team.team.displayName }} {{ away_team.score }} - {{ home_team.score }} {{ home_team.team.displayName }}
+              <span class="status">({{ status.type.shortDetail }})</span>
+            {% else %}
+              {{ event.name }}
+              <span class="status">({{ status.type.shortDetail }})</span>
+            {% endif %}
+          </div>
+          
+          <div class="meta">
+            {% assign game_date = event.date | date: "%a %b %d, %l:%M %p" %}
+            {{ game_date }} · {{ competition.venue.fullName }}
+          </div>
+        </div>
+      {% endfor %}
+      
+      {% unless events and events.size > 0 %}
+        <div class="no-games">
+          <p>No games scheduled. Check back during NFL season!</p>
+        </div>
+      {% endunless %}
+    </div>
   </div>
-</div>
+  
+{% else %}
+  <div class="plugin error">
+    <h1 class="title">NFL Schedule</h1>
+    <div class="error-message">
+      <p>Unable to load NFL data. Please check your connection.</p>
+      <p><small>API: {{ api_url }}</small></p>
+    </div>
+  </div>
+{% endif %}
 
 <style>
   .plugin {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    padding: 16px; color: #000; background: #fff; height: 100vh; overflow: hidden;
+    padding: 16px;
+    color: #000;
+    background: #fff;
+    height: 100vh;
+    overflow: hidden;
   }
-  .title { font-size: 18px; font-weight: bold; margin: 0 0 12px 0; border-bottom: 2px solid #000; padding-bottom: 4px; }
-  .games { display: flex; flex-direction: column; gap: 8px; }
-  .game-row { padding: 8px 0; border-bottom: 1px solid #ccc; }
-  .game-row:last-child { border-bottom: none; }
-  .teams { font-weight: bold; font-size: 14px; margin-bottom: 2px; }
-  .status { font-weight: normal; color: #666; }
-  .meta { font-size: 11px; color: #666; }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 12px 0;
+    border-bottom: 2px solid #000;
+    padding-bottom: 4px;
+  }
+  
+  .games {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .game-row {
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .game-row:last-child {
+    border-bottom: none;
+  }
+  
+  .teams {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+  
+  .status {
+    font-weight: normal;
+    color: #666;
+  }
+  
+  .meta {
+    font-size: 11px;
+    color: #666;
+  }
+  
+  .no-games {
+    text-align: center;
+    padding: 40px 20px;
+    color: #666;
+  }
+  
+  .error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .error-message {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .error-message small {
+    font-size: 10px;
+    opacity: 0.7;
+  }
 </style>

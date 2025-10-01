@@ -1,19 +1,83 @@
 {% comment %}
-NFL Schedule - Half Horizontal TRMNL Plugin - Auto-generated
+NFL Schedule - Half Horizontal TRMNL Plugin
+Fetches live NFL data from ESPN API
 {% endcomment %}
 
-<div class="plugin half-horizontal">
-  <h2 class="title">NFL Week 5</h2>
-  <div class="games"><div class="game-row"><div class="teams-compact">SF @ LAR</div><div class="meta-compact">Fri 12:15 AM</div></div><div class="game-row"><div class="teams-compact">MIN VS CLE</div><div class="meta-compact">Sun 01:30 PM</div></div><div class="game-row"><div class="teams-compact">LV @ IND</div><div class="meta-compact">Sun 05:00 PM</div></div><div class="game-row"><div class="teams-compact">NYG @ NO</div><div class="meta-compact">Sun 05:00 PM</div></div>
+{% assign api_url = custom_fields.data_url | default: "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard" %}
+{% assign nfl_data = api_url | fetch_json %}
+
+{% if nfl_data and nfl_data.season and nfl_data.week %}
+  {% assign season = nfl_data.season %}
+  {% assign week = nfl_data.week %}
+  {% assign events = nfl_data.events %}
+  
+  <div class="plugin half-horizontal">
+    <h2 class="title">NFL Week {{ week.number }}</h2>
+    
+    <div class="games">
+      {% for event in events limit: 4 %}
+        {% assign competition = event.competitions.first %}
+        {% assign status = competition.status %}
+        {% assign away_team = competition.competitors | where: 'homeAway', 'away' | first %}
+        {% assign home_team = competition.competitors | where: 'homeAway', 'home' | first %}
+        
+        <div class="game-row">
+          {% if status.type.completed and away_team and home_team %}
+            <div class="teams-compact">{{ away_team.team.abbreviation }} {{ away_team.score }} - {{ home_team.score }} {{ home_team.team.abbreviation }}</div>
+          {% else %}
+            <div class="teams-compact">{{ event.shortName }}</div>
+          {% endif %}
+          <div class="meta-compact">{{ event.date | date: "%a %l:%M %p" }}</div>
+        </div>
+      {% endfor %}
+      
+      {% unless events and events.size > 0 %}
+        <div class="no-games">No games scheduled</div>
+      {% endunless %}
+    </div>
   </div>
-</div>
+  
+{% else %}
+  <div class="plugin half-horizontal error">
+    <h2 class="title">NFL Schedule</h2>
+    <div class="error-message">Unable to load data</div>
+  </div>
+{% endif %}
 
 <style>
   .plugin.half-horizontal {
-    font-family: system-ui, sans-serif; padding: 12px; height: 240px; width: 800px; overflow: hidden;
+    font-family: system-ui, sans-serif;
+    padding: 12px;
+    height: 240px;
+    width: 800px;
+    overflow: hidden;
   }
-  .title { font-size: 14px; font-weight: bold; margin: 0 0 8px 0; }
-  .game-row { padding: 4px 0; border-bottom: 1px solid #eee; }
-  .teams-compact { font-weight: bold; font-size: 12px; }
-  .meta-compact { font-size: 10px; color: #666; }
+  
+  .title {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+  }
+  
+  .game-row {
+    padding: 4px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .teams-compact {
+    font-weight: bold;
+    font-size: 12px;
+  }
+  
+  .meta-compact {
+    font-size: 10px;
+    color: #666;
+  }
+  
+  .no-games, .error-message {
+    text-align: center;
+    color: #666;
+    font-size: 12px;
+    padding: 20px;
+  }
 </style>

@@ -1,83 +1,146 @@
-# NFL TRMNL Plugin - Deployment Guide
+# NFL TRMNL Plugin - Dynamic Data Deployment Guide
 
-## Ready for TRMNL Upload! 🚀
+## 🚀 Ready for TRMNL Upload with Live Data!
 
-Your NFL plugin is now ready to deploy to your TRMNL device.
+Your NFL plugin now fetches **live, dynamic data** directly from ESPN's API. No more hard-coded game information!
 
-### What's Included
+### ✅ **What's New**
 
-✅ **TRMNL Plugin Files** (in `src/` directory):
-- `full.liquid` - Full screen layout (800×480)
-- `half_horizontal.liquid` - Half horizontal (800×240)  
-- `half_vertical.liquid` - Half vertical (400×480)
-- `quadrant.liquid` - Quadrant layout (400×240)
-- `settings.yml` - Plugin metadata
+- **Dynamic data fetching** - Gets current NFL week automatically
+- **Live API calls** - Fresh data every time your TRMNL refreshes
+- **Error handling** - Graceful fallbacks when API is unavailable
+- **Configurable settings** - Customize API URL and refresh rate
+- **No manual updates** - Data updates automatically
 
-✅ **Current NFL Data**:
-- 2025 Season Week 5 (Regular Season)
-- 14 upcoming games with schedules
-- Auto-generated templates with embedded data
+### 📁 **Plugin Files Ready**
 
-✅ **Development Tools**:
-- Local TRMNL server support
-- Automatic data update scripts
-- Git repository with clean history
+All files in `src/` are now **dynamic** and ready for TRMNL:
 
-### Deploy to TRMNL Device
+```
+src/
+├── full.liquid            # Full screen with live API data
+├── half_horizontal.liquid # Half horizontal with live API data
+├── half_vertical.liquid   # Half vertical with live API data
+├── quadrant.liquid        # Quadrant with live API data
+└── settings.yml           # Plugin configuration
+```
 
-#### Method 1: Manual Upload
+### 🏈 **Deploy to TRMNL Device**
+
+#### **Step 1: Create Private Plugin**
 1. Go to [TRMNL Dashboard](https://usetrmnl.com/)
-2. Create a new Private Plugin
-3. Copy and paste the contents of each file from `src/`:
-   - Copy `src/full.liquid` → Paste into "Full" layout
-   - Copy `src/half_horizontal.liquid` → Paste into "Half Horizontal" layout
-   - Copy `src/half_vertical.liquid` → Paste into "Half Vertical" layout  
-   - Copy `src/quadrant.liquid` → Paste into "Quadrant" layout
-   - Copy `src/settings.yml` → Paste into plugin settings
+2. Click **"Create Private Plugin"**
+3. Name: `NFL Schedule`
+4. Description: `Live NFL game schedules and scores`
 
-#### Method 2: Git Integration (if available)
-1. Push this repository to GitHub
-2. Connect your TRMNL to the repository
-3. Set up automatic updates
+#### **Step 2: Copy Template Code**
 
-### Keep Data Current
+For each layout, copy the **entire contents** from:
 
-#### Option 1: Manual Updates
-Run when you want fresh NFL data:
-```bash
-./update-nfl.sh
+**Full Layout:**
+```liquid
+{% comment %}
+NFL Schedule - Full Size TRMNL Plugin
+Fetches live NFL data from ESPN API
+{% endcomment %}
+
+{% assign api_url = custom_fields.data_url | default: "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard" %}
+{% assign nfl_data = api_url | fetch_json %}
+<!-- [Rest of src/full.liquid] -->
 ```
 
-#### Option 2: Automated Updates  
-Set up a cron job or GitHub Action to run:
-```bash
-python3 nfl_build.py
+**Half Horizontal:**
+```liquid
+<!-- Copy complete contents of src/half_horizontal.liquid -->
 ```
 
-### Current Plugin Status
+**Half Vertical:**
+```liquid
+<!-- Copy complete contents of src/half_vertical.liquid -->
+```
 
-🏈 **Season**: 2025 Week 5 (Regular Season)  
-📊 **Games**: 14 upcoming games  
-📅 **Updated**: Auto-generated with current data  
-🎯 **Layouts**: All 4 TRMNL sizes supported  
+**Quadrant:**
+```liquid
+<!-- Copy complete contents of src/quadrant.liquid -->
+```
 
-### What Your TRMNL Will Show
+#### **Step 3: Configure Plugin Settings**
 
-- **Game matchups** with team names
-- **Scheduled times** for upcoming games  
-- **Live scores** when games are in progress
-- **Final scores** for completed games
-- **Clean formatting** optimized for e-ink display
+In the TRMNL plugin editor:
 
-### Next Steps
+**Custom Fields:**
+- **NFL Data URL**: `https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard` (default)
+- **Refresh Interval**: `60` minutes (recommended)
 
-1. **Deploy to TRMNL** using the files in `src/`
-2. **Choose your layout** size on the TRMNL dashboard
-3. **Set refresh rate** (recommended: 1-4 hours)
-4. **Enjoy NFL updates** on your TRMNL device!
+**Plugin Settings:**
+- **Update Frequency**: 1-4 hours
+- **Layout**: Choose your preferred size
+- **Position**: Select screen placement
 
-The plugin will automatically show current week games and handle different seasons (regular season, playoffs, offseason) gracefully.
+### 🎯 **How It Works**
+
+1. **TRMNL calls your plugin** at the configured interval
+2. **Plugin fetches live data** from ESPN NFL API using `fetch_json`
+3. **Current games display** with real-time information:
+   - Current NFL week and season
+   - Upcoming game schedules
+   - Live scores during games
+   - Final scores after completion
+   - Team names and venues
+
+### 📊 **What Your TRMNL Will Show**
+
+**During NFL Season:**
+- **Live games** with current scores
+- **Upcoming games** with schedules
+- **Recent games** with final scores
+- **Automatic week detection**
+
+**During Offseason:**
+- **"No games scheduled"** message
+- **Clean error handling**
+- **Ready for next season**
+
+### 🔧 **Configuration Options**
+
+**API URL** - Change data source if needed:
+```
+https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard
+```
+
+**Refresh Rate** - How often to fetch new data:
+- **60 minutes** - Recommended for general use
+- **30 minutes** - During game days
+- **15 minutes** - For live game tracking
+
+### 🚨 **Error Handling**
+
+The plugin includes smart error handling:
+- **API unavailable** - Shows friendly error message
+- **No games** - Shows "No games scheduled"
+- **Invalid data** - Falls back to error display
+- **Network issues** - Graceful degradation
+
+### 🎉 **Benefits of Dynamic Data**
+
+✅ **Always current** - No manual updates needed  
+✅ **Live scores** - Real-time game information  
+✅ **Automatic seasons** - Handles regular season, playoffs, offseason  
+✅ **Error resilient** - Works even when API has issues  
+✅ **Configurable** - Customize refresh rate and data source  
+
+### 🔄 **No More Manual Updates**
+
+Unlike the previous version, you **never need to update templates** again! The plugin automatically:
+- Detects current NFL week
+- Shows live game scores
+- Handles season transitions
+- Updates game schedules
+
+### 🚀 **Deploy Now**
+
+Your NFL TRMNL plugin with **live, dynamic data** is ready to deploy! Just copy the template contents from `src/` to your TRMNL private plugin and enjoy automatic NFL updates on your device.
 
 ---
 
-*Your NFL TRMNL plugin is ready! 🎉*
+*Your TRMNL will now show live NFL data automatically! 🏈📺*
