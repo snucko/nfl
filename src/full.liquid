@@ -1,148 +1,72 @@
 {% comment %}
 NFL Schedule - Full Size TRMNL Plugin
-Works locally (hardcoded current data) and on TRMNL (live API data)
 {% endcomment %}
-
-{% comment %} Try to fetch live data from API (only works on TRMNL platform) {% endcomment %}
-{% assign api_url = custom_fields.data_url | default: "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard" %}
-{% assign nfl_data = api_url | fetch_json %}
-
-{% comment %} Check if we have valid API data {% endcomment %}
-{% assign has_api_data = false %}
-{% if nfl_data and nfl_data.season and nfl_data.week and nfl_data.events and nfl_data.events.size > 0 %}
-  {% assign has_api_data = true %}
-  {% assign season = nfl_data.season %}
-  {% assign week = nfl_data.week %}
-  {% assign events = nfl_data.events %}
-{% endif %}
-
-{% comment %} Fallback to current hardcoded data if no API data (for local development) {% endcomment %}
-{% unless has_api_data %}
-  {% assign season_year = 2025 %}
-  {% assign season_type = 2 %}
-  {% assign week_number = 5 %}
-  {% comment %} Format: matchup|datetime|venue|status {% endcomment %}
-  {% assign current_games = "San Francisco 49ers at Los Angeles Rams|Thu Oct 02, 8:15 PM|SoFi Stadium|10/2 - 8:15 PM EDT^Minnesota Vikings at Cleveland Browns|Sat Oct 05, 9:30 AM|Tottenham Hotspur Stadium|10/5 - 9:30 AM EDT^Las Vegas Raiders at Indianapolis Colts|Sun Oct 05, 1:00 PM|Lucas Oil Stadium|10/5 - 1:00 PM EDT^New York Giants at New Orleans Saints|Sun Oct 05, 1:00 PM|Caesars Superdome|10/5 - 1:00 PM EDT^Dallas Cowboys at New York Jets|Sun Oct 05, 1:00 PM|MetLife Stadium|10/5 - 1:00 PM EDT^Kansas City Chiefs at Jacksonville Jaguars|Mon Oct 06, 8:15 PM|EverBank Stadium|10/6 - 8:15 PM EDT" | split: "^" %}
-{% endunless %}
 
 <div class="plugin">
   <h1 class="title">
-    {% if has_api_data %}
-      NFL Week {{ week.number }} · {{ season.year }}
-      {% if season.type == 2 %}(Regular Season){% elsif season.type == 3 %}(Playoffs){% endif %}
-    {% else %}
-      NFL Week {{ week_number }} · {{ season_year }} (Regular Season)
-    {% endif %}
+    NFL Week 5 · 2025
+    (Regular Season)
   </h1>
   
   <div class="games">
-    {% if has_api_data %}
-      {% for event in events %}
-        {% assign competition = event.competitions.first %}
-        {% assign status = competition.status %}
-        {% assign away_team = competition.competitors | where: 'homeAway', 'away' | first %}
-        {% assign home_team = competition.competitors | where: 'homeAway', 'home' | first %}
-        
-        <div class="game-row">
-          <div class="teams">
-            {% if status.type.completed and away_team.score and home_team.score %}
-              {{ away_team.team.displayName }} {{ away_team.score }} - {{ home_team.score }} {{ home_team.team.displayName }}
-            {% else %}
-              {{ event.name }}
-            {% endif %}
-            <span class="status">({{ status.type.shortDetail }})</span>
-          </div>
-          
-          <div class="meta">
-            {% assign game_date = event.date | date: "%a %b %d, %l:%M %p" %}
-            {{ game_date }} · {{ competition.venue.fullName }}
-          </div>
-        </div>
-      {% endfor %}
-    {% else %}
-      {% for game_data in current_games %}
-        {% assign game_parts = game_data | split: "|" %}
-        <div class="game-row">
-          <div class="teams">
-            {{ game_parts[0] }}
-            <span class="status">({{ game_parts[3] }})</span>
-          </div>
-          <div class="meta">
-            {{ game_parts[1] }} · {{ game_parts[2] }}
-          </div>
-        </div>
-      {% endfor %}
-    {% endif %}
-  </div>
-  
-  <div class="data-source">
-    <small>
-      {% if has_api_data %}
-        📡 Live API Data
-      {% else %}
-        📁 Local Data (Week {{ week_number }})
-      {% endif %}
-    </small>
+    <div class="game-row">
+      <div class="teams">San Francisco 49ers 26 - 23 Los Angeles Rams <span class="status">(Final/OT)</span></div>
+      <div class="meta">Fri Oct 03, 12:15 AM · SoFi Stadium</div>
+    </div>
+    <div class="game-row">
+      <div class="teams">Minnesota Vikings at Cleveland Browns <span class="status">(11:04 - 2nd)</span></div>
+      <div class="meta">Sun Oct 05, 01:30 PM · Tottenham Hotspur Stadium</div>
+    </div>
+    <div class="game-row">
+      <div class="teams">Las Vegas Raiders at Indianapolis Colts <span class="status">(10/5 - 1:00 PM EDT)</span></div>
+      <div class="meta">Sun Oct 05, 05:00 PM · Lucas Oil Stadium</div>
+    </div>
+    <div class="game-row">
+      <div class="teams">New York Giants at New Orleans Saints <span class="status">(10/5 - 1:00 PM EDT)</span></div>
+      <div class="meta">Sun Oct 05, 05:00 PM · Caesars Superdome</div>
+    </div>
+    <div class="game-row">
+      <div class="teams">Dallas Cowboys at New York Jets <span class="status">(10/5 - 1:00 PM EDT)</span></div>
+      <div class="meta">Sun Oct 05, 05:00 PM · MetLife Stadium</div>
+    </div>
+    <div class="game-row">
+      <div class="teams">Denver Broncos at Philadelphia Eagles <span class="status">(10/5 - 1:00 PM EDT)</span></div>
+      <div class="meta">Sun Oct 05, 05:00 PM · Lincoln Financial Field</div>
+    </div>
+    <div class="game-row">
+      <div class="teams">Miami Dolphins at Carolina Panthers <span class="status">(10/5 - 1:00 PM EDT)</span></div>
+      <div class="meta">Sun Oct 05, 05:00 PM · Bank of America Stadium</div>
+    </div>
+    <div class="game-row">
+      <div class="teams">Houston Texans at Baltimore Ravens <span class="status">(10/5 - 1:00 PM EDT)</span></div>
+      <div class="meta">Sun Oct 05, 05:00 PM · M&T Bank Stadium</div>
+    </div>
+    <div class="game-row">
+      <div class="teams">Tennessee Titans at Arizona Cardinals <span class="status">(10/5 - 4:05 PM EDT)</span></div>
+      <div class="meta">Sun Oct 05, 08:05 PM · State Farm Stadium</div>
+    </div>
+    <div class="game-row">
+      <div class="teams">Tampa Bay Buccaneers at Seattle Seahawks <span class="status">(10/5 - 4:05 PM EDT)</span></div>
+      <div class="meta">Sun Oct 05, 08:05 PM · Lumen Field</div>
+    </div>
+    <div class="game-row">
+      <div class="teams">Detroit Lions at Cincinnati Bengals <span class="status">(10/5 - 4:25 PM EDT)</span></div>
+      <div class="meta">Sun Oct 05, 08:25 PM · Paycor Stadium</div>
+    </div>
+    <div class="game-row">
+      <div class="teams">Washington Commanders at Los Angeles Chargers <span class="status">(10/5 - 4:25 PM EDT)</span></div>
+      <div class="meta">Sun Oct 05, 08:25 PM · SoFi Stadium</div>
+    </div>
+    <div class="game-row">
+      <div class="teams">New England Patriots at Buffalo Bills <span class="status">(10/5 - 8:20 PM EDT)</span></div>
+      <div class="meta">Mon Oct 06, 12:20 AM · Highmark Stadium</div>
+    </div>
+    <div class="game-row">
+      <div class="teams">Kansas City Chiefs at Jacksonville Jaguars <span class="status">(10/6 - 8:15 PM EDT)</span></div>
+      <div class="meta">Tue Oct 07, 12:15 AM · EverBank Stadium</div>
+    </div>
   </div>
 </div>
-
-<style>
-  .plugin {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    padding: 16px;
-    color: #000;
-    background: #fff;
-    height: 100vh;
-    overflow: hidden;
-  }
-  
-  .title {
-    font-size: 18px;
-    font-weight: bold;
-    margin: 0 0 12px 0;
-    border-bottom: 2px solid #000;
-    padding-bottom: 4px;
-  }
-  
-  .games {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-  }
-  
-  .game-row {
-    padding: 8px 0;
-    border-bottom: 1px solid #ccc;
-  }
-  
-  .game-row:last-child {
-    border-bottom: none;
-  }
-  
-  .teams {
-    font-weight: bold;
-    font-size: 14px;
-    margin-bottom: 2px;
-  }
-  
-  .status {
-    font-weight: normal;
-    color: #666;
-  }
-  
-  .meta {
-    font-size: 11px;
-    color: #666;
-  }
-  
-  .data-source {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    opacity: 0.5;
-    font-size: 8px;
-  }
-</style>
 
 <style>
   .plugin {
