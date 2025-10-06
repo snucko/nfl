@@ -11072,8 +11072,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $168",
-              "numberAvailable": 607,
+              "summary": "Tickets as low as $161",
+              "numberAvailable": 535,
               "links": [
                 {
                   "href": "https://www.vividseats.com/jacksonville-jaguars-tickets-everbank-stadium-3-4-2026--sports-nfl-football/production/5472001?wsUser=717"
@@ -11149,7 +11149,7 @@
               "awayTeamOdds": {
                 "favorite": true,
                 "underdog": false,
-                "moneyLine": -195,
+                "moneyLine": -210,
                 "spreadOdds": 100.0,
                 "team": {
                   "id": "12",
@@ -11162,7 +11162,7 @@
               "homeTeamOdds": {
                 "favorite": false,
                 "underdog": true,
-                "moneyLine": 165,
+                "moneyLine": 175,
                 "spreadOdds": -120.0,
                 "team": {
                   "id": "30",
@@ -11181,7 +11181,7 @@
                     "bets",
                     "espn-bet"
                   ],
-                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6&market_selection_id[0]=06a72f9c-bf93-4915-8329-b409d03f5a52&odds_numerator[0]=53&odds_denominator[0]=20",
+                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6&market_selection_id[0]=06a72f9c-bf93-4915-8329-b409d03f5a52&odds_numerator[0]=11&odds_denominator[0]=4",
                   "text": "Home Bet",
                   "shortText": "Home Bet",
                   "isExternal": true,
@@ -11205,7 +11205,7 @@
                     "bets",
                     "espn-bet"
                   ],
-                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6&market_selection_id[0]=0682ac49-f53c-42e4-b914-a4db96e03cec&odds_numerator[0]=59&odds_denominator[0]=39",
+                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6&market_selection_id[0]=0682ac49-f53c-42e4-b914-a4db96e03cec&odds_numerator[0]=31&odds_denominator[0]=21",
                   "text": "Away Bet",
                   "shortText": "Away Bet",
                   "isExternal": true,
@@ -11346,7 +11346,7 @@
                   "id": "75b56361-8abb-46a7-a57f-c46d6101daf0",
                   "displayName": "Monday Playbook",
                   "type": "PARLAY_PLUS",
-                  "odds": "+399",
+                  "odds": "+406",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=75b56361-8abb-46a7-a57f-c46d6101daf0",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=75b56361-8abb-46a7-a57f-c46d6101daf0",
@@ -11360,10 +11360,10 @@
                     }
                   },
                   "startTime": "2025-10-07T00:15Z",
-                  "betsPlaced": "816",
+                  "betsPlaced": "987",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
-                  "payoutText": "$10.00 pays $49.92",
+                  "payoutText": "$10.00 pays $50.64",
                   "displayOrder": 1,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
@@ -11539,7 +11539,7 @@
                   "id": "eeea39ff-1447-40bc-ba9d-96a6ace97834",
                   "displayName": "Fantasy Football: Let It Fly",
                   "type": "PARLAY_PLUS",
-                  "odds": "+319",
+                  "odds": "+311",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=eeea39ff-1447-40bc-ba9d-96a6ace97834",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=eeea39ff-1447-40bc-ba9d-96a6ace97834",
@@ -11553,10 +11553,10 @@
                     }
                   },
                   "startTime": "2025-10-07T00:15Z",
-                  "betsPlaced": "556",
+                  "betsPlaced": "642",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
-                  "payoutText": "$10.00 pays $41.90",
+                  "payoutText": "$10.00 pays $41.07",
                   "displayOrder": 3,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
@@ -11782,7 +11782,7 @@
                   "id": "ff631428-da87-4ea0-b018-1839fbceb0d5",
                   "displayName": "Light Show",
                   "type": "PARLAY_PLUS",
-                  "odds": "+319",
+                  "odds": "+311",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=ff631428-da87-4ea0-b018-1839fbceb0d5",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=ff631428-da87-4ea0-b018-1839fbceb0d5",
@@ -11796,10 +11796,10 @@
                     }
                   },
                   "startTime": "2025-10-07T00:15Z",
-                  "betsPlaced": "568",
+                  "betsPlaced": "637",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
-                  "payoutText": "$10.00 pays $41.90",
+                  "payoutText": "$10.00 pays $41.07",
                   "displayOrder": 5,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
@@ -12025,7 +12025,7 @@
                   "id": "6167d18c-49ce-422f-8a12-9423e8a134e1",
                   "displayName": "Fantasy Football: Pullin' PPR",
                   "type": "PARLAY_PLUS",
-                  "odds": "+605",
+                  "odds": "+568",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=6167d18c-49ce-422f-8a12-9423e8a134e1",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=6167d18c-49ce-422f-8a12-9423e8a134e1",
@@ -12039,10 +12039,10 @@
                     }
                   },
                   "startTime": "2025-10-07T00:15Z",
-                  "betsPlaced": "473",
+                  "betsPlaced": "546",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
-                  "payoutText": "$10.00 pays $70.47",
+                  "payoutText": "$10.00 pays $66.82",
                   "displayOrder": 7,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
@@ -12087,9 +12087,9 @@
                       "marketText": "Brian Thomas Jr. Total Receptions",
                       "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                       "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=87d10d54-7862-4a11-b8dc-6f61b241cec6&odds_numerator[0]=21&odds_denominator[0]=11",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=87d10d54-7862-4a11-b8dc-6f61b241cec6&odds_numerator[0]=43&odds_denominator[0]=23",
                       "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=87d10d54-7862-4a11-b8dc-6f61b241cec6&odds_numerator[0]=21&odds_denominator[0]=11",
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=87d10d54-7862-4a11-b8dc-6f61b241cec6&odds_numerator[0]=43&odds_denominator[0]=23",
                         "tracking": {
                           "campaign": "betting-integrations",
                           "tags": {
@@ -12112,9 +12112,9 @@
                       "marketText": "Travis Kelce Total Receptions",
                       "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                       "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=d17b9d23-0ab1-4721-9e83-bb03b634ec01&odds_numerator[0]=9&odds_denominator[0]=4",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=d17b9d23-0ab1-4721-9e83-bb03b634ec01&odds_numerator[0]=11&odds_denominator[0]=5",
                       "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=d17b9d23-0ab1-4721-9e83-bb03b634ec01&odds_numerator[0]=9&odds_denominator[0]=4",
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=d17b9d23-0ab1-4721-9e83-bb03b634ec01&odds_numerator[0]=11&odds_denominator[0]=5",
                         "tracking": {
                           "campaign": "betting-integrations",
                           "tags": {
@@ -12167,9 +12167,9 @@
                           "marketText": "Brian Thomas Jr. Total Receptions",
                           "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                           "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=87d10d54-7862-4a11-b8dc-6f61b241cec6&odds_numerator[0]=21&odds_denominator[0]=11",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=87d10d54-7862-4a11-b8dc-6f61b241cec6&odds_numerator[0]=43&odds_denominator[0]=23",
                           "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=87d10d54-7862-4a11-b8dc-6f61b241cec6&odds_numerator[0]=21&odds_denominator[0]=11",
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=87d10d54-7862-4a11-b8dc-6f61b241cec6&odds_numerator[0]=43&odds_denominator[0]=23",
                             "tracking": {
                               "campaign": "betting-integrations",
                               "tags": {
@@ -12192,9 +12192,9 @@
                           "marketText": "Travis Kelce Total Receptions",
                           "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                           "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=d17b9d23-0ab1-4721-9e83-bb03b634ec01&odds_numerator[0]=9&odds_denominator[0]=4",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=d17b9d23-0ab1-4721-9e83-bb03b634ec01&odds_numerator[0]=11&odds_denominator[0]=5",
                           "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=d17b9d23-0ab1-4721-9e83-bb03b634ec01&odds_numerator[0]=9&odds_denominator[0]=4",
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=d17b9d23-0ab1-4721-9e83-bb03b634ec01&odds_numerator[0]=11&odds_denominator[0]=5",
                             "tracking": {
                               "campaign": "betting-integrations",
                               "tags": {
@@ -12218,7 +12218,7 @@
                   "id": "99dca0d6-d4ff-40e8-9382-4ae2e4d2ae15",
                   "displayName": "Pullin' PPR",
                   "type": "PARLAY_PLUS",
-                  "odds": "+605",
+                  "odds": "+568",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=99dca0d6-d4ff-40e8-9382-4ae2e4d2ae15",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=99dca0d6-d4ff-40e8-9382-4ae2e4d2ae15",
@@ -12232,10 +12232,10 @@
                     }
                   },
                   "startTime": "2025-10-07T00:15Z",
-                  "betsPlaced": "474",
+                  "betsPlaced": "546",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
-                  "payoutText": "$10.00 pays $70.47",
+                  "payoutText": "$10.00 pays $66.82",
                   "displayOrder": 8,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
@@ -12280,9 +12280,9 @@
                       "marketText": "Travis Kelce Total Receptions",
                       "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                       "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=d17b9d23-0ab1-4721-9e83-bb03b634ec01&odds_numerator[0]=9&odds_denominator[0]=4",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=d17b9d23-0ab1-4721-9e83-bb03b634ec01&odds_numerator[0]=11&odds_denominator[0]=5",
                       "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=d17b9d23-0ab1-4721-9e83-bb03b634ec01&odds_numerator[0]=9&odds_denominator[0]=4",
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=d17b9d23-0ab1-4721-9e83-bb03b634ec01&odds_numerator[0]=11&odds_denominator[0]=5",
                         "tracking": {
                           "campaign": "betting-integrations",
                           "tags": {
@@ -12305,9 +12305,9 @@
                       "marketText": "Brian Thomas Jr. Total Receptions",
                       "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                       "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=87d10d54-7862-4a11-b8dc-6f61b241cec6&odds_numerator[0]=21&odds_denominator[0]=11",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=87d10d54-7862-4a11-b8dc-6f61b241cec6&odds_numerator[0]=43&odds_denominator[0]=23",
                       "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=87d10d54-7862-4a11-b8dc-6f61b241cec6&odds_numerator[0]=21&odds_denominator[0]=11",
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=87d10d54-7862-4a11-b8dc-6f61b241cec6&odds_numerator[0]=43&odds_denominator[0]=23",
                         "tracking": {
                           "campaign": "betting-integrations",
                           "tags": {
@@ -12360,9 +12360,9 @@
                           "marketText": "Travis Kelce Total Receptions",
                           "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                           "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=d17b9d23-0ab1-4721-9e83-bb03b634ec01&odds_numerator[0]=9&odds_denominator[0]=4",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=d17b9d23-0ab1-4721-9e83-bb03b634ec01&odds_numerator[0]=11&odds_denominator[0]=5",
                           "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=d17b9d23-0ab1-4721-9e83-bb03b634ec01&odds_numerator[0]=9&odds_denominator[0]=4",
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=d17b9d23-0ab1-4721-9e83-bb03b634ec01&odds_numerator[0]=11&odds_denominator[0]=5",
                             "tracking": {
                               "campaign": "betting-integrations",
                               "tags": {
@@ -12385,9 +12385,9 @@
                           "marketText": "Brian Thomas Jr. Total Receptions",
                           "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                           "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=87d10d54-7862-4a11-b8dc-6f61b241cec6&odds_numerator[0]=21&odds_denominator[0]=11",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=87d10d54-7862-4a11-b8dc-6f61b241cec6&odds_numerator[0]=43&odds_denominator[0]=23",
                           "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=87d10d54-7862-4a11-b8dc-6f61b241cec6&odds_numerator[0]=21&odds_denominator[0]=11",
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=87d10d54-7862-4a11-b8dc-6f61b241cec6&odds_numerator[0]=43&odds_denominator[0]=23",
                             "tracking": {
                               "campaign": "betting-integrations",
                               "tags": {
@@ -12411,7 +12411,7 @@
                   "id": "dd4c25b6-ca9e-4b78-ac25-506f77ee7b8c",
                   "displayName": "Fantasy Football: Lead Backs",
                   "type": "PARLAY_PLUS",
-                  "odds": "+1458",
+                  "odds": "+1431",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=dd4c25b6-ca9e-4b78-ac25-506f77ee7b8c",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=dd4c25b6-ca9e-4b78-ac25-506f77ee7b8c",
@@ -12425,10 +12425,10 @@
                     }
                   },
                   "startTime": "2025-10-07T00:15Z",
-                  "betsPlaced": "1.4k",
+                  "betsPlaced": "1.6k",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
-                  "payoutText": "$10.00 pays $155.80",
+                  "payoutText": "$10.00 pays $153.07",
                   "displayOrder": 9,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
@@ -12498,9 +12498,9 @@
                       "marketText": "Isiah Pacheco Total Rushing Yards",
                       "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                       "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=97f5fc47-b8d2-447f-97cd-f802f8d4d02a&odds_numerator[0]=41&odds_denominator[0]=20",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=97f5fc47-b8d2-447f-97cd-f802f8d4d02a&odds_numerator[0]=2&odds_denominator[0]=1",
                       "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=97f5fc47-b8d2-447f-97cd-f802f8d4d02a&odds_numerator[0]=41&odds_denominator[0]=20",
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=97f5fc47-b8d2-447f-97cd-f802f8d4d02a&odds_numerator[0]=2&odds_denominator[0]=1",
                         "tracking": {
                           "campaign": "betting-integrations",
                           "tags": {
@@ -12603,9 +12603,9 @@
                           "marketText": "Isiah Pacheco Total Rushing Yards",
                           "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                           "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=97f5fc47-b8d2-447f-97cd-f802f8d4d02a&odds_numerator[0]=41&odds_denominator[0]=20",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=97f5fc47-b8d2-447f-97cd-f802f8d4d02a&odds_numerator[0]=2&odds_denominator[0]=1",
                           "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=97f5fc47-b8d2-447f-97cd-f802f8d4d02a&odds_numerator[0]=41&odds_denominator[0]=20",
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=97f5fc47-b8d2-447f-97cd-f802f8d4d02a&odds_numerator[0]=2&odds_denominator[0]=1",
                             "tracking": {
                               "campaign": "betting-integrations",
                               "tags": {
@@ -12654,7 +12654,7 @@
                   "id": "9bb37f21-81ec-4400-aff7-43b6bb3e9f90",
                   "displayName": "Lead Backs",
                   "type": "PARLAY_PLUS",
-                  "odds": "+1458",
+                  "odds": "+1431",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=9bb37f21-81ec-4400-aff7-43b6bb3e9f90",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=9bb37f21-81ec-4400-aff7-43b6bb3e9f90",
@@ -12668,10 +12668,10 @@
                     }
                   },
                   "startTime": "2025-10-07T00:15Z",
-                  "betsPlaced": "1.4k",
+                  "betsPlaced": "1.6k",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
-                  "payoutText": "$10.00 pays $155.80",
+                  "payoutText": "$10.00 pays $153.07",
                   "displayOrder": 10,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
@@ -12741,9 +12741,9 @@
                       "marketText": "Isiah Pacheco Total Rushing Yards",
                       "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                       "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=97f5fc47-b8d2-447f-97cd-f802f8d4d02a&odds_numerator[0]=41&odds_denominator[0]=20",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=97f5fc47-b8d2-447f-97cd-f802f8d4d02a&odds_numerator[0]=2&odds_denominator[0]=1",
                       "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=97f5fc47-b8d2-447f-97cd-f802f8d4d02a&odds_numerator[0]=41&odds_denominator[0]=20",
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=97f5fc47-b8d2-447f-97cd-f802f8d4d02a&odds_numerator[0]=2&odds_denominator[0]=1",
                         "tracking": {
                           "campaign": "betting-integrations",
                           "tags": {
@@ -12846,9 +12846,9 @@
                           "marketText": "Isiah Pacheco Total Rushing Yards",
                           "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                           "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=97f5fc47-b8d2-447f-97cd-f802f8d4d02a&odds_numerator[0]=41&odds_denominator[0]=20",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=97f5fc47-b8d2-447f-97cd-f802f8d4d02a&odds_numerator[0]=2&odds_denominator[0]=1",
                           "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=97f5fc47-b8d2-447f-97cd-f802f8d4d02a&odds_numerator[0]=41&odds_denominator[0]=20",
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=97f5fc47-b8d2-447f-97cd-f802f8d4d02a&odds_numerator[0]=2&odds_denominator[0]=1",
                             "tracking": {
                               "campaign": "betting-integrations",
                               "tags": {
@@ -12897,7 +12897,7 @@
                   "id": "cc3759dc-c477-4126-b16c-c32f84073464",
                   "displayName": "Get Up: Hot Half",
                   "type": "PARLAY_PLUS",
-                  "odds": "+365",
+                  "odds": "+371",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=cc3759dc-c477-4126-b16c-c32f84073464",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=cc3759dc-c477-4126-b16c-c32f84073464",
@@ -12911,7 +12911,7 @@
                     }
                   },
                   "startTime": "2025-10-07T00:15Z",
-                  "payoutText": "$10.00 pays $46.51",
+                  "payoutText": "$10.00 pays $47.07",
                   "displayOrder": 11,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
@@ -12956,9 +12956,9 @@
                       "marketText": "Travis Etienne Jr. 1st Half Total Rushing Yards",
                       "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                       "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=43c7602f-5386-40da-89b9-80511e3a7ccf&odds_numerator[0]=51&odds_denominator[0]=31",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=43c7602f-5386-40da-89b9-80511e3a7ccf&odds_numerator[0]=49&odds_denominator[0]=29",
                       "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=43c7602f-5386-40da-89b9-80511e3a7ccf&odds_numerator[0]=51&odds_denominator[0]=31",
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=43c7602f-5386-40da-89b9-80511e3a7ccf&odds_numerator[0]=49&odds_denominator[0]=29",
                         "tracking": {
                           "campaign": "betting-integrations",
                           "tags": {
@@ -12981,9 +12981,9 @@
                       "marketText": "Brian Thomas Jr. 1st Half Total Receiving Yards",
                       "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                       "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=58e2d9a2-f034-4645-9a4e-07e8a64615d5&odds_numerator[0]=11&odds_denominator[0]=7",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=58e2d9a2-f034-4645-9a4e-07e8a64615d5&odds_numerator[0]=57&odds_denominator[0]=37",
                       "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=58e2d9a2-f034-4645-9a4e-07e8a64615d5&odds_numerator[0]=11&odds_denominator[0]=7",
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=58e2d9a2-f034-4645-9a4e-07e8a64615d5&odds_numerator[0]=57&odds_denominator[0]=37",
                         "tracking": {
                           "campaign": "betting-integrations",
                           "tags": {
@@ -13036,9 +13036,9 @@
                           "marketText": "Travis Etienne Jr. 1st Half Total Rushing Yards",
                           "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                           "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=43c7602f-5386-40da-89b9-80511e3a7ccf&odds_numerator[0]=51&odds_denominator[0]=31",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=43c7602f-5386-40da-89b9-80511e3a7ccf&odds_numerator[0]=49&odds_denominator[0]=29",
                           "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=43c7602f-5386-40da-89b9-80511e3a7ccf&odds_numerator[0]=51&odds_denominator[0]=31",
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=43c7602f-5386-40da-89b9-80511e3a7ccf&odds_numerator[0]=49&odds_denominator[0]=29",
                             "tracking": {
                               "campaign": "betting-integrations",
                               "tags": {
@@ -13061,9 +13061,9 @@
                           "marketText": "Brian Thomas Jr. 1st Half Total Receiving Yards",
                           "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                           "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=58e2d9a2-f034-4645-9a4e-07e8a64615d5&odds_numerator[0]=11&odds_denominator[0]=7",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=58e2d9a2-f034-4645-9a4e-07e8a64615d5&odds_numerator[0]=57&odds_denominator[0]=37",
                           "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=58e2d9a2-f034-4645-9a4e-07e8a64615d5&odds_numerator[0]=11&odds_denominator[0]=7",
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=58e2d9a2-f034-4645-9a4e-07e8a64615d5&odds_numerator[0]=57&odds_denominator[0]=37",
                             "tracking": {
                               "campaign": "betting-integrations",
                               "tags": {
@@ -13084,28 +13084,25 @@
                   }
                 },
                 {
-                  "id": "5756cdbd-dfeb-42c6-a5dc-c63e8bf06955",
-                  "displayName": "First Take: Frisky Dogs",
-                  "type": "PARLAY",
-                  "odds": "+1012",
-                  "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=5756cdbd-dfeb-42c6-a5dc-c63e8bf06955",
+                  "id": "67ff197e-9b04-491e-8b15-c8643f27abd6",
+                  "displayName": "Hot Half",
+                  "type": "PARLAY_PLUS",
+                  "odds": "+371",
+                  "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=67ff197e-9b04-491e-8b15-c8643f27abd6",
                   "link": {
-                    "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=5756cdbd-dfeb-42c6-a5dc-c63e8bf06955",
+                    "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=67ff197e-9b04-491e-8b15-c8643f27abd6",
                     "tracking": {
                       "campaign": "betting-integrations",
                       "tags": {
-                        "league": "mlb",
-                        "sport": "baseball",
+                        "league": "nfl",
+                        "sport": "football",
                         "betType": "parlay"
                       }
                     }
                   },
-                  "startTime": "2025-10-06T22:08Z",
-                  "betsPlaced": "514",
-                  "betsPlacedText": "bets placed",
-                  "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
-                  "payoutText": "$10.00 pays $111.24",
-                  "displayOrder": 13,
+                  "startTime": "2025-10-07T00:15Z",
+                  "payoutText": "$10.00 pays $47.07",
+                  "displayOrder": 21,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -13114,18 +13111,19 @@
                   "legCount": 3,
                   "legs": [
                     {
-                      "marketId": "422c9a2a-9a7a-44ca-b216-38b57f937a89",
-                      "marketSelectionId": "06a72f9c-bf93-4915-8329-b409d03f5a52",
+                      "marketId": "359a9312-0e41-4e95-bbc2-8c7de86c6395",
+                      "marketSelectionId": "43c7602f-5386-40da-89b9-80511e3a7ccf",
                       "eventId": "401772814",
-                      "selectionText": "JAX Jaguars",
-                      "type": "home_moneyline",
+                      "selectionText": "30+",
+                      "type": "list",
+                      "points": "29.5",
                       "startTime": "2025-10-07T00:15Z",
-                      "marketText": "Moneyline",
+                      "marketText": "Travis Etienne Jr. 1st Half Total Rushing Yards",
                       "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                       "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6&market_selection_id[0]=06a72f9c-bf93-4915-8329-b409d03f5a52&odds_numerator[0]=53&odds_denominator[0]=20",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=43c7602f-5386-40da-89b9-80511e3a7ccf&odds_numerator[0]=49&odds_denominator[0]=29",
                       "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6&market_selection_id[0]=06a72f9c-bf93-4915-8329-b409d03f5a52&odds_numerator[0]=53&odds_denominator[0]=20",
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=43c7602f-5386-40da-89b9-80511e3a7ccf&odds_numerator[0]=49&odds_denominator[0]=29",
                         "tracking": {
                           "campaign": "betting-integrations",
                           "tags": {
@@ -13138,48 +13136,50 @@
                       }
                     },
                     {
-                      "marketId": "7af57c44-9914-4af3-b664-ef1529c841e5",
-                      "marketSelectionId": "aaed3181-095a-425b-aa77-2807a7459aea",
-                      "eventId": "401809279",
-                      "selectionText": "PHI Phillies",
-                      "type": "home_moneyline",
-                      "startTime": "2025-10-06T22:08Z",
-                      "marketText": "Moneyline",
-                      "icon": "https://a.espncdn.com/i/espnbet/mybets_baseball_icon.png",
-                      "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_baseball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/baseball/organization/united-states/competition/mlb/event/a25aedbd-3ddd-4eeb-8070-a7692bca0849&market_selection_id[0]=aaed3181-095a-425b-aa77-2807a7459aea&odds_numerator[0]=41&odds_denominator[0]=21",
+                      "marketId": "70225fdf-a788-4fde-8ca7-c4f04a64ed09",
+                      "marketSelectionId": "58e2d9a2-f034-4645-9a4e-07e8a64615d5",
+                      "eventId": "401772814",
+                      "selectionText": "20+",
+                      "type": "list",
+                      "points": "19.5",
+                      "startTime": "2025-10-07T00:15Z",
+                      "marketText": "Brian Thomas Jr. 1st Half Total Receiving Yards",
+                      "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
+                      "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=58e2d9a2-f034-4645-9a4e-07e8a64615d5&odds_numerator[0]=57&odds_denominator[0]=37",
                       "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/baseball/organization/united-states/competition/mlb/event/a25aedbd-3ddd-4eeb-8070-a7692bca0849&market_selection_id[0]=aaed3181-095a-425b-aa77-2807a7459aea&odds_numerator[0]=41&odds_denominator[0]=21",
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=58e2d9a2-f034-4645-9a4e-07e8a64615d5&odds_numerator[0]=57&odds_denominator[0]=37",
                         "tracking": {
                           "campaign": "betting-integrations",
                           "tags": {
-                            "league": "mlb",
-                            "sport": "baseball",
-                            "gameId": 401809279,
+                            "league": "nfl",
+                            "sport": "football",
+                            "gameId": 401772814,
                             "betType": "straight"
                           }
                         }
                       }
                     },
                     {
-                      "marketId": "917733da-b3b9-4ff5-a04f-8e698830d632",
-                      "marketSelectionId": "bb6d84b4-e6b3-4944-94bb-4955fabe7c5d",
-                      "eventId": "401809274",
-                      "selectionText": "CHI Cubs",
-                      "type": "away_moneyline",
-                      "startTime": "2025-10-07T01:08Z",
-                      "marketText": "Moneyline",
-                      "icon": "https://a.espncdn.com/i/espnbet/mybets_baseball_icon.png",
-                      "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_baseball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/baseball/organization/united-states/competition/mlb/event/4b758451-c302-4ba5-b5c0-c4c837decfed&market_selection_id[0]=bb6d84b4-e6b3-4944-94bb-4955fabe7c5d&odds_numerator[0]=43&odds_denominator[0]=20",
+                      "marketId": "bacf341b-1154-4a8e-8d00-07b434552df4",
+                      "marketSelectionId": "4361ca72-bbb7-4fb7-ba15-b01248c2f412",
+                      "eventId": "401772814",
+                      "selectionText": "125+",
+                      "type": "list",
+                      "points": "124.5",
+                      "startTime": "2025-10-07T00:15Z",
+                      "marketText": "Patrick Mahomes 1st Half Total Passing Yards",
+                      "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
+                      "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=4361ca72-bbb7-4fb7-ba15-b01248c2f412&odds_numerator[0]=47&odds_denominator[0]=27",
                       "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/baseball/organization/united-states/competition/mlb/event/4b758451-c302-4ba5-b5c0-c4c837decfed&market_selection_id[0]=bb6d84b4-e6b3-4944-94bb-4955fabe7c5d&odds_numerator[0]=43&odds_denominator[0]=20",
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=4361ca72-bbb7-4fb7-ba15-b01248c2f412&odds_numerator[0]=47&odds_denominator[0]=27",
                         "tracking": {
                           "campaign": "betting-integrations",
                           "tags": {
-                            "league": "mlb",
-                            "sport": "baseball",
-                            "gameId": 401809274,
+                            "league": "nfl",
+                            "sport": "football",
+                            "gameId": 401772814,
                             "betType": "straight"
                           }
                         }
@@ -13191,18 +13191,69 @@
                       "displayName": "KC @ JAX",
                       "legs": [
                         {
-                          "marketId": "422c9a2a-9a7a-44ca-b216-38b57f937a89",
-                          "marketSelectionId": "06a72f9c-bf93-4915-8329-b409d03f5a52",
+                          "marketId": "359a9312-0e41-4e95-bbc2-8c7de86c6395",
+                          "marketSelectionId": "43c7602f-5386-40da-89b9-80511e3a7ccf",
                           "eventId": "401772814",
-                          "selectionText": "JAX Jaguars",
-                          "type": "home_moneyline",
+                          "selectionText": "30+",
+                          "type": "list",
+                          "points": "29.5",
                           "startTime": "2025-10-07T00:15Z",
-                          "marketText": "Moneyline",
+                          "marketText": "Travis Etienne Jr. 1st Half Total Rushing Yards",
                           "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                           "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6&market_selection_id[0]=06a72f9c-bf93-4915-8329-b409d03f5a52&odds_numerator[0]=53&odds_denominator[0]=20",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=43c7602f-5386-40da-89b9-80511e3a7ccf&odds_numerator[0]=49&odds_denominator[0]=29",
                           "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6&market_selection_id[0]=06a72f9c-bf93-4915-8329-b409d03f5a52&odds_numerator[0]=53&odds_denominator[0]=20",
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=43c7602f-5386-40da-89b9-80511e3a7ccf&odds_numerator[0]=49&odds_denominator[0]=29",
+                            "tracking": {
+                              "campaign": "betting-integrations",
+                              "tags": {
+                                "league": "nfl",
+                                "sport": "football",
+                                "gameId": 401772814,
+                                "betType": "straight"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "marketId": "70225fdf-a788-4fde-8ca7-c4f04a64ed09",
+                          "marketSelectionId": "58e2d9a2-f034-4645-9a4e-07e8a64615d5",
+                          "eventId": "401772814",
+                          "selectionText": "20+",
+                          "type": "list",
+                          "points": "19.5",
+                          "startTime": "2025-10-07T00:15Z",
+                          "marketText": "Brian Thomas Jr. 1st Half Total Receiving Yards",
+                          "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
+                          "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=58e2d9a2-f034-4645-9a4e-07e8a64615d5&odds_numerator[0]=57&odds_denominator[0]=37",
+                          "link": {
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=58e2d9a2-f034-4645-9a4e-07e8a64615d5&odds_numerator[0]=57&odds_denominator[0]=37",
+                            "tracking": {
+                              "campaign": "betting-integrations",
+                              "tags": {
+                                "league": "nfl",
+                                "sport": "football",
+                                "gameId": 401772814,
+                                "betType": "straight"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "marketId": "bacf341b-1154-4a8e-8d00-07b434552df4",
+                          "marketSelectionId": "4361ca72-bbb7-4fb7-ba15-b01248c2f412",
+                          "eventId": "401772814",
+                          "selectionText": "125+",
+                          "type": "list",
+                          "points": "124.5",
+                          "startTime": "2025-10-07T00:15Z",
+                          "marketText": "Patrick Mahomes 1st Half Total Passing Yards",
+                          "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
+                          "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=4361ca72-bbb7-4fb7-ba15-b01248c2f412&odds_numerator[0]=47&odds_denominator[0]=27",
+                          "link": {
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=4361ca72-bbb7-4fb7-ba15-b01248c2f412&odds_numerator[0]=47&odds_denominator[0]=27",
                             "tracking": {
                               "campaign": "betting-integrations",
                               "tags": {
@@ -13215,90 +13266,36 @@
                           }
                         }
                       ]
-                    },
-                    {
-                      "displayName": "LAD @ PHI",
-                      "legs": [
-                        {
-                          "marketId": "7af57c44-9914-4af3-b664-ef1529c841e5",
-                          "marketSelectionId": "aaed3181-095a-425b-aa77-2807a7459aea",
-                          "eventId": "401809279",
-                          "selectionText": "PHI Phillies",
-                          "type": "home_moneyline",
-                          "startTime": "2025-10-06T22:08Z",
-                          "marketText": "Moneyline",
-                          "icon": "https://a.espncdn.com/i/espnbet/mybets_baseball_icon.png",
-                          "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_baseball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/baseball/organization/united-states/competition/mlb/event/a25aedbd-3ddd-4eeb-8070-a7692bca0849&market_selection_id[0]=aaed3181-095a-425b-aa77-2807a7459aea&odds_numerator[0]=41&odds_denominator[0]=21",
-                          "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/baseball/organization/united-states/competition/mlb/event/a25aedbd-3ddd-4eeb-8070-a7692bca0849&market_selection_id[0]=aaed3181-095a-425b-aa77-2807a7459aea&odds_numerator[0]=41&odds_denominator[0]=21",
-                            "tracking": {
-                              "campaign": "betting-integrations",
-                              "tags": {
-                                "league": "mlb",
-                                "sport": "baseball",
-                                "gameId": 401809279,
-                                "betType": "straight"
-                              }
-                            }
-                          }
-                        }
-                      ]
-                    },
-                    {
-                      "displayName": "CHC @ MIL",
-                      "legs": [
-                        {
-                          "marketId": "917733da-b3b9-4ff5-a04f-8e698830d632",
-                          "marketSelectionId": "bb6d84b4-e6b3-4944-94bb-4955fabe7c5d",
-                          "eventId": "401809274",
-                          "selectionText": "CHI Cubs",
-                          "type": "away_moneyline",
-                          "startTime": "2025-10-07T01:08Z",
-                          "marketText": "Moneyline",
-                          "icon": "https://a.espncdn.com/i/espnbet/mybets_baseball_icon.png",
-                          "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_baseball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/baseball/organization/united-states/competition/mlb/event/4b758451-c302-4ba5-b5c0-c4c837decfed&market_selection_id[0]=bb6d84b4-e6b3-4944-94bb-4955fabe7c5d&odds_numerator[0]=43&odds_denominator[0]=20",
-                          "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/baseball/organization/united-states/competition/mlb/event/4b758451-c302-4ba5-b5c0-c4c837decfed&market_selection_id[0]=bb6d84b4-e6b3-4944-94bb-4955fabe7c5d&odds_numerator[0]=43&odds_denominator[0]=20",
-                            "tracking": {
-                              "campaign": "betting-integrations",
-                              "tags": {
-                                "league": "mlb",
-                                "sport": "baseball",
-                                "gameId": 401809274,
-                                "betType": "straight"
-                              }
-                            }
-                          }
-                        }
-                      ]
                     }
-                  ]
+                  ],
+                  "icon": {
+                    "dark": "https://a.espncdn.com/i/espnbet/dark/sgp.png",
+                    "light": "https://a.espncdn.com/i/espnbet/sgp.png"
+                  }
                 },
                 {
-                  "id": "64a322d9-a0f5-4828-96c4-5436ac429edb",
-                  "displayName": "Frisky Dogs",
-                  "type": "PARLAY",
-                  "odds": "+1012",
-                  "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=64a322d9-a0f5-4828-96c4-5436ac429edb",
+                  "id": "79db41b5-d522-4077-a07b-ce018aa2d203",
+                  "displayName": "Party In The Endzone",
+                  "type": "PARLAY_PLUS",
+                  "odds": "+1234",
+                  "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=79db41b5-d522-4077-a07b-ce018aa2d203",
                   "link": {
-                    "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=64a322d9-a0f5-4828-96c4-5436ac429edb",
+                    "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=79db41b5-d522-4077-a07b-ce018aa2d203",
                     "tracking": {
                       "campaign": "betting-integrations",
                       "tags": {
-                        "league": "mlb",
-                        "sport": "baseball",
+                        "league": "nfl",
+                        "sport": "football",
                         "betType": "parlay"
                       }
                     }
                   },
-                  "startTime": "2025-10-06T22:08Z",
-                  "betsPlaced": "514",
+                  "startTime": "2025-10-07T00:15Z",
+                  "betsPlaced": "477",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
-                  "payoutText": "$10.00 pays $111.24",
-                  "displayOrder": 14,
+                  "payoutText": "$10.00 pays $133.39",
+                  "displayOrder": 24,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -13307,42 +13304,19 @@
                   "legCount": 3,
                   "legs": [
                     {
-                      "marketId": "7af57c44-9914-4af3-b664-ef1529c841e5",
-                      "marketSelectionId": "aaed3181-095a-425b-aa77-2807a7459aea",
-                      "eventId": "401809279",
-                      "selectionText": "PHI Phillies",
-                      "type": "home_moneyline",
-                      "startTime": "2025-10-06T22:08Z",
-                      "marketText": "Moneyline",
-                      "icon": "https://a.espncdn.com/i/espnbet/mybets_baseball_icon.png",
-                      "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_baseball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/baseball/organization/united-states/competition/mlb/event/a25aedbd-3ddd-4eeb-8070-a7692bca0849&market_selection_id[0]=aaed3181-095a-425b-aa77-2807a7459aea&odds_numerator[0]=41&odds_denominator[0]=21",
-                      "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/baseball/organization/united-states/competition/mlb/event/a25aedbd-3ddd-4eeb-8070-a7692bca0849&market_selection_id[0]=aaed3181-095a-425b-aa77-2807a7459aea&odds_numerator[0]=41&odds_denominator[0]=21",
-                        "tracking": {
-                          "campaign": "betting-integrations",
-                          "tags": {
-                            "league": "mlb",
-                            "sport": "baseball",
-                            "gameId": 401809279,
-                            "betType": "straight"
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "marketId": "422c9a2a-9a7a-44ca-b216-38b57f937a89",
-                      "marketSelectionId": "06a72f9c-bf93-4915-8329-b409d03f5a52",
+                      "marketId": "da989ded-1620-4cca-8ffe-3d37131e9aa7",
+                      "marketSelectionId": "b1255cb9-9b49-4299-b709-fec3f68f68c7",
                       "eventId": "401772814",
-                      "selectionText": "JAX Jaguars",
-                      "type": "home_moneyline",
+                      "selectionText": "1+",
+                      "type": "list",
+                      "points": "0.5",
                       "startTime": "2025-10-07T00:15Z",
-                      "marketText": "Moneyline",
+                      "marketText": "Travis Etienne Jr. Touchdowns Scored",
                       "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                       "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6&market_selection_id[0]=06a72f9c-bf93-4915-8329-b409d03f5a52&odds_numerator[0]=53&odds_denominator[0]=20",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=b1255cb9-9b49-4299-b709-fec3f68f68c7&odds_numerator[0]=11&odds_denominator[0]=5",
                       "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6&market_selection_id[0]=06a72f9c-bf93-4915-8329-b409d03f5a52&odds_numerator[0]=53&odds_denominator[0]=20",
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=b1255cb9-9b49-4299-b709-fec3f68f68c7&odds_numerator[0]=11&odds_denominator[0]=5",
                         "tracking": {
                           "campaign": "betting-integrations",
                           "tags": {
@@ -13355,24 +13329,50 @@
                       }
                     },
                     {
-                      "marketId": "917733da-b3b9-4ff5-a04f-8e698830d632",
-                      "marketSelectionId": "bb6d84b4-e6b3-4944-94bb-4955fabe7c5d",
-                      "eventId": "401809274",
-                      "selectionText": "CHI Cubs",
-                      "type": "away_moneyline",
-                      "startTime": "2025-10-07T01:08Z",
-                      "marketText": "Moneyline",
-                      "icon": "https://a.espncdn.com/i/espnbet/mybets_baseball_icon.png",
-                      "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_baseball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/baseball/organization/united-states/competition/mlb/event/4b758451-c302-4ba5-b5c0-c4c837decfed&market_selection_id[0]=bb6d84b4-e6b3-4944-94bb-4955fabe7c5d&odds_numerator[0]=43&odds_denominator[0]=20",
+                      "marketId": "a891c520-a99b-4b80-9a7f-9dcae8f82a10",
+                      "marketSelectionId": "ae3c1876-1f21-4fec-be2b-06cdc4b3edcf",
+                      "eventId": "401772814",
+                      "selectionText": "1+",
+                      "type": "list",
+                      "points": "0.5",
+                      "startTime": "2025-10-07T00:15Z",
+                      "marketText": "Xavier Worthy Touchdowns Scored",
+                      "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
+                      "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=ae3c1876-1f21-4fec-be2b-06cdc4b3edcf&odds_numerator[0]=5&odds_denominator[0]=2",
                       "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/baseball/organization/united-states/competition/mlb/event/4b758451-c302-4ba5-b5c0-c4c837decfed&market_selection_id[0]=bb6d84b4-e6b3-4944-94bb-4955fabe7c5d&odds_numerator[0]=43&odds_denominator[0]=20",
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=ae3c1876-1f21-4fec-be2b-06cdc4b3edcf&odds_numerator[0]=5&odds_denominator[0]=2",
                         "tracking": {
                           "campaign": "betting-integrations",
                           "tags": {
-                            "league": "mlb",
-                            "sport": "baseball",
-                            "gameId": 401809274,
+                            "league": "nfl",
+                            "sport": "football",
+                            "gameId": 401772814,
+                            "betType": "straight"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "marketId": "216a2c3c-87c1-4453-be39-23249d2ccdf4",
+                      "marketSelectionId": "637f43ca-4c6b-48be-8dad-bcda79e179f9",
+                      "eventId": "401772814",
+                      "selectionText": "1+",
+                      "type": "list",
+                      "points": "0.5",
+                      "startTime": "2025-10-07T00:15Z",
+                      "marketText": "Travis Kelce Touchdowns Scored",
+                      "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
+                      "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=637f43ca-4c6b-48be-8dad-bcda79e179f9&odds_numerator[0]=53&odds_denominator[0]=20",
+                      "link": {
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=637f43ca-4c6b-48be-8dad-bcda79e179f9&odds_numerator[0]=53&odds_denominator[0]=20",
+                        "tracking": {
+                          "campaign": "betting-integrations",
+                          "tags": {
+                            "league": "nfl",
+                            "sport": "football",
+                            "gameId": 401772814,
                             "betType": "straight"
                           }
                         }
@@ -13381,50 +13381,72 @@
                   ],
                   "events": [
                     {
-                      "displayName": "LAD @ PHI",
+                      "displayName": "KC @ JAX",
                       "legs": [
                         {
-                          "marketId": "7af57c44-9914-4af3-b664-ef1529c841e5",
-                          "marketSelectionId": "aaed3181-095a-425b-aa77-2807a7459aea",
-                          "eventId": "401809279",
-                          "selectionText": "PHI Phillies",
-                          "type": "home_moneyline",
-                          "startTime": "2025-10-06T22:08Z",
-                          "marketText": "Moneyline",
-                          "icon": "https://a.espncdn.com/i/espnbet/mybets_baseball_icon.png",
-                          "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_baseball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/baseball/organization/united-states/competition/mlb/event/a25aedbd-3ddd-4eeb-8070-a7692bca0849&market_selection_id[0]=aaed3181-095a-425b-aa77-2807a7459aea&odds_numerator[0]=41&odds_denominator[0]=21",
+                          "marketId": "da989ded-1620-4cca-8ffe-3d37131e9aa7",
+                          "marketSelectionId": "b1255cb9-9b49-4299-b709-fec3f68f68c7",
+                          "eventId": "401772814",
+                          "selectionText": "1+",
+                          "type": "list",
+                          "points": "0.5",
+                          "startTime": "2025-10-07T00:15Z",
+                          "marketText": "Travis Etienne Jr. Touchdowns Scored",
+                          "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
+                          "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=b1255cb9-9b49-4299-b709-fec3f68f68c7&odds_numerator[0]=11&odds_denominator[0]=5",
                           "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/baseball/organization/united-states/competition/mlb/event/a25aedbd-3ddd-4eeb-8070-a7692bca0849&market_selection_id[0]=aaed3181-095a-425b-aa77-2807a7459aea&odds_numerator[0]=41&odds_denominator[0]=21",
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=b1255cb9-9b49-4299-b709-fec3f68f68c7&odds_numerator[0]=11&odds_denominator[0]=5",
                             "tracking": {
                               "campaign": "betting-integrations",
                               "tags": {
-                                "league": "mlb",
-                                "sport": "baseball",
-                                "gameId": 401809279,
+                                "league": "nfl",
+                                "sport": "football",
+                                "gameId": 401772814,
                                 "betType": "straight"
                               }
                             }
                           }
-                        }
-                      ]
-                    },
-                    {
-                      "displayName": "KC @ JAX",
-                      "legs": [
+                        },
                         {
-                          "marketId": "422c9a2a-9a7a-44ca-b216-38b57f937a89",
-                          "marketSelectionId": "06a72f9c-bf93-4915-8329-b409d03f5a52",
+                          "marketId": "a891c520-a99b-4b80-9a7f-9dcae8f82a10",
+                          "marketSelectionId": "ae3c1876-1f21-4fec-be2b-06cdc4b3edcf",
                           "eventId": "401772814",
-                          "selectionText": "JAX Jaguars",
-                          "type": "home_moneyline",
+                          "selectionText": "1+",
+                          "type": "list",
+                          "points": "0.5",
                           "startTime": "2025-10-07T00:15Z",
-                          "marketText": "Moneyline",
+                          "marketText": "Xavier Worthy Touchdowns Scored",
                           "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                           "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6&market_selection_id[0]=06a72f9c-bf93-4915-8329-b409d03f5a52&odds_numerator[0]=53&odds_denominator[0]=20",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=ae3c1876-1f21-4fec-be2b-06cdc4b3edcf&odds_numerator[0]=5&odds_denominator[0]=2",
                           "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6&market_selection_id[0]=06a72f9c-bf93-4915-8329-b409d03f5a52&odds_numerator[0]=53&odds_denominator[0]=20",
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=ae3c1876-1f21-4fec-be2b-06cdc4b3edcf&odds_numerator[0]=5&odds_denominator[0]=2",
+                            "tracking": {
+                              "campaign": "betting-integrations",
+                              "tags": {
+                                "league": "nfl",
+                                "sport": "football",
+                                "gameId": 401772814,
+                                "betType": "straight"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "marketId": "216a2c3c-87c1-4453-be39-23249d2ccdf4",
+                          "marketSelectionId": "637f43ca-4c6b-48be-8dad-bcda79e179f9",
+                          "eventId": "401772814",
+                          "selectionText": "1+",
+                          "type": "list",
+                          "points": "0.5",
+                          "startTime": "2025-10-07T00:15Z",
+                          "marketText": "Travis Kelce Touchdowns Scored",
+                          "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
+                          "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=637f43ca-4c6b-48be-8dad-bcda79e179f9&odds_numerator[0]=53&odds_denominator[0]=20",
+                          "link": {
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6/section/player_props&market_selection_id[0]=637f43ca-4c6b-48be-8dad-bcda79e179f9&odds_numerator[0]=53&odds_denominator[0]=20",
                             "tracking": {
                               "campaign": "betting-integrations",
                               "tags": {
@@ -13437,37 +13459,12 @@
                           }
                         }
                       ]
-                    },
-                    {
-                      "displayName": "CHC @ MIL",
-                      "legs": [
-                        {
-                          "marketId": "917733da-b3b9-4ff5-a04f-8e698830d632",
-                          "marketSelectionId": "bb6d84b4-e6b3-4944-94bb-4955fabe7c5d",
-                          "eventId": "401809274",
-                          "selectionText": "CHI Cubs",
-                          "type": "away_moneyline",
-                          "startTime": "2025-10-07T01:08Z",
-                          "marketText": "Moneyline",
-                          "icon": "https://a.espncdn.com/i/espnbet/mybets_baseball_icon.png",
-                          "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_baseball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/baseball/organization/united-states/competition/mlb/event/4b758451-c302-4ba5-b5c0-c4c837decfed&market_selection_id[0]=bb6d84b4-e6b3-4944-94bb-4955fabe7c5d&odds_numerator[0]=43&odds_denominator[0]=20",
-                          "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/baseball/organization/united-states/competition/mlb/event/4b758451-c302-4ba5-b5c0-c4c837decfed&market_selection_id[0]=bb6d84b4-e6b3-4944-94bb-4955fabe7c5d&odds_numerator[0]=43&odds_denominator[0]=20",
-                            "tracking": {
-                              "campaign": "betting-integrations",
-                              "tags": {
-                                "league": "mlb",
-                                "sport": "baseball",
-                                "gameId": 401809274,
-                                "betType": "straight"
-                              }
-                            }
-                          }
-                        }
-                      ]
                     }
-                  ]
+                  ],
+                  "icon": {
+                    "dark": "https://a.espncdn.com/i/espnbet/dark/sgp.png",
+                    "light": "https://a.espncdn.com/i/espnbet/sgp.png"
+                  }
                 }
               ],
               "moneyline": {
@@ -13475,7 +13472,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "+165",
+                    "odds": "+175",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -13484,7 +13481,7 @@
                         "bets",
                         "espn-bet"
                       ],
-                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6&market_selection_id[0]=06a72f9c-bf93-4915-8329-b409d03f5a52&odds_numerator[0]=53&odds_denominator[0]=20",
+                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6&market_selection_id[0]=06a72f9c-bf93-4915-8329-b409d03f5a52&odds_numerator[0]=11&odds_denominator[0]=4",
                       "text": "Home Bet",
                       "shortText": "Home Bet",
                       "isExternal": true,
@@ -13507,7 +13504,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "-195",
+                    "odds": "-210",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -13516,7 +13513,7 @@
                         "bets",
                         "espn-bet"
                       ],
-                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6&market_selection_id[0]=0682ac49-f53c-42e4-b914-a4db96e03cec&odds_numerator[0]=59&odds_denominator[0]=39",
+                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/f311840d-fb02-4d4c-aaa4-d5710f4af8d6&market_selection_id[0]=0682ac49-f53c-42e4-b914-a4db96e03cec&odds_numerator[0]=31&odds_denominator[0]=21",
                       "text": "Away Bet",
                       "shortText": "Away Bet",
                       "isExternal": true,
