@@ -10910,6 +10910,114 @@
               "region": "us"
             }
           ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "\u2014 Trevor Lawrence tripped and fell to the ground, stumbled trying to get up, finally got back on his feet and then scrambled for a 1-yard touchdown with 23 seconds remaining \u2014 turning a...",
+              "shortLinkText": "Trevor Lawrence's wild run lifts the Jaguars to a 31-28 win over Patrick Mahomes and the Chiefs",
+              "video": [
+                {
+                  "id": 46515743,
+                  "source": "espn",
+                  "headline": "Trevor Lawrence, Jaguars stun Chiefs in MNF thriller",
+                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2025/1007/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc.jpg",
+                  "duration": 80,
+                  "tracking": {
+                    "sportName": "football",
+                    "leagueName": "NFL",
+                    "coverageType": "Final Game Highlight",
+                    "trackingName": "NFL_One-Play (Trevor Lawrence, Jaguars stun Chiefs in MNF thriller) 2025/10/07 ESHEET",
+                    "trackingId": "dm_20251007_NFL_trevor_lawrence_jaguars_stun_chiefs_in_mnf_thriller"
+                  },
+                  "deviceRestrictions": {
+                    "type": "whitelist",
+                    "devices": [
+                      "desktop",
+                      "ipad",
+                      "settop",
+                      "handset",
+                      "tablet"
+                    ]
+                  },
+                  "links": {
+                    "web": {
+                      "href": "https://www.espn.com/video/clip?id=46515743",
+                      "self": {
+                        "href": "https://www.espn.com/video/clip?id=46515743",
+                        "dsi": {
+                          "href": "https://www.espn.com/video/clip?id=782952d72f37d"
+                        }
+                      },
+                      "seo": {
+                        "href": "https://www.espn.com/video/clip/_/id/46515743"
+                      }
+                    },
+                    "mobile": {
+                      "source": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1007/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc.mp4"
+                      },
+                      "alert": {
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=46515743"
+                      },
+                      "streaming": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9078fbb9-99de-4a4f-b744-3ee0651a4283/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46515743"
+                      },
+                      "progressiveDownload": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9078fbb9-99de-4a4f-b744-3ee0651a4283/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46515743"
+                      }
+                    },
+                    "api": {
+                      "self": {
+                        "href": "https://content.core.api.espn.com/v1/video/clips/46515743"
+                      },
+                      "artwork": {
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/9078fbb9-99de-4a4f-b744-3ee0651a4283"
+                      }
+                    },
+                    "source": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1007/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc_360p30_1464k.mp4",
+                      "mezzanine": {
+                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2025/1007/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc.mp4"
+                      },
+                      "flash": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1007/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc.smil"
+                      },
+                      "hds": {
+                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2025/1007/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc_rel.smil/manifest.f4m"
+                      },
+                      "HLS": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1007/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/playlist.m3u8",
+                        "HD": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1007/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/playlist.m3u8"
+                        },
+                        "cmaf": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2025/1007/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/playlist.m3u8",
+                          "9x16": {
+                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2025/1007/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/playlist.m3u8"
+                          }
+                        },
+                        "9x16": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2025/1007/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/playlist.m3u8"
+                        },
+                        "shield": {
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/9078fbb9-99de-4a4f-b744-3ee0651a4283/asset"
+                        }
+                      },
+                      "HD": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1007/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc_720p30_2896k.mp4"
+                      },
+                      "full": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1007/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc_360p30_1464k.mp4"
+                      }
+                    },
+                    "sportscenter": {
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=46515743&videoDSI=782952d72f37d"
+                    }
+                  }
+                }
+              ]
+            }
+          ],
           "highlights": [
             {
               "id": 46515743,
@@ -11021,114 +11129,6 @@
                 "trackingName": "NFL_One-Play (Trevor Lawrence, Jaguars stun Chiefs in MNF thriller) 2025/10/07 ESHEET",
                 "trackingId": "dm_20251007_NFL_trevor_lawrence_jaguars_stun_chiefs_in_mnf_thriller"
               }
-            }
-          ],
-          "headlines": [
-            {
-              "type": "Recap",
-              "description": "\u2014 Trevor Lawrence tripped and fell to the ground, stumbled trying to get up, finally got back on his feet and then scrambled for a 1-yard touchdown with 23 seconds remaining \u2014 turning a...",
-              "shortLinkText": "Trevor Lawrence's wild run lifts the Jaguars to a 31-28 win over Patrick Mahomes and the Chiefs",
-              "video": [
-                {
-                  "id": 46515743,
-                  "source": "espn",
-                  "headline": "Trevor Lawrence, Jaguars stun Chiefs in MNF thriller",
-                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2025/1007/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc.jpg",
-                  "duration": 80,
-                  "tracking": {
-                    "sportName": "football",
-                    "leagueName": "NFL",
-                    "coverageType": "Final Game Highlight",
-                    "trackingName": "NFL_One-Play (Trevor Lawrence, Jaguars stun Chiefs in MNF thriller) 2025/10/07 ESHEET",
-                    "trackingId": "dm_20251007_NFL_trevor_lawrence_jaguars_stun_chiefs_in_mnf_thriller"
-                  },
-                  "deviceRestrictions": {
-                    "type": "whitelist",
-                    "devices": [
-                      "desktop",
-                      "ipad",
-                      "settop",
-                      "handset",
-                      "tablet"
-                    ]
-                  },
-                  "links": {
-                    "web": {
-                      "href": "https://www.espn.com/video/clip?id=46515743",
-                      "self": {
-                        "href": "https://www.espn.com/video/clip?id=46515743",
-                        "dsi": {
-                          "href": "https://www.espn.com/video/clip?id=782952d72f37d"
-                        }
-                      },
-                      "seo": {
-                        "href": "https://www.espn.com/video/clip/_/id/46515743"
-                      }
-                    },
-                    "mobile": {
-                      "source": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1007/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc.mp4"
-                      },
-                      "alert": {
-                        "href": "https://m.espn.com/general/video/videoAlert?vid=46515743"
-                      },
-                      "streaming": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9078fbb9-99de-4a4f-b744-3ee0651a4283/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46515743"
-                      },
-                      "progressiveDownload": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9078fbb9-99de-4a4f-b744-3ee0651a4283/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46515743"
-                      }
-                    },
-                    "api": {
-                      "self": {
-                        "href": "https://content.core.api.espn.com/v1/video/clips/46515743"
-                      },
-                      "artwork": {
-                        "href": "https://artwork.api.espn.com/artwork/collections/media/9078fbb9-99de-4a4f-b744-3ee0651a4283"
-                      }
-                    },
-                    "source": {
-                      "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1007/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc_360p30_1464k.mp4",
-                      "mezzanine": {
-                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2025/1007/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc.mp4"
-                      },
-                      "flash": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1007/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc.smil"
-                      },
-                      "hds": {
-                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2025/1007/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc_rel.smil/manifest.f4m"
-                      },
-                      "HLS": {
-                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1007/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/playlist.m3u8",
-                        "HD": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1007/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/playlist.m3u8"
-                        },
-                        "cmaf": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2025/1007/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/playlist.m3u8",
-                          "9x16": {
-                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2025/1007/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/playlist.m3u8"
-                          }
-                        },
-                        "9x16": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2025/1007/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/playlist.m3u8"
-                        },
-                        "shield": {
-                          "href": "https://watch.auth.api.espn.com/video/auth/media/9078fbb9-99de-4a4f-b744-3ee0651a4283/asset"
-                        }
-                      },
-                      "HD": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1007/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc_720p30_2896k.mp4"
-                      },
-                      "full": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1007/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc/4963d921-6acd-4ce8-bfa4-0ee340ecf2bc_360p30_1464k.mp4"
-                      }
-                    },
-                    "sportscenter": {
-                      "href": "sportscenter://x-callback-url/showVideo?videoID=46515743&videoDSI=782952d72f37d"
-                    }
-                  }
-                }
-              ]
             }
           ]
         }
