@@ -10563,7 +10563,7 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png"
               },
-              "score": "7",
+              "score": "24",
               "linescores": [
                 {
                   "value": 0.0,
@@ -10576,9 +10576,14 @@
                   "period": 2
                 },
                 {
-                  "value": 0.0,
-                  "displayValue": "0",
+                  "value": 14.0,
+                  "displayValue": "14",
                   "period": 3
+                },
+                {
+                  "value": 3.0,
+                  "displayValue": "3",
+                  "period": 4
                 }
               ],
               "statistics": [],
@@ -10669,7 +10674,7 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png"
               },
-              "score": "14",
+              "score": "28",
               "linescores": [
                 {
                   "value": 7.0,
@@ -10685,6 +10690,11 @@
                   "value": 0.0,
                   "displayValue": "0",
                   "period": 3
+                },
+                {
+                  "value": 14.0,
+                  "displayValue": "14",
+                  "period": 4
                 }
               ],
               "statistics": [],
@@ -10711,94 +10721,70 @@
           "notes": [],
           "situation": {
             "lastPlay": {
-              "id": "4017728142187",
+              "id": "4017728143801",
               "type": {
-                "id": "8",
-                "text": "Penalty",
-                "abbreviation": "PEN"
+                "id": "21",
+                "text": "Timeout",
+                "abbreviation": "TO"
               },
-              "text": "T.Lawrence pass short right to T.Hunter to KC 27 for 1 yard (J.Hicks).\nPENALTY on KC-J.Watson, Illegal Contact, 5 yards, enforced at KC 28 - No Play.",
+              "text": "Timeout #2 by JAX at 01:01.",
               "scoreValue": 0,
               "team": {
                 "id": "30"
               },
               "probability": {
                 "tiePercentage": 0.0,
-                "homeWinPercentage": 0.3245,
-                "awayWinPercentage": 0.6755,
+                "homeWinPercentage": 0.1279,
+                "awayWinPercentage": 0.8721,
                 "secondsLeft": 0
               },
               "drive": {
-                "description": "3 plays, 64 yards, 1:41",
+                "description": "2 plays, 3 yards, 0:44",
                 "start": {
-                  "yardLine": 13,
-                  "text": "JAX 13"
+                  "yardLine": 40,
+                  "text": "JAX 40"
                 },
                 "timeElapsed": {
-                  "displayValue": "1:41"
+                  "displayValue": "0:44"
                 }
               },
               "start": {
-                "yardLine": 72,
+                "yardLine": 43,
                 "team": {
                   "id": "30"
                 }
               },
               "end": {
-                "yardLine": 77,
+                "yardLine": 43,
                 "team": {
                   "id": "30"
                 }
               },
-              "statYardage": 5,
-              "athletesInvolved": [
-                {
-                  "id": "4685232",
-                  "fullName": "Jaden Hicks",
-                  "displayName": "Jaden Hicks",
-                  "shortName": "J. Hicks",
-                  "links": [
-                    {
-                      "rel": [
-                        "playercard",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "https://www.espn.com/nfl/player/_/id/4685232/jaden-hicks"
-                    }
-                  ],
-                  "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4685232.png",
-                  "jersey": "21",
-                  "position": "S",
-                  "team": {
-                    "id": "12"
-                  }
-                }
-              ]
+              "statYardage": 0
             },
-            "down": 1,
-            "yardLine": 77,
-            "distance": 10,
-            "downDistanceText": "1st & 10 at KC 23",
-            "shortDownDistanceText": "1st & 10",
-            "possessionText": "KC 23",
+            "down": 3,
+            "yardLine": 43,
+            "distance": 7,
+            "downDistanceText": "3rd & 7 at JAX 43",
+            "shortDownDistanceText": "3rd & 7",
+            "possessionText": "JAX 43",
             "isRedZone": false,
-            "homeTimeouts": 3,
+            "homeTimeouts": 1,
             "awayTimeouts": 3,
             "possession": "30"
           },
           "status": {
-            "clock": 694.0,
-            "displayClock": "11:34",
-            "period": 3,
+            "clock": 61.0,
+            "displayClock": "1:01",
+            "period": 4,
             "type": {
               "id": "2",
               "name": "STATUS_IN_PROGRESS",
               "state": "in",
               "completed": false,
               "description": "In Progress",
-              "detail": "11:34 - 3rd Quarter",
-              "shortDetail": "11:34 - 3rd"
+              "detail": "1:01 - 4th Quarter",
+              "shortDetail": "1:01 - 4th"
             },
             "isTBDFlex": false
           },
@@ -10819,8 +10805,8 @@
               "abbreviation": "PYDS",
               "leaders": [
                 {
-                  "displayValue": "15/19, 172 YDS, 1 TD",
-                  "value": 172.0,
+                  "displayValue": "28/37, 307 YDS, 1 TD, 1 INT",
+                  "value": 307.0,
                   "athlete": {
                     "id": "3139477",
                     "fullName": "Patrick Mahomes",
@@ -10859,13 +10845,13 @@
               "abbreviation": "RYDS",
               "leaders": [
                 {
-                  "displayValue": "9 CAR, 37 YDS",
-                  "value": 37.0,
+                  "displayValue": "6 CAR, 60 YDS, 1 TD",
+                  "value": 60.0,
                   "athlete": {
-                    "id": "4239996",
-                    "fullName": "Travis Etienne Jr.",
-                    "displayName": "Travis Etienne Jr.",
-                    "shortName": "T. Etienne Jr.",
+                    "id": "3139477",
+                    "fullName": "Patrick Mahomes",
+                    "displayName": "Patrick Mahomes",
+                    "shortName": "P. Mahomes",
                     "links": [
                       {
                         "rel": [
@@ -10873,21 +10859,21 @@
                           "desktop",
                           "athlete"
                         ],
-                        "href": "https://www.espn.com/nfl/player/_/id/4239996/travis-etienne-jr"
+                        "href": "https://www.espn.com/nfl/player/_/id/3139477/patrick-mahomes"
                       }
                     ],
-                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4239996.png",
-                    "jersey": "1",
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3139477.png",
+                    "jersey": "15",
                     "position": {
-                      "abbreviation": "RB"
+                      "abbreviation": "QB"
                     },
                     "team": {
-                      "id": "30"
+                      "id": "12"
                     },
                     "active": true
                   },
                   "team": {
-                    "id": "30"
+                    "id": "12"
                   }
                 }
               ]
@@ -11050,17 +11036,17 @@
         }
       },
       "status": {
-        "clock": 694.0,
-        "displayClock": "11:34",
-        "period": 3,
+        "clock": 61.0,
+        "displayClock": "1:01",
+        "period": 4,
         "type": {
           "id": "2",
           "name": "STATUS_IN_PROGRESS",
           "state": "in",
           "completed": false,
           "description": "In Progress",
-          "detail": "11:34 - 3rd Quarter",
-          "shortDetail": "11:34 - 3rd"
+          "detail": "1:01 - 4th Quarter",
+          "shortDetail": "1:01 - 4th"
         }
       }
     }
