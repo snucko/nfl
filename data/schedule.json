@@ -10483,7 +10483,7 @@
           "neutralSite": false,
           "conferenceCompetition": false,
           "playByPlayAvailable": true,
-          "recent": true,
+          "recent": false,
           "venue": {
             "id": "3712",
             "fullName": "EverBank Stadium",
@@ -10916,8 +10916,8 @@
               "cerebroId": "68e48be97c132e6d926d8553",
               "source": "espn",
               "headline": "Trevor Lawrence, Jaguars stun Chiefs in MNF thriller",
-              "description": "Trevor Lawrence, Jaguars stun Chiefs in MNF thriller",
-              "lastModified": "2025-10-07T03:42:43Z",
+              "description": "Trevor Lawrence's late rushing touchdown lifts the Jaguars to a 31-28 win over the Chiefs.",
+              "lastModified": "2025-10-07T04:55:15Z",
               "originalPublishDate": "2025-10-07T03:41:23Z",
               "duration": 80,
               "timeRestrictions": {
@@ -10939,7 +10939,10 @@
                 "web": {
                   "href": "https://www.espn.com/video/clip?id=46515743",
                   "self": {
-                    "href": "https://www.espn.com/video/clip?id=46515743"
+                    "href": "https://www.espn.com/video/clip?id=46515743",
+                    "dsi": {
+                      "href": "https://www.espn.com/video/clip?id=782952d72f37d"
+                    }
                   },
                   "seo": {
                     "href": "https://www.espn.com/video/clip/_/id/46515743"
@@ -11023,7 +11026,7 @@
           "headlines": [
             {
               "type": "Recap",
-              "description": "\u2014 Trevor Lawrence tripped, got up and scrambled for a 1-yard touchdown with 23 seconds remaining \u2014 turning a laughable miscue into an improbable score \u2014 and the Jacksonville Jaguars beat...",
+              "description": "\u2014 Trevor Lawrence tripped and fell to the ground, stumbled trying to get up, finally got back on his feet and then scrambled for a 1-yard touchdown with 23 seconds remaining \u2014 turning a...",
               "shortLinkText": "Trevor Lawrence's wild run lifts the Jaguars to a 31-28 win over Patrick Mahomes and the Chiefs",
               "video": [
                 {
@@ -11053,7 +11056,10 @@
                     "web": {
                       "href": "https://www.espn.com/video/clip?id=46515743",
                       "self": {
-                        "href": "https://www.espn.com/video/clip?id=46515743"
+                        "href": "https://www.espn.com/video/clip?id=46515743",
+                        "dsi": {
+                          "href": "https://www.espn.com/video/clip?id=782952d72f37d"
+                        }
                       },
                       "seo": {
                         "href": "https://www.espn.com/video/clip/_/id/46515743"
