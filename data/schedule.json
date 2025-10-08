@@ -1272,7 +1272,7 @@
                     }
                   },
                   "startTime": "2025-10-10T00:15Z",
-                  "betsPlaced": "114",
+                  "betsPlaced": "116",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $123.23",
@@ -1515,7 +1515,7 @@
                     }
                   },
                   "startTime": "2025-10-10T00:15Z",
-                  "betsPlaced": "114",
+                  "betsPlaced": "116",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $123.23",
@@ -1947,7 +1947,7 @@
                     }
                   },
                   "startTime": "2025-10-10T00:15Z",
-                  "payoutText": "$10.00 pays $54.62",
+                  "payoutText": "$10.00 pays $54.57",
                   "displayOrder": 74,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
@@ -2574,24 +2574,6 @@
               },
               "score": "0",
               "statistics": [],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "0-5"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "0-3"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "0-2"
-                }
-              ],
               "leaders": [
                 {
                   "name": "passingLeader",
@@ -2712,6 +2694,24 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-5"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-3"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-2"
                 }
               ]
             },
@@ -3087,7 +3087,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $123",
-              "numberAvailable": 1083,
+              "numberAvailable": 1112,
               "links": [
                 {
                   "href": "https://www.vividseats.com/new-york-jets-tickets-tottenham-hotspur-stadium-11-2-2026--sports-nfl-football/production/5731134?wsUser=717"
@@ -4853,7 +4853,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $44",
-              "numberAvailable": 3459,
+              "numberAvailable": 3457,
               "links": [
                 {
                   "href": "https://www.vividseats.com/indianapolis-colts-tickets-lucas-oil-stadium-3-7-2026--sports-nfl-football/production/5471972?wsUser=717"
@@ -5121,7 +5121,7 @@
                     }
                   },
                   "startTime": "2025-10-12T17:00Z",
-                  "betsPlaced": "178",
+                  "betsPlaced": "179",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $27.24",
@@ -5967,6 +5967,24 @@
               },
               "score": "0",
               "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "3-2"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "2-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "1-1"
+                }
+              ],
               "leaders": [
                 {
                   "name": "passingLeader",
@@ -6087,24 +6105,6 @@
                       }
                     }
                   ]
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "3-2"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "2-1"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "1-1"
                 }
               ]
             }
@@ -6263,7 +6263,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $35",
-              "numberAvailable": 6532,
+              "numberAvailable": 6535,
               "links": [
                 {
                   "href": "https://www.vividseats.com/miami-dolphins-tickets-hard-rock-stadium-3-6-2026--sports-nfl-football/production/5471057?wsUser=717"
@@ -6315,7 +6315,7 @@
                 ]
               },
               "details": "LAC -4.5",
-              "overUnder": 42.5,
+              "overUnder": 43.5,
               "spread": 4.5,
               "awayTeamOdds": {
                 "favorite": true,
@@ -6447,7 +6447,7 @@
                     "desktop",
                     "bets"
                   ],
-                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c&market_selection_id[0]=4841611e-3da1-4b62-b826-08f505357320&odds_numerator[0]=11&odds_denominator[0]=6",
+                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c&market_selection_id[0]=5fe60f21-3c7a-4870-a61f-112f2e769620&odds_numerator[0]=41&odds_denominator[0]=21",
                   "text": "Over Odds",
                   "shortText": "Over Odds",
                   "isExternal": true,
@@ -6460,7 +6460,7 @@
                       "gameId": 401772750,
                       "betSide": "over",
                       "betType": "straight",
-                      "betDetails": "Over:42.5"
+                      "betDetails": "Over:43.5"
                     }
                   }
                 },
@@ -6471,7 +6471,7 @@
                     "desktop",
                     "bets"
                   ],
-                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c&market_selection_id[0]=6b6ef099-8d11-4918-b8af-d0d34d31ab26&odds_numerator[0]=2&odds_denominator[0]=1",
+                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c&market_selection_id[0]=0c80299f-f535-46f8-8c0e-83dd0b49ba4f&odds_numerator[0]=43&odds_denominator[0]=23",
                   "text": "Under Odds",
                   "shortText": "Under Odds",
                   "isExternal": true,
@@ -6484,7 +6484,7 @@
                       "gameId": 401772750,
                       "betSide": "under",
                       "betType": "straight",
-                      "betDetails": "Under:42.5"
+                      "betDetails": "Under:43.5"
                     }
                   }
                 },
@@ -6531,7 +6531,7 @@
                     }
                   },
                   "startTime": "2025-10-12T17:00Z",
-                  "betsPlaced": "178",
+                  "betsPlaced": "179",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $27.24",
@@ -7095,8 +7095,8 @@
                 "shortDisplayName": "Total",
                 "over": {
                   "close": {
-                    "line": "o42.5",
-                    "odds": "-120",
+                    "line": "o43.5",
+                    "odds": "-105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -7104,7 +7104,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c&market_selection_id[0]=4841611e-3da1-4b62-b826-08f505357320&odds_numerator[0]=11&odds_denominator[0]=6",
+                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c&market_selection_id[0]=5fe60f21-3c7a-4870-a61f-112f2e769620&odds_numerator[0]=41&odds_denominator[0]=21",
                       "text": "Over Odds",
                       "shortText": "Over Odds",
                       "isExternal": true,
@@ -7117,7 +7117,7 @@
                           "gameId": 401772750,
                           "betSide": "over",
                           "betType": "straight",
-                          "betDetails": "Over:42.5"
+                          "betDetails": "Over:43.5"
                         }
                       }
                     }
@@ -7129,8 +7129,8 @@
                 },
                 "under": {
                   "close": {
-                    "line": "u42.5",
-                    "odds": "EVEN",
+                    "line": "u43.5",
+                    "odds": "-115",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -7138,7 +7138,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c&market_selection_id[0]=6b6ef099-8d11-4918-b8af-d0d34d31ab26&odds_numerator[0]=2&odds_denominator[0]=1",
+                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c&market_selection_id[0]=0c80299f-f535-46f8-8c0e-83dd0b49ba4f&odds_numerator[0]=43&odds_denominator[0]=23",
                       "text": "Under Odds",
                       "shortText": "Under Odds",
                       "isExternal": true,
@@ -7151,7 +7151,7 @@
                           "gameId": 401772750,
                           "betSide": "under",
                           "betType": "straight",
-                          "betDetails": "Under:42.5"
+                          "betDetails": "Under:43.5"
                         }
                       }
                     }
@@ -7356,6 +7356,24 @@
               },
               "score": "0",
               "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "1-4"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-2"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-2"
+                }
+              ],
               "leaders": [
                 {
                   "name": "passingLeader",
@@ -7476,24 +7494,6 @@
                       }
                     }
                   ]
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "1-4"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "1-2"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "0-2"
                 }
               ]
             },
@@ -8131,7 +8131,7 @@
                     }
                   },
                   "startTime": "2025-10-12T17:00Z",
-                  "betsPlaced": "178",
+                  "betsPlaced": "179",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $27.24",
@@ -13788,7 +13788,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $69",
-              "numberAvailable": 3959,
+              "numberAvailable": 3945,
               "links": [
                 {
                   "href": "https://www.vividseats.com/jacksonville-jaguars-tickets-everbank-stadium-3-8-2026--sports-nfl-football/production/5472007?wsUser=717"
@@ -15218,7 +15218,7 @@
                     }
                   },
                   "startTime": "2025-10-12T17:00Z",
-                  "betsPlaced": "178",
+                  "betsPlaced": "179",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $27.24",
@@ -16064,24 +16064,6 @@
               },
               "score": "0",
               "statistics": [],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "1-4"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "0-2"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "1-2"
-                }
-              ],
               "leaders": [
                 {
                   "name": "passingLeader",
@@ -16202,6 +16184,24 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "1-4"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-2"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "1-2"
                 }
               ]
             }
@@ -16360,7 +16360,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $105",
-              "numberAvailable": 3371,
+              "numberAvailable": 3370,
               "links": [
                 {
                   "href": "https://www.vividseats.com/las-vegas-raiders-tickets-allegiant-stadium-3-5-2026--sports-nfl-football/production/5472438?wsUser=717"
@@ -18100,7 +18100,7 @@
           "rel": [
             "89118"
           ],
-          "href": "http://www.accuweather.com/en/us/allegiant-stadium-nv/89101/hourly-weather-forecast/209206_poi?day=6&hbhhour=13&lang=en-us",
+          "href": "http://www.accuweather.com/en/us/allegiant-stadium-nv/89101/hourly-weather-forecast/209206_poi?day=5&hbhhour=13&lang=en-us",
           "text": "Weather",
           "shortText": "Weather",
           "isExternal": true,
@@ -18739,7 +18739,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $281",
-              "numberAvailable": 495,
+              "numberAvailable": 489,
               "links": [
                 {
                   "href": "https://www.vividseats.com/green-bay-packers-tickets-lambeau-field-3-8-2026--sports-nfl-football/production/5470741?wsUser=717"
@@ -20738,7 +20738,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $125",
-              "numberAvailable": 4455,
+              "numberAvailable": 4453,
               "links": [
                 {
                   "href": "https://www.vividseats.com/tampa-bay-buccaneers-tickets-raymond-james-stadium-3-5-2026--sports-nfl-football/production/5470875?wsUser=717"
@@ -23689,7 +23689,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $197",
-              "numberAvailable": 2563,
+              "numberAvailable": 2565,
               "links": [
                 {
                   "href": "https://www.vividseats.com/atlanta-falcons-tickets-mercedes-benz-stadium-3-7-2026--sports-nfl-football/production/5470586?wsUser=717"
