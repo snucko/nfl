@@ -117,6 +117,24 @@
               },
               "score": "0",
               "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "1-4"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-3"
+                }
+              ],
               "leaders": [
                 {
                   "name": "passingLeader",
@@ -237,24 +255,6 @@
                       }
                     }
                   ]
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "1-4"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "1-1"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "0-3"
                 }
               ]
             },
@@ -623,8 +623,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $109",
-              "numberAvailable": 2613,
+              "summary": "Tickets as low as $113",
+              "numberAvailable": 2445,
               "links": [
                 {
                   "href": "https://www.vividseats.com/new-york-giants-tickets-metlife-stadium-3-3-2026--sports-nfl-football/production/5470603?wsUser=717"
@@ -676,7 +676,7 @@
                 ]
               },
               "details": "PHI -7.5",
-              "overUnder": 39.5,
+              "overUnder": 40.5,
               "spread": 7.5,
               "awayTeamOdds": {
                 "favorite": true,
@@ -808,7 +808,7 @@
                     "desktop",
                     "bets"
                   ],
-                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2&market_selection_id[0]=0d9a9660-860c-4df4-9924-e39c289d1f45&odds_numerator[0]=11&odds_denominator[0]=6",
+                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2&market_selection_id[0]=5afbffc0-472d-44f7-acfc-effa9862a3fd&odds_numerator[0]=2&odds_denominator[0]=1",
                   "text": "Over Odds",
                   "shortText": "Over Odds",
                   "isExternal": true,
@@ -821,7 +821,7 @@
                       "gameId": 401772940,
                       "betSide": "over",
                       "betType": "straight",
-                      "betDetails": "Over:39.5"
+                      "betDetails": "Over:40.5"
                     }
                   }
                 },
@@ -832,7 +832,7 @@
                     "desktop",
                     "bets"
                   ],
-                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2&market_selection_id[0]=e632f864-8140-4859-ba72-fa97d89173b6&odds_numerator[0]=2&odds_denominator[0]=1",
+                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2&market_selection_id[0]=31a48f49-45d0-4aeb-a7a1-7b51832889a4&odds_numerator[0]=11&odds_denominator[0]=6",
                   "text": "Under Odds",
                   "shortText": "Under Odds",
                   "isExternal": true,
@@ -845,7 +845,7 @@
                       "gameId": 401772940,
                       "betSide": "under",
                       "betType": "straight",
-                      "betDetails": "Under:39.5"
+                      "betDetails": "Under:40.5"
                     }
                   }
                 },
@@ -907,9 +907,9 @@
                       "marketText": "Cam Skattebo Total Rushing Yards",
                       "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                       "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=e26b6624-4496-472e-a0bc-c45c931962a5&odds_numerator[0]=31&odds_denominator[0]=21",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=e26b6624-4496-472e-a0bc-c45c931962a5&odds_numerator[0]=3&odds_denominator[0]=2",
                       "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=e26b6624-4496-472e-a0bc-c45c931962a5&odds_numerator[0]=31&odds_denominator[0]=21",
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=e26b6624-4496-472e-a0bc-c45c931962a5&odds_numerator[0]=3&odds_denominator[0]=2",
                         "tracking": {
                           "campaign": "betting-integrations",
                           "tags": {
@@ -1012,9 +1012,9 @@
                           "marketText": "Cam Skattebo Total Rushing Yards",
                           "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                           "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=e26b6624-4496-472e-a0bc-c45c931962a5&odds_numerator[0]=31&odds_denominator[0]=21",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=e26b6624-4496-472e-a0bc-c45c931962a5&odds_numerator[0]=3&odds_denominator[0]=2",
                           "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=e26b6624-4496-472e-a0bc-c45c931962a5&odds_numerator[0]=31&odds_denominator[0]=21",
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=e26b6624-4496-472e-a0bc-c45c931962a5&odds_numerator[0]=3&odds_denominator[0]=2",
                             "tracking": {
                               "campaign": "betting-integrations",
                               "tags": {
@@ -1113,7 +1113,7 @@
                   "id": "b6f96577-d5d9-421e-819e-8e2dce4efdcc",
                   "displayName": "UnSportsmanLike Parlay",
                   "type": "PARLAY_PLUS",
-                  "odds": "+772",
+                  "odds": "+763",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=b6f96577-d5d9-421e-819e-8e2dce4efdcc",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=b6f96577-d5d9-421e-819e-8e2dce4efdcc",
@@ -1127,8 +1127,11 @@
                     }
                   },
                   "startTime": "2025-10-10T00:15Z",
-                  "payoutText": "$10.00 pays $77.17",
-                  "displayOrder": 38,
+                  "betsPlaced": "139",
+                  "betsPlacedText": "bets placed",
+                  "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
+                  "payoutText": "$10.00 pays $76.32",
+                  "displayOrder": 10,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -1147,9 +1150,9 @@
                       "marketText": "Cam Skattebo Total Receptions",
                       "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                       "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=d591156f-c365-4e3a-be9e-faf66171afb3&odds_numerator[0]=15&odds_denominator[0]=4",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=d591156f-c365-4e3a-be9e-faf66171afb3&odds_numerator[0]=18&odds_denominator[0]=5",
                       "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=d591156f-c365-4e3a-be9e-faf66171afb3&odds_numerator[0]=15&odds_denominator[0]=4",
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=d591156f-c365-4e3a-be9e-faf66171afb3&odds_numerator[0]=18&odds_denominator[0]=5",
                         "tracking": {
                           "campaign": "betting-integrations",
                           "tags": {
@@ -1197,9 +1200,9 @@
                       "marketText": "Game Spread",
                       "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                       "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2&market_selection_id[0]=962bf6ff-4106-47df-b444-1948f92730f2&odds_numerator[0]=49&odds_denominator[0]=29",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2&market_selection_id[0]=962bf6ff-4106-47df-b444-1948f92730f2&odds_numerator[0]=12&odds_denominator[0]=7",
                       "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2&market_selection_id[0]=962bf6ff-4106-47df-b444-1948f92730f2&odds_numerator[0]=49&odds_denominator[0]=29",
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2&market_selection_id[0]=962bf6ff-4106-47df-b444-1948f92730f2&odds_numerator[0]=12&odds_denominator[0]=7",
                         "tracking": {
                           "campaign": "betting-integrations",
                           "tags": {
@@ -1227,9 +1230,9 @@
                           "marketText": "Cam Skattebo Total Receptions",
                           "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                           "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=d591156f-c365-4e3a-be9e-faf66171afb3&odds_numerator[0]=15&odds_denominator[0]=4",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=d591156f-c365-4e3a-be9e-faf66171afb3&odds_numerator[0]=18&odds_denominator[0]=5",
                           "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=d591156f-c365-4e3a-be9e-faf66171afb3&odds_numerator[0]=15&odds_denominator[0]=4",
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=d591156f-c365-4e3a-be9e-faf66171afb3&odds_numerator[0]=18&odds_denominator[0]=5",
                             "tracking": {
                               "campaign": "betting-integrations",
                               "tags": {
@@ -1277,9 +1280,9 @@
                           "marketText": "Game Spread",
                           "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                           "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2&market_selection_id[0]=962bf6ff-4106-47df-b444-1948f92730f2&odds_numerator[0]=49&odds_denominator[0]=29",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2&market_selection_id[0]=962bf6ff-4106-47df-b444-1948f92730f2&odds_numerator[0]=12&odds_denominator[0]=7",
                           "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2&market_selection_id[0]=962bf6ff-4106-47df-b444-1948f92730f2&odds_numerator[0]=49&odds_denominator[0]=29",
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2&market_selection_id[0]=962bf6ff-4106-47df-b444-1948f92730f2&odds_numerator[0]=12&odds_denominator[0]=7",
                             "tracking": {
                               "campaign": "betting-integrations",
                               "tags": {
@@ -1318,7 +1321,7 @@
                   },
                   "startTime": "2025-10-10T00:15Z",
                   "payoutText": "$10.00 pays $44.79",
-                  "displayOrder": 39,
+                  "displayOrder": 11,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -1493,7 +1496,7 @@
                   "id": "78bfd7fe-64ab-450e-aa59-07f2b101e264",
                   "displayName": "Fantasy Football: Pullin' PPR",
                   "type": "PARLAY_PLUS",
-                  "odds": "+393",
+                  "odds": "+396",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=78bfd7fe-64ab-450e-aa59-07f2b101e264",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=78bfd7fe-64ab-450e-aa59-07f2b101e264",
@@ -1507,8 +1510,8 @@
                     }
                   },
                   "startTime": "2025-10-10T00:15Z",
-                  "payoutText": "$10.00 pays $39.32",
-                  "displayOrder": 41,
+                  "payoutText": "$10.00 pays $39.61",
+                  "displayOrder": 13,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -1683,7 +1686,7 @@
                   "id": "b5043d1b-2426-4daf-939a-f26273dcbe61",
                   "displayName": "Fantasy Football: Lead Backs",
                   "type": "PARLAY_PLUS",
-                  "odds": "+288",
+                  "odds": "+287",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=b5043d1b-2426-4daf-939a-f26273dcbe61",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=b5043d1b-2426-4daf-939a-f26273dcbe61",
@@ -1697,8 +1700,8 @@
                     }
                   },
                   "startTime": "2025-10-10T00:15Z",
-                  "payoutText": "$10.00 pays $28.83",
-                  "displayOrder": 43,
+                  "payoutText": "$10.00 pays $28.71",
+                  "displayOrder": 15,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -1767,9 +1770,9 @@
                       "marketText": "Cam Skattebo Total Rushing Yards",
                       "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                       "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=e26b6624-4496-472e-a0bc-c45c931962a5&odds_numerator[0]=31&odds_denominator[0]=21",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=e26b6624-4496-472e-a0bc-c45c931962a5&odds_numerator[0]=3&odds_denominator[0]=2",
                       "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=e26b6624-4496-472e-a0bc-c45c931962a5&odds_numerator[0]=31&odds_denominator[0]=21",
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=e26b6624-4496-472e-a0bc-c45c931962a5&odds_numerator[0]=3&odds_denominator[0]=2",
                         "tracking": {
                           "campaign": "betting-integrations",
                           "tags": {
@@ -1792,9 +1795,9 @@
                       "marketText": "Cam Skattebo Longest Rush",
                       "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                       "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=e5e112df-dacc-42df-893c-e081d2822cee&odds_numerator[0]=3&odds_denominator[0]=2",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=e5e112df-dacc-42df-893c-e081d2822cee&odds_numerator[0]=16&odds_denominator[0]=11",
                       "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=e5e112df-dacc-42df-893c-e081d2822cee&odds_numerator[0]=3&odds_denominator[0]=2",
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=e5e112df-dacc-42df-893c-e081d2822cee&odds_numerator[0]=16&odds_denominator[0]=11",
                         "tracking": {
                           "campaign": "betting-integrations",
                           "tags": {
@@ -1872,9 +1875,9 @@
                           "marketText": "Cam Skattebo Total Rushing Yards",
                           "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                           "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=e26b6624-4496-472e-a0bc-c45c931962a5&odds_numerator[0]=31&odds_denominator[0]=21",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=e26b6624-4496-472e-a0bc-c45c931962a5&odds_numerator[0]=3&odds_denominator[0]=2",
                           "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=e26b6624-4496-472e-a0bc-c45c931962a5&odds_numerator[0]=31&odds_denominator[0]=21",
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=e26b6624-4496-472e-a0bc-c45c931962a5&odds_numerator[0]=3&odds_denominator[0]=2",
                             "tracking": {
                               "campaign": "betting-integrations",
                               "tags": {
@@ -1897,9 +1900,9 @@
                           "marketText": "Cam Skattebo Longest Rush",
                           "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                           "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=e5e112df-dacc-42df-893c-e081d2822cee&odds_numerator[0]=3&odds_denominator[0]=2",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=e5e112df-dacc-42df-893c-e081d2822cee&odds_numerator[0]=16&odds_denominator[0]=11",
                           "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=e5e112df-dacc-42df-893c-e081d2822cee&odds_numerator[0]=3&odds_denominator[0]=2",
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=e5e112df-dacc-42df-893c-e081d2822cee&odds_numerator[0]=16&odds_denominator[0]=11",
                             "tracking": {
                               "campaign": "betting-integrations",
                               "tags": {
@@ -1923,7 +1926,7 @@
                   "id": "9de2e735-bf14-42ba-b544-007a1a26c764",
                   "displayName": "Fantasy Football: Let It Fly",
                   "type": "PARLAY_PLUS",
-                  "odds": "+1288",
+                  "odds": "+1256",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=9de2e735-bf14-42ba-b544-007a1a26c764",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=9de2e735-bf14-42ba-b544-007a1a26c764",
@@ -1937,11 +1940,11 @@
                     }
                   },
                   "startTime": "2025-10-10T00:15Z",
-                  "betsPlaced": "239",
+                  "betsPlaced": "276",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
-                  "payoutText": "$10.00 pays $128.81",
-                  "displayOrder": 45,
+                  "payoutText": "$10.00 pays $125.64",
+                  "displayOrder": 17,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -1985,9 +1988,9 @@
                       "marketText": "Jaxson Dart Total Passing Touchdowns",
                       "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                       "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=9948e448-020a-4adc-b3c3-dfc0e0d1d894&odds_numerator[0]=4&odds_denominator[0]=1",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=9948e448-020a-4adc-b3c3-dfc0e0d1d894&odds_numerator[0]=15&odds_denominator[0]=4",
                       "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=9948e448-020a-4adc-b3c3-dfc0e0d1d894&odds_numerator[0]=4&odds_denominator[0]=1",
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=9948e448-020a-4adc-b3c3-dfc0e0d1d894&odds_numerator[0]=15&odds_denominator[0]=4",
                         "tracking": {
                           "campaign": "betting-integrations",
                           "tags": {
@@ -2090,9 +2093,9 @@
                           "marketText": "Jaxson Dart Total Passing Touchdowns",
                           "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                           "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=9948e448-020a-4adc-b3c3-dfc0e0d1d894&odds_numerator[0]=4&odds_denominator[0]=1",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=9948e448-020a-4adc-b3c3-dfc0e0d1d894&odds_numerator[0]=15&odds_denominator[0]=4",
                           "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=9948e448-020a-4adc-b3c3-dfc0e0d1d894&odds_numerator[0]=4&odds_denominator[0]=1",
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=9948e448-020a-4adc-b3c3-dfc0e0d1d894&odds_numerator[0]=15&odds_denominator[0]=4",
                             "tracking": {
                               "campaign": "betting-integrations",
                               "tags": {
@@ -2163,10 +2166,200 @@
                   }
                 },
                 {
+                  "id": "a144e0ec-b566-485f-96c4-e7bc92fdaca6",
+                  "displayName": "Get Up: Hot Half",
+                  "type": "PARLAY_PLUS",
+                  "odds": "+186",
+                  "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=a144e0ec-b566-485f-96c4-e7bc92fdaca6",
+                  "link": {
+                    "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=a144e0ec-b566-485f-96c4-e7bc92fdaca6",
+                    "tracking": {
+                      "campaign": "betting-integrations",
+                      "tags": {
+                        "league": "nfl",
+                        "sport": "football",
+                        "betType": "parlay"
+                      }
+                    }
+                  },
+                  "startTime": "2025-10-10T00:15Z",
+                  "payoutText": "$10.00 pays $18.57",
+                  "displayOrder": 19,
+                  "locations": [
+                    "FEATURED_BET_LOCATION_HOME",
+                    "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
+                    "FEATURED_BET_LOCATION_COMPETITION"
+                  ],
+                  "legCount": 3,
+                  "legs": [
+                    {
+                      "marketId": "0dd28db0-18ca-4d01-ad69-dea27ba8f053",
+                      "marketSelectionId": "56a803ea-8e0d-4db1-9dda-bc5bfa71b61b",
+                      "eventId": "401772940",
+                      "selectionText": "30+",
+                      "type": "list",
+                      "points": "29.5",
+                      "startTime": "2025-10-10T00:15Z",
+                      "marketText": "A.J. Brown 1st Half Total Receiving Yards",
+                      "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
+                      "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=56a803ea-8e0d-4db1-9dda-bc5bfa71b61b&odds_numerator[0]=49&odds_denominator[0]=29",
+                      "link": {
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=56a803ea-8e0d-4db1-9dda-bc5bfa71b61b&odds_numerator[0]=49&odds_denominator[0]=29",
+                        "tracking": {
+                          "campaign": "betting-integrations",
+                          "tags": {
+                            "league": "nfl",
+                            "sport": "football",
+                            "gameId": 401772940,
+                            "betType": "straight"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "marketId": "99c19fa8-0ba7-4228-872f-b1e3ab1b5872",
+                      "marketSelectionId": "6f8754dc-69ed-4a23-b657-a403768363bd",
+                      "eventId": "401772940",
+                      "selectionText": "30+",
+                      "type": "list",
+                      "points": "29.5",
+                      "startTime": "2025-10-10T00:15Z",
+                      "marketText": "Saquon Barkley 1st Half Total Rushing Yards",
+                      "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
+                      "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=6f8754dc-69ed-4a23-b657-a403768363bd&odds_numerator[0]=4&odds_denominator[0]=3",
+                      "link": {
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=6f8754dc-69ed-4a23-b657-a403768363bd&odds_numerator[0]=4&odds_denominator[0]=3",
+                        "tracking": {
+                          "campaign": "betting-integrations",
+                          "tags": {
+                            "league": "nfl",
+                            "sport": "football",
+                            "gameId": 401772940,
+                            "betType": "straight"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "marketId": "1b843f88-6cdb-4d9c-a9fa-9f9d74c7b537",
+                      "marketSelectionId": "e220e2cf-e6cd-438c-b372-dd93c907c3f3",
+                      "eventId": "401772940",
+                      "selectionText": "100+",
+                      "type": "list",
+                      "points": "99.5",
+                      "startTime": "2025-10-10T00:15Z",
+                      "marketText": "Jalen Hurts 1st Half Total Passing Yards",
+                      "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
+                      "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=e220e2cf-e6cd-438c-b372-dd93c907c3f3&odds_numerator[0]=49&odds_denominator[0]=29",
+                      "link": {
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=e220e2cf-e6cd-438c-b372-dd93c907c3f3&odds_numerator[0]=49&odds_denominator[0]=29",
+                        "tracking": {
+                          "campaign": "betting-integrations",
+                          "tags": {
+                            "league": "nfl",
+                            "sport": "football",
+                            "gameId": 401772940,
+                            "betType": "straight"
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "events": [
+                    {
+                      "displayName": "PHI @ NYG",
+                      "legs": [
+                        {
+                          "marketId": "0dd28db0-18ca-4d01-ad69-dea27ba8f053",
+                          "marketSelectionId": "56a803ea-8e0d-4db1-9dda-bc5bfa71b61b",
+                          "eventId": "401772940",
+                          "selectionText": "30+",
+                          "type": "list",
+                          "points": "29.5",
+                          "startTime": "2025-10-10T00:15Z",
+                          "marketText": "A.J. Brown 1st Half Total Receiving Yards",
+                          "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
+                          "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=56a803ea-8e0d-4db1-9dda-bc5bfa71b61b&odds_numerator[0]=49&odds_denominator[0]=29",
+                          "link": {
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=56a803ea-8e0d-4db1-9dda-bc5bfa71b61b&odds_numerator[0]=49&odds_denominator[0]=29",
+                            "tracking": {
+                              "campaign": "betting-integrations",
+                              "tags": {
+                                "league": "nfl",
+                                "sport": "football",
+                                "gameId": 401772940,
+                                "betType": "straight"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "marketId": "99c19fa8-0ba7-4228-872f-b1e3ab1b5872",
+                          "marketSelectionId": "6f8754dc-69ed-4a23-b657-a403768363bd",
+                          "eventId": "401772940",
+                          "selectionText": "30+",
+                          "type": "list",
+                          "points": "29.5",
+                          "startTime": "2025-10-10T00:15Z",
+                          "marketText": "Saquon Barkley 1st Half Total Rushing Yards",
+                          "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
+                          "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=6f8754dc-69ed-4a23-b657-a403768363bd&odds_numerator[0]=4&odds_denominator[0]=3",
+                          "link": {
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=6f8754dc-69ed-4a23-b657-a403768363bd&odds_numerator[0]=4&odds_denominator[0]=3",
+                            "tracking": {
+                              "campaign": "betting-integrations",
+                              "tags": {
+                                "league": "nfl",
+                                "sport": "football",
+                                "gameId": 401772940,
+                                "betType": "straight"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "marketId": "1b843f88-6cdb-4d9c-a9fa-9f9d74c7b537",
+                          "marketSelectionId": "e220e2cf-e6cd-438c-b372-dd93c907c3f3",
+                          "eventId": "401772940",
+                          "selectionText": "100+",
+                          "type": "list",
+                          "points": "99.5",
+                          "startTime": "2025-10-10T00:15Z",
+                          "marketText": "Jalen Hurts 1st Half Total Passing Yards",
+                          "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
+                          "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=e220e2cf-e6cd-438c-b372-dd93c907c3f3&odds_numerator[0]=49&odds_denominator[0]=29",
+                          "link": {
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=e220e2cf-e6cd-438c-b372-dd93c907c3f3&odds_numerator[0]=49&odds_denominator[0]=29",
+                            "tracking": {
+                              "campaign": "betting-integrations",
+                              "tags": {
+                                "league": "nfl",
+                                "sport": "football",
+                                "gameId": 401772940,
+                                "betType": "straight"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "icon": {
+                    "dark": "https://a.espncdn.com/i/espnbet/dark/sgp.png",
+                    "light": "https://a.espncdn.com/i/espnbet/sgp.png"
+                  }
+                },
+                {
                   "id": "42a2fda9-d8fd-4d07-bd72-9c0fc160a098",
                   "displayName": "RAC 'Em Up",
                   "type": "PARLAY_PLUS",
-                  "odds": "+426",
+                  "odds": "+432",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=42a2fda9-d8fd-4d07-bd72-9c0fc160a098",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=42a2fda9-d8fd-4d07-bd72-9c0fc160a098",
@@ -2180,8 +2373,8 @@
                     }
                   },
                   "startTime": "2025-10-10T00:15Z",
-                  "payoutText": "$10.00 pays $42.57",
-                  "displayOrder": 47,
+                  "payoutText": "$10.00 pays $43.20",
+                  "displayOrder": 21,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -2225,9 +2418,9 @@
                       "marketText": "Wan'Dale Robinson Total Receiving Yards",
                       "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                       "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=652faa46-0cd9-41d8-82c7-72a76c65bd16&odds_numerator[0]=11&odds_denominator[0]=5",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=652faa46-0cd9-41d8-82c7-72a76c65bd16&odds_numerator[0]=9&odds_denominator[0]=4",
                       "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=652faa46-0cd9-41d8-82c7-72a76c65bd16&odds_numerator[0]=11&odds_denominator[0]=5",
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=652faa46-0cd9-41d8-82c7-72a76c65bd16&odds_numerator[0]=9&odds_denominator[0]=4",
                         "tracking": {
                           "campaign": "betting-integrations",
                           "tags": {
@@ -2305,9 +2498,9 @@
                           "marketText": "Wan'Dale Robinson Total Receiving Yards",
                           "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                           "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=652faa46-0cd9-41d8-82c7-72a76c65bd16&odds_numerator[0]=11&odds_denominator[0]=5",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=652faa46-0cd9-41d8-82c7-72a76c65bd16&odds_numerator[0]=9&odds_denominator[0]=4",
                           "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=652faa46-0cd9-41d8-82c7-72a76c65bd16&odds_numerator[0]=11&odds_denominator[0]=5",
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=652faa46-0cd9-41d8-82c7-72a76c65bd16&odds_numerator[0]=9&odds_denominator[0]=4",
                             "tracking": {
                               "campaign": "betting-integrations",
                               "tags": {
@@ -2371,7 +2564,7 @@
                   },
                   "startTime": "2025-10-10T00:15Z",
                   "payoutText": "$10.00 pays $140.60",
-                  "displayOrder": 48,
+                  "displayOrder": 22,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -2546,7 +2739,7 @@
                   "id": "0f114d1c-35c1-41cd-9932-679853b2445a",
                   "displayName": "Run The Ball",
                   "type": "PARLAY_PLUS",
-                  "odds": "+1421",
+                  "odds": "+1428",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=0f114d1c-35c1-41cd-9932-679853b2445a",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=0f114d1c-35c1-41cd-9932-679853b2445a",
@@ -2560,8 +2753,8 @@
                     }
                   },
                   "startTime": "2025-10-10T00:15Z",
-                  "payoutText": "$10.00 pays $142.08",
-                  "displayOrder": 49,
+                  "payoutText": "$10.00 pays $142.84",
+                  "displayOrder": 23,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -2781,196 +2974,6 @@
                     "dark": "https://a.espncdn.com/i/espnbet/dark/sgp.png",
                     "light": "https://a.espncdn.com/i/espnbet/sgp.png"
                   }
-                },
-                {
-                  "id": "efe8e1be-620f-47bb-8ddd-015fe2a1a0a5",
-                  "displayName": "Time To Go Long",
-                  "type": "PARLAY_PLUS",
-                  "odds": "+1707",
-                  "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=efe8e1be-620f-47bb-8ddd-015fe2a1a0a5",
-                  "link": {
-                    "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=efe8e1be-620f-47bb-8ddd-015fe2a1a0a5",
-                    "tracking": {
-                      "campaign": "betting-integrations",
-                      "tags": {
-                        "league": "nfl",
-                        "sport": "football",
-                        "betType": "parlay"
-                      }
-                    }
-                  },
-                  "startTime": "2025-10-10T00:15Z",
-                  "payoutText": "$10.00 pays $170.75",
-                  "displayOrder": 50,
-                  "locations": [
-                    "FEATURED_BET_LOCATION_HOME",
-                    "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
-                    "FEATURED_BET_LOCATION_COMPETITION"
-                  ],
-                  "legCount": 3,
-                  "legs": [
-                    {
-                      "marketId": "edd0d62a-5864-4057-be0a-5c1b7bacc2b6",
-                      "marketSelectionId": "fecec5b0-425a-4b89-8e92-4aa00a2589d4",
-                      "eventId": "401772940",
-                      "selectionText": "25+",
-                      "type": "list",
-                      "points": "24.5",
-                      "startTime": "2025-10-10T00:15Z",
-                      "marketText": "DeVonta Smith Longest Reception",
-                      "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
-                      "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=fecec5b0-425a-4b89-8e92-4aa00a2589d4&odds_numerator[0]=7&odds_denominator[0]=2",
-                      "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=fecec5b0-425a-4b89-8e92-4aa00a2589d4&odds_numerator[0]=7&odds_denominator[0]=2",
-                        "tracking": {
-                          "campaign": "betting-integrations",
-                          "tags": {
-                            "league": "nfl",
-                            "sport": "football",
-                            "gameId": 401772940,
-                            "betType": "straight"
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "marketId": "553e2e2a-9b6a-4958-8140-3bc2244446a4",
-                      "marketSelectionId": "d14f48b1-947b-455b-bb63-547883cf8f03",
-                      "eventId": "401772940",
-                      "selectionText": "25+",
-                      "type": "list",
-                      "points": "24.5",
-                      "startTime": "2025-10-10T00:15Z",
-                      "marketText": "A.J. Brown Longest Reception",
-                      "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
-                      "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=d14f48b1-947b-455b-bb63-547883cf8f03&odds_numerator[0]=41&odds_denominator[0]=21",
-                      "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=d14f48b1-947b-455b-bb63-547883cf8f03&odds_numerator[0]=41&odds_denominator[0]=21",
-                        "tracking": {
-                          "campaign": "betting-integrations",
-                          "tags": {
-                            "league": "nfl",
-                            "sport": "football",
-                            "gameId": 401772940,
-                            "betType": "straight"
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "marketId": "06a091a2-ebde-42bd-b702-586b21ced346",
-                      "marketSelectionId": "0c2535d4-4caa-4280-869f-1d676c60a7ea",
-                      "eventId": "401772940",
-                      "selectionText": "25+",
-                      "type": "list",
-                      "points": "24.5",
-                      "startTime": "2025-10-10T00:15Z",
-                      "marketText": "Wan'Dale Robinson Longest Reception",
-                      "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
-                      "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=0c2535d4-4caa-4280-869f-1d676c60a7ea&odds_numerator[0]=7&odds_denominator[0]=2",
-                      "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=0c2535d4-4caa-4280-869f-1d676c60a7ea&odds_numerator[0]=7&odds_denominator[0]=2",
-                        "tracking": {
-                          "campaign": "betting-integrations",
-                          "tags": {
-                            "league": "nfl",
-                            "sport": "football",
-                            "gameId": 401772940,
-                            "betType": "straight"
-                          }
-                        }
-                      }
-                    }
-                  ],
-                  "events": [
-                    {
-                      "displayName": "PHI @ NYG",
-                      "legs": [
-                        {
-                          "marketId": "edd0d62a-5864-4057-be0a-5c1b7bacc2b6",
-                          "marketSelectionId": "fecec5b0-425a-4b89-8e92-4aa00a2589d4",
-                          "eventId": "401772940",
-                          "selectionText": "25+",
-                          "type": "list",
-                          "points": "24.5",
-                          "startTime": "2025-10-10T00:15Z",
-                          "marketText": "DeVonta Smith Longest Reception",
-                          "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
-                          "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=fecec5b0-425a-4b89-8e92-4aa00a2589d4&odds_numerator[0]=7&odds_denominator[0]=2",
-                          "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=fecec5b0-425a-4b89-8e92-4aa00a2589d4&odds_numerator[0]=7&odds_denominator[0]=2",
-                            "tracking": {
-                              "campaign": "betting-integrations",
-                              "tags": {
-                                "league": "nfl",
-                                "sport": "football",
-                                "gameId": 401772940,
-                                "betType": "straight"
-                              }
-                            }
-                          }
-                        },
-                        {
-                          "marketId": "553e2e2a-9b6a-4958-8140-3bc2244446a4",
-                          "marketSelectionId": "d14f48b1-947b-455b-bb63-547883cf8f03",
-                          "eventId": "401772940",
-                          "selectionText": "25+",
-                          "type": "list",
-                          "points": "24.5",
-                          "startTime": "2025-10-10T00:15Z",
-                          "marketText": "A.J. Brown Longest Reception",
-                          "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
-                          "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=d14f48b1-947b-455b-bb63-547883cf8f03&odds_numerator[0]=41&odds_denominator[0]=21",
-                          "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=d14f48b1-947b-455b-bb63-547883cf8f03&odds_numerator[0]=41&odds_denominator[0]=21",
-                            "tracking": {
-                              "campaign": "betting-integrations",
-                              "tags": {
-                                "league": "nfl",
-                                "sport": "football",
-                                "gameId": 401772940,
-                                "betType": "straight"
-                              }
-                            }
-                          }
-                        },
-                        {
-                          "marketId": "06a091a2-ebde-42bd-b702-586b21ced346",
-                          "marketSelectionId": "0c2535d4-4caa-4280-869f-1d676c60a7ea",
-                          "eventId": "401772940",
-                          "selectionText": "25+",
-                          "type": "list",
-                          "points": "24.5",
-                          "startTime": "2025-10-10T00:15Z",
-                          "marketText": "Wan'Dale Robinson Longest Reception",
-                          "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
-                          "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=0c2535d4-4caa-4280-869f-1d676c60a7ea&odds_numerator[0]=7&odds_denominator[0]=2",
-                          "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2/section/player_props&market_selection_id[0]=0c2535d4-4caa-4280-869f-1d676c60a7ea&odds_numerator[0]=7&odds_denominator[0]=2",
-                            "tracking": {
-                              "campaign": "betting-integrations",
-                              "tags": {
-                                "league": "nfl",
-                                "sport": "football",
-                                "gameId": 401772940,
-                                "betType": "straight"
-                              }
-                            }
-                          }
-                        }
-                      ]
-                    }
-                  ],
-                  "icon": {
-                    "dark": "https://a.espncdn.com/i/espnbet/dark/sgp.png",
-                    "light": "https://a.espncdn.com/i/espnbet/sgp.png"
-                  }
                 }
               ],
               "moneyline": {
@@ -3118,8 +3121,8 @@
                 "shortDisplayName": "Total",
                 "over": {
                   "close": {
-                    "line": "o39.5",
-                    "odds": "-120",
+                    "line": "o40.5",
+                    "odds": "EVEN",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3127,7 +3130,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2&market_selection_id[0]=0d9a9660-860c-4df4-9924-e39c289d1f45&odds_numerator[0]=11&odds_denominator[0]=6",
+                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2&market_selection_id[0]=5afbffc0-472d-44f7-acfc-effa9862a3fd&odds_numerator[0]=2&odds_denominator[0]=1",
                       "text": "Over Odds",
                       "shortText": "Over Odds",
                       "isExternal": true,
@@ -3140,7 +3143,7 @@
                           "gameId": 401772940,
                           "betSide": "over",
                           "betType": "straight",
-                          "betDetails": "Over:39.5"
+                          "betDetails": "Over:40.5"
                         }
                       }
                     }
@@ -3152,8 +3155,8 @@
                 },
                 "under": {
                   "close": {
-                    "line": "u39.5",
-                    "odds": "EVEN",
+                    "line": "u40.5",
+                    "odds": "-120",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3161,7 +3164,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2&market_selection_id[0]=e632f864-8140-4859-ba72-fa97d89173b6&odds_numerator[0]=2&odds_denominator[0]=1",
+                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/b6feef1f-1a9e-4539-a707-c9e3a91db7a2&market_selection_id[0]=31a48f49-45d0-4aeb-a7a1-7b51832889a4&odds_numerator[0]=11&odds_denominator[0]=6",
                       "text": "Under Odds",
                       "shortText": "Under Odds",
                       "isExternal": true,
@@ -3174,7 +3177,7 @@
                           "gameId": 401772940,
                           "betSide": "under",
                           "betType": "straight",
-                          "betDetails": "Under:39.5"
+                          "betDetails": "Under:40.5"
                         }
                       }
                     }
@@ -3378,24 +3381,6 @@
               },
               "score": "0",
               "statistics": [],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "0-5"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "0-3"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "0-2"
-                }
-              ],
               "leaders": [
                 {
                   "name": "passingLeader",
@@ -3516,6 +3501,24 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-5"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-3"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-2"
                 }
               ]
             },
@@ -3891,7 +3894,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $113",
-              "numberAvailable": 988,
+              "numberAvailable": 959,
               "links": [
                 {
                   "href": "https://www.vividseats.com/new-york-jets-tickets-tottenham-hotspur-stadium-11-2-2026--sports-nfl-football/production/5731134?wsUser=717"
@@ -3969,13 +3972,13 @@
                   }
                 ]
               },
-              "details": "DEN -6.5",
+              "details": "DEN -7.5",
               "overUnder": 43.5,
-              "spread": 6.5,
+              "spread": 7.5,
               "awayTeamOdds": {
                 "favorite": true,
                 "underdog": false,
-                "moneyLine": -380,
+                "moneyLine": -400,
                 "spreadOdds": -125.0,
                 "team": {
                   "id": "7",
@@ -3988,7 +3991,7 @@
               "homeTeamOdds": {
                 "favorite": false,
                 "underdog": true,
-                "moneyLine": 290,
+                "moneyLine": 300,
                 "spreadOdds": 105.0,
                 "team": {
                   "id": "20",
@@ -4007,7 +4010,7 @@
                     "bets",
                     "espn-bet"
                   ],
-                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=6606a1ac-a554-4665-87b0-ae87e243e9bb&odds_numerator[0]=39&odds_denominator[0]=10",
+                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=6606a1ac-a554-4665-87b0-ae87e243e9bb&odds_numerator[0]=4&odds_denominator[0]=1",
                   "text": "Home Bet",
                   "shortText": "Home Bet",
                   "isExternal": true,
@@ -4031,7 +4034,7 @@
                     "bets",
                     "espn-bet"
                   ],
-                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=24&odds_denominator[0]=19",
+                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=5&odds_denominator[0]=4",
                   "text": "Away Bet",
                   "shortText": "Away Bet",
                   "isExternal": true,
@@ -4067,7 +4070,7 @@
                       "gameId": 401772634,
                       "betSide": "none",
                       "betType": "straight",
-                      "betDetails": "Spread:NYJ+6.5"
+                      "betDetails": "Spread:NYJ+7.5"
                     }
                   }
                 },
@@ -4091,7 +4094,7 @@
                       "gameId": 401772634,
                       "betSide": "none",
                       "betType": "straight",
-                      "betDetails": "Spread:DEN-6.5"
+                      "betDetails": "Spread:DEN-7.5"
                     }
                   }
                 },
@@ -4172,7 +4175,7 @@
                   "id": "e35e54ea-27a6-443e-90b6-d41e8c1e5065",
                   "displayName": "ESPN BET Live: NFL Chalkboard",
                   "type": "PARLAY",
-                  "odds": "+313",
+                  "odds": "+308",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=e35e54ea-27a6-443e-90b6-d41e8c1e5065",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=e35e54ea-27a6-443e-90b6-d41e8c1e5065",
@@ -4186,8 +4189,8 @@
                     }
                   },
                   "startTime": "2025-10-12T13:30Z",
-                  "payoutText": "$10.00 pays $31.26",
-                  "displayOrder": 105,
+                  "payoutText": "$10.00 pays $30.83",
+                  "displayOrder": 83,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -4229,9 +4232,9 @@
                       "marketText": "Moneyline",
                       "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                       "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=24&odds_denominator[0]=19",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=5&odds_denominator[0]=4",
                       "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=24&odds_denominator[0]=19",
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=5&odds_denominator[0]=4",
                         "tracking": {
                           "campaign": "betting-integrations",
                           "tags": {
@@ -4359,9 +4362,9 @@
                           "marketText": "Moneyline",
                           "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                           "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=24&odds_denominator[0]=19",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=5&odds_denominator[0]=4",
                           "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=24&odds_denominator[0]=19",
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=5&odds_denominator[0]=4",
                             "tracking": {
                               "campaign": "betting-integrations",
                               "tags": {
@@ -4470,7 +4473,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "+290",
+                    "odds": "+300",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -4479,7 +4482,7 @@
                         "bets",
                         "espn-bet"
                       ],
-                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=6606a1ac-a554-4665-87b0-ae87e243e9bb&odds_numerator[0]=39&odds_denominator[0]=10",
+                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=6606a1ac-a554-4665-87b0-ae87e243e9bb&odds_numerator[0]=4&odds_denominator[0]=1",
                       "text": "Home Bet",
                       "shortText": "Home Bet",
                       "isExternal": true,
@@ -4502,7 +4505,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "-380",
+                    "odds": "-400",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -4511,7 +4514,7 @@
                         "bets",
                         "espn-bet"
                       ],
-                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=24&odds_denominator[0]=19",
+                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=5&odds_denominator[0]=4",
                       "text": "Away Bet",
                       "shortText": "Away Bet",
                       "isExternal": true,
@@ -4538,7 +4541,7 @@
                 "shortDisplayName": "Spread",
                 "home": {
                   "close": {
-                    "line": "+6.5",
+                    "line": "+7.5",
                     "odds": "+105",
                     "link": {
                       "language": "en-US",
@@ -4560,7 +4563,7 @@
                           "gameId": 401772634,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:NYJ+6.5"
+                          "betDetails": "Spread:NYJ+7.5"
                         }
                       }
                     }
@@ -4572,7 +4575,7 @@
                 },
                 "away": {
                   "close": {
-                    "line": "-6.5",
+                    "line": "-7.5",
                     "odds": "-125",
                     "link": {
                       "language": "en-US",
@@ -4594,7 +4597,7 @@
                           "gameId": 401772634,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:DEN-6.5"
+                          "betDetails": "Spread:DEN-7.5"
                         }
                       }
                     }
@@ -5360,8 +5363,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $42",
-              "numberAvailable": 3392,
+              "summary": "Tickets as low as $43",
+              "numberAvailable": 3250,
               "links": [
                 {
                   "href": "https://www.vividseats.com/indianapolis-colts-tickets-lucas-oil-stadium-3-7-2026--sports-nfl-football/production/5471972?wsUser=717"
@@ -5629,11 +5632,11 @@
                     }
                   },
                   "startTime": "2025-10-12T17:00Z",
-                  "betsPlaced": "221",
+                  "betsPlaced": "226",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $26.91",
-                  "displayOrder": 60,
+                  "displayOrder": 38,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -6264,24 +6267,6 @@
               },
               "score": "0",
               "statistics": [],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "1-4"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "1-1"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "0-3"
-                }
-              ],
               "leaders": [
                 {
                   "name": "passingLeader",
@@ -6402,6 +6387,24 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "1-4"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-3"
                 }
               ]
             },
@@ -6770,8 +6773,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $31",
-              "numberAvailable": 6098,
+              "summary": "Tickets as low as $26",
+              "numberAvailable": 6008,
               "links": [
                 {
                   "href": "https://www.vividseats.com/miami-dolphins-tickets-hard-rock-stadium-3-6-2026--sports-nfl-football/production/5471057?wsUser=717"
@@ -6829,7 +6832,7 @@
                 "favorite": true,
                 "underdog": false,
                 "moneyLine": -200,
-                "spreadOdds": -115.0,
+                "spreadOdds": -110.0,
                 "team": {
                   "id": "24",
                   "abbreviation": "LAC",
@@ -6842,7 +6845,7 @@
                 "favorite": false,
                 "underdog": true,
                 "moneyLine": 170,
-                "spreadOdds": -105.0,
+                "spreadOdds": -110.0,
                 "team": {
                   "id": "15",
                   "abbreviation": "MIA",
@@ -6907,7 +6910,7 @@
                     "desktop",
                     "bets"
                   ],
-                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c&market_selection_id[0]=16fe647f-7c15-454a-abc3-b3e3239bf082&odds_numerator[0]=41&odds_denominator[0]=21",
+                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c&market_selection_id[0]=16fe647f-7c15-454a-abc3-b3e3239bf082&odds_numerator[0]=21&odds_denominator[0]=11",
                   "text": "Home Point Spread",
                   "shortText": "Home Point Spread",
                   "isExternal": true,
@@ -6931,7 +6934,7 @@
                     "desktop",
                     "bets"
                   ],
-                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c&market_selection_id[0]=ecbfc7e0-1487-47e7-ab89-0e6a63a78e0b&odds_numerator[0]=43&odds_denominator[0]=23",
+                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c&market_selection_id[0]=ecbfc7e0-1487-47e7-ab89-0e6a63a78e0b&odds_numerator[0]=21&odds_denominator[0]=11",
                   "text": "Away Point Spread",
                   "shortText": "Away Point Spread",
                   "isExternal": true,
@@ -7025,7 +7028,7 @@
                   "id": "71f3a825-17ae-47a8-836b-d9387e66e735",
                   "displayName": "Mike Clay's Plays ",
                   "type": "PARLAY",
-                  "odds": "+618",
+                  "odds": "+644",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=71f3a825-17ae-47a8-836b-d9387e66e735",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=71f3a825-17ae-47a8-836b-d9387e66e735",
@@ -7039,8 +7042,8 @@
                     }
                   },
                   "startTime": "2025-10-12T17:00Z",
-                  "payoutText": "$10.00 pays $61.82",
-                  "displayOrder": 59,
+                  "payoutText": "$10.00 pays $64.43",
+                  "displayOrder": 37,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -7059,9 +7062,9 @@
                       "marketText": "Quentin Johnston Touchdowns Scored",
                       "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                       "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c/section/player_props&market_selection_id[0]=f1864983-1def-416e-95e6-d5b6dabb8a54&odds_numerator[0]=11&odds_denominator[0]=4",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c/section/player_props&market_selection_id[0]=f1864983-1def-416e-95e6-d5b6dabb8a54&odds_numerator[0]=57&odds_denominator[0]=20",
                       "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c/section/player_props&market_selection_id[0]=f1864983-1def-416e-95e6-d5b6dabb8a54&odds_numerator[0]=11&odds_denominator[0]=4",
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c/section/player_props&market_selection_id[0]=f1864983-1def-416e-95e6-d5b6dabb8a54&odds_numerator[0]=57&odds_denominator[0]=20",
                         "tracking": {
                           "campaign": "betting-integrations",
                           "tags": {
@@ -7139,9 +7142,9 @@
                           "marketText": "Quentin Johnston Touchdowns Scored",
                           "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                           "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c/section/player_props&market_selection_id[0]=f1864983-1def-416e-95e6-d5b6dabb8a54&odds_numerator[0]=11&odds_denominator[0]=4",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c/section/player_props&market_selection_id[0]=f1864983-1def-416e-95e6-d5b6dabb8a54&odds_numerator[0]=57&odds_denominator[0]=20",
                           "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c/section/player_props&market_selection_id[0]=f1864983-1def-416e-95e6-d5b6dabb8a54&odds_numerator[0]=11&odds_denominator[0]=4",
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c/section/player_props&market_selection_id[0]=f1864983-1def-416e-95e6-d5b6dabb8a54&odds_numerator[0]=57&odds_denominator[0]=20",
                             "tracking": {
                               "campaign": "betting-integrations",
                               "tags": {
@@ -7235,11 +7238,11 @@
                     }
                   },
                   "startTime": "2025-10-12T17:00Z",
-                  "betsPlaced": "221",
+                  "betsPlaced": "226",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $26.91",
-                  "displayOrder": 60,
+                  "displayOrder": 38,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -7482,7 +7485,7 @@
                   },
                   "startTime": "2025-10-12T17:00Z",
                   "payoutText": "$10.00 pays $32.96",
-                  "displayOrder": 107,
+                  "displayOrder": 85,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -7728,7 +7731,7 @@
                 "home": {
                   "close": {
                     "line": "+3.5",
-                    "odds": "-105",
+                    "odds": "-110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -7736,7 +7739,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c&market_selection_id[0]=16fe647f-7c15-454a-abc3-b3e3239bf082&odds_numerator[0]=41&odds_denominator[0]=21",
+                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c&market_selection_id[0]=16fe647f-7c15-454a-abc3-b3e3239bf082&odds_numerator[0]=21&odds_denominator[0]=11",
                       "text": "Home Point Spread",
                       "shortText": "Home Point Spread",
                       "isExternal": true,
@@ -7762,7 +7765,7 @@
                 "away": {
                   "close": {
                     "line": "-3.5",
-                    "odds": "-115",
+                    "odds": "-110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -7770,7 +7773,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c&market_selection_id[0]=ecbfc7e0-1487-47e7-ab89-0e6a63a78e0b&odds_numerator[0]=43&odds_denominator[0]=23",
+                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c&market_selection_id[0]=ecbfc7e0-1487-47e7-ab89-0e6a63a78e0b&odds_numerator[0]=21&odds_denominator[0]=11",
                       "text": "Away Point Spread",
                       "shortText": "Away Point Spread",
                       "isExternal": true,
@@ -8566,8 +8569,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $31",
-              "numberAvailable": 3349,
+              "summary": "Tickets as low as $32",
+              "numberAvailable": 3277,
               "links": [
                 {
                   "href": "https://www.vividseats.com/new-orleans-saints-tickets-caesars-superdome-3-7-2026--sports-nfl-football/production/5470895?wsUser=717"
@@ -8835,11 +8838,11 @@
                     }
                   },
                   "startTime": "2025-10-12T17:00Z",
-                  "betsPlaced": "221",
+                  "betsPlaced": "226",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $26.91",
-                  "displayOrder": 60,
+                  "displayOrder": 38,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -9081,11 +9084,11 @@
                     }
                   },
                   "startTime": "2025-10-12T17:00Z",
-                  "betsPlaced": "173",
+                  "betsPlaced": "183",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $234.48",
-                  "displayOrder": 108,
+                  "displayOrder": 86,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -10170,7 +10173,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $163",
-              "numberAvailable": 980,
+              "numberAvailable": 954,
               "links": [
                 {
                   "href": "https://www.vividseats.com/pittsburgh-steelers-tickets-acrisure-stadium-3-3-2026--sports-nfl-football/production/5471044?wsUser=717"
@@ -10221,14 +10224,14 @@
                   }
                 ]
               },
-              "details": "PIT -6.5",
+              "details": "PIT -5.5",
               "overUnder": 38.5,
-              "spread": -6.5,
+              "spread": -5.5,
               "awayTeamOdds": {
                 "favorite": false,
                 "underdog": true,
                 "moneyLine": 225,
-                "spreadOdds": -120.0,
+                "spreadOdds": 100.0,
                 "team": {
                   "id": "5",
                   "abbreviation": "CLE",
@@ -10241,7 +10244,7 @@
                 "favorite": true,
                 "underdog": false,
                 "moneyLine": -275,
-                "spreadOdds": -115.0,
+                "spreadOdds": -120.0,
                 "team": {
                   "id": "23",
                   "abbreviation": "PIT",
@@ -10306,7 +10309,7 @@
                     "desktop",
                     "bets"
                   ],
-                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/150a177d-bf50-48d9-926b-f7c729f7b0b7&market_selection_id[0]=2cbbba68-56e9-4f3f-b7b0-97377ef49d64&odds_numerator[0]=43&odds_denominator[0]=23",
+                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/150a177d-bf50-48d9-926b-f7c729f7b0b7&market_selection_id[0]=2cbbba68-56e9-4f3f-b7b0-97377ef49d64&odds_numerator[0]=11&odds_denominator[0]=6",
                   "text": "Home Point Spread",
                   "shortText": "Home Point Spread",
                   "isExternal": true,
@@ -10319,7 +10322,7 @@
                       "gameId": 401772748,
                       "betSide": "none",
                       "betType": "straight",
-                      "betDetails": "Spread:PIT-6.5"
+                      "betDetails": "Spread:PIT-5.5"
                     }
                   }
                 },
@@ -10330,7 +10333,7 @@
                     "desktop",
                     "bets"
                   ],
-                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/150a177d-bf50-48d9-926b-f7c729f7b0b7&market_selection_id[0]=358dee89-cef5-498b-bdf4-e5d1a5870513&odds_numerator[0]=11&odds_denominator[0]=6",
+                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/150a177d-bf50-48d9-926b-f7c729f7b0b7&market_selection_id[0]=20ec57af-1969-4b34-9286-fa1620f2dfe1&odds_numerator[0]=2&odds_denominator[0]=1",
                   "text": "Away Point Spread",
                   "shortText": "Away Point Spread",
                   "isExternal": true,
@@ -10343,7 +10346,7 @@
                       "gameId": 401772748,
                       "betSide": "none",
                       "betType": "straight",
-                      "betDetails": "Spread:CLE+6.5"
+                      "betDetails": "Spread:CLE+5.5"
                     }
                   }
                 },
@@ -10439,7 +10442,7 @@
                   },
                   "startTime": "2025-10-12T17:00Z",
                   "payoutText": "$10.00 pays $24.20",
-                  "displayOrder": 61,
+                  "displayOrder": 39,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -10667,7 +10670,7 @@
                   "id": "e35e54ea-27a6-443e-90b6-d41e8c1e5065",
                   "displayName": "ESPN BET Live: NFL Chalkboard",
                   "type": "PARLAY",
-                  "odds": "+313",
+                  "odds": "+308",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=e35e54ea-27a6-443e-90b6-d41e8c1e5065",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=e35e54ea-27a6-443e-90b6-d41e8c1e5065",
@@ -10681,8 +10684,8 @@
                     }
                   },
                   "startTime": "2025-10-12T13:30Z",
-                  "payoutText": "$10.00 pays $31.26",
-                  "displayOrder": 105,
+                  "payoutText": "$10.00 pays $30.83",
+                  "displayOrder": 83,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -10724,9 +10727,9 @@
                       "marketText": "Moneyline",
                       "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                       "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=24&odds_denominator[0]=19",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=5&odds_denominator[0]=4",
                       "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=24&odds_denominator[0]=19",
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=5&odds_denominator[0]=4",
                         "tracking": {
                           "campaign": "betting-integrations",
                           "tags": {
@@ -10854,9 +10857,9 @@
                           "marketText": "Moneyline",
                           "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                           "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=24&odds_denominator[0]=19",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=5&odds_denominator[0]=4",
                           "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=24&odds_denominator[0]=19",
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=5&odds_denominator[0]=4",
                             "tracking": {
                               "campaign": "betting-integrations",
                               "tags": {
@@ -10977,11 +10980,11 @@
                     }
                   },
                   "startTime": "2025-10-12T17:00Z",
-                  "betsPlaced": "173",
+                  "betsPlaced": "183",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $234.48",
-                  "displayOrder": 108,
+                  "displayOrder": 86,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -11226,8 +11229,8 @@
                 "shortDisplayName": "Spread",
                 "home": {
                   "close": {
-                    "line": "-6.5",
-                    "odds": "-115",
+                    "line": "-5.5",
+                    "odds": "-120",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -11235,7 +11238,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/150a177d-bf50-48d9-926b-f7c729f7b0b7&market_selection_id[0]=2cbbba68-56e9-4f3f-b7b0-97377ef49d64&odds_numerator[0]=43&odds_denominator[0]=23",
+                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/150a177d-bf50-48d9-926b-f7c729f7b0b7&market_selection_id[0]=2cbbba68-56e9-4f3f-b7b0-97377ef49d64&odds_numerator[0]=11&odds_denominator[0]=6",
                       "text": "Home Point Spread",
                       "shortText": "Home Point Spread",
                       "isExternal": true,
@@ -11248,7 +11251,7 @@
                           "gameId": 401772748,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:PIT-6.5"
+                          "betDetails": "Spread:PIT-5.5"
                         }
                       }
                     }
@@ -11260,8 +11263,8 @@
                 },
                 "away": {
                   "close": {
-                    "line": "+6.5",
-                    "odds": "-120",
+                    "line": "+5.5",
+                    "odds": "EVEN",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -11269,7 +11272,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/150a177d-bf50-48d9-926b-f7c729f7b0b7&market_selection_id[0]=358dee89-cef5-498b-bdf4-e5d1a5870513&odds_numerator[0]=11&odds_denominator[0]=6",
+                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/150a177d-bf50-48d9-926b-f7c729f7b0b7&market_selection_id[0]=20ec57af-1969-4b34-9286-fa1620f2dfe1&odds_numerator[0]=2&odds_denominator[0]=1",
                       "text": "Away Point Spread",
                       "shortText": "Away Point Spread",
                       "isExternal": true,
@@ -11282,7 +11285,7 @@
                           "gameId": 401772748,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:CLE+6.5"
+                          "betDetails": "Spread:CLE+5.5"
                         }
                       }
                     }
@@ -12066,7 +12069,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $135",
-              "numberAvailable": 3351,
+              "numberAvailable": 3309,
               "links": [
                 {
                   "href": "https://www.vividseats.com/carolina-panthers-tickets-bank-of-america-stadium-3-6-2026--sports-nfl-football/production/5470904?wsUser=717"
@@ -12320,7 +12323,7 @@
                   "id": "e35e54ea-27a6-443e-90b6-d41e8c1e5065",
                   "displayName": "ESPN BET Live: NFL Chalkboard",
                   "type": "PARLAY",
-                  "odds": "+313",
+                  "odds": "+308",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=e35e54ea-27a6-443e-90b6-d41e8c1e5065",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=e35e54ea-27a6-443e-90b6-d41e8c1e5065",
@@ -12334,8 +12337,8 @@
                     }
                   },
                   "startTime": "2025-10-12T13:30Z",
-                  "payoutText": "$10.00 pays $31.26",
-                  "displayOrder": 105,
+                  "payoutText": "$10.00 pays $30.83",
+                  "displayOrder": 83,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -12377,9 +12380,9 @@
                       "marketText": "Moneyline",
                       "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                       "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=24&odds_denominator[0]=19",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=5&odds_denominator[0]=4",
                       "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=24&odds_denominator[0]=19",
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=5&odds_denominator[0]=4",
                         "tracking": {
                           "campaign": "betting-integrations",
                           "tags": {
@@ -12507,9 +12510,9 @@
                           "marketText": "Moneyline",
                           "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                           "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=24&odds_denominator[0]=19",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=5&odds_denominator[0]=4",
                           "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=24&odds_denominator[0]=19",
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=5&odds_denominator[0]=4",
                             "tracking": {
                               "campaign": "betting-integrations",
                               "tags": {
@@ -13525,8 +13528,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $59",
-              "numberAvailable": 3906,
+              "summary": "Tickets as low as $70",
+              "numberAvailable": 3849,
               "links": [
                 {
                   "href": "https://www.vividseats.com/jacksonville-jaguars-tickets-everbank-stadium-3-8-2026--sports-nfl-football/production/5472007?wsUser=717"
@@ -13577,14 +13580,14 @@
                   }
                 ]
               },
-              "details": "JAX -1.5",
+              "details": "SEA -1.5",
               "overUnder": 47.5,
-              "spread": -1.5,
+              "spread": 1.5,
               "awayTeamOdds": {
-                "favorite": false,
-                "underdog": true,
-                "moneyLine": 100,
-                "spreadOdds": -120.0,
+                "favorite": true,
+                "underdog": false,
+                "moneyLine": -110,
+                "spreadOdds": 105.0,
                 "team": {
                   "id": "26",
                   "abbreviation": "SEA",
@@ -13594,10 +13597,10 @@
                 "favoriteAtOpen": false
               },
               "homeTeamOdds": {
-                "favorite": true,
-                "underdog": false,
-                "moneyLine": -120,
-                "spreadOdds": 100.0,
+                "favorite": false,
+                "underdog": true,
+                "moneyLine": -110,
+                "spreadOdds": -125.0,
                 "team": {
                   "id": "30",
                   "abbreviation": "JAX",
@@ -13615,7 +13618,7 @@
                     "bets",
                     "espn-bet"
                   ],
-                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/a67709fe-f6f1-478d-aeee-f7a8be622b22&market_selection_id[0]=a598b6b8-22e6-4df5-9b0a-da59fef17caa&odds_numerator[0]=11&odds_denominator[0]=6",
+                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/a67709fe-f6f1-478d-aeee-f7a8be622b22&market_selection_id[0]=a598b6b8-22e6-4df5-9b0a-da59fef17caa&odds_numerator[0]=21&odds_denominator[0]=11",
                   "text": "Home Bet",
                   "shortText": "Home Bet",
                   "isExternal": true,
@@ -13639,7 +13642,7 @@
                     "bets",
                     "espn-bet"
                   ],
-                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/a67709fe-f6f1-478d-aeee-f7a8be622b22&market_selection_id[0]=05a4c537-1dcf-4398-addd-e9d965114e43&odds_numerator[0]=2&odds_denominator[0]=1",
+                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/a67709fe-f6f1-478d-aeee-f7a8be622b22&market_selection_id[0]=05a4c537-1dcf-4398-addd-e9d965114e43&odds_numerator[0]=21&odds_denominator[0]=11",
                   "text": "Away Bet",
                   "shortText": "Away Bet",
                   "isExternal": true,
@@ -13662,7 +13665,7 @@
                     "desktop",
                     "bets"
                   ],
-                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/a67709fe-f6f1-478d-aeee-f7a8be622b22&market_selection_id[0]=eeb8e3e5-aa15-4c85-9934-63631b64769a&odds_numerator[0]=2&odds_denominator[0]=1",
+                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/a67709fe-f6f1-478d-aeee-f7a8be622b22&market_selection_id[0]=1ade2368-4d85-41a6-a150-7e86b7fd57d7&odds_numerator[0]=9&odds_denominator[0]=5",
                   "text": "Home Point Spread",
                   "shortText": "Home Point Spread",
                   "isExternal": true,
@@ -13675,7 +13678,7 @@
                       "gameId": 401772857,
                       "betSide": "none",
                       "betType": "straight",
-                      "betDetails": "Spread:JAX-1.5"
+                      "betDetails": "Spread:JAX+1.5"
                     }
                   }
                 },
@@ -13686,7 +13689,7 @@
                     "desktop",
                     "bets"
                   ],
-                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/a67709fe-f6f1-478d-aeee-f7a8be622b22&market_selection_id[0]=380f926d-760a-40c6-8c6d-52e0bbd07133&odds_numerator[0]=11&odds_denominator[0]=6",
+                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/a67709fe-f6f1-478d-aeee-f7a8be622b22&market_selection_id[0]=6d9aec0a-7f8d-49cb-9537-7a4354125bcb&odds_numerator[0]=41&odds_denominator[0]=20",
                   "text": "Away Point Spread",
                   "shortText": "Away Point Spread",
                   "isExternal": true,
@@ -13699,7 +13702,7 @@
                       "gameId": 401772857,
                       "betSide": "none",
                       "betType": "straight",
-                      "betDetails": "Spread:SEA+1.5"
+                      "betDetails": "Spread:SEA-1.5"
                     }
                   }
                 },
@@ -13780,7 +13783,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-120",
+                    "odds": "-110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -13789,7 +13792,7 @@
                         "bets",
                         "espn-bet"
                       ],
-                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/a67709fe-f6f1-478d-aeee-f7a8be622b22&market_selection_id[0]=a598b6b8-22e6-4df5-9b0a-da59fef17caa&odds_numerator[0]=11&odds_denominator[0]=6",
+                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/a67709fe-f6f1-478d-aeee-f7a8be622b22&market_selection_id[0]=a598b6b8-22e6-4df5-9b0a-da59fef17caa&odds_numerator[0]=21&odds_denominator[0]=11",
                       "text": "Home Bet",
                       "shortText": "Home Bet",
                       "isExternal": true,
@@ -13812,7 +13815,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "EVEN",
+                    "odds": "-110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -13821,7 +13824,7 @@
                         "bets",
                         "espn-bet"
                       ],
-                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/a67709fe-f6f1-478d-aeee-f7a8be622b22&market_selection_id[0]=05a4c537-1dcf-4398-addd-e9d965114e43&odds_numerator[0]=2&odds_denominator[0]=1",
+                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/a67709fe-f6f1-478d-aeee-f7a8be622b22&market_selection_id[0]=05a4c537-1dcf-4398-addd-e9d965114e43&odds_numerator[0]=21&odds_denominator[0]=11",
                       "text": "Away Bet",
                       "shortText": "Away Bet",
                       "isExternal": true,
@@ -13848,8 +13851,8 @@
                 "shortDisplayName": "Spread",
                 "home": {
                   "close": {
-                    "line": "-1.5",
-                    "odds": "EVEN",
+                    "line": "+1.5",
+                    "odds": "-125",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -13857,7 +13860,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/a67709fe-f6f1-478d-aeee-f7a8be622b22&market_selection_id[0]=eeb8e3e5-aa15-4c85-9934-63631b64769a&odds_numerator[0]=2&odds_denominator[0]=1",
+                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/a67709fe-f6f1-478d-aeee-f7a8be622b22&market_selection_id[0]=1ade2368-4d85-41a6-a150-7e86b7fd57d7&odds_numerator[0]=9&odds_denominator[0]=5",
                       "text": "Home Point Spread",
                       "shortText": "Home Point Spread",
                       "isExternal": true,
@@ -13870,7 +13873,7 @@
                           "gameId": 401772857,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:JAX-1.5"
+                          "betDetails": "Spread:JAX+1.5"
                         }
                       }
                     }
@@ -13882,8 +13885,8 @@
                 },
                 "away": {
                   "close": {
-                    "line": "+1.5",
-                    "odds": "-120",
+                    "line": "-1.5",
+                    "odds": "+105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -13891,7 +13894,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/a67709fe-f6f1-478d-aeee-f7a8be622b22&market_selection_id[0]=380f926d-760a-40c6-8c6d-52e0bbd07133&odds_numerator[0]=11&odds_denominator[0]=6",
+                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/a67709fe-f6f1-478d-aeee-f7a8be622b22&market_selection_id[0]=6d9aec0a-7f8d-49cb-9537-7a4354125bcb&odds_numerator[0]=41&odds_denominator[0]=20",
                       "text": "Away Point Spread",
                       "shortText": "Away Point Spread",
                       "isExternal": true,
@@ -13904,7 +13907,7 @@
                           "gameId": 401772857,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:SEA+1.5"
+                          "betDetails": "Spread:SEA-1.5"
                         }
                       }
                     }
@@ -14688,7 +14691,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $42",
-              "numberAvailable": 2247,
+              "numberAvailable": 2231,
               "links": [
                 {
                   "href": "https://www.vividseats.com/baltimore-ravens-tickets-mt-bank-stadium-3-9-2026--sports-nfl-football/production/5471038?wsUser=717"
@@ -14956,11 +14959,11 @@
                     }
                   },
                   "startTime": "2025-10-12T17:00Z",
-                  "betsPlaced": "221",
+                  "betsPlaced": "226",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $26.91",
-                  "displayOrder": 60,
+                  "displayOrder": 38,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -15802,6 +15805,24 @@
               },
               "score": "0",
               "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "1-4"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-2"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "1-2"
+                }
+              ],
               "leaders": [
                 {
                   "name": "passingLeader",
@@ -15922,24 +15943,6 @@
                       }
                     }
                   ]
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "1-4"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "0-2"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "1-2"
                 }
               ]
             }
@@ -16097,8 +16100,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $103",
-              "numberAvailable": 3290,
+              "summary": "Tickets as low as $105",
+              "numberAvailable": 3273,
               "links": [
                 {
                   "href": "https://www.vividseats.com/las-vegas-raiders-tickets-allegiant-stadium-3-5-2026--sports-nfl-football/production/5472438?wsUser=717"
@@ -16367,7 +16370,7 @@
                   },
                   "startTime": "2025-10-12T17:00Z",
                   "payoutText": "$10.00 pays $24.20",
-                  "displayOrder": 61,
+                  "displayOrder": 39,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -16595,7 +16598,7 @@
                   "id": "e35e54ea-27a6-443e-90b6-d41e8c1e5065",
                   "displayName": "ESPN BET Live: NFL Chalkboard",
                   "type": "PARLAY",
-                  "odds": "+313",
+                  "odds": "+308",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=e35e54ea-27a6-443e-90b6-d41e8c1e5065",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=e35e54ea-27a6-443e-90b6-d41e8c1e5065",
@@ -16609,8 +16612,8 @@
                     }
                   },
                   "startTime": "2025-10-12T13:30Z",
-                  "payoutText": "$10.00 pays $31.26",
-                  "displayOrder": 105,
+                  "payoutText": "$10.00 pays $30.83",
+                  "displayOrder": 83,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -16652,9 +16655,9 @@
                       "marketText": "Moneyline",
                       "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                       "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=24&odds_denominator[0]=19",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=5&odds_denominator[0]=4",
                       "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=24&odds_denominator[0]=19",
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=5&odds_denominator[0]=4",
                         "tracking": {
                           "campaign": "betting-integrations",
                           "tags": {
@@ -16782,9 +16785,9 @@
                           "marketText": "Moneyline",
                           "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                           "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=24&odds_denominator[0]=19",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=5&odds_denominator[0]=4",
                           "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=24&odds_denominator[0]=19",
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=5&odds_denominator[0]=4",
                             "tracking": {
                               "campaign": "betting-integrations",
                               "tags": {
@@ -16905,11 +16908,11 @@
                     }
                   },
                   "startTime": "2025-10-12T17:00Z",
-                  "betsPlaced": "173",
+                  "betsPlaced": "183",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $234.48",
-                  "displayOrder": 108,
+                  "displayOrder": 86,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -17994,7 +17997,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $237",
-              "numberAvailable": 604,
+              "numberAvailable": 577,
               "links": [
                 {
                   "href": "https://www.vividseats.com/green-bay-packers-tickets-lambeau-field-3-8-2026--sports-nfl-football/production/5470741?wsUser=717"
@@ -18248,7 +18251,7 @@
                   "id": "71f3a825-17ae-47a8-836b-d9387e66e735",
                   "displayName": "Mike Clay's Plays ",
                   "type": "PARLAY",
-                  "odds": "+618",
+                  "odds": "+644",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=71f3a825-17ae-47a8-836b-d9387e66e735",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=71f3a825-17ae-47a8-836b-d9387e66e735",
@@ -18262,8 +18265,8 @@
                     }
                   },
                   "startTime": "2025-10-12T17:00Z",
-                  "payoutText": "$10.00 pays $61.82",
-                  "displayOrder": 59,
+                  "payoutText": "$10.00 pays $64.43",
+                  "displayOrder": 37,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -18282,9 +18285,9 @@
                       "marketText": "Quentin Johnston Touchdowns Scored",
                       "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                       "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c/section/player_props&market_selection_id[0]=f1864983-1def-416e-95e6-d5b6dabb8a54&odds_numerator[0]=11&odds_denominator[0]=4",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c/section/player_props&market_selection_id[0]=f1864983-1def-416e-95e6-d5b6dabb8a54&odds_numerator[0]=57&odds_denominator[0]=20",
                       "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c/section/player_props&market_selection_id[0]=f1864983-1def-416e-95e6-d5b6dabb8a54&odds_numerator[0]=11&odds_denominator[0]=4",
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c/section/player_props&market_selection_id[0]=f1864983-1def-416e-95e6-d5b6dabb8a54&odds_numerator[0]=57&odds_denominator[0]=20",
                         "tracking": {
                           "campaign": "betting-integrations",
                           "tags": {
@@ -18362,9 +18365,9 @@
                           "marketText": "Quentin Johnston Touchdowns Scored",
                           "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                           "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c/section/player_props&market_selection_id[0]=f1864983-1def-416e-95e6-d5b6dabb8a54&odds_numerator[0]=11&odds_denominator[0]=4",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c/section/player_props&market_selection_id[0]=f1864983-1def-416e-95e6-d5b6dabb8a54&odds_numerator[0]=57&odds_denominator[0]=20",
                           "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c/section/player_props&market_selection_id[0]=f1864983-1def-416e-95e6-d5b6dabb8a54&odds_numerator[0]=11&odds_denominator[0]=4",
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c/section/player_props&market_selection_id[0]=f1864983-1def-416e-95e6-d5b6dabb8a54&odds_numerator[0]=57&odds_denominator[0]=20",
                             "tracking": {
                               "campaign": "betting-integrations",
                               "tags": {
@@ -18459,7 +18462,7 @@
                   },
                   "startTime": "2025-10-12T17:00Z",
                   "payoutText": "$10.00 pays $24.20",
-                  "displayOrder": 61,
+                  "displayOrder": 39,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -18687,7 +18690,7 @@
                   "id": "e35e54ea-27a6-443e-90b6-d41e8c1e5065",
                   "displayName": "ESPN BET Live: NFL Chalkboard",
                   "type": "PARLAY",
-                  "odds": "+313",
+                  "odds": "+308",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=e35e54ea-27a6-443e-90b6-d41e8c1e5065",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=e35e54ea-27a6-443e-90b6-d41e8c1e5065",
@@ -18701,8 +18704,8 @@
                     }
                   },
                   "startTime": "2025-10-12T13:30Z",
-                  "payoutText": "$10.00 pays $31.26",
-                  "displayOrder": 105,
+                  "payoutText": "$10.00 pays $30.83",
+                  "displayOrder": 83,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -18744,9 +18747,9 @@
                       "marketText": "Moneyline",
                       "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                       "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=24&odds_denominator[0]=19",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=5&odds_denominator[0]=4",
                       "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=24&odds_denominator[0]=19",
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=5&odds_denominator[0]=4",
                         "tracking": {
                           "campaign": "betting-integrations",
                           "tags": {
@@ -18874,9 +18877,9 @@
                           "marketText": "Moneyline",
                           "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                           "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=24&odds_denominator[0]=19",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=5&odds_denominator[0]=4",
                           "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=24&odds_denominator[0]=19",
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/e256b49c-afac-4c2a-bdd1-56e5a356f141&market_selection_id[0]=ad0fe611-bb11-4f4a-8de2-16eab71d1da3&odds_numerator[0]=5&odds_denominator[0]=4",
                             "tracking": {
                               "campaign": "betting-integrations",
                               "tags": {
@@ -19893,7 +19896,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $114",
-              "numberAvailable": 4222,
+              "numberAvailable": 4182,
               "links": [
                 {
                   "href": "https://www.vividseats.com/tampa-bay-buccaneers-tickets-raymond-james-stadium-3-5-2026--sports-nfl-football/production/5470875?wsUser=717"
@@ -20162,7 +20165,7 @@
                   },
                   "startTime": "2025-10-12T17:00Z",
                   "payoutText": "$10.00 pays $24.20",
-                  "displayOrder": 61,
+                  "displayOrder": 39,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -20405,7 +20408,7 @@
                   },
                   "startTime": "2025-10-12T17:00Z",
                   "payoutText": "$10.00 pays $32.96",
-                  "displayOrder": 107,
+                  "displayOrder": 85,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -21489,8 +21492,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $207",
-              "numberAvailable": 4446,
+              "summary": "Tickets as low as $203",
+              "numberAvailable": 4394,
               "links": [
                 {
                   "href": "https://www.vividseats.com/kansas-city-chiefs-tickets-geha-field-at-arrowhead-stadium-3-9-2026--sports-nfl-football/production/5472392?wsUser=717"
@@ -21674,7 +21677,7 @@
                     "desktop",
                     "bets"
                   ],
-                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/967d1e5c-7760-4e94-8e0f-4048b8c40630&market_selection_id[0]=3ddc3d3a-cb89-4282-a227-a35c66872953&odds_numerator[0]=43&odds_denominator[0]=23",
+                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/967d1e5c-7760-4e94-8e0f-4048b8c40630&market_selection_id[0]=3ddc3d3a-cb89-4282-a227-a35c66872953&odds_numerator[0]=21&odds_denominator[0]=11",
                   "text": "Over Odds",
                   "shortText": "Over Odds",
                   "isExternal": true,
@@ -21698,7 +21701,7 @@
                     "desktop",
                     "bets"
                   ],
-                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/967d1e5c-7760-4e94-8e0f-4048b8c40630&market_selection_id[0]=277a359b-0ac7-48ed-82ff-9115dee2a1d1&odds_numerator[0]=41&odds_denominator[0]=21",
+                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/967d1e5c-7760-4e94-8e0f-4048b8c40630&market_selection_id[0]=277a359b-0ac7-48ed-82ff-9115dee2a1d1&odds_numerator[0]=21&odds_denominator[0]=11",
                   "text": "Under Odds",
                   "shortText": "Under Odds",
                   "isExternal": true,
@@ -21744,7 +21747,7 @@
                   "id": "71f3a825-17ae-47a8-836b-d9387e66e735",
                   "displayName": "Mike Clay's Plays ",
                   "type": "PARLAY",
-                  "odds": "+618",
+                  "odds": "+644",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=71f3a825-17ae-47a8-836b-d9387e66e735",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=71f3a825-17ae-47a8-836b-d9387e66e735",
@@ -21758,8 +21761,8 @@
                     }
                   },
                   "startTime": "2025-10-12T17:00Z",
-                  "payoutText": "$10.00 pays $61.82",
-                  "displayOrder": 59,
+                  "payoutText": "$10.00 pays $64.43",
+                  "displayOrder": 37,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -21778,9 +21781,9 @@
                       "marketText": "Quentin Johnston Touchdowns Scored",
                       "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                       "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c/section/player_props&market_selection_id[0]=f1864983-1def-416e-95e6-d5b6dabb8a54&odds_numerator[0]=11&odds_denominator[0]=4",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c/section/player_props&market_selection_id[0]=f1864983-1def-416e-95e6-d5b6dabb8a54&odds_numerator[0]=57&odds_denominator[0]=20",
                       "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c/section/player_props&market_selection_id[0]=f1864983-1def-416e-95e6-d5b6dabb8a54&odds_numerator[0]=11&odds_denominator[0]=4",
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c/section/player_props&market_selection_id[0]=f1864983-1def-416e-95e6-d5b6dabb8a54&odds_numerator[0]=57&odds_denominator[0]=20",
                         "tracking": {
                           "campaign": "betting-integrations",
                           "tags": {
@@ -21858,9 +21861,9 @@
                           "marketText": "Quentin Johnston Touchdowns Scored",
                           "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                           "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c/section/player_props&market_selection_id[0]=f1864983-1def-416e-95e6-d5b6dabb8a54&odds_numerator[0]=11&odds_denominator[0]=4",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c/section/player_props&market_selection_id[0]=f1864983-1def-416e-95e6-d5b6dabb8a54&odds_numerator[0]=57&odds_denominator[0]=20",
                           "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c/section/player_props&market_selection_id[0]=f1864983-1def-416e-95e6-d5b6dabb8a54&odds_numerator[0]=11&odds_denominator[0]=4",
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6a3a4c7e-f1de-4bef-b586-7ee52a68960c/section/player_props&market_selection_id[0]=f1864983-1def-416e-95e6-d5b6dabb8a54&odds_numerator[0]=57&odds_denominator[0]=20",
                             "tracking": {
                               "campaign": "betting-integrations",
                               "tags": {
@@ -21955,7 +21958,7 @@
                   },
                   "startTime": "2025-10-12T17:00Z",
                   "payoutText": "$10.00 pays $32.96",
-                  "displayOrder": 107,
+                  "displayOrder": 85,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -22273,7 +22276,7 @@
                 "over": {
                   "close": {
                     "line": "o52.5",
-                    "odds": "-115",
+                    "odds": "-110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -22281,7 +22284,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/967d1e5c-7760-4e94-8e0f-4048b8c40630&market_selection_id[0]=3ddc3d3a-cb89-4282-a227-a35c66872953&odds_numerator[0]=43&odds_denominator[0]=23",
+                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/967d1e5c-7760-4e94-8e0f-4048b8c40630&market_selection_id[0]=3ddc3d3a-cb89-4282-a227-a35c66872953&odds_numerator[0]=21&odds_denominator[0]=11",
                       "text": "Over Odds",
                       "shortText": "Over Odds",
                       "isExternal": true,
@@ -22307,7 +22310,7 @@
                 "under": {
                   "close": {
                     "line": "u52.5",
-                    "odds": "-105",
+                    "odds": "-110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -22315,7 +22318,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/967d1e5c-7760-4e94-8e0f-4048b8c40630&market_selection_id[0]=277a359b-0ac7-48ed-82ff-9115dee2a1d1&odds_numerator[0]=41&odds_denominator[0]=21",
+                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/967d1e5c-7760-4e94-8e0f-4048b8c40630&market_selection_id[0]=277a359b-0ac7-48ed-82ff-9115dee2a1d1&odds_numerator[0]=21&odds_denominator[0]=11",
                       "text": "Under Odds",
                       "shortText": "Under Odds",
                       "isExternal": true,
@@ -22533,6 +22536,24 @@
               },
               "score": "0",
               "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "2-2"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "1-1"
+                }
+              ],
               "leaders": [
                 {
                   "name": "passingLeader",
@@ -22654,24 +22675,6 @@
                     }
                   ]
                 }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "2-2"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "1-1"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "1-1"
-                }
               ]
             },
             {
@@ -22744,24 +22747,6 @@
               },
               "score": "0",
               "statistics": [],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "4-1"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "3-1"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "1-0"
-                }
-              ],
               "leaders": [
                 {
                   "name": "passingLeader",
@@ -22882,6 +22867,24 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "4-1"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "3-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "1-0"
                 }
               ]
             }
@@ -23039,8 +23042,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $205",
-              "numberAvailable": 2394,
+              "summary": "Tickets as low as $199",
+              "numberAvailable": 2362,
               "links": [
                 {
                   "href": "https://www.vividseats.com/atlanta-falcons-tickets-mercedes-benz-stadium-3-7-2026--sports-nfl-football/production/5470586?wsUser=717"
@@ -23697,24 +23700,6 @@
               },
               "score": "0",
               "statistics": [],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "3-2"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "2-0"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "1-2"
-                }
-              ],
               "leaders": [
                 {
                   "name": "passingLeader",
@@ -23835,6 +23820,24 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "3-2"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "2-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "1-2"
                 }
               ]
             },
