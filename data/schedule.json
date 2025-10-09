@@ -623,8 +623,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $113",
-              "numberAvailable": 1889,
+              "summary": "Tickets as low as $107",
+              "numberAvailable": 1886,
               "links": [
                 {
                   "href": "https://www.vividseats.com/new-york-giants-tickets-metlife-stadium-3-3-2026--sports-nfl-football/production/5470603?wsUser=717"
@@ -1127,7 +1127,7 @@
                     }
                   },
                   "startTime": "2025-10-10T00:15Z",
-                  "betsPlaced": "305",
+                  "betsPlaced": "337",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $74.30",
@@ -1510,7 +1510,7 @@
                     }
                   },
                   "startTime": "2025-10-10T00:15Z",
-                  "betsPlaced": "122",
+                  "betsPlaced": "128",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $38.44",
@@ -1943,7 +1943,7 @@
                     }
                   },
                   "startTime": "2025-10-10T00:15Z",
-                  "betsPlaced": "386",
+                  "betsPlaced": "404",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $134.66",
@@ -2756,6 +2756,9 @@
                     }
                   },
                   "startTime": "2025-10-10T00:15Z",
+                  "betsPlaced": "102",
+                  "betsPlacedText": "bets placed",
+                  "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $148.11",
                   "displayOrder": 23,
                   "locations": [
@@ -3897,7 +3900,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $118",
-              "numberAvailable": 979,
+              "numberAvailable": 969,
               "links": [
                 {
                   "href": "https://www.vividseats.com/new-york-jets-tickets-tottenham-hotspur-stadium-11-2-2026--sports-nfl-football/production/5731134?wsUser=717"
@@ -5367,7 +5370,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $44",
-              "numberAvailable": 3199,
+              "numberAvailable": 3191,
               "links": [
                 {
                   "href": "https://www.vividseats.com/indianapolis-colts-tickets-lucas-oil-stadium-3-7-2026--sports-nfl-football/production/5471972?wsUser=717"
@@ -6130,8 +6133,8 @@
       ],
       "weather": {
         "displayValue": "Mostly sunny",
-        "temperature": 64,
-        "highTemperature": 64,
+        "temperature": 66,
+        "highTemperature": 66,
         "conditionId": "2",
         "link": {
           "language": "en-US",
@@ -6777,7 +6780,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $26",
-              "numberAvailable": 5934,
+              "numberAvailable": 5935,
               "links": [
                 {
                   "href": "https://www.vividseats.com/miami-dolphins-tickets-hard-rock-stadium-3-6-2026--sports-nfl-football/production/5471057?wsUser=717"
@@ -7925,10 +7928,10 @@
         }
       ],
       "weather": {
-        "displayValue": "Sunny",
+        "displayValue": "Mostly sunny",
         "temperature": 84,
         "highTemperature": 84,
-        "conditionId": "1",
+        "conditionId": "2",
         "link": {
           "language": "en-US",
           "rel": [
@@ -9087,7 +9090,7 @@
                     }
                   },
                   "startTime": "2025-10-12T17:00Z",
-                  "betsPlaced": "193",
+                  "betsPlaced": "194",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $238.24",
@@ -9529,8 +9532,8 @@
       ],
       "weather": {
         "displayValue": "Sunny",
-        "temperature": 84,
-        "highTemperature": 84,
+        "temperature": 82,
+        "highTemperature": 82,
         "conditionId": "1",
         "link": {
           "language": "en-US",
@@ -10176,7 +10179,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $163",
-              "numberAvailable": 969,
+              "numberAvailable": 967,
               "links": [
                 {
                   "href": "https://www.vividseats.com/pittsburgh-steelers-tickets-acrisure-stadium-3-3-2026--sports-nfl-football/production/5471044?wsUser=717"
@@ -10983,7 +10986,7 @@
                     }
                   },
                   "startTime": "2025-10-12T17:00Z",
-                  "betsPlaced": "193",
+                  "betsPlaced": "194",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $238.24",
@@ -11424,10 +11427,10 @@
         }
       ],
       "weather": {
-        "displayValue": "Intermittent clouds",
-        "temperature": 64,
-        "highTemperature": 64,
-        "conditionId": "4",
+        "displayValue": "Cloudy",
+        "temperature": 66,
+        "highTemperature": 66,
+        "conditionId": "7",
         "link": {
           "language": "en-US",
           "rel": [
@@ -11776,6 +11779,24 @@
               },
               "score": "0",
               "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "2-2-1"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-0-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "1-2"
+                }
+              ],
               "leaders": [
                 {
                   "name": "passingLeader",
@@ -11896,24 +11917,6 @@
                       }
                     }
                   ]
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "2-2-1"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "1-0-1"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "1-2"
                 }
               ]
             }
@@ -12072,7 +12075,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $135",
-              "numberAvailable": 3232,
+              "numberAvailable": 3213,
               "links": [
                 {
                   "href": "https://www.vividseats.com/carolina-panthers-tickets-bank-of-america-stadium-3-6-2026--sports-nfl-football/production/5470904?wsUser=717"
@@ -13236,24 +13239,6 @@
               },
               "score": "0",
               "statistics": [],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "3-2"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "1-2"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "2-0"
-                }
-              ],
               "leaders": [
                 {
                   "name": "passingLeader",
@@ -13374,6 +13359,24 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "3-2"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-2"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-0"
                 }
               ]
             }
@@ -13531,8 +13534,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $65",
-              "numberAvailable": 3805,
+              "summary": "Tickets as low as $66",
+              "numberAvailable": 3748,
               "links": [
                 {
                   "href": "https://www.vividseats.com/jacksonville-jaguars-tickets-everbank-stadium-3-8-2026--sports-nfl-football/production/5472007?wsUser=717"
@@ -14046,10 +14049,10 @@
         }
       ],
       "weather": {
-        "displayValue": "Cloudy",
-        "temperature": 78,
-        "highTemperature": 78,
-        "conditionId": "7",
+        "displayValue": "Partly sunny",
+        "temperature": 79,
+        "highTemperature": 79,
+        "conditionId": "3",
         "link": {
           "language": "en-US",
           "rel": [
@@ -14187,24 +14190,6 @@
               },
               "score": "0",
               "statistics": [],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "1-4"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "1-2"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "0-2"
-                }
-              ],
               "leaders": [
                 {
                   "name": "passingLeader",
@@ -14325,6 +14310,24 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "1-4"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-2"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-2"
                 }
               ]
             },
@@ -14694,7 +14697,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $45",
-              "numberAvailable": 1941,
+              "numberAvailable": 1930,
               "links": [
                 {
                   "href": "https://www.vividseats.com/baltimore-ravens-tickets-mt-bank-stadium-3-9-2026--sports-nfl-football/production/5471038?wsUser=717"
@@ -16104,7 +16107,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $105",
-              "numberAvailable": 3239,
+              "numberAvailable": 3242,
               "links": [
                 {
                   "href": "https://www.vividseats.com/las-vegas-raiders-tickets-allegiant-stadium-3-5-2026--sports-nfl-football/production/5472438?wsUser=717"
@@ -16911,7 +16914,7 @@
                     }
                   },
                   "startTime": "2025-10-12T17:00Z",
-                  "betsPlaced": "193",
+                  "betsPlaced": "194",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $238.24",
@@ -19252,8 +19255,8 @@
       ],
       "weather": {
         "displayValue": "Cloudy",
-        "temperature": 69,
-        "highTemperature": 69,
+        "temperature": 66,
+        "highTemperature": 66,
         "conditionId": "7",
         "link": {
           "language": "en-US",
@@ -19899,7 +19902,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $111",
-              "numberAvailable": 4120,
+              "numberAvailable": 4118,
               "links": [
                 {
                   "href": "https://www.vividseats.com/tampa-bay-buccaneers-tickets-raymond-james-stadium-3-5-2026--sports-nfl-football/production/5470875?wsUser=717"
@@ -20849,8 +20852,8 @@
       ],
       "weather": {
         "displayValue": "Sunny",
-        "temperature": 85,
-        "highTemperature": 85,
+        "temperature": 84,
+        "highTemperature": 84,
         "conditionId": "1",
         "link": {
           "language": "en-US",
@@ -22398,10 +22401,10 @@
         }
       ],
       "weather": {
-        "displayValue": "Partly cloudy",
+        "displayValue": "Mostly clear",
         "temperature": 78,
         "highTemperature": 78,
-        "conditionId": "35",
+        "conditionId": "34",
         "link": {
           "language": "en-US",
           "rel": [
@@ -22539,24 +22542,6 @@
               },
               "score": "0",
               "statistics": [],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "2-2"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "1-1"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "1-1"
-                }
-              ],
               "leaders": [
                 {
                   "name": "passingLeader",
@@ -22677,6 +22662,24 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "2-2"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "1-1"
                 }
               ]
             },
@@ -23563,8 +23566,8 @@
       ],
       "weather": {
         "displayValue": "Sunny",
-        "temperature": 76,
-        "highTemperature": 76,
+        "temperature": 72,
+        "highTemperature": 72,
         "conditionId": "1",
         "link": {
           "language": "en-US",
@@ -23703,24 +23706,6 @@
               },
               "score": "0",
               "statistics": [],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "3-2"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "2-0"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "1-2"
-                }
-              ],
               "leaders": [
                 {
                   "name": "passingLeader",
@@ -23841,6 +23826,24 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "3-2"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "2-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "1-2"
                 }
               ]
             },
@@ -24713,8 +24716,8 @@
       ],
       "weather": {
         "displayValue": "Rain",
-        "temperature": 61,
-        "highTemperature": 61,
+        "temperature": 60,
+        "highTemperature": 60,
         "conditionId": "18",
         "link": {
           "language": "en-US",
