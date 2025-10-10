@@ -1,48 +1,43 @@
 {% comment %}
 NFL Schedule - Full Size TRMNL Plugin
-Fetches live data from GitHub Pages
+Uses webhook data pushed from GitHub Actions
 {% endcomment %}
-
-{% assign api_url = "https://snucko.github.io/nfl/schedule.json" %}
-{% assign nfl_data = api_url | fetch_json %}
 
 <div class="plugin">
   <h1 class="title">
-    {% if nfl_data.season and nfl_data.week %}
-      NFL Week {{ nfl_data.week.number }} · {{ nfl_data.season.year }}
-      {% if nfl_data.season.type == 2 %}(Regular Season){% elsif nfl_data.season.type == 3 %}(Playoffs){% endif %}
-    {% else %}
-      NFL Schedule
-    {% endif %}
+    NFL Week {{ week.number }} · {{ season.year }}
+    {% if season.type == 2 %}(Regular Season){% elsif season.type == 3 %}(Playoffs){% endif %}
   </h1>
   
   <div class="games">
-    {% if nfl_data.events %}
-      {% for event in nfl_data.events %}
-        {% assign competition = event.competitions.first %}
-        {% assign status = competition.status %}
-        {% assign away_team = competition.competitors | where: 'homeAway', 'away' | first %}
-        {% assign home_team = competition.competitors | where: 'homeAway', 'home' | first %}
-        
-        <div class="game-row">
-          <div class="teams">
-            {% if status.type.completed and away_team.score and home_team.score %}
-              {{ away_team.team.displayName }} {{ away_team.score }} - {{ home_team.score }} {{ home_team.team.displayName }}
-            {% else %}
-              {{ event.name }}
-            {% endif %}
-            <span class="status">({{ status.type.shortDetail }})</span>
-          </div>
-          <div class="meta">
-            {{ event.date | date: "%a %b %d, %I:%M %p" }} · {{ competition.venue.fullName }}
-          </div>
-        </div>
+    {% for event in events %}
+      {% assign competition = event.competitions[0] %}
+      {% assign status = competition.status %}
+      {% assign away_team = '' %}
+      {% assign home_team = '' %}
+      
+      {% for competitor in competition.competitors %}
+        {% if competitor.homeAway == 'away' %}
+          {% assign away_team = competitor %}
+        {% elsif competitor.homeAway == 'home' %}
+          {% assign home_team = competitor %}
+        {% endif %}
       {% endfor %}
-    {% else %}
+      
       <div class="game-row">
-        <div class="teams">No games scheduled</div>
+        <div class="teams">
+          {% if status.type.completed and away_team.score and home_team.score %}
+            {{ away_team.team.displayName }} {{ away_team.score }} - {{ home_team.score }} {{ home_team.team.displayName }}
+          {% else %}
+            {{ event.name }}
+          {% endif %}
+          <span class="status">({{ status.type.shortDetail }})</span>
+        </div>
+        <div class="meta">
+          {{ competition.venue.fullName }}
+        </div>
       </div>
-    {% endif %}
+    {% endfor %}
   </div>
 </div>
 
