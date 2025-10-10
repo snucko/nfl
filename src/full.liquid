@@ -24,10 +24,11 @@ Uses webhook data pushed from GitHub Actions
         {% endif %}
       {% endfor %}
       
-      <div class="game-row">
+      <div class="game-row {% if away_team.team.abbreviation == 'NE' or home_team.team.abbreviation == 'NE' %}favorite{% endif %}">
         <div class="matchup">
           <div class="teams-line">
             <span class="team away">
+              <img src="{{ away_team.team.logo }}" alt="{{ away_team.team.abbreviation }}" class="logo">
               <span class="team-abbr">{{ away_team.team.abbreviation }}</span>
               {% if status.type.completed or status.type.state == 'in' %}
                 <span class="score">{{ away_team.score }}</span>
@@ -35,6 +36,7 @@ Uses webhook data pushed from GitHub Actions
             </span>
             <span class="vs">@</span>
             <span class="team home">
+              <img src="{{ home_team.team.logo }}" alt="{{ home_team.team.abbreviation }}" class="logo">
               <span class="team-abbr">{{ home_team.team.abbreviation }}</span>
               {% if status.type.completed or status.type.state == 'in' %}
                 <span class="score">{{ home_team.score }}</span>
@@ -89,6 +91,13 @@ Uses webhook data pushed from GitHub Actions
     border-bottom: none;
   }
   
+  .game-row.favorite {
+    background: #f0f0f0;
+    margin: 0 -14px;
+    padding: 6px 14px;
+    border-left: 4px solid #000;
+  }
+  
   .matchup {
     display: flex;
     flex-direction: column;
@@ -106,6 +115,12 @@ Uses webhook data pushed from GitHub Actions
     display: flex;
     align-items: center;
     gap: 4px;
+  }
+  
+  .logo {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
   }
   
   .team-abbr {

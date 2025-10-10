@@ -20,8 +20,12 @@ Uses webhook data pushed from GitHub Actions
       {% endif %}
     {% endfor %}
     
-    <div class="game">
-      <div class="teams-mini">{{ away_team.team.abbreviation }} @ {{ home_team.team.abbreviation }}</div>
+    <div class="game {% if away_team.team.abbreviation == 'NE' or home_team.team.abbreviation == 'NE' %}favorite{% endif %}">
+      <div class="teams-row">
+        <img src="{{ away_team.team.logo }}" alt="{{ away_team.team.abbreviation }}" class="logo-quad">
+        <span class="teams-mini">{{ away_team.team.abbreviation }} @ {{ home_team.team.abbreviation }}</span>
+        <img src="{{ home_team.team.logo }}" alt="{{ home_team.team.abbreviation }}" class="logo-quad">
+      </div>
       {% if status.type.completed or status.type.state == 'in' %}
         <div class="score-big">
           <span class="score-num">{{ away_team.score }}</span>
@@ -57,6 +61,22 @@ Uses webhook data pushed from GitHub Actions
     justify-content: center;
     height: calc(100% - 20px);
     gap: 6px;
+  }
+  .game.favorite {
+    background: #f0f0f0;
+    margin: -8px;
+    padding: 8px;
+    border: 3px solid #000;
+  }
+  .teams-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .logo-quad {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
   }
   .teams-mini {
     font-size: 11px;

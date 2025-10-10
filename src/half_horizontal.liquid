@@ -20,13 +20,15 @@ Uses webhook data pushed from GitHub Actions
         {% endif %}
       {% endfor %}
       
-      <div class="game-row">
+      <div class="game-row {% if away_team.team.abbreviation == 'NE' or home_team.team.abbreviation == 'NE' %}favorite{% endif %}">
         <div class="teams-compact">
+          <img src="{{ away_team.team.logo }}" alt="{{ away_team.team.abbreviation }}" class="logo-small">
           <span class="team-abbr">{{ away_team.team.abbreviation }}</span>
           {% if status.type.completed or status.type.state == 'in' %}
             <span class="score-small">{{ away_team.score }}</span>
           {% endif %}
           <span class="vs-small">@</span>
+          <img src="{{ home_team.team.logo }}" alt="{{ home_team.team.abbreviation }}" class="logo-small">
           <span class="team-abbr">{{ home_team.team.abbreviation }}</span>
           {% if status.type.completed or status.type.state == 'in' %}
             <span class="score-small">{{ home_team.score }}</span>
@@ -59,12 +61,23 @@ Uses webhook data pushed from GitHub Actions
     padding: 5px 0;
     margin-bottom: 3px;
   }
+  .game-row.favorite {
+    background: #f0f0f0;
+    margin: 0 -10px 3px -10px;
+    padding: 5px 10px;
+    border-left: 3px solid #000;
+  }
   .teams-compact {
     display: flex;
     align-items: center;
     gap: 4px;
     font-size: 11px;
     margin-bottom: 1px;
+  }
+  .logo-small {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
   }
   .team-abbr {
     font-weight: bold;
