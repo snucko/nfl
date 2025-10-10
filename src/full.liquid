@@ -10,7 +10,7 @@ Uses webhook data pushed from GitHub Actions
   </h1>
   
   <div class="games">
-    {% for event in events %}
+    {% for event in events limit:10 %}
       {% assign competition = event.competitions[0] %}
       {% assign status = competition.status %}
       {% assign away_team = '' %}
