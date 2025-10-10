@@ -6,7 +6,7 @@ Uses webhook data pushed from GitHub Actions
 <div class="plugin half-horizontal">
   <h2 class="title">NFL Week {{ week.number }}</h2>
   <div class="games">
-    {% for event in events limit:6 %}
+    {% for event in events limit:4 %}
       {% assign competition = event.competitions[0] %}
       {% assign status = competition.status %}
       {% assign away_team = '' %}
