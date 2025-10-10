@@ -1,115 +1,62 @@
 {% comment %}
-NFL Schedule - Half Vertical TRMNL Plugin (400×480)
-Works locally (hardcoded data) and on TRMNL (live API data)
+NFL Schedule - Half Vertical TRMNL Plugin
+Uses webhook data pushed from GitHub Actions
 {% endcomment %}
 
-{% comment %} Try API first {% endcomment %}
-{% assign api_url = custom_fields.data_url | default: "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard" %}
-{% assign nfl_data = api_url | fetch_json %}
-
-{% assign has_api_data = false %}
-{% if nfl_data and nfl_data.season and nfl_data.week and nfl_data.events and nfl_data.events.size > 0 %}
-  {% assign has_api_data = true %}
-  {% assign season = nfl_data.season %}
-  {% assign week = nfl_data.week %}
-  {% assign events = nfl_data.events %}
-{% endif %}
-
-{% unless has_api_data %}
-  {% assign week_number = 5 %}
-  {% assign season_year = 2025 %}
-  {% assign current_games = "SF@LAR|10/2 8:15PM^MIN@CLE|10/5 9:30AM^LV@IND|10/5 1:00PM^NYG@NO|10/5 1:00PM^DAL@NYJ|10/5 1:00PM^DEN@PHI|10/5 1:00PM^MIA@CAR|10/5 1:00PM^KC@JAX|10/6 8:15PM" | split: "^" %}
-{% endunless %}
-
-<div class="plugin">
-  <h1 class="title">
-    {% if has_api_data %}
-      NFL Week {{ week.number }}
-    {% else %}
-      NFL Week {{ week_number }}
-    {% endif %}
-  </h1>
-  
+<div class="plugin half-vertical">
+  <h2 class="title">NFL Week {{ week.number }}</h2>
   <div class="games">
-    {% if has_api_data %}
-      {% for event in events limit: 8 %}
-        {% assign competition = event.competitions.first %}
-        {% assign status = competition.status %}
-        {% assign away_team = competition.competitors | where: 'homeAway', 'away' | first %}
-        {% assign home_team = competition.competitors | where: 'homeAway', 'home' | first %}
-        
-        <div class="game-row">
-          <div class="teams">
-            {% if status.type.completed and away_team.score and home_team.score %}
-              {{ away_team.team.abbreviation }} {{ away_team.score }}-{{ home_team.score }} {{ home_team.team.abbreviation }}
-            {% else %}
-              {{ away_team.team.abbreviation }} @ {{ home_team.team.abbreviation }}
-            {% endif %}
-          </div>
-          <div class="time">{{ status.type.shortDetail }}</div>
-        </div>
+    {% for event in events limit:8 %}
+      {% assign competition = event.competitions[0] %}
+      {% assign status = competition.status %}
+      {% assign away_team = '' %}
+      {% assign home_team = '' %}
+      
+      {% for competitor in competition.competitors %}
+        {% if competitor.homeAway == 'away' %}
+          {% assign away_team = competitor %}
+        {% elsif competitor.homeAway == 'home' %}
+          {% assign home_team = competitor %}
+        {% endif %}
       {% endfor %}
-    {% else %}
-      {% for game_data in current_games limit: 8 %}
-        {% assign game_parts = game_data | split: "|" %}
-        <div class="game-row">
-          <div class="teams">{{ game_parts[0] }}</div>
-          <div class="time">{{ game_parts[1] }}</div>
+      
+      <div class="game-row">
+        <div class="teams-compact">
+          {% if status.type.completed and away_team.score and home_team.score %}
+            {{ away_team.team.abbreviation }} {{ away_team.score }} - {{ home_team.score }} {{ home_team.team.abbreviation }}
+          {% else %}
+            {{ event.shortName }}
+          {% endif %}
         </div>
-      {% endfor %}
-    {% endif %}
+        <div class="meta-compact">{{ status.type.shortDetail }}</div>
+      </div>
+    {% endfor %}
   </div>
 </div>
 
 <style>
-  .plugin {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  .plugin.half-vertical {
+    font-family: system-ui, sans-serif;
     padding: 12px;
-    color: #000;
-    background: #fff;
-    height: 100vh;
+    height: 480px;
+    width: 400px;
     overflow: hidden;
   }
-  
   .title {
     font-size: 14px;
     font-weight: bold;
-    margin: 0 0 12px 0;
-    border-bottom: 1px solid #000;
-    padding-bottom: 4px;
+    margin: 0 0 8px 0;
   }
-  
-  .games {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-  }
-  
   .game-row {
     padding: 6px 0;
     border-bottom: 1px solid #eee;
   }
-  
-  .game-row:last-child {
-    border-bottom: none;
-  }
-  
-  .teams {
+  .teams-compact {
     font-weight: bold;
-    font-size: 12px;
-    margin-bottom: 2px;
+    font-size: 11px;
   }
-  
-  .time {
-    font-size: 10px;
+  .meta-compact {
+    font-size: 9px;
     color: #666;
-  }
-  
-  .error {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
   }
 </style>

@@ -1,99 +1,70 @@
 {% comment %}
-NFL Schedule - Quadrant TRMNL Plugin (400×240)
-Works locally (hardcoded data) and on TRMNL (live API data)
+NFL Schedule - Quadrant TRMNL Plugin
+Uses webhook data pushed from GitHub Actions
 {% endcomment %}
 
-{% comment %} Try API first {% endcomment %}
-{% assign api_url = custom_fields.data_url | default: "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard" %}
-{% assign nfl_data = api_url | fetch_json %}
-
-{% assign has_api_data = false %}
-{% if nfl_data and nfl_data.season and nfl_data.week and nfl_data.events and nfl_data.events.size > 0 %}
-  {% assign has_api_data = true %}
-  {% assign season = nfl_data.season %}
-  {% assign week = nfl_data.week %}
-  {% assign events = nfl_data.events %}
-{% endif %}
-
-{% unless has_api_data %}
-  {% assign week_number = 5 %}
-  {% assign current_games = "SF@LAR|Thu^MIN@CLE|Sat^KC@JAX|Mon" | split: "^" %}
-{% endunless %}
-
-<div class="plugin">
-  <h1 class="title">NFL W{{ week_number | default: week.number }}</h1>
-  
-  <div class="games">
-    {% if has_api_data %}
-      {% for event in events limit: 3 %}
-        {% assign competition = event.competitions.first %}
-        {% assign status = competition.status %}
-        {% assign away_team = competition.competitors | where: 'homeAway', 'away' | first %}
-        {% assign home_team = competition.competitors | where: 'homeAway', 'home' | first %}
-        
-        <div class="game-mini">
-          <div class="teams">
-            {{ away_team.team.abbreviation }} @ {{ home_team.team.abbreviation }}
-          </div>
-          <div class="time">{{ status.type.shortDetail }}</div>
-        </div>
-      {% endfor %}
-    {% else %}
-      {% for game_data in current_games %}
-        {% assign game_parts = game_data | split: "|" %}
-        <div class="game-mini">
-          <div class="teams">{{ game_parts[0] }}</div>
-          <div class="time">{{ game_parts[1] }}</div>
-        </div>
-      {% endfor %}
-    {% endif %}
-  </div>
+<div class="plugin quadrant">
+  <h3 class="title">NFL Week {{ week.number }}</h3>
+  {% assign first_game = events[0] %}
+  {% if first_game %}
+    {% assign competition = first_game.competitions[0] %}
+    {% assign status = competition.status %}
+    {% assign away_team = '' %}
+    {% assign home_team = '' %}
+    
+    {% for competitor in competition.competitors %}
+      {% if competitor.homeAway == 'away' %}
+        {% assign away_team = competitor %}
+      {% elsif competitor.homeAway == 'home' %}
+        {% assign home_team = competitor %}
+      {% endif %}
+    {% endfor %}
+    
+    <div class="game">
+      {% if status.type.completed and away_team.score and home_team.score %}
+        <div class="score">{{ away_team.score }}-{{ home_team.score }}</div>
+        <div class="teams-mini">{{ away_team.team.abbreviation }} @ {{ home_team.team.abbreviation }}</div>
+      {% else %}
+        <div class="teams-mini">{{ first_game.shortName }}</div>
+      {% endif %}
+      <div class="status-mini">{{ status.type.shortDetail }}</div>
+    </div>
+  {% endif %}
 </div>
 
 <style>
-  .plugin {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  .plugin.quadrant {
+    font-family: system-ui, sans-serif;
     padding: 8px;
-    color: #000;
-    background: #fff;
-    height: 100vh;
+    height: 240px;
+    width: 400px;
     overflow: hidden;
+    text-align: center;
   }
-  
   .title {
     font-size: 12px;
     font-weight: bold;
-    margin: 0 0 8px 0;
-    border-bottom: 1px solid #000;
-    padding-bottom: 2px;
+    margin: 0 0 6px 0;
   }
-  
-  .games {
+  .game {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 20px);
   }
-  
-  .game-mini {
-    padding: 2px 0;
-  }
-  
-  .teams {
+  .score {
+    font-size: 24px;
     font-weight: bold;
-    font-size: 9px;
-    margin-bottom: 1px;
+    margin-bottom: 4px;
   }
-  
-  .time {
+  .teams-mini {
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 2px;
+  }
+  .status-mini {
     font-size: 8px;
     color: #666;
-  }
-  
-  .error {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
   }
 </style>
