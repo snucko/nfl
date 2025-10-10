@@ -25,16 +25,31 @@ Uses webhook data pushed from GitHub Actions
       {% endfor %}
       
       <div class="game-row">
-        <div class="teams">
-          {% if status.type.completed and away_team.score and home_team.score %}
-            {{ away_team.team.displayName }} {{ away_team.score }} - {{ home_team.score }} {{ home_team.team.displayName }}
-          {% else %}
-            {{ event.name }}
-          {% endif %}
-          <span class="status">({{ status.type.shortDetail }})</span>
-        </div>
-        <div class="meta">
-          {{ competition.venue.fullName }}
+        <div class="matchup">
+          <div class="teams-line">
+            <span class="team away">
+              <span class="team-abbr">{{ away_team.team.abbreviation }}</span>
+              {% if status.type.completed or status.type.state == 'in' %}
+                <span class="score">{{ away_team.score }}</span>
+              {% endif %}
+            </span>
+            <span class="vs">@</span>
+            <span class="team home">
+              <span class="team-abbr">{{ home_team.team.abbreviation }}</span>
+              {% if status.type.completed or status.type.state == 'in' %}
+                <span class="score">{{ home_team.score }}</span>
+              {% endif %}
+            </span>
+          </div>
+          <div class="game-status">
+            {% if status.type.state == 'in' %}
+              <span class="live">🔴 LIVE</span> {{ status.type.shortDetail }}
+            {% elsif status.type.completed %}
+              ✓ FINAL
+            {% else %}
+              📅 {{ status.type.shortDetail }}
+            {% endif %}
+          </div>
         </div>
       </div>
     {% endfor %}
@@ -66,7 +81,7 @@ Uses webhook data pushed from GitHub Actions
   }
   
   .game-row {
-    padding: 5px 0;
+    padding: 6px 0;
     border-bottom: 1px solid #ddd;
   }
   
@@ -74,19 +89,57 @@ Uses webhook data pushed from GitHub Actions
     border-bottom: none;
   }
   
-  .teams {
-    font-weight: bold;
+  .matchup {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  
+  .teams-line {
+    display: flex;
+    align-items: center;
+    gap: 8px;
     font-size: 12px;
-    margin-bottom: 1px;
   }
   
-  .status {
-    font-weight: normal;
-    color: #666;
+  .team {
+    display: flex;
+    align-items: center;
+    gap: 4px;
   }
   
-  .meta {
+  .team-abbr {
+    font-weight: bold;
+    min-width: 30px;
+  }
+  
+  .score {
+    font-weight: bold;
+    font-size: 14px;
+    background: #000;
+    color: #fff;
+    padding: 1px 6px;
+    border-radius: 3px;
+  }
+  
+  .vs {
+    color: #999;
     font-size: 10px;
+  }
+  
+  .game-status {
+    font-size: 9px;
     color: #666;
+  }
+  
+  .live {
+    color: #c00;
+    font-weight: bold;
+    animation: pulse 2s infinite;
+  }
+  
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
   }
 </style>
