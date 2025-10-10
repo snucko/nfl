@@ -11,6 +11,14 @@ echo ""
 echo "📊 Fetching current NFL data..."
 python3 nfl_build.py
 
+echo "✅ Data updated!"
+echo ""
+echo "Note: Templates in src/ use fetch_json to pull live data"
+echo "      They are NOT regenerated to keep them dynamic"
+
+exit 0
+
+# DISABLED: Static template generation (keeping templates dynamic with fetch_json)
 # Generate all templates with current data
 echo "🎨 Regenerating TRMNL templates..."
 python3 -c "
