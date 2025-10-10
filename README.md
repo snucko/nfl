@@ -1,101 +1,108 @@
 # NFL Schedule for TRMNL
 
-A TRMNL app that displays current NFL game schedules and scores.
+Automated NFL schedule and live scores plugin for TRMNL e-ink displays.
 
 ## Features
 
-- 🏈 Shows current NFL week games with live scores
-- 📅 Automatically detects current NFL season and week
-- 🎯 Displays upcoming games with dates and times
-- 📺 Optimized for all TRMNL screen sizes (full, half, quadrant)
-- ⚡ Auto-updates with fresh NFL data
-
-## TRMNL Integration
-
-This plugin is designed for the [TRMNL](https://usetrmnl.com/) platform. It includes:
-
-- **Liquid templates** for all TRMNL layout sizes
-- **Automatic data fetching** from ESPN's NFL API
-- **Smart season detection** (regular season, playoffs, offseason)
-- **Clean display formatting** optimized for e-ink screens
-
-## Quick Start
-
-### For TRMNL Device
-Upload this plugin directly to your TRMNL device:
-
-1. Go to your [TRMNL dashboard](https://usetrmnl.com/)
-2. Create a new private plugin
-3. Copy the contents of `src/` directory
-4. Set up automatic updates (optional)
-
-### For Local Development
-
-1. **Install dependencies:**
-   ```bash
-   # Option 1: Docker (recommended)
-   docker pull trmnl/trmnlp
-   
-   # Option 2: Ruby gem
-   gem install trmnl_preview
-   ```
-
-2. **Start development server:**
-   ```bash
-   # With Docker
-   ./start-trmnl.sh
-   
-   # With Ruby gem
-   trmnlp serve
-   ```
-
-3. **View in browser:**
-   - Full: http://localhost:4567/full
-   - Half Horizontal: http://localhost:4567/half_horizontal
-   - Half Vertical: http://localhost:4567/half_vertical
-   - Quadrant: http://localhost:4567/quadrant
+- 🏈 **Live scores** with real-time updates during games
+- 📅 **Auto-detects** current NFL season and week
+- 🔴 **Live game indicators** with status icons (LIVE/FINAL/Upcoming)
+- 📺 **All TRMNL layouts** - full, half horizontal/vertical, quadrant
+- ⚡ **Smart updates** - Every 10min on Sundays, 15min on game nights, hourly otherwise
+- 🤖 **Fully automated** via GitHub Actions webhooks
 
 ## How It Works
 
-### Data Source
-- Fetches live data from ESPN's NFL API
-- Automatically detects current NFL week
-- Shows upcoming games with schedules
-- Displays completed games with scores
+1. **GitHub Actions** runs on schedule (every 10min on Sundays 1-9pm EST)
+2. **Fetches** current NFL data from ESPN API
+3. **Pushes** data to TRMNL via webhook
+4. **Your TRMNL** displays live scores automatically
 
-### Smart Week Detection
-```python
-# The script automatically:
-# 1. Queries ESPN for current NFL week
-# 2. Falls back to scanning for active games
-# 3. Handles offseason gracefully
-# 4. Updates templates with current data
+## Setup for TRMNL Device
+
+### 1. Create Private Plugin
+1. Go to [TRMNL Dashboard](https://usetrmnl.com/)
+2. Create a **Private Plugin**
+3. Choose **"Webhook"** as the data strategy
+4. Copy your webhook URL (looks like `https://usetrmnl.com/api/custom_plugins/YOUR-UUID`)
+
+### 2. Add Webhook to GitHub
+1. Go to this repo's [Settings → Secrets → Actions](https://github.com/snucko/nfl/settings/secrets/actions)
+2. Add secret: `TRMNL_WEBHOOK_URL` = your webhook URL from step 1
+
+### 3. Copy Template
+Copy the template from `src/` based on your preferred layout:
+- **Full screen** → `src/full.liquid`
+- **Half horizontal** → `src/half_horizontal.liquid`
+- **Half vertical** → `src/half_vertical.liquid`
+- **Quadrant** → `src/quadrant.liquid`
+
+Paste into your TRMNL private plugin's template editor.
+
+### 4. Done! 
+Your TRMNL will now auto-update with live NFL scores!
+
+## Local Development
+
+### Start TRMNL Dev Server
+```bash
+./start-trmnl.sh
 ```
 
-### Template Generation
-The plugin dynamically generates Liquid templates with embedded NFL data, ensuring:
-- Fast loading on TRMNL devices
-- No external API calls during display
-- Consistent formatting across all layouts
+Then visit:
+- http://localhost:4567/full
+- http://localhost:4567/half_horizontal
+- http://localhost:4567/half_vertical
+- http://localhost:4567/quadrant
 
-## Files Structure
+### Update Data Manually
+```bash
+python3 nfl_build.py
+```
+
+### Test Webhook
+```bash
+curl "YOUR_WEBHOOK_URL" \
+  -H "Content-Type: application/json" \
+  -d @data/schedule.json \
+  -X POST
+```
+
+## Update Schedule
+
+The GitHub Action runs on this schedule:
+- **Sundays 1-9pm EST**: Every 10 minutes (live game tracking)
+- **Thu/Mon nights 7pm-12am EST**: Every 15 minutes (primetime games)
+- **All other times**: Every hour
+
+## File Structure
 
 ```
 nfl/
-├── src/                     # TRMNL plugin files
-│   ├── full.liquid         # Full screen layout (800×480)
-│   ├── half_horizontal.liquid # Half horizontal (800×240)
-│   ├── half_vertical.liquid   # Half vertical (400×480)
-│   ├── quadrant.liquid     # Quadrant layout (400×240)
-│   └── settings.yml        # Plugin metadata
+├── .github/workflows/
+│   └── update-nfl-data.yml      # Automated updates
+├── src/                         # TRMNL templates
+│   ├── full.liquid             # Full screen (10 games)
+│   ├── half_horizontal.liquid  # Half horizontal (4 games)
+│   ├── half_vertical.liquid    # Half vertical (8 games)
+│   ├── quadrant.liquid         # Quadrant (next game)
+│   └── settings.yml
 ├── data/
-│   └── schedule.json       # Current NFL data
-├── nfl_build.py           # Data fetcher script
-├── .trmnlp.yml            # TRMNL development config
-└── README.md
+│   └── schedule.json           # Current NFL data
+├── docs/
+│   └── schedule.json           # GitHub Pages copy
+├── nfl_build.py               # ESPN API data fetcher
+├── update-nfl.sh              # Manual update script
+├── start-trmnl.sh             # Local dev server
+└── AGENTS.md                  # AI agent context
 ```
 
-## Configuration
+## Data Source
+
+- **ESPN NFL API**: `https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard`
+- **Backup endpoint**: https://snucko.github.io/nfl/schedule.json
+
+## GitHub Secrets Required
 
 ### Environment Variables
 Override automatic detection:

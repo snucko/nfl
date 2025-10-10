@@ -22,13 +22,19 @@ Uses webhook data pushed from GitHub Actions
       
       <div class="game-row">
         <div class="teams-compact">
-          {% if status.type.completed and away_team.score and home_team.score %}
-            {{ away_team.team.abbreviation }} {{ away_team.score }} - {{ home_team.score }} {{ home_team.team.abbreviation }}
-          {% else %}
-            {{ event.shortName }}
+          <span class="team-abbr">{{ away_team.team.abbreviation }}</span>
+          {% if status.type.completed or status.type.state == 'in' %}
+            <span class="score-small">{{ away_team.score }}</span>
+          {% endif %}
+          <span class="vs-small">@</span>
+          <span class="team-abbr">{{ home_team.team.abbreviation }}</span>
+          {% if status.type.completed or status.type.state == 'in' %}
+            <span class="score-small">{{ home_team.score }}</span>
           {% endif %}
         </div>
-        <div class="meta-compact">{{ status.type.shortDetail }}</div>
+        <div class="meta-compact">
+          {% if status.type.state == 'in' %}🔴{% elsif status.type.completed %}✓{% else %}📅{% endif %} {{ status.type.shortDetail }}
+        </div>
       </div>
     {% endfor %}
   </div>
@@ -52,8 +58,26 @@ Uses webhook data pushed from GitHub Actions
     border-bottom: 1px solid #eee;
   }
   .teams-compact {
-    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 4px;
     font-size: 11px;
+    margin-bottom: 1px;
+  }
+  .team-abbr {
+    font-weight: bold;
+  }
+  .score-small {
+    font-weight: bold;
+    background: #000;
+    color: #fff;
+    padding: 0px 4px;
+    border-radius: 2px;
+    font-size: 10px;
+  }
+  .vs-small {
+    color: #999;
+    font-size: 9px;
   }
   .meta-compact {
     font-size: 9px;
