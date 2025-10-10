@@ -1,74 +1,48 @@
 {% comment %}
 NFL Schedule - Full Size TRMNL Plugin
+Fetches live data from GitHub Pages
 {% endcomment %}
+
+{% assign api_url = "https://snucko.github.io/nfl/schedule.json" %}
+{% assign nfl_data = api_url | fetch_json %}
 
 <div class="plugin">
   <h1 class="title">
-    NFL Week 6 · 2025
-    (Regular Season)
+    {% if nfl_data.season and nfl_data.week %}
+      NFL Week {{ nfl_data.week.number }} · {{ nfl_data.season.year }}
+      {% if nfl_data.season.type == 2 %}(Regular Season){% elsif nfl_data.season.type == 3 %}(Playoffs){% endif %}
+    {% else %}
+      NFL Schedule
+    {% endif %}
   </h1>
   
   <div class="games">
-    <div class="game-row">
-      <div class="teams">Philadelphia Eagles at New York Giants <span class="status">(10/9 - 8:15 PM EDT)</span></div>
-      <div class="meta">Fri Oct 10, 12:15 AM · MetLife Stadium</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">Denver Broncos at New York Jets <span class="status">(10/12 - 9:30 AM EDT)</span></div>
-      <div class="meta">Sun Oct 12, 01:30 PM · Tottenham Hotspur Stadium</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">Arizona Cardinals at Indianapolis Colts <span class="status">(10/12 - 1:00 PM EDT)</span></div>
-      <div class="meta">Sun Oct 12, 05:00 PM · Lucas Oil Stadium</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">Los Angeles Chargers at Miami Dolphins <span class="status">(10/12 - 1:00 PM EDT)</span></div>
-      <div class="meta">Sun Oct 12, 05:00 PM · Hard Rock Stadium</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">New England Patriots at New Orleans Saints <span class="status">(10/12 - 1:00 PM EDT)</span></div>
-      <div class="meta">Sun Oct 12, 05:00 PM · Caesars Superdome</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">Cleveland Browns at Pittsburgh Steelers <span class="status">(10/12 - 1:00 PM EDT)</span></div>
-      <div class="meta">Sun Oct 12, 05:00 PM · Acrisure Stadium</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">Dallas Cowboys at Carolina Panthers <span class="status">(10/12 - 1:00 PM EDT)</span></div>
-      <div class="meta">Sun Oct 12, 05:00 PM · Bank of America Stadium</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">Seattle Seahawks at Jacksonville Jaguars <span class="status">(10/12 - 1:00 PM EDT)</span></div>
-      <div class="meta">Sun Oct 12, 05:00 PM · EverBank Stadium</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">Los Angeles Rams at Baltimore Ravens <span class="status">(10/12 - 1:00 PM EDT)</span></div>
-      <div class="meta">Sun Oct 12, 05:00 PM · M&T Bank Stadium</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">Tennessee Titans at Las Vegas Raiders <span class="status">(10/12 - 4:05 PM EDT)</span></div>
-      <div class="meta">Sun Oct 12, 08:05 PM · Allegiant Stadium</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">Cincinnati Bengals at Green Bay Packers <span class="status">(10/12 - 4:25 PM EDT)</span></div>
-      <div class="meta">Sun Oct 12, 08:25 PM · Lambeau Field</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">San Francisco 49ers at Tampa Bay Buccaneers <span class="status">(10/12 - 4:25 PM EDT)</span></div>
-      <div class="meta">Sun Oct 12, 08:25 PM · Raymond James Stadium</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">Detroit Lions at Kansas City Chiefs <span class="status">(10/12 - 8:20 PM EDT)</span></div>
-      <div class="meta">Mon Oct 13, 12:20 AM · GEHA Field at Arrowhead Stadium</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">Buffalo Bills at Atlanta Falcons <span class="status">(10/13 - 7:15 PM EDT)</span></div>
-      <div class="meta">Mon Oct 13, 11:15 PM · Mercedes-Benz Stadium</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">Chicago Bears at Washington Commanders <span class="status">(10/13 - 8:15 PM EDT)</span></div>
-      <div class="meta">Tue Oct 14, 12:15 AM · Northwest Stadium</div>
-    </div>
+    {% if nfl_data.events %}
+      {% for event in nfl_data.events %}
+        {% assign competition = event.competitions.first %}
+        {% assign status = competition.status %}
+        {% assign away_team = competition.competitors | where: 'homeAway', 'away' | first %}
+        {% assign home_team = competition.competitors | where: 'homeAway', 'home' | first %}
+        
+        <div class="game-row">
+          <div class="teams">
+            {% if status.type.completed and away_team.score and home_team.score %}
+              {{ away_team.team.displayName }} {{ away_team.score }} - {{ home_team.score }} {{ home_team.team.displayName }}
+            {% else %}
+              {{ event.name }}
+            {% endif %}
+            <span class="status">({{ status.type.shortDetail }})</span>
+          </div>
+          <div class="meta">
+            {{ event.date | date: "%a %b %d, %I:%M %p" }} · {{ competition.venue.fullName }}
+          </div>
+        </div>
+      {% endfor %}
+    {% else %}
+      <div class="game-row">
+        <div class="teams">No games scheduled</div>
+      </div>
+    {% endif %}
   </div>
 </div>
 
