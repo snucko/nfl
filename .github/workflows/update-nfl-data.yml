@@ -38,9 +38,11 @@ jobs:
           python3 nfl_build.py
 
       - name: Push to TRMNL webhook
-        if: ${{ secrets.TRMNL_WEBHOOK_URL != '' }}
+        env:
+          TRMNL_WEBHOOK_URL: ${{ secrets.TRMNL_WEBHOOK_URL }}
+        if: env.TRMNL_WEBHOOK_URL != ''
         run: |
-          curl "${{ secrets.TRMNL_WEBHOOK_URL }}" \
+          curl "$TRMNL_WEBHOOK_URL" \
             -H "Content-Type: application/json" \
             -d @data/schedule.json \
             -X POST
