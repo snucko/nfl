@@ -976,6 +976,111 @@
               "region": "us"
             }
           ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "\u2014 It seemed every time Patrick Surtain II looked, his Denver Broncos teammates were sacking Justin Fields.",
+              "shortLinkText": "Broncos get 9 sacks and beat the winless Jets in ugly 13-11 victory in London",
+              "video": [
+                {
+                  "id": 46573719,
+                  "source": "espn",
+                  "headline": "Denver Broncos vs. New York Jets Game Highlights",
+                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2025/1012/5676b4a8-e7c2-4fd1-8458-de201ecc617e/5676b4a8-e7c2-4fd1-8458-de201ecc617e.jpg",
+                  "duration": 75,
+                  "tracking": {
+                    "sportName": "football",
+                    "leagueName": "NFL",
+                    "coverageType": "Final Game Highlight",
+                    "trackingName": "COM_NFL Highlight (Denver Broncos vs. New York Jets Game Highlights) 2025/10/12 ESHEET SOTFULL",
+                    "trackingId": "dm_20251012_NFL_denver_broncos_vs_new_york_jets_game_highlights"
+                  },
+                  "deviceRestrictions": {
+                    "type": "whitelist",
+                    "devices": [
+                      "desktop",
+                      "ipad",
+                      "settop",
+                      "handset",
+                      "tablet"
+                    ]
+                  },
+                  "links": {
+                    "web": {
+                      "href": "https://www.espn.com/video/clip?id=46573719",
+                      "self": {
+                        "href": "https://www.espn.com/video/clip?id=46573719"
+                      },
+                      "seo": {
+                        "href": "https://www.espn.com/video/clip/_/id/46573719"
+                      }
+                    },
+                    "mobile": {
+                      "source": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/5676b4a8-e7c2-4fd1-8458-de201ecc617e/5676b4a8-e7c2-4fd1-8458-de201ecc617e.mp4"
+                      },
+                      "alert": {
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=46573719"
+                      },
+                      "streaming": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/8713e7d5-7d20-45fa-b3c5-a94e0ef585d2/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46573719"
+                      },
+                      "progressiveDownload": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/8713e7d5-7d20-45fa-b3c5-a94e0ef585d2/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46573719"
+                      }
+                    },
+                    "api": {
+                      "self": {
+                        "href": "https://content.core.api.espn.com/v1/video/clips/46573719"
+                      },
+                      "artwork": {
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/8713e7d5-7d20-45fa-b3c5-a94e0ef585d2"
+                      }
+                    },
+                    "source": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/5676b4a8-e7c2-4fd1-8458-de201ecc617e/5676b4a8-e7c2-4fd1-8458-de201ecc617e_360p30_1464k.mp4",
+                      "mezzanine": {
+                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2025/1012/5676b4a8-e7c2-4fd1-8458-de201ecc617e/5676b4a8-e7c2-4fd1-8458-de201ecc617e.mp4"
+                      },
+                      "flash": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/5676b4a8-e7c2-4fd1-8458-de201ecc617e/5676b4a8-e7c2-4fd1-8458-de201ecc617e.smil"
+                      },
+                      "hds": {
+                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2025/1012/5676b4a8-e7c2-4fd1-8458-de201ecc617e/5676b4a8-e7c2-4fd1-8458-de201ecc617e_rel.smil/manifest.f4m"
+                      },
+                      "HLS": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1012/5676b4a8-e7c2-4fd1-8458-de201ecc617e/5676b4a8-e7c2-4fd1-8458-de201ecc617e/playlist.m3u8",
+                        "HD": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1012/5676b4a8-e7c2-4fd1-8458-de201ecc617e/5676b4a8-e7c2-4fd1-8458-de201ecc617e/playlist.m3u8"
+                        },
+                        "cmaf": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2025/1012/5676b4a8-e7c2-4fd1-8458-de201ecc617e/5676b4a8-e7c2-4fd1-8458-de201ecc617e/playlist.m3u8",
+                          "9x16": {
+                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2025/1012/5676b4a8-e7c2-4fd1-8458-de201ecc617e/5676b4a8-e7c2-4fd1-8458-de201ecc617e/playlist.m3u8"
+                          }
+                        },
+                        "9x16": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2025/1012/5676b4a8-e7c2-4fd1-8458-de201ecc617e/5676b4a8-e7c2-4fd1-8458-de201ecc617e/playlist.m3u8"
+                        },
+                        "shield": {
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/8713e7d5-7d20-45fa-b3c5-a94e0ef585d2/asset"
+                        }
+                      },
+                      "HD": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/5676b4a8-e7c2-4fd1-8458-de201ecc617e/5676b4a8-e7c2-4fd1-8458-de201ecc617e_720p30_2896k.mp4"
+                      },
+                      "full": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/5676b4a8-e7c2-4fd1-8458-de201ecc617e/5676b4a8-e7c2-4fd1-8458-de201ecc617e_360p30_1464k.mp4"
+                      }
+                    },
+                    "sportscenter": {
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=46573719&videoDSI=30e2c56f7b932"
+                    }
+                  }
+                }
+              ]
+            }
+          ],
           "highlights": [
             {
               "id": 46572351,
@@ -1195,111 +1300,6 @@
                 "trackingName": "COM_NFL Highlight (Denver Broncos vs. New York Jets Game Highlights) 2025/10/12 ESHEET SOTFULL",
                 "trackingId": "dm_20251012_NFL_denver_broncos_vs_new_york_jets_game_highlights"
               }
-            }
-          ],
-          "headlines": [
-            {
-              "type": "Recap",
-              "description": "\u2014 It seemed every time Patrick Surtain II looked, his Denver Broncos teammates were sacking Justin Fields.",
-              "shortLinkText": "Broncos get 9 sacks and beat the winless Jets in ugly 13-11 victory in London",
-              "video": [
-                {
-                  "id": 46573719,
-                  "source": "espn",
-                  "headline": "Denver Broncos vs. New York Jets Game Highlights",
-                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2025/1012/5676b4a8-e7c2-4fd1-8458-de201ecc617e/5676b4a8-e7c2-4fd1-8458-de201ecc617e.jpg",
-                  "duration": 75,
-                  "tracking": {
-                    "sportName": "football",
-                    "leagueName": "NFL",
-                    "coverageType": "Final Game Highlight",
-                    "trackingName": "COM_NFL Highlight (Denver Broncos vs. New York Jets Game Highlights) 2025/10/12 ESHEET SOTFULL",
-                    "trackingId": "dm_20251012_NFL_denver_broncos_vs_new_york_jets_game_highlights"
-                  },
-                  "deviceRestrictions": {
-                    "type": "whitelist",
-                    "devices": [
-                      "desktop",
-                      "ipad",
-                      "settop",
-                      "handset",
-                      "tablet"
-                    ]
-                  },
-                  "links": {
-                    "web": {
-                      "href": "https://www.espn.com/video/clip?id=46573719",
-                      "self": {
-                        "href": "https://www.espn.com/video/clip?id=46573719"
-                      },
-                      "seo": {
-                        "href": "https://www.espn.com/video/clip/_/id/46573719"
-                      }
-                    },
-                    "mobile": {
-                      "source": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/5676b4a8-e7c2-4fd1-8458-de201ecc617e/5676b4a8-e7c2-4fd1-8458-de201ecc617e.mp4"
-                      },
-                      "alert": {
-                        "href": "https://m.espn.com/general/video/videoAlert?vid=46573719"
-                      },
-                      "streaming": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/8713e7d5-7d20-45fa-b3c5-a94e0ef585d2/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46573719"
-                      },
-                      "progressiveDownload": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/8713e7d5-7d20-45fa-b3c5-a94e0ef585d2/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46573719"
-                      }
-                    },
-                    "api": {
-                      "self": {
-                        "href": "https://content.core.api.espn.com/v1/video/clips/46573719"
-                      },
-                      "artwork": {
-                        "href": "https://artwork.api.espn.com/artwork/collections/media/8713e7d5-7d20-45fa-b3c5-a94e0ef585d2"
-                      }
-                    },
-                    "source": {
-                      "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/5676b4a8-e7c2-4fd1-8458-de201ecc617e/5676b4a8-e7c2-4fd1-8458-de201ecc617e_360p30_1464k.mp4",
-                      "mezzanine": {
-                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2025/1012/5676b4a8-e7c2-4fd1-8458-de201ecc617e/5676b4a8-e7c2-4fd1-8458-de201ecc617e.mp4"
-                      },
-                      "flash": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/5676b4a8-e7c2-4fd1-8458-de201ecc617e/5676b4a8-e7c2-4fd1-8458-de201ecc617e.smil"
-                      },
-                      "hds": {
-                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2025/1012/5676b4a8-e7c2-4fd1-8458-de201ecc617e/5676b4a8-e7c2-4fd1-8458-de201ecc617e_rel.smil/manifest.f4m"
-                      },
-                      "HLS": {
-                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1012/5676b4a8-e7c2-4fd1-8458-de201ecc617e/5676b4a8-e7c2-4fd1-8458-de201ecc617e/playlist.m3u8",
-                        "HD": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1012/5676b4a8-e7c2-4fd1-8458-de201ecc617e/5676b4a8-e7c2-4fd1-8458-de201ecc617e/playlist.m3u8"
-                        },
-                        "cmaf": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2025/1012/5676b4a8-e7c2-4fd1-8458-de201ecc617e/5676b4a8-e7c2-4fd1-8458-de201ecc617e/playlist.m3u8",
-                          "9x16": {
-                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2025/1012/5676b4a8-e7c2-4fd1-8458-de201ecc617e/5676b4a8-e7c2-4fd1-8458-de201ecc617e/playlist.m3u8"
-                          }
-                        },
-                        "9x16": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2025/1012/5676b4a8-e7c2-4fd1-8458-de201ecc617e/5676b4a8-e7c2-4fd1-8458-de201ecc617e/playlist.m3u8"
-                        },
-                        "shield": {
-                          "href": "https://watch.auth.api.espn.com/video/auth/media/8713e7d5-7d20-45fa-b3c5-a94e0ef585d2/asset"
-                        }
-                      },
-                      "HD": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/5676b4a8-e7c2-4fd1-8458-de201ecc617e/5676b4a8-e7c2-4fd1-8458-de201ecc617e_720p30_2896k.mp4"
-                      },
-                      "full": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/5676b4a8-e7c2-4fd1-8458-de201ecc617e/5676b4a8-e7c2-4fd1-8458-de201ecc617e_360p30_1464k.mp4"
-                      }
-                    },
-                    "sportscenter": {
-                      "href": "sportscenter://x-callback-url/showVideo?videoID=46573719&videoDSI=30e2c56f7b932"
-                    }
-                  }
-                }
-              ]
             }
           ]
         }
@@ -6046,111 +6046,6 @@
               "region": "us"
             }
           ],
-          "headlines": [
-            {
-              "type": "Recap",
-              "description": "\u2014 Having thrown a combined six interceptions in his last two starts in Jacksonville, Sam Darnold refused to get greedy this time around.",
-              "shortLinkText": "Darnold, Smith-Njigba and defense carry Seahawks to 20-12 victory at Jaguars",
-              "video": [
-                {
-                  "id": 46574651,
-                  "source": "espn",
-                  "headline": "Seattle Seahawks vs. Jacksonville Jaguars Game Highlights",
-                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2025/1012/a3707f20-f8ba-4c1b-9984-e9761edce25c/a3707f20-f8ba-4c1b-9984-e9761edce25c.jpg",
-                  "duration": 60,
-                  "tracking": {
-                    "sportName": "football",
-                    "leagueName": "NFL",
-                    "coverageType": "Final Game Highlight",
-                    "trackingName": "COM_NFL Highlight (Seattle Seahawks vs. Jacksonville Jaguars Game Highlights) 2025/10/12 ESHEET",
-                    "trackingId": "dm_20251012_NFL_seattle_seahawks_vs_jacksonville_jaguars_game_highlights"
-                  },
-                  "deviceRestrictions": {
-                    "type": "whitelist",
-                    "devices": [
-                      "desktop",
-                      "ipad",
-                      "settop",
-                      "handset",
-                      "tablet"
-                    ]
-                  },
-                  "links": {
-                    "web": {
-                      "href": "https://www.espn.com/video/clip?id=46574651",
-                      "self": {
-                        "href": "https://www.espn.com/video/clip?id=46574651"
-                      },
-                      "seo": {
-                        "href": "https://www.espn.com/video/clip/_/id/46574651"
-                      }
-                    },
-                    "mobile": {
-                      "source": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/a3707f20-f8ba-4c1b-9984-e9761edce25c/a3707f20-f8ba-4c1b-9984-e9761edce25c.mp4"
-                      },
-                      "alert": {
-                        "href": "https://m.espn.com/general/video/videoAlert?vid=46574651"
-                      },
-                      "streaming": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/ffd4f3af-2626-442c-be22-af6285e62a7e/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46574651"
-                      },
-                      "progressiveDownload": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/ffd4f3af-2626-442c-be22-af6285e62a7e/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46574651"
-                      }
-                    },
-                    "api": {
-                      "self": {
-                        "href": "https://content.core.api.espn.com/v1/video/clips/46574651"
-                      },
-                      "artwork": {
-                        "href": "https://artwork.api.espn.com/artwork/collections/media/ffd4f3af-2626-442c-be22-af6285e62a7e"
-                      }
-                    },
-                    "source": {
-                      "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/a3707f20-f8ba-4c1b-9984-e9761edce25c/a3707f20-f8ba-4c1b-9984-e9761edce25c_360p30_1464k.mp4",
-                      "mezzanine": {
-                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2025/1012/a3707f20-f8ba-4c1b-9984-e9761edce25c/a3707f20-f8ba-4c1b-9984-e9761edce25c.mp4"
-                      },
-                      "flash": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/a3707f20-f8ba-4c1b-9984-e9761edce25c/a3707f20-f8ba-4c1b-9984-e9761edce25c.smil"
-                      },
-                      "hds": {
-                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2025/1012/a3707f20-f8ba-4c1b-9984-e9761edce25c/a3707f20-f8ba-4c1b-9984-e9761edce25c_rel.smil/manifest.f4m"
-                      },
-                      "HLS": {
-                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1012/a3707f20-f8ba-4c1b-9984-e9761edce25c/a3707f20-f8ba-4c1b-9984-e9761edce25c/playlist.m3u8",
-                        "HD": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1012/a3707f20-f8ba-4c1b-9984-e9761edce25c/a3707f20-f8ba-4c1b-9984-e9761edce25c/playlist.m3u8"
-                        },
-                        "cmaf": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2025/1012/a3707f20-f8ba-4c1b-9984-e9761edce25c/a3707f20-f8ba-4c1b-9984-e9761edce25c/playlist.m3u8",
-                          "9x16": {
-                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2025/1012/a3707f20-f8ba-4c1b-9984-e9761edce25c/a3707f20-f8ba-4c1b-9984-e9761edce25c/playlist.m3u8"
-                          }
-                        },
-                        "9x16": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2025/1012/a3707f20-f8ba-4c1b-9984-e9761edce25c/a3707f20-f8ba-4c1b-9984-e9761edce25c/playlist.m3u8"
-                        },
-                        "shield": {
-                          "href": "https://watch.auth.api.espn.com/video/auth/media/ffd4f3af-2626-442c-be22-af6285e62a7e/asset"
-                        }
-                      },
-                      "HD": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/a3707f20-f8ba-4c1b-9984-e9761edce25c/a3707f20-f8ba-4c1b-9984-e9761edce25c_720p30_2896k.mp4"
-                      },
-                      "full": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/a3707f20-f8ba-4c1b-9984-e9761edce25c/a3707f20-f8ba-4c1b-9984-e9761edce25c_360p30_1464k.mp4"
-                      }
-                    },
-                    "sportscenter": {
-                      "href": "sportscenter://x-callback-url/showVideo?videoID=46574651&videoDSI=71649314f52e9"
-                    }
-                  }
-                }
-              ]
-            }
-          ],
           "highlights": [
             {
               "id": 46573140,
@@ -6370,6 +6265,111 @@
                 "trackingName": "COM_NFL Highlight (Seattle Seahawks vs. Jacksonville Jaguars Game Highlights) 2025/10/12 ESHEET",
                 "trackingId": "dm_20251012_NFL_seattle_seahawks_vs_jacksonville_jaguars_game_highlights"
               }
+            }
+          ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "\u2014 Having thrown a combined six interceptions in his last two starts in Jacksonville, Sam Darnold refused to get greedy this time around.",
+              "shortLinkText": "Darnold, Smith-Njigba and defense carry Seahawks to 20-12 victory at Jaguars",
+              "video": [
+                {
+                  "id": 46574651,
+                  "source": "espn",
+                  "headline": "Seattle Seahawks vs. Jacksonville Jaguars Game Highlights",
+                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2025/1012/a3707f20-f8ba-4c1b-9984-e9761edce25c/a3707f20-f8ba-4c1b-9984-e9761edce25c.jpg",
+                  "duration": 60,
+                  "tracking": {
+                    "sportName": "football",
+                    "leagueName": "NFL",
+                    "coverageType": "Final Game Highlight",
+                    "trackingName": "COM_NFL Highlight (Seattle Seahawks vs. Jacksonville Jaguars Game Highlights) 2025/10/12 ESHEET",
+                    "trackingId": "dm_20251012_NFL_seattle_seahawks_vs_jacksonville_jaguars_game_highlights"
+                  },
+                  "deviceRestrictions": {
+                    "type": "whitelist",
+                    "devices": [
+                      "desktop",
+                      "ipad",
+                      "settop",
+                      "handset",
+                      "tablet"
+                    ]
+                  },
+                  "links": {
+                    "web": {
+                      "href": "https://www.espn.com/video/clip?id=46574651",
+                      "self": {
+                        "href": "https://www.espn.com/video/clip?id=46574651"
+                      },
+                      "seo": {
+                        "href": "https://www.espn.com/video/clip/_/id/46574651"
+                      }
+                    },
+                    "mobile": {
+                      "source": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/a3707f20-f8ba-4c1b-9984-e9761edce25c/a3707f20-f8ba-4c1b-9984-e9761edce25c.mp4"
+                      },
+                      "alert": {
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=46574651"
+                      },
+                      "streaming": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/ffd4f3af-2626-442c-be22-af6285e62a7e/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46574651"
+                      },
+                      "progressiveDownload": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/ffd4f3af-2626-442c-be22-af6285e62a7e/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46574651"
+                      }
+                    },
+                    "api": {
+                      "self": {
+                        "href": "https://content.core.api.espn.com/v1/video/clips/46574651"
+                      },
+                      "artwork": {
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/ffd4f3af-2626-442c-be22-af6285e62a7e"
+                      }
+                    },
+                    "source": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/a3707f20-f8ba-4c1b-9984-e9761edce25c/a3707f20-f8ba-4c1b-9984-e9761edce25c_360p30_1464k.mp4",
+                      "mezzanine": {
+                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2025/1012/a3707f20-f8ba-4c1b-9984-e9761edce25c/a3707f20-f8ba-4c1b-9984-e9761edce25c.mp4"
+                      },
+                      "flash": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/a3707f20-f8ba-4c1b-9984-e9761edce25c/a3707f20-f8ba-4c1b-9984-e9761edce25c.smil"
+                      },
+                      "hds": {
+                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2025/1012/a3707f20-f8ba-4c1b-9984-e9761edce25c/a3707f20-f8ba-4c1b-9984-e9761edce25c_rel.smil/manifest.f4m"
+                      },
+                      "HLS": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1012/a3707f20-f8ba-4c1b-9984-e9761edce25c/a3707f20-f8ba-4c1b-9984-e9761edce25c/playlist.m3u8",
+                        "HD": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1012/a3707f20-f8ba-4c1b-9984-e9761edce25c/a3707f20-f8ba-4c1b-9984-e9761edce25c/playlist.m3u8"
+                        },
+                        "cmaf": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2025/1012/a3707f20-f8ba-4c1b-9984-e9761edce25c/a3707f20-f8ba-4c1b-9984-e9761edce25c/playlist.m3u8",
+                          "9x16": {
+                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2025/1012/a3707f20-f8ba-4c1b-9984-e9761edce25c/a3707f20-f8ba-4c1b-9984-e9761edce25c/playlist.m3u8"
+                          }
+                        },
+                        "9x16": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2025/1012/a3707f20-f8ba-4c1b-9984-e9761edce25c/a3707f20-f8ba-4c1b-9984-e9761edce25c/playlist.m3u8"
+                        },
+                        "shield": {
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/ffd4f3af-2626-442c-be22-af6285e62a7e/asset"
+                        }
+                      },
+                      "HD": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/a3707f20-f8ba-4c1b-9984-e9761edce25c/a3707f20-f8ba-4c1b-9984-e9761edce25c_720p30_2896k.mp4"
+                      },
+                      "full": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/a3707f20-f8ba-4c1b-9984-e9761edce25c/a3707f20-f8ba-4c1b-9984-e9761edce25c_360p30_1464k.mp4"
+                      }
+                    },
+                    "sportscenter": {
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=46574651&videoDSI=71649314f52e9"
+                    }
+                  }
+                }
+              ]
             }
           ]
         }
@@ -10696,11 +10696,11 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png"
               },
-              "score": "0",
+              "score": "7",
               "linescores": [
                 {
-                  "value": 0.0,
-                  "displayValue": "0",
+                  "value": 7.0,
+                  "displayValue": "7",
                   "period": 1
                 }
               ],
@@ -10792,11 +10792,11 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png"
               },
-              "score": "0",
+              "score": "7",
               "linescores": [
                 {
-                  "value": 0.0,
-                  "displayValue": "0",
+                  "value": 7.0,
+                  "displayValue": "7",
                   "period": 1
                 }
               ],
@@ -10824,84 +10824,66 @@
           "notes": [],
           "situation": {
             "lastPlay": {
-              "id": "40177281541",
+              "id": "401772815621",
               "type": {
-                "id": "53",
-                "text": "Kickoff",
-                "abbreviation": "K"
+                "id": "74",
+                "text": "Official Timeout",
+                "abbreviation": "Off TO"
               },
-              "text": "M.Prater kicks 59 yards from BUF 35 to ATL 6. J.Agnew to ATL 31 for 25 yards (D.Williams).",
+              "text": "Official Timeout at 06:26.",
               "scoreValue": 0,
               "team": {
-                "id": "1"
+                "id": "2"
               },
               "probability": {
                 "tiePercentage": 0.0,
-                "homeWinPercentage": 0.4154,
-                "awayWinPercentage": 0.5846,
+                "homeWinPercentage": 0.3856,
+                "awayWinPercentage": 0.6144000000000001,
                 "secondsLeft": 0
               },
               "drive": {
-                "description": "0 plays, 0 yards, 0:00",
+                "description": "3 plays, -7 yards, 1:35",
                 "start": {
-                  "yardLine": 0,
-                  "text": "ATL 0"
+                  "yardLine": 42,
+                  "text": "ATL 42"
+                },
+                "end": {
+                  "yardLine": 35,
+                  "text": "ATL 35"
                 },
                 "timeElapsed": {
-                  "displayValue": "0:00"
-                }
+                  "displayValue": "1:35"
+                },
+                "result": "PUNT"
               },
               "start": {
-                "yardLine": 65,
+                "yardLine": 74,
                 "team": {
                   "id": "2"
                 }
               },
               "end": {
-                "yardLine": 31,
+                "yardLine": 74,
                 "team": {
-                  "id": "1"
+                  "id": "2"
                 }
               },
-              "statYardage": 25,
-              "athletesInvolved": [
-                {
-                  "id": "3061612",
-                  "fullName": "Jamal Agnew",
-                  "displayName": "Jamal Agnew",
-                  "shortName": "J. Agnew",
-                  "links": [
-                    {
-                      "rel": [
-                        "playercard",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "https://www.espn.com/nfl/player/_/id/3061612/jamal-agnew"
-                    }
-                  ],
-                  "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3061612.png",
-                  "jersey": "14",
-                  "position": "WR",
-                  "team": {
-                    "id": "1"
-                  }
-                }
-              ]
+              "statYardage": 0
             },
             "down": 1,
-            "yardLine": 31,
+            "yardLine": 74,
             "distance": 10,
-            "downDistanceText": "1st & 10 at ATL 31",
+            "downDistanceText": "1st & 10 at BUF 26",
             "shortDownDistanceText": "1st & 10",
-            "possessionText": "ATL 31",
+            "possessionText": "BUF 26",
             "isRedZone": false,
             "homeTimeouts": 3,
-            "awayTimeouts": 3
+            "awayTimeouts": 3,
+            "possession": "2"
           },
           "status": {
-            "clock": 900.0,
-            "displayClock": "15:00",
+            "clock": 386.0,
+            "displayClock": "6:26",
             "period": 1,
             "type": {
               "id": "2",
@@ -10909,8 +10891,8 @@
               "state": "in",
               "completed": false,
               "description": "In Progress",
-              "detail": "15:00 - 1st Quarter",
-              "shortDetail": "15:00 - 1st"
+              "detail": "6:26 - 1st Quarter",
+              "shortDetail": "6:26 - 1st"
             },
             "isTBDFlex": false
           },
@@ -10919,6 +10901,128 @@
               "market": "national",
               "names": [
                 "ESPN"
+              ]
+            }
+          ],
+          "leaders": [
+            {
+              "name": "passingYards",
+              "displayName": "Passing Leader",
+              "shortDisplayName": "PASS",
+              "abbreviation": "PYDS",
+              "leaders": [
+                {
+                  "displayValue": "2/2, 64 YDS, 1 TD",
+                  "value": 64.0,
+                  "athlete": {
+                    "id": "3918298",
+                    "fullName": "Josh Allen",
+                    "displayName": "Josh Allen",
+                    "shortName": "J. Allen",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/3918298/josh-allen"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3918298.png",
+                    "jersey": "17",
+                    "position": {
+                      "abbreviation": "QB"
+                    },
+                    "team": {
+                      "id": "2"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "2"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "rushingYards",
+              "displayName": "Rushing Leader",
+              "shortDisplayName": "RUSH",
+              "abbreviation": "RYDS",
+              "leaders": [
+                {
+                  "displayValue": "1 CAR, 21 YDS, 1 TD",
+                  "value": 21.0,
+                  "athlete": {
+                    "id": "4373626",
+                    "fullName": "Tyler Allgeier",
+                    "displayName": "Tyler Allgeier",
+                    "shortName": "T. Allgeier",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/4373626/tyler-allgeier"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4373626.png",
+                    "jersey": "25",
+                    "position": {
+                      "abbreviation": "RB"
+                    },
+                    "team": {
+                      "id": "1"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "1"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "receivingYards",
+              "displayName": "Receiving Leader",
+              "shortDisplayName": "REC",
+              "abbreviation": "RECYDS",
+              "leaders": [
+                {
+                  "displayValue": "1 REC, 45 YDS",
+                  "value": 45.0,
+                  "athlete": {
+                    "id": "4242433",
+                    "fullName": "Joshua Palmer",
+                    "displayName": "Joshua Palmer",
+                    "shortName": "J. Palmer",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/4242433/joshua-palmer"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4242433.png",
+                    "jersey": "5",
+                    "position": {
+                      "abbreviation": "WR"
+                    },
+                    "team": {
+                      "id": "2"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "2"
+                  }
+                }
               ]
             }
           ],
@@ -10981,6 +11085,18 @@
         {
           "language": "en-US",
           "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401772815",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
             "pbp",
             "desktop",
             "event"
@@ -10993,10 +11109,10 @@
         }
       ],
       "weather": {
-        "displayValue": "33",
+        "displayValue": "34",
         "temperature": 75,
         "highTemperature": 75,
-        "conditionId": "Clear",
+        "conditionId": "Mostly clear",
         "link": {
           "language": "en-US",
           "rel": [
@@ -11010,8 +11126,8 @@
         }
       },
       "status": {
-        "clock": 900.0,
-        "displayClock": "15:00",
+        "clock": 386.0,
+        "displayClock": "6:26",
         "period": 1,
         "type": {
           "id": "2",
@@ -11019,8 +11135,8 @@
           "state": "in",
           "completed": false,
           "description": "In Progress",
-          "detail": "15:00 - 1st Quarter",
-          "shortDetail": "15:00 - 1st"
+          "detail": "6:26 - 1st Quarter",
+          "shortDetail": "6:26 - 1st"
         }
       }
     },
@@ -11134,6 +11250,24 @@
               },
               "score": "0",
               "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "3-2"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "2-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "1-2"
+                }
+              ],
               "leaders": [
                 {
                   "name": "passingLeader",
@@ -11254,24 +11388,6 @@
                       }
                     }
                   ]
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "3-2"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "2-0"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "1-2"
                 }
               ]
             },
@@ -11883,7 +11999,7 @@
                   "id": "f978a054-82f6-47b3-9ea0-12e557dd8c0a",
                   "displayName": "Hitting Paydirt",
                   "type": "PARLAY_PLUS",
-                  "odds": "+843",
+                  "odds": "+859",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=f978a054-82f6-47b3-9ea0-12e557dd8c0a",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=f978a054-82f6-47b3-9ea0-12e557dd8c0a",
@@ -11897,10 +12013,10 @@
                     }
                   },
                   "startTime": "2025-10-14T00:15Z",
-                  "betsPlaced": "160",
+                  "betsPlaced": "190",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
-                  "payoutText": "$10.00 pays $84.29",
+                  "payoutText": "$10.00 pays $85.89",
                   "displayOrder": 25,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
@@ -11945,9 +12061,9 @@
                       "marketText": "Jacory Croskey-Merritt Touchdowns Scored",
                       "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                       "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/a0fbf8ac-7760-4c68-930b-80aba282782b/section/player_props&market_selection_id[0]=3fa2660c-f842-4ad6-b733-3bba159245e8&odds_numerator[0]=49&odds_denominator[0]=29",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/a0fbf8ac-7760-4c68-930b-80aba282782b/section/player_props&market_selection_id[0]=3fa2660c-f842-4ad6-b733-3bba159245e8&odds_numerator[0]=12&odds_denominator[0]=7",
                       "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/a0fbf8ac-7760-4c68-930b-80aba282782b/section/player_props&market_selection_id[0]=3fa2660c-f842-4ad6-b733-3bba159245e8&odds_numerator[0]=49&odds_denominator[0]=29",
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/a0fbf8ac-7760-4c68-930b-80aba282782b/section/player_props&market_selection_id[0]=3fa2660c-f842-4ad6-b733-3bba159245e8&odds_numerator[0]=12&odds_denominator[0]=7",
                         "tracking": {
                           "campaign": "betting-integrations",
                           "tags": {
@@ -12025,9 +12141,9 @@
                           "marketText": "Jacory Croskey-Merritt Touchdowns Scored",
                           "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                           "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/a0fbf8ac-7760-4c68-930b-80aba282782b/section/player_props&market_selection_id[0]=3fa2660c-f842-4ad6-b733-3bba159245e8&odds_numerator[0]=49&odds_denominator[0]=29",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/a0fbf8ac-7760-4c68-930b-80aba282782b/section/player_props&market_selection_id[0]=3fa2660c-f842-4ad6-b733-3bba159245e8&odds_numerator[0]=12&odds_denominator[0]=7",
                           "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/a0fbf8ac-7760-4c68-930b-80aba282782b/section/player_props&market_selection_id[0]=3fa2660c-f842-4ad6-b733-3bba159245e8&odds_numerator[0]=49&odds_denominator[0]=29",
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/a0fbf8ac-7760-4c68-930b-80aba282782b/section/player_props&market_selection_id[0]=3fa2660c-f842-4ad6-b733-3bba159245e8&odds_numerator[0]=12&odds_denominator[0]=7",
                             "tracking": {
                               "campaign": "betting-integrations",
                               "tags": {
@@ -12280,7 +12396,7 @@
                     }
                   },
                   "startTime": "2025-10-14T00:15Z",
-                  "betsPlaced": "120",
+                  "betsPlaced": "143",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $43.38",
@@ -12509,7 +12625,7 @@
                   "id": "a914d3d3-7522-420f-8471-897db2ee2e8c",
                   "displayName": "Monday Night Surprise",
                   "type": "PARLAY_PLUS",
-                  "odds": "+493",
+                  "odds": "+495",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=a914d3d3-7522-420f-8471-897db2ee2e8c",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=a914d3d3-7522-420f-8471-897db2ee2e8c",
@@ -12523,10 +12639,10 @@
                     }
                   },
                   "startTime": "2025-10-14T00:15Z",
-                  "betsPlaced": "188",
+                  "betsPlaced": "224",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
-                  "payoutText": "$10.00 pays $49.28",
+                  "payoutText": "$10.00 pays $49.47",
                   "displayOrder": 30,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
@@ -12891,7 +13007,7 @@
                   "id": "9ae9acbf-1e18-48c9-8405-fad271295296",
                   "displayName": "Looking For A Back-To-Back",
                   "type": "PARLAY_PLUS",
-                  "odds": "+881",
+                  "odds": "+884",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=9ae9acbf-1e18-48c9-8405-fad271295296",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=9ae9acbf-1e18-48c9-8405-fad271295296",
@@ -12905,10 +13021,10 @@
                     }
                   },
                   "startTime": "2025-10-14T00:15Z",
-                  "betsPlaced": "197",
+                  "betsPlaced": "239",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
-                  "payoutText": "$10.00 pays $88.12",
+                  "payoutText": "$10.00 pays $88.40",
                   "displayOrder": 33,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
