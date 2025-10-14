@@ -9434,114 +9434,6 @@
               "region": "us"
             }
           ],
-          "headlines": [
-            {
-              "type": "Recap",
-              "description": "\u2014 Baker Mayfield shrugged off the \u201cMVP!\u201d chants the way he shook away from tacklers.",
-              "shortLinkText": "Baker Mayfield tosses 2 touchdown passes and the Buccaneers beat the 49ers 30-19",
-              "video": [
-                {
-                  "id": 46576405,
-                  "source": "espn",
-                  "headline": "San Francisco 49ers vs. Tampa Bay Buccaneers Game Highlights",
-                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2025/1012/11a27acd-f832-496d-bd8f-a8191703586f/11a27acd-f832-496d-bd8f-a8191703586f.jpg",
-                  "duration": 56,
-                  "tracking": {
-                    "sportName": "football",
-                    "leagueName": "NFL",
-                    "coverageType": "Final Game Highlight",
-                    "trackingName": "NFL_One-Play (San Francisco 49ers vs. Tampa Bay Buccaneers Game Highlights) 2025/10/12 ESHEET",
-                    "trackingId": "dm_20251012_NFL_san_francisco_49ers_vs_tampa_bay_buccaneers_game_highlights"
-                  },
-                  "deviceRestrictions": {
-                    "type": "whitelist",
-                    "devices": [
-                      "desktop",
-                      "ipad",
-                      "settop",
-                      "handset",
-                      "tablet"
-                    ]
-                  },
-                  "links": {
-                    "web": {
-                      "href": "https://www.espn.com/video/clip?id=46576405",
-                      "self": {
-                        "href": "https://www.espn.com/video/clip?id=46576405",
-                        "dsi": {
-                          "href": "https://www.espn.com/video/clip?id=6689695807f46"
-                        }
-                      },
-                      "seo": {
-                        "href": "https://www.espn.com/video/clip/_/id/46576405"
-                      }
-                    },
-                    "mobile": {
-                      "source": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/11a27acd-f832-496d-bd8f-a8191703586f/11a27acd-f832-496d-bd8f-a8191703586f.mp4"
-                      },
-                      "alert": {
-                        "href": "https://m.espn.com/general/video/videoAlert?vid=46576405"
-                      },
-                      "streaming": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/cf6dabc5-a02b-4ec3-8485-4609b1d1f4b8/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46576405"
-                      },
-                      "progressiveDownload": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/cf6dabc5-a02b-4ec3-8485-4609b1d1f4b8/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46576405"
-                      }
-                    },
-                    "api": {
-                      "self": {
-                        "href": "https://content.core.api.espn.com/v1/video/clips/46576405"
-                      },
-                      "artwork": {
-                        "href": "https://artwork.api.espn.com/artwork/collections/media/cf6dabc5-a02b-4ec3-8485-4609b1d1f4b8"
-                      }
-                    },
-                    "source": {
-                      "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/11a27acd-f832-496d-bd8f-a8191703586f/11a27acd-f832-496d-bd8f-a8191703586f_360p30_1464k.mp4",
-                      "mezzanine": {
-                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2025/1012/11a27acd-f832-496d-bd8f-a8191703586f/11a27acd-f832-496d-bd8f-a8191703586f.mp4"
-                      },
-                      "flash": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/11a27acd-f832-496d-bd8f-a8191703586f/11a27acd-f832-496d-bd8f-a8191703586f.smil"
-                      },
-                      "hds": {
-                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2025/1012/11a27acd-f832-496d-bd8f-a8191703586f/11a27acd-f832-496d-bd8f-a8191703586f_rel.smil/manifest.f4m"
-                      },
-                      "HLS": {
-                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1012/11a27acd-f832-496d-bd8f-a8191703586f/11a27acd-f832-496d-bd8f-a8191703586f/playlist.m3u8",
-                        "HD": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1012/11a27acd-f832-496d-bd8f-a8191703586f/11a27acd-f832-496d-bd8f-a8191703586f/playlist.m3u8"
-                        },
-                        "cmaf": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2025/1012/11a27acd-f832-496d-bd8f-a8191703586f/11a27acd-f832-496d-bd8f-a8191703586f/playlist.m3u8",
-                          "9x16": {
-                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2025/1012/11a27acd-f832-496d-bd8f-a8191703586f/11a27acd-f832-496d-bd8f-a8191703586f/playlist.m3u8"
-                          }
-                        },
-                        "9x16": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2025/1012/11a27acd-f832-496d-bd8f-a8191703586f/11a27acd-f832-496d-bd8f-a8191703586f/playlist.m3u8"
-                        },
-                        "shield": {
-                          "href": "https://watch.auth.api.espn.com/video/auth/media/cf6dabc5-a02b-4ec3-8485-4609b1d1f4b8/asset"
-                        }
-                      },
-                      "HD": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/11a27acd-f832-496d-bd8f-a8191703586f/11a27acd-f832-496d-bd8f-a8191703586f_720p30_2896k.mp4"
-                      },
-                      "full": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/11a27acd-f832-496d-bd8f-a8191703586f/11a27acd-f832-496d-bd8f-a8191703586f_360p30_1464k.mp4"
-                      }
-                    },
-                    "sportscenter": {
-                      "href": "sportscenter://x-callback-url/showVideo?videoID=46576405&videoDSI=6689695807f46"
-                    }
-                  }
-                }
-              ]
-            }
-          ],
           "highlights": [
             {
               "id": 46575962,
@@ -9764,6 +9656,114 @@
                 "trackingName": "NFL_One-Play (San Francisco 49ers vs. Tampa Bay Buccaneers Game Highlights) 2025/10/12 ESHEET",
                 "trackingId": "dm_20251012_NFL_san_francisco_49ers_vs_tampa_bay_buccaneers_game_highlights"
               }
+            }
+          ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "\u2014 Baker Mayfield shrugged off the \u201cMVP!\u201d chants the way he shook away from tacklers.",
+              "shortLinkText": "Baker Mayfield tosses 2 touchdown passes and the Buccaneers beat the 49ers 30-19",
+              "video": [
+                {
+                  "id": 46576405,
+                  "source": "espn",
+                  "headline": "San Francisco 49ers vs. Tampa Bay Buccaneers Game Highlights",
+                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2025/1012/11a27acd-f832-496d-bd8f-a8191703586f/11a27acd-f832-496d-bd8f-a8191703586f.jpg",
+                  "duration": 56,
+                  "tracking": {
+                    "sportName": "football",
+                    "leagueName": "NFL",
+                    "coverageType": "Final Game Highlight",
+                    "trackingName": "NFL_One-Play (San Francisco 49ers vs. Tampa Bay Buccaneers Game Highlights) 2025/10/12 ESHEET",
+                    "trackingId": "dm_20251012_NFL_san_francisco_49ers_vs_tampa_bay_buccaneers_game_highlights"
+                  },
+                  "deviceRestrictions": {
+                    "type": "whitelist",
+                    "devices": [
+                      "desktop",
+                      "ipad",
+                      "settop",
+                      "handset",
+                      "tablet"
+                    ]
+                  },
+                  "links": {
+                    "web": {
+                      "href": "https://www.espn.com/video/clip?id=46576405",
+                      "self": {
+                        "href": "https://www.espn.com/video/clip?id=46576405",
+                        "dsi": {
+                          "href": "https://www.espn.com/video/clip?id=6689695807f46"
+                        }
+                      },
+                      "seo": {
+                        "href": "https://www.espn.com/video/clip/_/id/46576405"
+                      }
+                    },
+                    "mobile": {
+                      "source": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/11a27acd-f832-496d-bd8f-a8191703586f/11a27acd-f832-496d-bd8f-a8191703586f.mp4"
+                      },
+                      "alert": {
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=46576405"
+                      },
+                      "streaming": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/cf6dabc5-a02b-4ec3-8485-4609b1d1f4b8/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46576405"
+                      },
+                      "progressiveDownload": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/cf6dabc5-a02b-4ec3-8485-4609b1d1f4b8/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46576405"
+                      }
+                    },
+                    "api": {
+                      "self": {
+                        "href": "https://content.core.api.espn.com/v1/video/clips/46576405"
+                      },
+                      "artwork": {
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/cf6dabc5-a02b-4ec3-8485-4609b1d1f4b8"
+                      }
+                    },
+                    "source": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/11a27acd-f832-496d-bd8f-a8191703586f/11a27acd-f832-496d-bd8f-a8191703586f_360p30_1464k.mp4",
+                      "mezzanine": {
+                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2025/1012/11a27acd-f832-496d-bd8f-a8191703586f/11a27acd-f832-496d-bd8f-a8191703586f.mp4"
+                      },
+                      "flash": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/11a27acd-f832-496d-bd8f-a8191703586f/11a27acd-f832-496d-bd8f-a8191703586f.smil"
+                      },
+                      "hds": {
+                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2025/1012/11a27acd-f832-496d-bd8f-a8191703586f/11a27acd-f832-496d-bd8f-a8191703586f_rel.smil/manifest.f4m"
+                      },
+                      "HLS": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1012/11a27acd-f832-496d-bd8f-a8191703586f/11a27acd-f832-496d-bd8f-a8191703586f/playlist.m3u8",
+                        "HD": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1012/11a27acd-f832-496d-bd8f-a8191703586f/11a27acd-f832-496d-bd8f-a8191703586f/playlist.m3u8"
+                        },
+                        "cmaf": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2025/1012/11a27acd-f832-496d-bd8f-a8191703586f/11a27acd-f832-496d-bd8f-a8191703586f/playlist.m3u8",
+                          "9x16": {
+                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2025/1012/11a27acd-f832-496d-bd8f-a8191703586f/11a27acd-f832-496d-bd8f-a8191703586f/playlist.m3u8"
+                          }
+                        },
+                        "9x16": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2025/1012/11a27acd-f832-496d-bd8f-a8191703586f/11a27acd-f832-496d-bd8f-a8191703586f/playlist.m3u8"
+                        },
+                        "shield": {
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/cf6dabc5-a02b-4ec3-8485-4609b1d1f4b8/asset"
+                        }
+                      },
+                      "HD": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/11a27acd-f832-496d-bd8f-a8191703586f/11a27acd-f832-496d-bd8f-a8191703586f_720p30_2896k.mp4"
+                      },
+                      "full": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/11a27acd-f832-496d-bd8f-a8191703586f/11a27acd-f832-496d-bd8f-a8191703586f_360p30_1464k.mp4"
+                      }
+                    },
+                    "sportscenter": {
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=46576405&videoDSI=6689695807f46"
+                    }
+                  }
+                }
+              ]
             }
           ]
         }
@@ -10707,6 +10707,11 @@
                   "value": 7.0,
                   "displayValue": "7",
                   "period": 2
+                },
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 3
                 }
               ],
               "statistics": [],
@@ -10808,6 +10813,11 @@
                   "value": 0.0,
                   "displayValue": "0",
                   "period": 2
+                },
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 3
                 }
               ],
               "statistics": [],
@@ -10834,68 +10844,94 @@
           "notes": [],
           "situation": {
             "lastPlay": {
-              "id": "4017728152376",
+              "id": "4017728152540",
               "type": {
-                "id": "65",
-                "text": "End of Half",
-                "abbreviation": "EH"
+                "id": "24",
+                "text": "Pass Reception",
+                "abbreviation": "REC"
               },
-              "text": "END QUARTER 2",
+              "text": "J.Allen pass short right to R.Davis to ATL 35 for 4 yards (D.Alford) [A.Ebiketie].",
               "scoreValue": 0,
               "team": {
-                "id": "1"
+                "id": "2"
               },
               "probability": {
                 "tiePercentage": 0.0,
-                "homeWinPercentage": 0.8714,
-                "awayWinPercentage": 0.12860000000000005,
+                "homeWinPercentage": 0.8184,
+                "awayWinPercentage": 0.18159999999999998,
                 "secondsLeft": 0
               },
               "drive": {
-                "description": "2 plays, 48 yards, 0:10",
+                "description": "7 plays, 50 yards, 4:07",
                 "start": {
-                  "yardLine": 51,
-                  "text": "BUF 49"
-                },
-                "end": {
-                  "yardLine": 60,
-                  "text": "BUF 40"
+                  "yardLine": 73,
+                  "text": "BUF 27"
                 },
                 "timeElapsed": {
-                  "displayValue": "0:10"
-                },
-                "result": "END OF HALF"
+                  "displayValue": "4:07"
+                }
               },
               "start": {
-                "yardLine": 35
+                "yardLine": 39,
+                "team": {
+                  "id": "2"
+                }
               },
               "end": {
                 "yardLine": 35,
                 "team": {
-                  "id": "1"
+                  "id": "2"
                 }
               },
-              "statYardage": 0
+              "statYardage": 4,
+              "athletesInvolved": [
+                {
+                  "id": "4429501",
+                  "fullName": "Ray Davis",
+                  "displayName": "Ray Davis",
+                  "shortName": "R. Davis",
+                  "links": [
+                    {
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/nfl/player/_/id/4429501/ray-davis"
+                    }
+                  ],
+                  "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4429501.png",
+                  "jersey": "22",
+                  "position": "RB",
+                  "team": {
+                    "id": "2"
+                  }
+                }
+              ]
             },
             "down": 1,
             "yardLine": 35,
             "distance": 10,
+            "downDistanceText": "1st & 10 at ATL 35",
+            "shortDownDistanceText": "1st & 10",
+            "possessionText": "ATL 35",
             "isRedZone": false,
             "homeTimeouts": 3,
-            "awayTimeouts": 3
+            "awayTimeouts": 3,
+            "possession": "2"
           },
           "status": {
-            "clock": 0.0,
-            "displayClock": "0:00",
-            "period": 2,
+            "clock": 692.0,
+            "displayClock": "11:32",
+            "period": 3,
             "type": {
-              "id": "23",
-              "name": "STATUS_HALFTIME",
+              "id": "2",
+              "name": "STATUS_IN_PROGRESS",
               "state": "in",
               "completed": false,
-              "description": "Halftime",
-              "detail": "Halftime",
-              "shortDetail": "Halftime"
+              "description": "In Progress",
+              "detail": "11:32 - 3rd Quarter",
+              "shortDetail": "11:32 - 3rd"
             },
             "isTBDFlex": false
           },
@@ -11129,17 +11165,17 @@
         }
       },
       "status": {
-        "clock": 0.0,
-        "displayClock": "0:00",
-        "period": 2,
+        "clock": 692.0,
+        "displayClock": "11:32",
+        "period": 3,
         "type": {
-          "id": "23",
-          "name": "STATUS_HALFTIME",
+          "id": "2",
+          "name": "STATUS_IN_PROGRESS",
           "state": "in",
           "completed": false,
-          "description": "Halftime",
-          "detail": "Halftime",
-          "shortDetail": "Halftime"
+          "description": "In Progress",
+          "detail": "11:32 - 3rd Quarter",
+          "shortDetail": "11:32 - 3rd"
         }
       }
     },
@@ -11389,56 +11425,85 @@
           "notes": [],
           "situation": {
             "lastPlay": {
-              "id": "4017727171351",
+              "id": "4017727171511",
               "type": {
-                "id": "74",
-                "text": "Official Timeout",
-                "abbreviation": "Off TO"
+                "id": "24",
+                "text": "Pass Reception",
+                "abbreviation": "REC"
               },
-              "text": "Official Timeout at 09:28.",
+              "text": "C.Williams pass short left to D.Swift to WAS 39 for 1 yard (M.Sainristil; Q.Martin).",
               "scoreValue": 0,
               "team": {
-                "id": "28"
+                "id": "3"
+              },
+              "probability": {
+                "tiePercentage": 0.0,
+                "homeWinPercentage": 0.3663,
+                "awayWinPercentage": 0.6336999999999999,
+                "secondsLeft": 0
               },
               "drive": {
-                "description": "8 plays, 65 yards, 4:50",
+                "description": "6 plays, 35 yards, 3:02",
                 "start": {
-                  "yardLine": 35,
-                  "text": "WSH 35"
-                },
-                "end": {
-                  "yardLine": 100,
-                  "text": "CHI 0"
+                  "yardLine": 74,
+                  "text": "CHI 26"
                 },
                 "timeElapsed": {
-                  "displayValue": "4:50"
-                },
-                "result": "TD"
+                  "displayValue": "3:02"
+                }
               },
               "start": {
-                "yardLine": 85,
+                "yardLine": 40,
                 "team": {
-                  "id": "28"
+                  "id": "3"
                 }
               },
               "end": {
-                "yardLine": 85,
+                "yardLine": 39,
                 "team": {
-                  "id": "28"
+                  "id": "3"
                 }
               },
-              "statYardage": 0
+              "statYardage": 1,
+              "athletesInvolved": [
+                {
+                  "id": "4428414",
+                  "fullName": "Mike Sainristil",
+                  "displayName": "Mike Sainristil",
+                  "shortName": "M. Sainristil",
+                  "links": [
+                    {
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/nfl/player/_/id/4428414/mike-sainristil"
+                    }
+                  ],
+                  "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4428414.png",
+                  "jersey": "0",
+                  "position": "CB",
+                  "team": {
+                    "id": "28"
+                  }
+                }
+              ]
             },
-            "down": -1,
-            "yardLine": 85,
-            "distance": 0,
-            "isRedZone": true,
+            "down": 2,
+            "yardLine": 39,
+            "distance": 9,
+            "downDistanceText": "2nd & 9 at WSH 39",
+            "shortDownDistanceText": "2nd & 9",
+            "possessionText": "WSH 39",
+            "isRedZone": false,
             "homeTimeouts": 3,
-            "awayTimeouts": 3
+            "awayTimeouts": 3,
+            "possession": "3"
           },
           "status": {
-            "clock": 568.0,
-            "displayClock": "9:28",
+            "clock": 386.0,
+            "displayClock": "6:26",
             "period": 2,
             "type": {
               "id": "2",
@@ -11446,8 +11511,8 @@
               "state": "in",
               "completed": false,
               "description": "In Progress",
-              "detail": "9:28 - 2nd Quarter",
-              "shortDetail": "9:28 - 2nd"
+              "detail": "6:26 - 2nd Quarter",
+              "shortDetail": "6:26 - 2nd"
             },
             "isTBDFlex": false
           },
@@ -11467,8 +11532,8 @@
               "abbreviation": "PYDS",
               "leaders": [
                 {
-                  "displayValue": "8/11, 79 YDS",
-                  "value": 79.0,
+                  "displayValue": "10/13, 81 YDS",
+                  "value": 81.0,
                   "athlete": {
                     "id": "4431611",
                     "fullName": "Caleb Williams",
@@ -11507,8 +11572,8 @@
               "abbreviation": "RYDS",
               "leaders": [
                 {
-                  "displayValue": "5 CAR, 26 YDS",
-                  "value": 26.0,
+                  "displayValue": "6 CAR, 45 YDS",
+                  "value": 45.0,
                   "athlete": {
                     "id": "4259545",
                     "fullName": "D'Andre Swift",
@@ -11681,8 +11746,8 @@
         }
       },
       "status": {
-        "clock": 568.0,
-        "displayClock": "9:28",
+        "clock": 386.0,
+        "displayClock": "6:26",
         "period": 2,
         "type": {
           "id": "2",
@@ -11690,8 +11755,8 @@
           "state": "in",
           "completed": false,
           "description": "In Progress",
-          "detail": "9:28 - 2nd Quarter",
-          "shortDetail": "9:28 - 2nd"
+          "detail": "6:26 - 2nd Quarter",
+          "shortDetail": "6:26 - 2nd"
         }
       }
     }
