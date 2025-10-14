@@ -7734,114 +7734,6 @@
               "region": "us"
             }
           ],
-          "headlines": [
-            {
-              "type": "Recap",
-              "description": "\u2014 It was Devin White and Maxx Crosby and Jonah Laulu and seemingly every defender wearing Raiders silver and black.",
-              "shortLinkText": "The Raiders end a 4-game skid by dominating on defense to beat the Titans 20-10",
-              "video": [
-                {
-                  "id": 46576091,
-                  "source": "espn",
-                  "headline": "Tennessee Titans vs. Las Vegas Raiders Game Highlights",
-                  "thumbnail": "https://a.espncdn.com/media/motion/2025/1012/1565265d61e3493f9ca090f3f0e72cfe1169/1565265d61e3493f9ca090f3f0e72cfe1169.jpg",
-                  "duration": 58,
-                  "tracking": {
-                    "sportName": "football",
-                    "leagueName": "NFL",
-                    "coverageType": "Final Game Highlight",
-                    "trackingName": "COM_NFL Highlight (Tennessee Titans vs. Las Vegas Raiders Game Highlights) 2025/10/12 ESHEET SOTFULL",
-                    "trackingId": "dm_20251012_NFL_tennessee_titans_vs_las_vegas_raiders_game_highlights"
-                  },
-                  "deviceRestrictions": {
-                    "type": "whitelist",
-                    "devices": [
-                      "desktop",
-                      "ipad",
-                      "settop",
-                      "handset",
-                      "tablet"
-                    ]
-                  },
-                  "links": {
-                    "web": {
-                      "href": "https://www.espn.com/video/clip?id=46576091",
-                      "self": {
-                        "href": "https://www.espn.com/video/clip?id=46576091",
-                        "dsi": {
-                          "href": "https://www.espn.com/video/clip?id=42738144756c2"
-                        }
-                      },
-                      "seo": {
-                        "href": "https://www.espn.com/video/clip/_/id/46576091"
-                      }
-                    },
-                    "mobile": {
-                      "source": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/1565265d-61e3-493f-9ca0-90f3f0e72cfe/1565265d-61e3-493f-9ca0-90f3f0e72cfe.mp4"
-                      },
-                      "alert": {
-                        "href": "https://m.espn.com/general/video/videoAlert?vid=46576091"
-                      },
-                      "streaming": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/49e5f9fe-97d7-402c-87d4-b3e39d8daf71/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46576091"
-                      },
-                      "progressiveDownload": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/49e5f9fe-97d7-402c-87d4-b3e39d8daf71/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46576091"
-                      }
-                    },
-                    "api": {
-                      "self": {
-                        "href": "https://content.core.api.espn.com/v1/video/clips/46576091"
-                      },
-                      "artwork": {
-                        "href": "https://artwork.api.espn.com/artwork/collections/media/49e5f9fe-97d7-402c-87d4-b3e39d8daf71"
-                      }
-                    },
-                    "source": {
-                      "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/1565265d-61e3-493f-9ca0-90f3f0e72cfe/1565265d-61e3-493f-9ca0-90f3f0e72cfe_360p30_1464k.mp4",
-                      "mezzanine": {
-                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2025/1012/1565265d-61e3-493f-9ca0-90f3f0e72cfe/1565265d-61e3-493f-9ca0-90f3f0e72cfe.mp4"
-                      },
-                      "flash": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/1565265d-61e3-493f-9ca0-90f3f0e72cfe/1565265d-61e3-493f-9ca0-90f3f0e72cfe.smil"
-                      },
-                      "hds": {
-                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2025/1012/1565265d-61e3-493f-9ca0-90f3f0e72cfe/1565265d-61e3-493f-9ca0-90f3f0e72cfe_rel.smil/manifest.f4m"
-                      },
-                      "HLS": {
-                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1012/1565265d-61e3-493f-9ca0-90f3f0e72cfe/1565265d-61e3-493f-9ca0-90f3f0e72cfe/playlist.m3u8",
-                        "HD": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1012/1565265d-61e3-493f-9ca0-90f3f0e72cfe/1565265d-61e3-493f-9ca0-90f3f0e72cfe/playlist.m3u8"
-                        },
-                        "cmaf": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2025/1012/1565265d-61e3-493f-9ca0-90f3f0e72cfe/1565265d-61e3-493f-9ca0-90f3f0e72cfe/playlist.m3u8",
-                          "9x16": {
-                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2025/1012/1565265d-61e3-493f-9ca0-90f3f0e72cfe/1565265d-61e3-493f-9ca0-90f3f0e72cfe/playlist.m3u8"
-                          }
-                        },
-                        "9x16": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2025/1012/1565265d-61e3-493f-9ca0-90f3f0e72cfe/1565265d-61e3-493f-9ca0-90f3f0e72cfe/playlist.m3u8"
-                        },
-                        "shield": {
-                          "href": "https://watch.auth.api.espn.com/video/auth/media/49e5f9fe-97d7-402c-87d4-b3e39d8daf71/asset"
-                        }
-                      },
-                      "HD": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/1565265d-61e3-493f-9ca0-90f3f0e72cfe/1565265d-61e3-493f-9ca0-90f3f0e72cfe_720p30_2896k.mp4"
-                      },
-                      "full": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/1565265d-61e3-493f-9ca0-90f3f0e72cfe/1565265d-61e3-493f-9ca0-90f3f0e72cfe_360p30_1464k.mp4"
-                      }
-                    },
-                    "sportscenter": {
-                      "href": "sportscenter://x-callback-url/showVideo?videoID=46576091&videoDSI=42738144756c2"
-                    }
-                  }
-                }
-              ]
-            }
-          ],
           "highlights": [
             {
               "id": 46575402,
@@ -8064,6 +7956,114 @@
                 "trackingName": "COM_NFL Highlight (Tennessee Titans vs. Las Vegas Raiders Game Highlights) 2025/10/12 ESHEET SOTFULL",
                 "trackingId": "dm_20251012_NFL_tennessee_titans_vs_las_vegas_raiders_game_highlights"
               }
+            }
+          ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "\u2014 It was Devin White and Maxx Crosby and Jonah Laulu and seemingly every defender wearing Raiders silver and black.",
+              "shortLinkText": "The Raiders end a 4-game skid by dominating on defense to beat the Titans 20-10",
+              "video": [
+                {
+                  "id": 46576091,
+                  "source": "espn",
+                  "headline": "Tennessee Titans vs. Las Vegas Raiders Game Highlights",
+                  "thumbnail": "https://a.espncdn.com/media/motion/2025/1012/1565265d61e3493f9ca090f3f0e72cfe1169/1565265d61e3493f9ca090f3f0e72cfe1169.jpg",
+                  "duration": 58,
+                  "tracking": {
+                    "sportName": "football",
+                    "leagueName": "NFL",
+                    "coverageType": "Final Game Highlight",
+                    "trackingName": "COM_NFL Highlight (Tennessee Titans vs. Las Vegas Raiders Game Highlights) 2025/10/12 ESHEET SOTFULL",
+                    "trackingId": "dm_20251012_NFL_tennessee_titans_vs_las_vegas_raiders_game_highlights"
+                  },
+                  "deviceRestrictions": {
+                    "type": "whitelist",
+                    "devices": [
+                      "desktop",
+                      "ipad",
+                      "settop",
+                      "handset",
+                      "tablet"
+                    ]
+                  },
+                  "links": {
+                    "web": {
+                      "href": "https://www.espn.com/video/clip?id=46576091",
+                      "self": {
+                        "href": "https://www.espn.com/video/clip?id=46576091",
+                        "dsi": {
+                          "href": "https://www.espn.com/video/clip?id=42738144756c2"
+                        }
+                      },
+                      "seo": {
+                        "href": "https://www.espn.com/video/clip/_/id/46576091"
+                      }
+                    },
+                    "mobile": {
+                      "source": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/1565265d-61e3-493f-9ca0-90f3f0e72cfe/1565265d-61e3-493f-9ca0-90f3f0e72cfe.mp4"
+                      },
+                      "alert": {
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=46576091"
+                      },
+                      "streaming": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/49e5f9fe-97d7-402c-87d4-b3e39d8daf71/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46576091"
+                      },
+                      "progressiveDownload": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/49e5f9fe-97d7-402c-87d4-b3e39d8daf71/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46576091"
+                      }
+                    },
+                    "api": {
+                      "self": {
+                        "href": "https://content.core.api.espn.com/v1/video/clips/46576091"
+                      },
+                      "artwork": {
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/49e5f9fe-97d7-402c-87d4-b3e39d8daf71"
+                      }
+                    },
+                    "source": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/1565265d-61e3-493f-9ca0-90f3f0e72cfe/1565265d-61e3-493f-9ca0-90f3f0e72cfe_360p30_1464k.mp4",
+                      "mezzanine": {
+                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2025/1012/1565265d-61e3-493f-9ca0-90f3f0e72cfe/1565265d-61e3-493f-9ca0-90f3f0e72cfe.mp4"
+                      },
+                      "flash": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/1565265d-61e3-493f-9ca0-90f3f0e72cfe/1565265d-61e3-493f-9ca0-90f3f0e72cfe.smil"
+                      },
+                      "hds": {
+                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2025/1012/1565265d-61e3-493f-9ca0-90f3f0e72cfe/1565265d-61e3-493f-9ca0-90f3f0e72cfe_rel.smil/manifest.f4m"
+                      },
+                      "HLS": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1012/1565265d-61e3-493f-9ca0-90f3f0e72cfe/1565265d-61e3-493f-9ca0-90f3f0e72cfe/playlist.m3u8",
+                        "HD": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1012/1565265d-61e3-493f-9ca0-90f3f0e72cfe/1565265d-61e3-493f-9ca0-90f3f0e72cfe/playlist.m3u8"
+                        },
+                        "cmaf": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2025/1012/1565265d-61e3-493f-9ca0-90f3f0e72cfe/1565265d-61e3-493f-9ca0-90f3f0e72cfe/playlist.m3u8",
+                          "9x16": {
+                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2025/1012/1565265d-61e3-493f-9ca0-90f3f0e72cfe/1565265d-61e3-493f-9ca0-90f3f0e72cfe/playlist.m3u8"
+                          }
+                        },
+                        "9x16": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2025/1012/1565265d-61e3-493f-9ca0-90f3f0e72cfe/1565265d-61e3-493f-9ca0-90f3f0e72cfe/playlist.m3u8"
+                        },
+                        "shield": {
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/49e5f9fe-97d7-402c-87d4-b3e39d8daf71/asset"
+                        }
+                      },
+                      "HD": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/1565265d-61e3-493f-9ca0-90f3f0e72cfe/1565265d-61e3-493f-9ca0-90f3f0e72cfe_720p30_2896k.mp4"
+                      },
+                      "full": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/1565265d-61e3-493f-9ca0-90f3f0e72cfe/1565265d-61e3-493f-9ca0-90f3f0e72cfe_360p30_1464k.mp4"
+                      }
+                    },
+                    "sportscenter": {
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=46576091&videoDSI=42738144756c2"
+                    }
+                  }
+                }
+              ]
             }
           ]
         }
@@ -11025,7 +11025,221 @@
               "region": "us"
             }
           ],
-          "highlights": []
+          "highlights": [
+            {
+              "id": 46588841,
+              "cerebroId": "68edb99dc9546c6cde31b0bb",
+              "source": "espn",
+              "headline": "Falcons take down Bills on MNF",
+              "description": "The Falcons jump out to an early lead and hang on for an upset victory over the Bills.",
+              "lastModified": "2025-10-14T02:49:15Z",
+              "originalPublishDate": "2025-10-14T02:46:49Z",
+              "duration": 81,
+              "timeRestrictions": {
+                "embargoDate": "2025-10-14T02:46:49Z",
+                "expirationDate": "2025-10-16T02:46:49Z"
+              },
+              "deviceRestrictions": {
+                "type": "whitelist",
+                "devices": [
+                  "desktop",
+                  "ipad",
+                  "settop",
+                  "handset",
+                  "tablet"
+                ]
+              },
+              "thumbnail": "https://a.espncdn.com/media/motion/wsc/2025/1014/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/da3cbc9b-30b0-4c67-9165-76ab76a6dff7.jpg",
+              "links": {
+                "web": {
+                  "href": "https://www.espn.com/video/clip?id=46588841",
+                  "self": {
+                    "href": "https://www.espn.com/video/clip?id=46588841"
+                  },
+                  "seo": {
+                    "href": "https://www.espn.com/video/clip/_/id/46588841"
+                  }
+                },
+                "mobile": {
+                  "source": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1014/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/da3cbc9b-30b0-4c67-9165-76ab76a6dff7.mp4"
+                  },
+                  "alert": {
+                    "href": "https://m.espn.com/general/video/videoAlert?vid=46588841"
+                  },
+                  "streaming": {
+                    "href": "https://watch.auth.api.espn.com/video/auth/brightcove/294e021d-d756-404a-8abc-97b5979cb712/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46588841"
+                  },
+                  "progressiveDownload": {
+                    "href": "https://watch.auth.api.espn.com/video/auth/brightcove/294e021d-d756-404a-8abc-97b5979cb712/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46588841"
+                  }
+                },
+                "api": {
+                  "self": {
+                    "href": "https://content.core.api.espn.com/v1/video/clips/46588841"
+                  },
+                  "artwork": {
+                    "href": "https://artwork.api.espn.com/artwork/collections/media/294e021d-d756-404a-8abc-97b5979cb712"
+                  }
+                },
+                "source": {
+                  "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1014/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/da3cbc9b-30b0-4c67-9165-76ab76a6dff7_360p30_1464k.mp4",
+                  "mezzanine": {
+                    "href": "https://media.video-origin.espn.com/espnvideo/wsc/2025/1014/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/da3cbc9b-30b0-4c67-9165-76ab76a6dff7.mp4"
+                  },
+                  "flash": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1014/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/da3cbc9b-30b0-4c67-9165-76ab76a6dff7.smil"
+                  },
+                  "hds": {
+                    "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2025/1014/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/da3cbc9b-30b0-4c67-9165-76ab76a6dff7_rel.smil/manifest.f4m"
+                  },
+                  "HLS": {
+                    "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1014/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/playlist.m3u8",
+                    "HD": {
+                      "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1014/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/playlist.m3u8"
+                    },
+                    "cmaf": {
+                      "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2025/1014/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/playlist.m3u8",
+                      "9x16": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2025/1014/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/playlist.m3u8"
+                      }
+                    },
+                    "9x16": {
+                      "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2025/1014/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/playlist.m3u8"
+                    },
+                    "shield": {
+                      "href": "https://watch.auth.api.espn.com/video/auth/media/294e021d-d756-404a-8abc-97b5979cb712/asset"
+                    }
+                  },
+                  "HD": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1014/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/da3cbc9b-30b0-4c67-9165-76ab76a6dff7_720p30_2896k.mp4"
+                  },
+                  "full": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1014/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/da3cbc9b-30b0-4c67-9165-76ab76a6dff7_360p30_1464k.mp4"
+                  }
+                },
+                "sportscenter": {
+                  "href": "sportscenter://x-callback-url/showVideo?videoID=46588841&videoDSI=f1d5a5ced0aca"
+                }
+              },
+              "ad": {
+                "sport": "nfl",
+                "bundle": "nfl_one_plays"
+              },
+              "tracking": {
+                "sportName": "football",
+                "leagueName": "NFL",
+                "coverageType": "Final Game Highlight",
+                "trackingName": "COM_NFL Highlight (Falcons take down Bills on MNF) 2025/10/13 ESHEET SOTFULL",
+                "trackingId": "dm_20251013_NFL_falcons_take_down_bills_on_mnf"
+              }
+            }
+          ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "\u2014 Bijan Robinson matched a career high with 170 rushing yards and gave Atlanta an early two-touchdown lead with the NFL's <a...",
+              "shortLinkText": "Falcons ride Robinson's 170 rushing yards, including 81-yard TD, to 24-14 win over Allen and Bills",
+              "video": [
+                {
+                  "id": 46588841,
+                  "source": "espn",
+                  "headline": "Falcons take down Bills on MNF",
+                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2025/1014/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/da3cbc9b-30b0-4c67-9165-76ab76a6dff7.jpg",
+                  "duration": 81,
+                  "tracking": {
+                    "sportName": "football",
+                    "leagueName": "NFL",
+                    "coverageType": "Final Game Highlight",
+                    "trackingName": "COM_NFL Highlight (Falcons take down Bills on MNF) 2025/10/13 ESHEET SOTFULL",
+                    "trackingId": "dm_20251013_NFL_falcons_take_down_bills_on_mnf"
+                  },
+                  "deviceRestrictions": {
+                    "type": "whitelist",
+                    "devices": [
+                      "desktop",
+                      "ipad",
+                      "settop",
+                      "handset",
+                      "tablet"
+                    ]
+                  },
+                  "links": {
+                    "web": {
+                      "href": "https://www.espn.com/video/clip?id=46588841",
+                      "self": {
+                        "href": "https://www.espn.com/video/clip?id=46588841"
+                      },
+                      "seo": {
+                        "href": "https://www.espn.com/video/clip/_/id/46588841"
+                      }
+                    },
+                    "mobile": {
+                      "source": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1014/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/da3cbc9b-30b0-4c67-9165-76ab76a6dff7.mp4"
+                      },
+                      "alert": {
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=46588841"
+                      },
+                      "streaming": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/294e021d-d756-404a-8abc-97b5979cb712/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46588841"
+                      },
+                      "progressiveDownload": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/294e021d-d756-404a-8abc-97b5979cb712/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46588841"
+                      }
+                    },
+                    "api": {
+                      "self": {
+                        "href": "https://content.core.api.espn.com/v1/video/clips/46588841"
+                      },
+                      "artwork": {
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/294e021d-d756-404a-8abc-97b5979cb712"
+                      }
+                    },
+                    "source": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1014/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/da3cbc9b-30b0-4c67-9165-76ab76a6dff7_360p30_1464k.mp4",
+                      "mezzanine": {
+                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2025/1014/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/da3cbc9b-30b0-4c67-9165-76ab76a6dff7.mp4"
+                      },
+                      "flash": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1014/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/da3cbc9b-30b0-4c67-9165-76ab76a6dff7.smil"
+                      },
+                      "hds": {
+                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2025/1014/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/da3cbc9b-30b0-4c67-9165-76ab76a6dff7_rel.smil/manifest.f4m"
+                      },
+                      "HLS": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1014/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/playlist.m3u8",
+                        "HD": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1014/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/playlist.m3u8"
+                        },
+                        "cmaf": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2025/1014/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/playlist.m3u8",
+                          "9x16": {
+                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2025/1014/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/playlist.m3u8"
+                          }
+                        },
+                        "9x16": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2025/1014/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/playlist.m3u8"
+                        },
+                        "shield": {
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/294e021d-d756-404a-8abc-97b5979cb712/asset"
+                        }
+                      },
+                      "HD": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1014/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/da3cbc9b-30b0-4c67-9165-76ab76a6dff7_720p30_2896k.mp4"
+                      },
+                      "full": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1014/da3cbc9b-30b0-4c67-9165-76ab76a6dff7/da3cbc9b-30b0-4c67-9165-76ab76a6dff7_360p30_1464k.mp4"
+                      }
+                    },
+                    "sportscenter": {
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=46588841&videoDSI=f1d5a5ced0aca"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
         }
       ],
       "links": [
@@ -11077,6 +11291,19 @@
           "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401772815",
           "text": "Play-by-Play",
           "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401772815",
+          "text": "Recap",
+          "shortText": "Recap",
           "isExternal": false,
           "isPremium": false
         }
@@ -11315,7 +11542,7 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png"
               },
-              "score": "16",
+              "score": "22",
               "linescores": [
                 {
                   "value": 6.0,
@@ -11333,8 +11560,8 @@
                   "period": 3
                 },
                 {
-                  "value": 0.0,
-                  "displayValue": "0",
+                  "value": 6.0,
+                  "displayValue": "6",
                   "period": 4
                 }
               ],
@@ -11362,56 +11589,66 @@
           "notes": [],
           "situation": {
             "lastPlay": {
-              "id": "4017727173400",
+              "id": "4017727173739",
               "type": {
                 "id": "74",
                 "text": "Official Timeout",
                 "abbreviation": "Off TO"
               },
-              "text": "Official Timeout at 11:27.",
+              "text": "Official Timeout at 07:57.",
               "scoreValue": 0,
               "team": {
-                "id": "28"
+                "id": "3"
+              },
+              "probability": {
+                "tiePercentage": 0.0,
+                "homeWinPercentage": 0.6435,
+                "awayWinPercentage": 0.35650000000000004,
+                "secondsLeft": 0
               },
               "drive": {
-                "description": "6 plays, 63 yards, 3:28",
+                "description": "5 plays, 21 yards, 2:29",
                 "start": {
-                  "yardLine": 37,
-                  "text": "WSH 37"
+                  "yardLine": 40,
+                  "text": "WSH 40"
                 },
                 "end": {
-                  "yardLine": 100,
-                  "text": "CHI 0"
+                  "yardLine": 61,
+                  "text": "CHI 39"
                 },
                 "timeElapsed": {
-                  "displayValue": "3:28"
+                  "displayValue": "2:29"
                 },
-                "result": "TD"
+                "result": "PUNT"
               },
               "start": {
-                "yardLine": 85,
+                "yardLine": 91,
                 "team": {
-                  "id": "28"
+                  "id": "3"
                 }
               },
               "end": {
-                "yardLine": 85,
+                "yardLine": 91,
                 "team": {
-                  "id": "28"
+                  "id": "3"
                 }
               },
               "statYardage": 0
             },
-            "down": -1,
-            "yardLine": 85,
-            "distance": 0,
-            "isRedZone": true,
+            "down": 1,
+            "yardLine": 91,
+            "distance": 10,
+            "downDistanceText": "1st & 10 at CHI 9",
+            "shortDownDistanceText": "1st & 10",
+            "possessionText": "CHI 9",
+            "isRedZone": false,
             "homeTimeouts": 3,
-            "awayTimeouts": 3
+            "awayTimeouts": 3,
+            "possession": "3"
           },
           "status": {
-            "clock": 687.0,
-            "displayClock": "11:27",
+            "clock": 477.0,
+            "displayClock": "7:57",
             "period": 4,
             "type": {
               "id": "2",
@@ -11419,8 +11656,8 @@
               "state": "in",
               "completed": false,
               "description": "In Progress",
-              "detail": "11:27 - 4th Quarter",
-              "shortDetail": "11:27 - 4th"
+              "detail": "7:57 - 4th Quarter",
+              "shortDetail": "7:57 - 4th"
             },
             "isTBDFlex": false
           },
@@ -11440,13 +11677,13 @@
               "abbreviation": "PYDS",
               "leaders": [
                 {
-                  "displayValue": "18/23, 196 YDS, 3 TD, 1 INT",
-                  "value": 196.0,
+                  "displayValue": "15/26, 232 YDS, 1 TD",
+                  "value": 232.0,
                   "athlete": {
-                    "id": "4426348",
-                    "fullName": "Jayden Daniels",
-                    "displayName": "Jayden Daniels",
-                    "shortName": "J. Daniels",
+                    "id": "4431611",
+                    "fullName": "Caleb Williams",
+                    "displayName": "Caleb Williams",
+                    "shortName": "C. Williams",
                     "links": [
                       {
                         "rel": [
@@ -11454,21 +11691,21 @@
                           "desktop",
                           "athlete"
                         ],
-                        "href": "https://www.espn.com/nfl/player/_/id/4426348/jayden-daniels"
+                        "href": "https://www.espn.com/nfl/player/_/id/4431611/caleb-williams"
                       }
                     ],
-                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4426348.png",
-                    "jersey": "5",
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4431611.png",
+                    "jersey": "18",
                     "position": {
                       "abbreviation": "QB"
                     },
                     "team": {
-                      "id": "28"
+                      "id": "3"
                     },
                     "active": true
                   },
                   "team": {
-                    "id": "28"
+                    "id": "3"
                   }
                 }
               ]
@@ -11480,8 +11717,8 @@
               "abbreviation": "RYDS",
               "leaders": [
                 {
-                  "displayValue": "8 CAR, 68 YDS",
-                  "value": 68.0,
+                  "displayValue": "9 CAR, 74 YDS",
+                  "value": 74.0,
                   "athlete": {
                     "id": "4259545",
                     "fullName": "D'Andre Swift",
@@ -11520,13 +11757,13 @@
               "abbreviation": "RECYDS",
               "leaders": [
                 {
-                  "displayValue": "4 REC, 51 YDS",
-                  "value": 51.0,
+                  "displayValue": "2 REC, 67 YDS, 1 TD",
+                  "value": 67.0,
                   "athlete": {
-                    "id": "4685278",
-                    "fullName": "Luther Burden III",
-                    "displayName": "Luther Burden III",
-                    "shortName": "L. Burden III",
+                    "id": "4259545",
+                    "fullName": "D'Andre Swift",
+                    "displayName": "D'Andre Swift",
+                    "shortName": "D. Swift",
                     "links": [
                       {
                         "rel": [
@@ -11534,13 +11771,13 @@
                           "desktop",
                           "athlete"
                         ],
-                        "href": "https://www.espn.com/nfl/player/_/id/4685278/luther-burden-iii"
+                        "href": "https://www.espn.com/nfl/player/_/id/4259545/dandre-swift"
                       }
                     ],
-                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4685278.png",
-                    "jersey": "10",
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4259545.png",
+                    "jersey": "4",
                     "position": {
-                      "abbreviation": "WR"
+                      "abbreviation": "RB"
                     },
                     "team": {
                       "id": "3"
@@ -11637,10 +11874,10 @@
         }
       ],
       "weather": {
-        "displayValue": "38",
+        "displayValue": "7",
         "temperature": 56,
         "highTemperature": 56,
-        "conditionId": "Mostly cloudy",
+        "conditionId": "Cloudy",
         "link": {
           "language": "en-US",
           "rel": [
@@ -11654,8 +11891,8 @@
         }
       },
       "status": {
-        "clock": 687.0,
-        "displayClock": "11:27",
+        "clock": 477.0,
+        "displayClock": "7:57",
         "period": 4,
         "type": {
           "id": "2",
@@ -11663,8 +11900,8 @@
           "state": "in",
           "completed": false,
           "description": "In Progress",
-          "detail": "11:27 - 4th Quarter",
-          "shortDetail": "11:27 - 4th"
+          "detail": "7:57 - 4th Quarter",
+          "shortDetail": "7:57 - 4th"
         }
       }
     }
