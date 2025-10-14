@@ -3399,117 +3399,6 @@
           ],
           "highlights": [
             {
-              "id": 46573241,
-              "cerebroId": "68ebf5469fa74f3e35c1d953",
-              "source": "espn",
-              "headline": "Maye connects with Boutte for 2nd TD of the game",
-              "description": "Drake Maye finds Kayshon Boutte for their second touchdown connection of the game.",
-              "lastModified": "2025-10-13T02:00:34Z",
-              "originalPublishDate": "2025-10-12T18:36:53Z",
-              "duration": 35,
-              "timeRestrictions": {
-                "embargoDate": "2025-10-12T18:36:53Z",
-                "expirationDate": "2025-10-14T18:36:53Z"
-              },
-              "deviceRestrictions": {
-                "type": "whitelist",
-                "devices": [
-                  "desktop",
-                  "ipad",
-                  "settop",
-                  "handset",
-                  "tablet"
-                ]
-              },
-              "thumbnail": "https://a.espncdn.com/media/motion/2025/1012/1d2a1fa15e654f8aab3bb0692aa9568e879/1d2a1fa15e654f8aab3bb0692aa9568e879.jpg",
-              "links": {
-                "web": {
-                  "href": "https://www.espn.com/video/clip?id=46573241",
-                  "self": {
-                    "href": "https://www.espn.com/video/clip?id=46573241",
-                    "dsi": {
-                      "href": "https://www.espn.com/video/clip?id=5710ccc0a93cc"
-                    }
-                  },
-                  "seo": {
-                    "href": "https://www.espn.com/video/clip/_/id/46573241"
-                  }
-                },
-                "mobile": {
-                  "source": {
-                    "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/1d2a1fa1-5e65-4f8a-ab3b-b0692aa9568e/1d2a1fa1-5e65-4f8a-ab3b-b0692aa9568e.mp4"
-                  },
-                  "alert": {
-                    "href": "https://m.espn.com/general/video/videoAlert?vid=46573241"
-                  },
-                  "streaming": {
-                    "href": "https://watch.auth.api.espn.com/video/auth/brightcove/d700260b-9f07-417a-861c-04e7df9ffbc5/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46573241"
-                  },
-                  "progressiveDownload": {
-                    "href": "https://watch.auth.api.espn.com/video/auth/brightcove/d700260b-9f07-417a-861c-04e7df9ffbc5/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46573241"
-                  }
-                },
-                "api": {
-                  "self": {
-                    "href": "https://content.core.api.espn.com/v1/video/clips/46573241"
-                  },
-                  "artwork": {
-                    "href": "https://artwork.api.espn.com/artwork/collections/media/d700260b-9f07-417a-861c-04e7df9ffbc5"
-                  }
-                },
-                "source": {
-                  "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/1d2a1fa1-5e65-4f8a-ab3b-b0692aa9568e/1d2a1fa1-5e65-4f8a-ab3b-b0692aa9568e_360p30_1464k.mp4",
-                  "mezzanine": {
-                    "href": "https://media.video-origin.espn.com/espnvideo/wsc/2025/1012/1d2a1fa1-5e65-4f8a-ab3b-b0692aa9568e/1d2a1fa1-5e65-4f8a-ab3b-b0692aa9568e.mp4"
-                  },
-                  "flash": {
-                    "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/1d2a1fa1-5e65-4f8a-ab3b-b0692aa9568e/1d2a1fa1-5e65-4f8a-ab3b-b0692aa9568e.smil"
-                  },
-                  "hds": {
-                    "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2025/1012/1d2a1fa1-5e65-4f8a-ab3b-b0692aa9568e/1d2a1fa1-5e65-4f8a-ab3b-b0692aa9568e_rel.smil/manifest.f4m"
-                  },
-                  "HLS": {
-                    "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1012/1d2a1fa1-5e65-4f8a-ab3b-b0692aa9568e/1d2a1fa1-5e65-4f8a-ab3b-b0692aa9568e/playlist.m3u8",
-                    "HD": {
-                      "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1012/1d2a1fa1-5e65-4f8a-ab3b-b0692aa9568e/1d2a1fa1-5e65-4f8a-ab3b-b0692aa9568e/playlist.m3u8"
-                    },
-                    "cmaf": {
-                      "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2025/1012/1d2a1fa1-5e65-4f8a-ab3b-b0692aa9568e/1d2a1fa1-5e65-4f8a-ab3b-b0692aa9568e/playlist.m3u8",
-                      "9x16": {
-                        "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2025/1012/1d2a1fa1-5e65-4f8a-ab3b-b0692aa9568e/1d2a1fa1-5e65-4f8a-ab3b-b0692aa9568e/playlist.m3u8"
-                      }
-                    },
-                    "9x16": {
-                      "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2025/1012/1d2a1fa1-5e65-4f8a-ab3b-b0692aa9568e/1d2a1fa1-5e65-4f8a-ab3b-b0692aa9568e/playlist.m3u8"
-                    },
-                    "shield": {
-                      "href": "https://watch.auth.api.espn.com/video/auth/media/d700260b-9f07-417a-861c-04e7df9ffbc5/asset"
-                    }
-                  },
-                  "HD": {
-                    "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/1d2a1fa1-5e65-4f8a-ab3b-b0692aa9568e/1d2a1fa1-5e65-4f8a-ab3b-b0692aa9568e_720p30_2896k.mp4"
-                  },
-                  "full": {
-                    "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/1d2a1fa1-5e65-4f8a-ab3b-b0692aa9568e/1d2a1fa1-5e65-4f8a-ab3b-b0692aa9568e_360p30_1464k.mp4"
-                  }
-                },
-                "sportscenter": {
-                  "href": "sportscenter://x-callback-url/showVideo?videoID=46573241&videoDSI=5710ccc0a93cc"
-                }
-              },
-              "ad": {
-                "sport": "nfl",
-                "bundle": "nfl_one_plays"
-              },
-              "tracking": {
-                "sportName": "football",
-                "leagueName": "NFL",
-                "coverageType": "Final Game Highlight",
-                "trackingName": "NFL_One-Play (Maye connects with Boutte for 2nd TD of the game) 2025/10/12 ESHEET",
-                "trackingId": "dm_20251012_NFL_boutte_td_2"
-              }
-            },
-            {
               "id": 46574504,
               "cerebroId": "68ec129612ff340a44a5673c",
               "source": "espn",
@@ -6670,117 +6559,6 @@
           ],
           "highlights": [
             {
-              "id": 46573349,
-              "cerebroId": "68ebf99f12ff340a44a558f6",
-              "source": "espn",
-              "headline": "Stafford's 4th-and-3 completion sets up Rams TD",
-              "description": "Matthew Stafford makes an amazing throw to Kyren Williams, who comes down with the ball then he rushes in for a touchdown on the next play.",
-              "lastModified": "2025-10-12T20:20:49Z",
-              "originalPublishDate": "2025-10-12T18:55:26Z",
-              "duration": 55,
-              "timeRestrictions": {
-                "embargoDate": "2025-10-12T18:55:26Z",
-                "expirationDate": "2025-10-14T18:55:26Z"
-              },
-              "deviceRestrictions": {
-                "type": "whitelist",
-                "devices": [
-                  "desktop",
-                  "ipad",
-                  "settop",
-                  "handset",
-                  "tablet"
-                ]
-              },
-              "thumbnail": "https://a.espncdn.com/media/motion/2025/1012/03b3eb6cd88749bb82cee442770005bf979/03b3eb6cd88749bb82cee442770005bf979.jpg",
-              "links": {
-                "web": {
-                  "href": "https://www.espn.com/video/clip?id=46573349",
-                  "self": {
-                    "href": "https://www.espn.com/video/clip?id=46573349",
-                    "dsi": {
-                      "href": "https://www.espn.com/video/clip?id=86c4cdaefb324"
-                    }
-                  },
-                  "seo": {
-                    "href": "https://www.espn.com/video/clip/_/id/46573349"
-                  }
-                },
-                "mobile": {
-                  "source": {
-                    "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/03b3eb6c-d887-49bb-82ce-e442770005bf/03b3eb6c-d887-49bb-82ce-e442770005bf.mp4"
-                  },
-                  "alert": {
-                    "href": "https://m.espn.com/general/video/videoAlert?vid=46573349"
-                  },
-                  "streaming": {
-                    "href": "https://watch.auth.api.espn.com/video/auth/brightcove/855bec69-ac8d-4b56-b657-8966f0f6f49a/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46573349"
-                  },
-                  "progressiveDownload": {
-                    "href": "https://watch.auth.api.espn.com/video/auth/brightcove/855bec69-ac8d-4b56-b657-8966f0f6f49a/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46573349"
-                  }
-                },
-                "api": {
-                  "self": {
-                    "href": "https://content.core.api.espn.com/v1/video/clips/46573349"
-                  },
-                  "artwork": {
-                    "href": "https://artwork.api.espn.com/artwork/collections/media/855bec69-ac8d-4b56-b657-8966f0f6f49a"
-                  }
-                },
-                "source": {
-                  "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/03b3eb6c-d887-49bb-82ce-e442770005bf/03b3eb6c-d887-49bb-82ce-e442770005bf_360p30_1464k.mp4",
-                  "mezzanine": {
-                    "href": "https://media.video-origin.espn.com/espnvideo/wsc/2025/1012/03b3eb6c-d887-49bb-82ce-e442770005bf/03b3eb6c-d887-49bb-82ce-e442770005bf.mp4"
-                  },
-                  "flash": {
-                    "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/03b3eb6c-d887-49bb-82ce-e442770005bf/03b3eb6c-d887-49bb-82ce-e442770005bf.smil"
-                  },
-                  "hds": {
-                    "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2025/1012/03b3eb6c-d887-49bb-82ce-e442770005bf/03b3eb6c-d887-49bb-82ce-e442770005bf_rel.smil/manifest.f4m"
-                  },
-                  "HLS": {
-                    "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1012/03b3eb6c-d887-49bb-82ce-e442770005bf/03b3eb6c-d887-49bb-82ce-e442770005bf/playlist.m3u8",
-                    "HD": {
-                      "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1012/03b3eb6c-d887-49bb-82ce-e442770005bf/03b3eb6c-d887-49bb-82ce-e442770005bf/playlist.m3u8"
-                    },
-                    "cmaf": {
-                      "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2025/1012/03b3eb6c-d887-49bb-82ce-e442770005bf/03b3eb6c-d887-49bb-82ce-e442770005bf/playlist.m3u8",
-                      "9x16": {
-                        "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2025/1012/03b3eb6c-d887-49bb-82ce-e442770005bf/03b3eb6c-d887-49bb-82ce-e442770005bf/playlist.m3u8"
-                      }
-                    },
-                    "9x16": {
-                      "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2025/1012/03b3eb6c-d887-49bb-82ce-e442770005bf/03b3eb6c-d887-49bb-82ce-e442770005bf/playlist.m3u8"
-                    },
-                    "shield": {
-                      "href": "https://watch.auth.api.espn.com/video/auth/media/855bec69-ac8d-4b56-b657-8966f0f6f49a/asset"
-                    }
-                  },
-                  "HD": {
-                    "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/03b3eb6c-d887-49bb-82ce-e442770005bf/03b3eb6c-d887-49bb-82ce-e442770005bf_720p30_2896k.mp4"
-                  },
-                  "full": {
-                    "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/03b3eb6c-d887-49bb-82ce-e442770005bf/03b3eb6c-d887-49bb-82ce-e442770005bf_360p30_1464k.mp4"
-                  }
-                },
-                "sportscenter": {
-                  "href": "sportscenter://x-callback-url/showVideo?videoID=46573349&videoDSI=86c4cdaefb324"
-                }
-              },
-              "ad": {
-                "sport": "nfl",
-                "bundle": "nfl_one_plays"
-              },
-              "tracking": {
-                "sportName": "football",
-                "leagueName": "NFL",
-                "coverageType": "Final Game Highlight",
-                "trackingName": "NFL_One-Play (Stafford's 4th-and-3 completion sets up Rams TD) 2025/10/12 ESHEET",
-                "trackingId": "dm_20251012_NFL_live_on_fox_staffords_4thand3_completion_sets_up_rams_td"
-              }
-            },
-            {
               "id": 46574125,
               "cerebroId": "68ec0904c9546c6cde3054e9",
               "source": "espn",
@@ -8362,114 +8140,6 @@
               "region": "us"
             }
           ],
-          "headlines": [
-            {
-              "type": "Recap",
-              "description": "\u2014 This time, the Green Bay Packers built a double-digit lead and finished the job.",
-              "shortLinkText": "Packers overcome Flacco's comeback attempt and beat the Bengals 27-18",
-              "video": [
-                {
-                  "id": 46576266,
-                  "source": "espn",
-                  "headline": "Cincinnati Bengals vs. Green Bay Packers Game Highlights",
-                  "thumbnail": "https://a.espncdn.com/media/motion/2025/1012/3246026b53fd4fe389997418636a48541172/3246026b53fd4fe389997418636a48541172.jpg",
-                  "duration": 59,
-                  "tracking": {
-                    "sportName": "football",
-                    "leagueName": "NFL",
-                    "coverageType": "Final Game Highlight",
-                    "trackingName": "NFL_One-Play (Cincinnati Bengals vs. Green Bay Packers Game Highlights) 2025/10/12 ESHEET",
-                    "trackingId": "dm_20251012_NFL_cincinnati_bengals_vs_green_bay_packers_game_highlights"
-                  },
-                  "deviceRestrictions": {
-                    "type": "whitelist",
-                    "devices": [
-                      "desktop",
-                      "ipad",
-                      "settop",
-                      "handset",
-                      "tablet"
-                    ]
-                  },
-                  "links": {
-                    "web": {
-                      "href": "https://www.espn.com/video/clip?id=46576266",
-                      "self": {
-                        "href": "https://www.espn.com/video/clip?id=46576266",
-                        "dsi": {
-                          "href": "https://www.espn.com/video/clip?id=322e7bac837ce"
-                        }
-                      },
-                      "seo": {
-                        "href": "https://www.espn.com/video/clip/_/id/46576266"
-                      }
-                    },
-                    "mobile": {
-                      "source": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/3246026b-53fd-4fe3-8999-7418636a4854/3246026b-53fd-4fe3-8999-7418636a4854.mp4"
-                      },
-                      "alert": {
-                        "href": "https://m.espn.com/general/video/videoAlert?vid=46576266"
-                      },
-                      "streaming": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/02a095da-75b6-4ce6-82c0-5d7b16597dd0/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46576266"
-                      },
-                      "progressiveDownload": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/02a095da-75b6-4ce6-82c0-5d7b16597dd0/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46576266"
-                      }
-                    },
-                    "api": {
-                      "self": {
-                        "href": "https://content.core.api.espn.com/v1/video/clips/46576266"
-                      },
-                      "artwork": {
-                        "href": "https://artwork.api.espn.com/artwork/collections/media/02a095da-75b6-4ce6-82c0-5d7b16597dd0"
-                      }
-                    },
-                    "source": {
-                      "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/3246026b-53fd-4fe3-8999-7418636a4854/3246026b-53fd-4fe3-8999-7418636a4854_360p30_1464k.mp4",
-                      "mezzanine": {
-                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2025/1012/3246026b-53fd-4fe3-8999-7418636a4854/3246026b-53fd-4fe3-8999-7418636a4854.mp4"
-                      },
-                      "flash": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/3246026b-53fd-4fe3-8999-7418636a4854/3246026b-53fd-4fe3-8999-7418636a4854.smil"
-                      },
-                      "hds": {
-                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2025/1012/3246026b-53fd-4fe3-8999-7418636a4854/3246026b-53fd-4fe3-8999-7418636a4854_rel.smil/manifest.f4m"
-                      },
-                      "HLS": {
-                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1012/3246026b-53fd-4fe3-8999-7418636a4854/3246026b-53fd-4fe3-8999-7418636a4854/playlist.m3u8",
-                        "HD": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1012/3246026b-53fd-4fe3-8999-7418636a4854/3246026b-53fd-4fe3-8999-7418636a4854/playlist.m3u8"
-                        },
-                        "cmaf": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2025/1012/3246026b-53fd-4fe3-8999-7418636a4854/3246026b-53fd-4fe3-8999-7418636a4854/playlist.m3u8",
-                          "9x16": {
-                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2025/1012/3246026b-53fd-4fe3-8999-7418636a4854/3246026b-53fd-4fe3-8999-7418636a4854/playlist.m3u8"
-                          }
-                        },
-                        "9x16": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2025/1012/3246026b-53fd-4fe3-8999-7418636a4854/3246026b-53fd-4fe3-8999-7418636a4854/playlist.m3u8"
-                        },
-                        "shield": {
-                          "href": "https://watch.auth.api.espn.com/video/auth/media/02a095da-75b6-4ce6-82c0-5d7b16597dd0/asset"
-                        }
-                      },
-                      "HD": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/3246026b-53fd-4fe3-8999-7418636a4854/3246026b-53fd-4fe3-8999-7418636a4854_720p30_2896k.mp4"
-                      },
-                      "full": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/3246026b-53fd-4fe3-8999-7418636a4854/3246026b-53fd-4fe3-8999-7418636a4854_360p30_1464k.mp4"
-                      }
-                    },
-                    "sportscenter": {
-                      "href": "sportscenter://x-callback-url/showVideo?videoID=46576266&videoDSI=322e7bac837ce"
-                    }
-                  }
-                }
-              ]
-            }
-          ],
           "highlights": [
             {
               "id": 46576065,
@@ -8692,6 +8362,114 @@
                 "trackingName": "NFL_One-Play (Cincinnati Bengals vs. Green Bay Packers Game Highlights) 2025/10/12 ESHEET",
                 "trackingId": "dm_20251012_NFL_cincinnati_bengals_vs_green_bay_packers_game_highlights"
               }
+            }
+          ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "\u2014 This time, the Green Bay Packers built a double-digit lead and finished the job.",
+              "shortLinkText": "Packers overcome Flacco's comeback attempt and beat the Bengals 27-18",
+              "video": [
+                {
+                  "id": 46576266,
+                  "source": "espn",
+                  "headline": "Cincinnati Bengals vs. Green Bay Packers Game Highlights",
+                  "thumbnail": "https://a.espncdn.com/media/motion/2025/1012/3246026b53fd4fe389997418636a48541172/3246026b53fd4fe389997418636a48541172.jpg",
+                  "duration": 59,
+                  "tracking": {
+                    "sportName": "football",
+                    "leagueName": "NFL",
+                    "coverageType": "Final Game Highlight",
+                    "trackingName": "NFL_One-Play (Cincinnati Bengals vs. Green Bay Packers Game Highlights) 2025/10/12 ESHEET",
+                    "trackingId": "dm_20251012_NFL_cincinnati_bengals_vs_green_bay_packers_game_highlights"
+                  },
+                  "deviceRestrictions": {
+                    "type": "whitelist",
+                    "devices": [
+                      "desktop",
+                      "ipad",
+                      "settop",
+                      "handset",
+                      "tablet"
+                    ]
+                  },
+                  "links": {
+                    "web": {
+                      "href": "https://www.espn.com/video/clip?id=46576266",
+                      "self": {
+                        "href": "https://www.espn.com/video/clip?id=46576266",
+                        "dsi": {
+                          "href": "https://www.espn.com/video/clip?id=322e7bac837ce"
+                        }
+                      },
+                      "seo": {
+                        "href": "https://www.espn.com/video/clip/_/id/46576266"
+                      }
+                    },
+                    "mobile": {
+                      "source": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/3246026b-53fd-4fe3-8999-7418636a4854/3246026b-53fd-4fe3-8999-7418636a4854.mp4"
+                      },
+                      "alert": {
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=46576266"
+                      },
+                      "streaming": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/02a095da-75b6-4ce6-82c0-5d7b16597dd0/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46576266"
+                      },
+                      "progressiveDownload": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/02a095da-75b6-4ce6-82c0-5d7b16597dd0/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46576266"
+                      }
+                    },
+                    "api": {
+                      "self": {
+                        "href": "https://content.core.api.espn.com/v1/video/clips/46576266"
+                      },
+                      "artwork": {
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/02a095da-75b6-4ce6-82c0-5d7b16597dd0"
+                      }
+                    },
+                    "source": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/3246026b-53fd-4fe3-8999-7418636a4854/3246026b-53fd-4fe3-8999-7418636a4854_360p30_1464k.mp4",
+                      "mezzanine": {
+                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2025/1012/3246026b-53fd-4fe3-8999-7418636a4854/3246026b-53fd-4fe3-8999-7418636a4854.mp4"
+                      },
+                      "flash": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/3246026b-53fd-4fe3-8999-7418636a4854/3246026b-53fd-4fe3-8999-7418636a4854.smil"
+                      },
+                      "hds": {
+                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2025/1012/3246026b-53fd-4fe3-8999-7418636a4854/3246026b-53fd-4fe3-8999-7418636a4854_rel.smil/manifest.f4m"
+                      },
+                      "HLS": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1012/3246026b-53fd-4fe3-8999-7418636a4854/3246026b-53fd-4fe3-8999-7418636a4854/playlist.m3u8",
+                        "HD": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1012/3246026b-53fd-4fe3-8999-7418636a4854/3246026b-53fd-4fe3-8999-7418636a4854/playlist.m3u8"
+                        },
+                        "cmaf": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2025/1012/3246026b-53fd-4fe3-8999-7418636a4854/3246026b-53fd-4fe3-8999-7418636a4854/playlist.m3u8",
+                          "9x16": {
+                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2025/1012/3246026b-53fd-4fe3-8999-7418636a4854/3246026b-53fd-4fe3-8999-7418636a4854/playlist.m3u8"
+                          }
+                        },
+                        "9x16": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2025/1012/3246026b-53fd-4fe3-8999-7418636a4854/3246026b-53fd-4fe3-8999-7418636a4854/playlist.m3u8"
+                        },
+                        "shield": {
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/02a095da-75b6-4ce6-82c0-5d7b16597dd0/asset"
+                        }
+                      },
+                      "HD": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/3246026b-53fd-4fe3-8999-7418636a4854/3246026b-53fd-4fe3-8999-7418636a4854_720p30_2896k.mp4"
+                      },
+                      "full": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1012/3246026b-53fd-4fe3-8999-7418636a4854/3246026b-53fd-4fe3-8999-7418636a4854_360p30_1464k.mp4"
+                      }
+                    },
+                    "sportscenter": {
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=46576266&videoDSI=322e7bac837ce"
+                    }
+                  }
+                }
+              ]
             }
           ]
         }
