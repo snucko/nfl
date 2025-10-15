@@ -624,7 +624,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $137",
-              "numberAvailable": 1715,
+              "numberAvailable": 1717,
               "links": [
                 {
                   "href": "https://www.vividseats.com/cincinnati-bengals-tickets-paycor-stadium-3-3-2026--sports-nfl-football/production/5471093?wsUser=717"
@@ -878,7 +878,7 @@
                   "id": "3847d718-0212-4569-845c-db24f9fd79bf",
                   "displayName": "Fantasy Football: Pullin' PPR",
                   "type": "PARLAY_PLUS",
-                  "odds": "+478",
+                  "odds": "+477",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=3847d718-0212-4569-845c-db24f9fd79bf",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=3847d718-0212-4569-845c-db24f9fd79bf",
@@ -892,7 +892,7 @@
                     }
                   },
                   "startTime": "2025-10-17T00:15Z",
-                  "payoutText": "$10.00 pays $47.77",
+                  "payoutText": "$10.00 pays $47.72",
                   "displayOrder": 55,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
@@ -1068,7 +1068,7 @@
                   "id": "175fa7a8-5e00-45b4-a9b1-71d2455ed147",
                   "displayName": "Fantasy Football: Let It Fly",
                   "type": "PARLAY_PLUS",
-                  "odds": "+413",
+                  "odds": "+409",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=175fa7a8-5e00-45b4-a9b1-71d2455ed147",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=175fa7a8-5e00-45b4-a9b1-71d2455ed147",
@@ -1082,7 +1082,7 @@
                     }
                   },
                   "startTime": "2025-10-17T00:15Z",
-                  "payoutText": "$10.00 pays $41.34",
+                  "payoutText": "$10.00 pays $40.90",
                   "displayOrder": 57,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
@@ -1322,6 +1322,9 @@
                     }
                   },
                   "startTime": "2025-10-17T00:15Z",
+                  "betsPlaced": "101",
+                  "betsPlacedText": "bets placed",
+                  "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $116.78",
                   "displayOrder": 59,
                   "locations": [
@@ -1735,7 +1738,7 @@
                   "id": "f74597a8-b508-412e-9c06-16cf571e0e19",
                   "displayName": "Cincinnati Surge",
                   "type": "PARLAY_PLUS",
-                  "odds": "+779",
+                  "odds": "+783",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=f74597a8-b508-412e-9c06-16cf571e0e19",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=f74597a8-b508-412e-9c06-16cf571e0e19",
@@ -1749,7 +1752,7 @@
                     }
                   },
                   "startTime": "2025-10-17T00:15Z",
-                  "payoutText": "$10.00 pays $77.90",
+                  "payoutText": "$10.00 pays $78.34",
                   "displayOrder": 62,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
@@ -2517,24 +2520,6 @@
               },
               "score": "0",
               "statistics": [],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "4-2"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "3-1"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "1-1"
-                }
-              ],
               "leaders": [
                 {
                   "name": "passingLeader",
@@ -2655,6 +2640,24 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "4-2"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "3-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "1-1"
                 }
               ]
             },
@@ -4628,7 +4631,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $226",
-              "numberAvailable": 1386,
+              "numberAvailable": 1380,
               "links": [
                 {
                   "href": "https://www.vividseats.com/chicago-bears-tickets-soldier-field-3-6-2026--sports-nfl-football/production/5470716?wsUser=717"
@@ -5739,24 +5742,6 @@
               },
               "score": "0",
               "statistics": [],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "1-5"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "1-2"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "0-3"
-                }
-              ],
               "leaders": [
                 {
                   "name": "passingLeader",
@@ -5877,6 +5862,24 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "1-5"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-2"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-3"
                 }
               ]
             }
@@ -6035,7 +6038,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $36",
-              "numberAvailable": 4585,
+              "numberAvailable": 4589,
               "links": [
                 {
                   "href": "https://www.vividseats.com/cleveland-browns-tickets-huntington-bank-field-3-5-2026--sports-nfl-football/production/5471087?wsUser=717"
@@ -7389,7 +7392,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $53",
-              "numberAvailable": 2344,
+              "numberAvailable": 2341,
               "links": [
                 {
                   "href": "https://www.vividseats.com/tennessee-titans-tickets-nissan-stadium-3-6-2026--sports-nfl-football/production/5472067?wsUser=717"
@@ -9092,7 +9095,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $225",
-              "numberAvailable": 4024,
+              "numberAvailable": 4031,
               "links": [
                 {
                   "href": "https://www.vividseats.com/kansas-city-chiefs-tickets-geha-field-at-arrowhead-stadium-3-3-2026--sports-nfl-football/production/5472314?wsUser=717"
@@ -12052,7 +12055,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $56",
-              "numberAvailable": 4715,
+              "numberAvailable": 4712,
               "links": [
                 {
                   "href": "https://www.vividseats.com/new-york-jets-tickets-metlife-stadium-3-8-2026--sports-nfl-football/production/5471071?wsUser=717"
@@ -14870,7 +14873,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $37",
-              "numberAvailable": 5146,
+              "numberAvailable": 5132,
               "links": [
                 {
                   "href": "https://www.vividseats.com/los-angeles-chargers-tickets-sofi-stadium-3-5-2026--sports-nfl-football/production/5472497?wsUser=717"
@@ -15585,7 +15588,7 @@
           "rel": [
             "90301"
           ],
-          "href": "http://www.accuweather.com/en/us/sofi-stadium-ca/90301/hourly-weather-forecast/209205_poi?day=6&hbhhour=13&lang=en-us",
+          "href": "http://www.accuweather.com/en/us/sofi-stadium-ca/90301/hourly-weather-forecast/209205_poi?day=5&hbhhour=13&lang=en-us",
           "text": "Weather",
           "shortText": "Weather",
           "isExternal": true,
@@ -15717,24 +15720,6 @@
               },
               "score": "0",
               "statistics": [],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "2-3-1"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "1-0-1"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "1-3"
-                }
-              ],
               "leaders": [
                 {
                   "name": "passingLeader",
@@ -15855,6 +15840,24 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "2-3-1"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-0-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "1-3"
                 }
               ]
             },
@@ -16224,7 +16227,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $22",
-              "numberAvailable": 6598,
+              "numberAvailable": 6605,
               "links": [
                 {
                   "href": "https://www.vividseats.com/dallas-cowboys-tickets-att-stadium-3-3-2026--sports-nfl-football/production/5470560?wsUser=717"
@@ -17578,7 +17581,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $118",
-              "numberAvailable": 4473,
+              "numberAvailable": 4478,
               "links": [
                 {
                   "href": "https://www.vividseats.com/arizona-cardinals-tickets-state-farm-stadium-3-8-2026--sports-nfl-football/production/5470311?wsUser=717"
@@ -19234,7 +19237,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $98",
-              "numberAvailable": 3050,
+              "numberAvailable": 3044,
               "links": [
                 {
                   "href": "https://www.vividseats.com/san-francisco-49ers-tickets-levis-stadium-3-4-2026--sports-nfl-football/production/5470911?wsUser=717"
@@ -20055,7 +20058,7 @@
           "rel": [
             "95054"
           ],
-          "href": "http://www.accuweather.com/en/us/levis-stadium-ca/95050/hourly-weather-forecast/53539_poi?day=6&hbhhour=17&lang=en-us",
+          "href": "http://www.accuweather.com/en/us/levis-stadium-ca/95050/hourly-weather-forecast/53539_poi?day=5&hbhhour=17&lang=en-us",
           "text": "Weather",
           "shortText": "Weather",
           "isExternal": true,
@@ -20695,7 +20698,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $204",
-              "numberAvailable": 1677,
+              "numberAvailable": 1681,
               "links": [
                 {
                   "href": "https://www.vividseats.com/detroit-lions-tickets-ford-field-3-8-2026--sports-nfl-football/production/5470693?wsUser=717"
@@ -22174,7 +22177,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $120",
-              "numberAvailable": 2221,
+              "numberAvailable": 2224,
               "links": [
                 {
                   "href": "https://www.vividseats.com/seattle-seahawks-tickets-lumen-field-3-7-2026--sports-nfl-football/production/5470922?wsUser=717"
@@ -22699,7 +22702,7 @@
           "rel": [
             "98134"
           ],
-          "href": "http://www.accuweather.com/en/us/lumen-field-wa/98104/hourly-weather-forecast/53660_poi?day=7&hbhhour=19&lang=en-us",
+          "href": "http://www.accuweather.com/en/us/lumen-field-wa/98104/hourly-weather-forecast/53660_poi?day=6&hbhhour=19&lang=en-us",
           "text": "Weather",
           "shortText": "Weather",
           "isExternal": true,
