@@ -1,67 +1,81 @@
 {% comment %}
 NFL Schedule - Full Size TRMNL Plugin
-Uses webhook data pushed from GitHub Actions
 {% endcomment %}
 
 <div class="plugin">
   <h1 class="title">
-    NFL Week {{ week.number }} · {{ season.year }}
-    {% if season.type == 2 %}(Regular Season){% elsif season.type == 3 %}(Playoffs){% endif %}
+    NFL Week 7 · 2025
+    (Regular Season)
   </h1>
   
   <div class="games">
-    {% for event in events limit:10 %}
-      {% assign competition = event.competitions[0] %}
-      {% assign status = competition.status %}
-      {% assign away_team = '' %}
-      {% assign home_team = '' %}
-      
-      {% for competitor in competition.competitors %}
-        {% if competitor.homeAway == 'away' %}
-          {% assign away_team = competitor %}
-        {% elsif competitor.homeAway == 'home' %}
-          {% assign home_team = competitor %}
-        {% endif %}
-      {% endfor %}
-      
-      <div class="game-row {% if away_team.team.abbreviation == 'NE' or home_team.team.abbreviation == 'NE' %}favorite{% endif %}">
-        <div class="matchup">
-          <div class="teams-line">
-            <span class="team away">
-              <img src="{{ away_team.team.logo }}" alt="{{ away_team.team.abbreviation }}" class="logo">
-              <span class="team-abbr">{{ away_team.team.abbreviation }}</span>
-              {% if status.type.completed or status.type.state == 'in' %}
-                <span class="score">{{ away_team.score }}</span>
-              {% endif %}
-            </span>
-            <span class="vs">@</span>
-            <span class="team home">
-              <img src="{{ home_team.team.logo }}" alt="{{ home_team.team.abbreviation }}" class="logo">
-              <span class="team-abbr">{{ home_team.team.abbreviation }}</span>
-              {% if status.type.completed or status.type.state == 'in' %}
-                <span class="score">{{ home_team.score }}</span>
-              {% endif %}
-            </span>
-          </div>
-          <div class="game-status">
-            {% if status.type.state == 'in' %}
-              <span class="live">🔴 LIVE</span> {{ status.type.shortDetail }}
-            {% elsif status.type.completed %}
-              ✓ FINAL
-            {% else %}
-              📅 {{ status.type.shortDetail }}
-            {% endif %}
-          </div>
-        </div>
-      </div>
-    {% endfor %}
+    <div class="game-row">
+      <div class="teams">Pittsburgh Steelers at Cincinnati Bengals <span class="status">(10/16 - 8:15 PM EDT)</span></div>
+      <div class="meta">Fri Oct 17, 12:15 AM · Paycor Stadium</div>
+    </div>
+    <div class="game-row">
+      <div class="teams">Los Angeles Rams at Jacksonville Jaguars <span class="status">(10/19 - 9:30 AM EDT)</span></div>
+      <div class="meta">Sun Oct 19, 01:30 PM · Wembley Stadium</div>
+    </div>
+    <div class="game-row">
+      <div class="teams">New Orleans Saints at Chicago Bears <span class="status">(10/19 - 1:00 PM EDT)</span></div>
+      <div class="meta">Sun Oct 19, 05:00 PM · Soldier Field</div>
+    </div>
+    <div class="game-row">
+      <div class="teams">Miami Dolphins at Cleveland Browns <span class="status">(10/19 - 1:00 PM EDT)</span></div>
+      <div class="meta">Sun Oct 19, 05:00 PM · Huntington Bank Field</div>
+    </div>
+    <div class="game-row">
+      <div class="teams">New England Patriots at Tennessee Titans <span class="status">(10/19 - 1:00 PM EDT)</span></div>
+      <div class="meta">Sun Oct 19, 05:00 PM · Nissan Stadium</div>
+    </div>
+    <div class="game-row">
+      <div class="teams">Las Vegas Raiders at Kansas City Chiefs <span class="status">(10/19 - 1:00 PM EDT)</span></div>
+      <div class="meta">Sun Oct 19, 05:00 PM · GEHA Field at Arrowhead Stadium</div>
+    </div>
+    <div class="game-row">
+      <div class="teams">Philadelphia Eagles at Minnesota Vikings <span class="status">(10/19 - 1:00 PM EDT)</span></div>
+      <div class="meta">Sun Oct 19, 05:00 PM · U.S. Bank Stadium</div>
+    </div>
+    <div class="game-row">
+      <div class="teams">Carolina Panthers at New York Jets <span class="status">(10/19 - 1:00 PM EDT)</span></div>
+      <div class="meta">Sun Oct 19, 05:00 PM · MetLife Stadium</div>
+    </div>
+    <div class="game-row">
+      <div class="teams">New York Giants at Denver Broncos <span class="status">(10/19 - 4:05 PM EDT)</span></div>
+      <div class="meta">Sun Oct 19, 08:05 PM · Empower Field at Mile High</div>
+    </div>
+    <div class="game-row">
+      <div class="teams">Indianapolis Colts at Los Angeles Chargers <span class="status">(10/19 - 4:05 PM EDT)</span></div>
+      <div class="meta">Sun Oct 19, 08:05 PM · SoFi Stadium</div>
+    </div>
+    <div class="game-row">
+      <div class="teams">Washington Commanders at Dallas Cowboys <span class="status">(10/19 - 4:25 PM EDT)</span></div>
+      <div class="meta">Sun Oct 19, 08:25 PM · AT&T Stadium</div>
+    </div>
+    <div class="game-row">
+      <div class="teams">Green Bay Packers at Arizona Cardinals <span class="status">(10/19 - 4:25 PM EDT)</span></div>
+      <div class="meta">Sun Oct 19, 08:25 PM · State Farm Stadium</div>
+    </div>
+    <div class="game-row">
+      <div class="teams">Atlanta Falcons at San Francisco 49ers <span class="status">(10/19 - 8:20 PM EDT)</span></div>
+      <div class="meta">Mon Oct 20, 12:20 AM · Levi's Stadium</div>
+    </div>
+    <div class="game-row">
+      <div class="teams">Tampa Bay Buccaneers at Detroit Lions <span class="status">(10/20 - 7:00 PM EDT)</span></div>
+      <div class="meta">Mon Oct 20, 11:00 PM · Ford Field</div>
+    </div>
+    <div class="game-row">
+      <div class="teams">Houston Texans at Seattle Seahawks <span class="status">(10/20 - 10:00 PM EDT)</span></div>
+      <div class="meta">Tue Oct 21, 02:00 AM · Lumen Field</div>
+    </div>
   </div>
 </div>
 
 <style>
   .plugin {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    padding: 14px;
+    padding: 16px;
     color: #000;
     background: #fff;
     height: 100vh;
@@ -69,92 +83,41 @@ Uses webhook data pushed from GitHub Actions
   }
   
   .title {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
-    margin: 0 0 10px 0;
+    margin: 0 0 12px 0;
     border-bottom: 2px solid #000;
-    padding-bottom: 3px;
+    padding-bottom: 4px;
   }
   
   .games {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 8px;
   }
   
   .game-row {
-    padding: 6px 0;
-    border-bottom: 1px solid #ddd;
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
   }
   
   .game-row:last-child {
     border-bottom: none;
   }
   
-  .game-row.favorite {
-    background: #f0f0f0;
-    margin: 0 -14px;
-    padding: 6px 14px;
-    border-left: 4px solid #000;
-  }
-  
-  .matchup {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-  }
-  
-  .teams-line {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 12px;
-  }
-  
-  .team {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-  }
-  
-  .logo {
-    width: 20px;
-    height: 20px;
-    object-fit: contain;
-  }
-  
-  .team-abbr {
-    font-weight: bold;
-    min-width: 30px;
-  }
-  
-  .score {
+  .teams {
     font-weight: bold;
     font-size: 14px;
-    background: #000;
-    color: #fff;
-    padding: 1px 6px;
-    border-radius: 3px;
+    margin-bottom: 2px;
   }
   
-  .vs {
-    color: #999;
-    font-size: 10px;
-  }
-  
-  .game-status {
-    font-size: 9px;
+  .status {
+    font-weight: normal;
     color: #666;
   }
   
-  .live {
-    color: #c00;
-    font-weight: bold;
-    animation: pulse 2s infinite;
-  }
-  
-  @keyframes pulse {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.5; }
+  .meta {
+    font-size: 11px;
+    color: #666;
   }
 </style>

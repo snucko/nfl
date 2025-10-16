@@ -162,6 +162,7 @@ def main():
     try:
         import subprocess
         subprocess.run([sys.executable, "-c", """
+import sys
 import json
 import datetime as dt
 
