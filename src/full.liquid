@@ -4,71 +4,17 @@ NFL Schedule - Full Size TRMNL Plugin
 
 <div class="plugin">
   <h1 class="title">
-    NFL Week 7 · 2025
-    (Regular Season)
+    NFL Week {{ week.number }} · {{ season.year }}
+    ({{ season.type | replace: '2', 'Regular Season' | replace: '3', 'Playoffs' }})
   </h1>
   
   <div class="games">
+    {% for event in events %}
     <div class="game-row">
-      <div class="teams">Pittsburgh Steelers at Cincinnati Bengals <span class="status">(10/16 - 8:15 PM EDT)</span></div>
-      <div class="meta">Fri Oct 17, 12:15 AM · Paycor Stadium</div>
+      <div class="teams">{{ event.name }} <span class="status">({{ event.competitions[0].status.type.shortDetail }})</span></div>
+      <div class="meta">{{ event.date | date: "%a %b %d, %l:%M %p" }} · {{ event.competitions[0].venue.fullName }}</div>
     </div>
-    <div class="game-row">
-      <div class="teams">Los Angeles Rams at Jacksonville Jaguars <span class="status">(10/19 - 9:30 AM EDT)</span></div>
-      <div class="meta">Sun Oct 19, 01:30 PM · Wembley Stadium</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">New Orleans Saints at Chicago Bears <span class="status">(10/19 - 1:00 PM EDT)</span></div>
-      <div class="meta">Sun Oct 19, 05:00 PM · Soldier Field</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">Miami Dolphins at Cleveland Browns <span class="status">(10/19 - 1:00 PM EDT)</span></div>
-      <div class="meta">Sun Oct 19, 05:00 PM · Huntington Bank Field</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">New England Patriots at Tennessee Titans <span class="status">(10/19 - 1:00 PM EDT)</span></div>
-      <div class="meta">Sun Oct 19, 05:00 PM · Nissan Stadium</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">Las Vegas Raiders at Kansas City Chiefs <span class="status">(10/19 - 1:00 PM EDT)</span></div>
-      <div class="meta">Sun Oct 19, 05:00 PM · GEHA Field at Arrowhead Stadium</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">Philadelphia Eagles at Minnesota Vikings <span class="status">(10/19 - 1:00 PM EDT)</span></div>
-      <div class="meta">Sun Oct 19, 05:00 PM · U.S. Bank Stadium</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">Carolina Panthers at New York Jets <span class="status">(10/19 - 1:00 PM EDT)</span></div>
-      <div class="meta">Sun Oct 19, 05:00 PM · MetLife Stadium</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">New York Giants at Denver Broncos <span class="status">(10/19 - 4:05 PM EDT)</span></div>
-      <div class="meta">Sun Oct 19, 08:05 PM · Empower Field at Mile High</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">Indianapolis Colts at Los Angeles Chargers <span class="status">(10/19 - 4:05 PM EDT)</span></div>
-      <div class="meta">Sun Oct 19, 08:05 PM · SoFi Stadium</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">Washington Commanders at Dallas Cowboys <span class="status">(10/19 - 4:25 PM EDT)</span></div>
-      <div class="meta">Sun Oct 19, 08:25 PM · AT&T Stadium</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">Green Bay Packers at Arizona Cardinals <span class="status">(10/19 - 4:25 PM EDT)</span></div>
-      <div class="meta">Sun Oct 19, 08:25 PM · State Farm Stadium</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">Atlanta Falcons at San Francisco 49ers <span class="status">(10/19 - 8:20 PM EDT)</span></div>
-      <div class="meta">Mon Oct 20, 12:20 AM · Levi's Stadium</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">Tampa Bay Buccaneers at Detroit Lions <span class="status">(10/20 - 7:00 PM EDT)</span></div>
-      <div class="meta">Mon Oct 20, 11:00 PM · Ford Field</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">Houston Texans at Seattle Seahawks <span class="status">(10/20 - 10:00 PM EDT)</span></div>
-      <div class="meta">Tue Oct 21, 02:00 AM · Lumen Field</div>
-    </div>
+    {% endfor %}
   </div>
 </div>
 
@@ -97,7 +43,7 @@ NFL Schedule - Full Size TRMNL Plugin
     gap: 8px;
   }
   
-  .game-row {
+  .game-.row {
     padding: 8px;
     border-radius: 6px;
     background: #282828;
