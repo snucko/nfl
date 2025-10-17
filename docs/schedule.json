@@ -449,7 +449,7 @@
               "source": "espn",
               "headline": "Aaron Rodgers' Hail Mary heave falls incomplete",
               "description": "Aaron Rodgers' last-ditch 60-yard heave is incomplete as the Steelers fall to the Bengals.",
-              "lastModified": "2025-10-17T03:48:06Z",
+              "lastModified": "2025-10-17T03:57:28Z",
               "originalPublishDate": "2025-10-17T03:44:55Z",
               "duration": 38,
               "timeRestrictions": {
@@ -553,6 +553,114 @@
                 "trackingName": "NFL_One-Play (Aaron Rodgers\u2019 Hail Mary heave falls incomplete) 2025/10/17 ESHEET",
                 "trackingId": "dm_20251017_NFL_aaron_rodgers_hail_mary_heave_falls_incomplete"
               }
+            },
+            {
+              "id": 46621875,
+              "cerebroId": "68f1bf52c9546c6cde33cfe1",
+              "source": "espn",
+              "headline": "Bengals prevail late to beat Steelers in thriller",
+              "description": "Joe Flacco tosses a trio of touchdowns as the Bengals defeat the Steelers in an AFC North showdown.",
+              "lastModified": "2025-10-17T04:03:53Z",
+              "originalPublishDate": "2025-10-17T04:00:15Z",
+              "duration": 90,
+              "timeRestrictions": {
+                "embargoDate": "2025-10-17T04:00:15Z",
+                "expirationDate": "2025-10-19T04:00:15Z"
+              },
+              "deviceRestrictions": {
+                "type": "whitelist",
+                "devices": [
+                  "desktop",
+                  "ipad",
+                  "settop",
+                  "handset",
+                  "tablet"
+                ]
+              },
+              "thumbnail": "https://a.espncdn.com/media/motion/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d.jpg",
+              "links": {
+                "web": {
+                  "href": "https://www.espn.com/video/clip?id=46621875",
+                  "self": {
+                    "href": "https://www.espn.com/video/clip?id=46621875"
+                  },
+                  "seo": {
+                    "href": "https://www.espn.com/video/clip/_/id/46621875"
+                  }
+                },
+                "mobile": {
+                  "source": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d.mp4"
+                  },
+                  "alert": {
+                    "href": "https://m.espn.com/general/video/videoAlert?vid=46621875"
+                  },
+                  "streaming": {
+                    "href": "https://watch.auth.api.espn.com/video/auth/brightcove/5bc2d5b9-2f33-4f62-89c5-f5b72a39b190/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46621875"
+                  },
+                  "progressiveDownload": {
+                    "href": "https://watch.auth.api.espn.com/video/auth/brightcove/5bc2d5b9-2f33-4f62-89c5-f5b72a39b190/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46621875"
+                  }
+                },
+                "api": {
+                  "self": {
+                    "href": "https://content.core.api.espn.com/v1/video/clips/46621875"
+                  },
+                  "artwork": {
+                    "href": "https://artwork.api.espn.com/artwork/collections/media/5bc2d5b9-2f33-4f62-89c5-f5b72a39b190"
+                  }
+                },
+                "source": {
+                  "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d_360p30_1464k.mp4",
+                  "mezzanine": {
+                    "href": "https://media.video-origin.espn.com/espnvideo/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d.mp4"
+                  },
+                  "flash": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d.smil"
+                  },
+                  "hds": {
+                    "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d_rel.smil/manifest.f4m"
+                  },
+                  "HLS": {
+                    "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d/playlist.m3u8",
+                    "HD": {
+                      "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d/playlist.m3u8"
+                    },
+                    "cmaf": {
+                      "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d/playlist.m3u8",
+                      "9x16": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d/playlist.m3u8"
+                      }
+                    },
+                    "9x16": {
+                      "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d/playlist.m3u8"
+                    },
+                    "shield": {
+                      "href": "https://watch.auth.api.espn.com/video/auth/media/5bc2d5b9-2f33-4f62-89c5-f5b72a39b190/asset"
+                    }
+                  },
+                  "HD": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d_720p30_2896k.mp4"
+                  },
+                  "full": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d_360p30_1464k.mp4"
+                  }
+                },
+                "sportscenter": {
+                  "href": "sportscenter://x-callback-url/showVideo?videoID=46621875&videoDSI=7163a3580d954"
+                }
+              },
+              "ad": {
+                "sport": "nfl",
+                "bundle": "nfl_one_plays"
+              },
+              "tracking": {
+                "sportName": "football",
+                "leagueName": "NFL",
+                "coverageType": "Final Game Highlight",
+                "trackingName": "COM_NFL Highlight (Bengals prevail late to beat Steelers in thriller) 2025/10/17 ESHEET SOTFULL",
+                "trackingId": "dm_20251017_NFL_bengals_prevail_late_to_beat_steelers_in_thriller"
+              }
             }
           ],
           "headlines": [
@@ -562,17 +670,17 @@
               "shortLinkText": "Flacco rallies Bengals past Rodgers and Steelers 33-31 in battle of 40-year old QBs",
               "video": [
                 {
-                  "id": 46621711,
+                  "id": 46621875,
                   "source": "espn",
-                  "headline": "Aaron Rodgers' Hail Mary heave falls incomplete",
-                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2025/1017/f1e477e7-1020-4c6f-8f4f-7eb1692b0dd2/f1e477e7-1020-4c6f-8f4f-7eb1692b0dd2.jpg",
-                  "duration": 38,
+                  "headline": "Bengals prevail late to beat Steelers in thriller",
+                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d.jpg",
+                  "duration": 90,
                   "tracking": {
                     "sportName": "football",
                     "leagueName": "NFL",
                     "coverageType": "Final Game Highlight",
-                    "trackingName": "NFL_One-Play (Aaron Rodgers\u2019 Hail Mary heave falls incomplete) 2025/10/17 ESHEET",
-                    "trackingId": "dm_20251017_NFL_aaron_rodgers_hail_mary_heave_falls_incomplete"
+                    "trackingName": "COM_NFL Highlight (Bengals prevail late to beat Steelers in thriller) 2025/10/17 ESHEET SOTFULL",
+                    "trackingId": "dm_20251017_NFL_bengals_prevail_late_to_beat_steelers_in_thriller"
                   },
                   "deviceRestrictions": {
                     "type": "whitelist",
@@ -586,77 +694,74 @@
                   },
                   "links": {
                     "web": {
-                      "href": "https://www.espn.com/video/clip?id=46621711",
+                      "href": "https://www.espn.com/video/clip?id=46621875",
                       "self": {
-                        "href": "https://www.espn.com/video/clip?id=46621711",
-                        "dsi": {
-                          "href": "https://www.espn.com/video/clip?id=044eb82078140"
-                        }
+                        "href": "https://www.espn.com/video/clip?id=46621875"
                       },
                       "seo": {
-                        "href": "https://www.espn.com/video/clip/_/id/46621711"
+                        "href": "https://www.espn.com/video/clip/_/id/46621875"
                       }
                     },
                     "mobile": {
                       "source": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1017/f1e477e7-1020-4c6f-8f4f-7eb1692b0dd2/f1e477e7-1020-4c6f-8f4f-7eb1692b0dd2.mp4"
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d.mp4"
                       },
                       "alert": {
-                        "href": "https://m.espn.com/general/video/videoAlert?vid=46621711"
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=46621875"
                       },
                       "streaming": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/29f9314a-fee1-481b-b29b-a8cff9b496a4/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46621711"
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/5bc2d5b9-2f33-4f62-89c5-f5b72a39b190/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46621875"
                       },
                       "progressiveDownload": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/29f9314a-fee1-481b-b29b-a8cff9b496a4/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46621711"
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/5bc2d5b9-2f33-4f62-89c5-f5b72a39b190/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46621875"
                       }
                     },
                     "api": {
                       "self": {
-                        "href": "https://content.core.api.espn.com/v1/video/clips/46621711"
+                        "href": "https://content.core.api.espn.com/v1/video/clips/46621875"
                       },
                       "artwork": {
-                        "href": "https://artwork.api.espn.com/artwork/collections/media/29f9314a-fee1-481b-b29b-a8cff9b496a4"
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/5bc2d5b9-2f33-4f62-89c5-f5b72a39b190"
                       }
                     },
                     "source": {
-                      "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1017/f1e477e7-1020-4c6f-8f4f-7eb1692b0dd2/f1e477e7-1020-4c6f-8f4f-7eb1692b0dd2_360p30_1464k.mp4",
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d_360p30_1464k.mp4",
                       "mezzanine": {
-                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2025/1017/f1e477e7-1020-4c6f-8f4f-7eb1692b0dd2/f1e477e7-1020-4c6f-8f4f-7eb1692b0dd2.mp4"
+                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d.mp4"
                       },
                       "flash": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1017/f1e477e7-1020-4c6f-8f4f-7eb1692b0dd2/f1e477e7-1020-4c6f-8f4f-7eb1692b0dd2.smil"
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d.smil"
                       },
                       "hds": {
-                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2025/1017/f1e477e7-1020-4c6f-8f4f-7eb1692b0dd2/f1e477e7-1020-4c6f-8f4f-7eb1692b0dd2_rel.smil/manifest.f4m"
+                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d_rel.smil/manifest.f4m"
                       },
                       "HLS": {
-                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1017/f1e477e7-1020-4c6f-8f4f-7eb1692b0dd2/f1e477e7-1020-4c6f-8f4f-7eb1692b0dd2/playlist.m3u8",
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d/playlist.m3u8",
                         "HD": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1017/f1e477e7-1020-4c6f-8f4f-7eb1692b0dd2/f1e477e7-1020-4c6f-8f4f-7eb1692b0dd2/playlist.m3u8"
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d/playlist.m3u8"
                         },
                         "cmaf": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2025/1017/f1e477e7-1020-4c6f-8f4f-7eb1692b0dd2/f1e477e7-1020-4c6f-8f4f-7eb1692b0dd2/playlist.m3u8",
+                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d/playlist.m3u8",
                           "9x16": {
-                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2025/1017/f1e477e7-1020-4c6f-8f4f-7eb1692b0dd2/f1e477e7-1020-4c6f-8f4f-7eb1692b0dd2/playlist.m3u8"
+                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d/playlist.m3u8"
                           }
                         },
                         "9x16": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2025/1017/f1e477e7-1020-4c6f-8f4f-7eb1692b0dd2/f1e477e7-1020-4c6f-8f4f-7eb1692b0dd2/playlist.m3u8"
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d/playlist.m3u8"
                         },
                         "shield": {
-                          "href": "https://watch.auth.api.espn.com/video/auth/media/29f9314a-fee1-481b-b29b-a8cff9b496a4/asset"
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/5bc2d5b9-2f33-4f62-89c5-f5b72a39b190/asset"
                         }
                       },
                       "HD": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1017/f1e477e7-1020-4c6f-8f4f-7eb1692b0dd2/f1e477e7-1020-4c6f-8f4f-7eb1692b0dd2_720p30_2896k.mp4"
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d_720p30_2896k.mp4"
                       },
                       "full": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1017/f1e477e7-1020-4c6f-8f4f-7eb1692b0dd2/f1e477e7-1020-4c6f-8f4f-7eb1692b0dd2_360p30_1464k.mp4"
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d_360p30_1464k.mp4"
                       }
                     },
                     "sportscenter": {
-                      "href": "sportscenter://x-callback-url/showVideo?videoID=46621711&videoDSI=044eb82078140"
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=46621875&videoDSI=7163a3580d954"
                     }
                   }
                 }
@@ -2070,7 +2175,7 @@
                   "id": "0c6fc671-1c9b-43ce-8dfe-0dc67021259a",
                   "displayName": "From LA To London",
                   "type": "PARLAY_PLUS",
-                  "odds": "+367",
+                  "odds": "+368",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=0c6fc671-1c9b-43ce-8dfe-0dc67021259a",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=0c6fc671-1c9b-43ce-8dfe-0dc67021259a",
@@ -2084,7 +2189,7 @@
                     }
                   },
                   "startTime": "2025-10-19T13:30Z",
-                  "payoutText": "$10.00 pays $36.73",
+                  "payoutText": "$10.00 pays $36.82",
                   "displayOrder": 80,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
@@ -2273,7 +2378,7 @@
                     }
                   },
                   "startTime": "2025-10-19T13:30Z",
-                  "payoutText": "$10.00 pays $57.08",
+                  "payoutText": "$10.00 pays $57.12",
                   "displayOrder": 81,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
@@ -3581,7 +3686,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $237",
-              "numberAvailable": 1849,
+              "numberAvailable": 1842,
               "links": [
                 {
                   "href": "https://www.vividseats.com/chicago-bears-tickets-soldier-field-3-6-2026--sports-nfl-football/production/5470716?wsUser=717"
@@ -5452,7 +5557,7 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "172",
+                  "betsPlaced": "174",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $86.86",
@@ -5902,7 +6007,7 @@
           "rel": [
             "44114"
           ],
-          "href": "http://www.accuweather.com/en/us/huntington-bank-field-oh/44113/hourly-weather-forecast/41494_poi?day=4&hbhhour=13&lang=en-us",
+          "href": "http://www.accuweather.com/en/us/huntington-bank-field-oh/44113/hourly-weather-forecast/41494_poi?day=3&hbhhour=13&lang=en-us",
           "text": "Weather",
           "shortText": "Weather",
           "isExternal": true,
@@ -6540,8 +6645,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $43",
-              "numberAvailable": 2027,
+              "summary": "Tickets as low as $45",
+              "numberAvailable": 2007,
               "links": [
                 {
                   "href": "https://www.vividseats.com/tennessee-titans-tickets-nissan-stadium-3-6-2026--sports-nfl-football/production/5472067?wsUser=717"
@@ -7038,7 +7143,7 @@
                   "id": "0390daa1-6ef8-4a75-9280-2d8e7050f9a0",
                   "displayName": "Week 7 Winners",
                   "type": "PARLAY",
-                  "odds": "+398",
+                  "odds": "+390",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=0390daa1-6ef8-4a75-9280-2d8e7050f9a0",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=0390daa1-6ef8-4a75-9280-2d8e7050f9a0",
@@ -7052,10 +7157,10 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "129",
+                  "betsPlaced": "130",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
-                  "payoutText": "$10.00 pays $39.81",
+                  "payoutText": "$10.00 pays $39.05",
                   "displayOrder": 90,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
@@ -8247,7 +8352,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $197",
-              "numberAvailable": 3997,
+              "numberAvailable": 3977,
               "links": [
                 {
                   "href": "https://www.vividseats.com/kansas-city-chiefs-tickets-geha-field-at-arrowhead-stadium-3-3-2026--sports-nfl-football/production/5472314?wsUser=717"
@@ -9849,8 +9954,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $113",
-              "numberAvailable": 3937,
+              "summary": "Tickets as low as $109",
+              "numberAvailable": 3935,
               "links": [
                 {
                   "href": "https://www.vividseats.com/minnesota-vikings-tickets-us-bank-stadium-3-4-2026--sports-nfl-football/production/5470673?wsUser=717"
@@ -11012,7 +11117,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $56",
-              "numberAvailable": 4466,
+              "numberAvailable": 4436,
               "links": [
                 {
                   "href": "https://www.vividseats.com/new-york-jets-tickets-metlife-stadium-3-8-2026--sports-nfl-football/production/5471071?wsUser=717"
@@ -11535,7 +11640,7 @@
           "rel": [
             "07073"
           ],
-          "href": "http://www.accuweather.com/en/us/metlife-stadium-nj/07073/hourly-weather-forecast/52866_poi?day=4&hbhhour=13&lang=en-us",
+          "href": "http://www.accuweather.com/en/us/metlife-stadium-nj/07073/hourly-weather-forecast/52866_poi?day=3&hbhhour=13&lang=en-us",
           "text": "Weather",
           "shortText": "Weather",
           "isExternal": true,
@@ -12174,7 +12279,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $203",
-              "numberAvailable": 1369,
+              "numberAvailable": 1357,
               "links": [
                 {
                   "href": "https://www.vividseats.com/denver-broncos-tickets-empower-field-at-mile-high-3-8-2026--sports-nfl-football/production/5472094?wsUser=717"
@@ -12820,7 +12925,7 @@
                   "id": "0390daa1-6ef8-4a75-9280-2d8e7050f9a0",
                   "displayName": "Week 7 Winners",
                   "type": "PARLAY",
-                  "odds": "+398",
+                  "odds": "+390",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=0390daa1-6ef8-4a75-9280-2d8e7050f9a0",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=0390daa1-6ef8-4a75-9280-2d8e7050f9a0",
@@ -12834,10 +12939,10 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "129",
+                  "betsPlaced": "130",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
-                  "payoutText": "$10.00 pays $39.81",
+                  "payoutText": "$10.00 pays $39.05",
                   "displayOrder": 90,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
@@ -14271,8 +14376,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $34",
-              "numberAvailable": 4590,
+              "summary": "Tickets as low as $36",
+              "numberAvailable": 4584,
               "links": [
                 {
                   "href": "https://www.vividseats.com/los-angeles-chargers-tickets-sofi-stadium-3-5-2026--sports-nfl-football/production/5472497?wsUser=717"
@@ -14932,7 +15037,7 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "172",
+                  "betsPlaced": "174",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $86.86",
@@ -16728,7 +16833,7 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "172",
+                  "betsPlaced": "174",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $86.86",
@@ -18059,8 +18164,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $89",
-              "numberAvailable": 3679,
+              "summary": "Tickets as low as $94",
+              "numberAvailable": 3655,
               "links": [
                 {
                   "href": "https://www.vividseats.com/arizona-cardinals-tickets-state-farm-stadium-3-8-2026--sports-nfl-football/production/5470311?wsUser=717"
@@ -18510,7 +18615,7 @@
                   "id": "0390daa1-6ef8-4a75-9280-2d8e7050f9a0",
                   "displayName": "Week 7 Winners",
                   "type": "PARLAY",
-                  "odds": "+398",
+                  "odds": "+390",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=0390daa1-6ef8-4a75-9280-2d8e7050f9a0",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=0390daa1-6ef8-4a75-9280-2d8e7050f9a0",
@@ -18524,10 +18629,10 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "129",
+                  "betsPlaced": "130",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
-                  "payoutText": "$10.00 pays $39.81",
+                  "payoutText": "$10.00 pays $39.05",
                   "displayOrder": 90,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
@@ -19455,6 +19560,24 @@
               },
               "score": "0",
               "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "4-2"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "3-1"
+                }
+              ],
               "leaders": [
                 {
                   "name": "passingLeader",
@@ -19575,24 +19698,6 @@
                       }
                     }
                   ]
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "4-2"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "1-1"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "3-1"
                 }
               ]
             },
@@ -20216,7 +20321,7 @@
                   "id": "0390daa1-6ef8-4a75-9280-2d8e7050f9a0",
                   "displayName": "Week 7 Winners",
                   "type": "PARLAY",
-                  "odds": "+398",
+                  "odds": "+390",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=0390daa1-6ef8-4a75-9280-2d8e7050f9a0",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=0390daa1-6ef8-4a75-9280-2d8e7050f9a0",
@@ -20230,10 +20335,10 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "129",
+                  "betsPlaced": "130",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
-                  "payoutText": "$10.00 pays $39.81",
+                  "payoutText": "$10.00 pays $39.05",
                   "displayOrder": 90,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
@@ -20515,7 +20620,7 @@
                   "id": "9a1f297e-ad2d-4a8a-a10f-4564bf0bcc24",
                   "displayName": "Primetime Parlay",
                   "type": "PARLAY",
-                  "odds": "+266",
+                  "odds": "+260",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=9a1f297e-ad2d-4a8a-a10f-4564bf0bcc24",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=9a1f297e-ad2d-4a8a-a10f-4564bf0bcc24",
@@ -20529,7 +20634,7 @@
                     }
                   },
                   "startTime": "2025-10-20T00:20Z",
-                  "payoutText": "$10.00 pays $26.57",
+                  "payoutText": "$10.00 pays $26.01",
                   "displayOrder": 92,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
@@ -21108,24 +21213,6 @@
               },
               "score": "0",
               "statistics": [],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "4-2"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "2-0"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "2-2"
-                }
-              ],
               "leaders": [
                 {
                   "name": "passingLeader",
@@ -21246,6 +21333,24 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "4-2"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "2-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-2"
                 }
               ]
             },
@@ -22085,7 +22190,7 @@
                   "id": "0390daa1-6ef8-4a75-9280-2d8e7050f9a0",
                   "displayName": "Week 7 Winners",
                   "type": "PARLAY",
-                  "odds": "+398",
+                  "odds": "+390",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=0390daa1-6ef8-4a75-9280-2d8e7050f9a0",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=0390daa1-6ef8-4a75-9280-2d8e7050f9a0",
@@ -22099,10 +22204,10 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "129",
+                  "betsPlaced": "130",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
-                  "payoutText": "$10.00 pays $39.81",
+                  "payoutText": "$10.00 pays $39.05",
                   "displayOrder": 90,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
@@ -22384,7 +22489,7 @@
                   "id": "9a1f297e-ad2d-4a8a-a10f-4564bf0bcc24",
                   "displayName": "Primetime Parlay",
                   "type": "PARLAY",
-                  "odds": "+266",
+                  "odds": "+260",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=9a1f297e-ad2d-4a8a-a10f-4564bf0bcc24",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=9a1f297e-ad2d-4a8a-a10f-4564bf0bcc24",
@@ -22398,7 +22503,7 @@
                     }
                   },
                   "startTime": "2025-10-20T00:20Z",
-                  "payoutText": "$10.00 pays $26.57",
+                  "payoutText": "$10.00 pays $26.01",
                   "displayOrder": 92,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
@@ -22845,7 +22950,7 @@
           "rel": [
             "48226"
           ],
-          "href": "http://www.accuweather.com/en/us/ford-field-mi/48226/hourly-weather-forecast/43021_poi?day=5&hbhhour=19&lang=en-us",
+          "href": "http://www.accuweather.com/en/us/ford-field-mi/48226/hourly-weather-forecast/43021_poi?day=4&hbhhour=19&lang=en-us",
           "text": "Weather",
           "shortText": "Weather",
           "isExternal": true,
@@ -23484,7 +23589,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $88",
-              "numberAvailable": 2756,
+              "numberAvailable": 2731,
               "links": [
                 {
                   "href": "https://www.vividseats.com/seattle-seahawks-tickets-lumen-field-3-7-2026--sports-nfl-football/production/5470922?wsUser=717"
@@ -23740,7 +23845,7 @@
                   "id": "9a1f297e-ad2d-4a8a-a10f-4564bf0bcc24",
                   "displayName": "Primetime Parlay",
                   "type": "PARLAY",
-                  "odds": "+266",
+                  "odds": "+260",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=9a1f297e-ad2d-4a8a-a10f-4564bf0bcc24",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=9a1f297e-ad2d-4a8a-a10f-4564bf0bcc24",
@@ -23754,7 +23859,7 @@
                     }
                   },
                   "startTime": "2025-10-20T00:20Z",
-                  "payoutText": "$10.00 pays $26.57",
+                  "payoutText": "$10.00 pays $26.01",
                   "displayOrder": 92,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
