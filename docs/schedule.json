@@ -26,7 +26,7 @@
           "id": "401772941",
           "uid": "s:20~l:28~e:401772941~c:401772941",
           "date": "2025-10-17T00:15Z",
-          "attendance": 0,
+          "attendance": 66569,
           "type": {
             "id": "1",
             "abbreviation": "STD"
@@ -53,6 +53,7 @@
               "type": "team",
               "order": 0,
               "homeAway": "home",
+              "winner": true,
               "team": {
                 "id": "4",
                 "uid": "s:20~l:28~t:4",
@@ -115,7 +116,7 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png"
               },
-              "score": "30",
+              "score": "33",
               "linescores": [
                 {
                   "value": 0.0,
@@ -133,8 +134,8 @@
                   "period": 3
                 },
                 {
-                  "value": 10.0,
-                  "displayValue": "10",
+                  "value": 13.0,
+                  "displayValue": "13",
                   "period": 4
                 }
               ],
@@ -142,14 +143,14 @@
               "records": [
                 {
                   "name": "overall",
-                  "abbreviation": "Any",
+                  "abbreviation": "Game",
                   "type": "total",
-                  "summary": "2-4"
+                  "summary": "3-4"
                 },
                 {
                   "name": "Home",
                   "type": "home",
-                  "summary": "1-1"
+                  "summary": "2-1"
                 },
                 {
                   "name": "Road",
@@ -164,6 +165,7 @@
               "type": "team",
               "order": 1,
               "homeAway": "away",
+              "winner": false,
               "team": {
                 "id": "23",
                 "uid": "s:20~l:28~t:23",
@@ -226,7 +228,7 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png"
               },
-              "score": "24",
+              "score": "31",
               "linescores": [
                 {
                   "value": 7.0,
@@ -244,8 +246,8 @@
                   "period": 3
                 },
                 {
-                  "value": 7.0,
-                  "displayValue": "7",
+                  "value": 14.0,
+                  "displayValue": "14",
                   "period": 4
                 }
               ],
@@ -253,9 +255,9 @@
               "records": [
                 {
                   "name": "overall",
-                  "abbreviation": "Any",
+                  "abbreviation": "Game",
                   "type": "total",
-                  "summary": "4-1"
+                  "summary": "4-2"
                 },
                 {
                   "name": "Home",
@@ -265,73 +267,24 @@
                 {
                   "name": "Road",
                   "type": "road",
-                  "summary": "2-0"
+                  "summary": "2-1"
                 }
               ]
             }
           ],
           "notes": [],
-          "situation": {
-            "lastPlay": {
-              "id": "4017729413864",
-              "type": {
-                "id": "74",
-                "text": "Official Timeout",
-                "abbreviation": "Off TO"
-              },
-              "text": "Official Timeout at 06:58.",
-              "scoreValue": 0,
-              "team": {
-                "id": "4"
-              },
-              "drive": {
-                "description": "9 plays, 53 yards, 4:05",
-                "start": {
-                  "yardLine": 20,
-                  "text": "CIN 20"
-                },
-                "end": {
-                  "yardLine": 73,
-                  "text": "PIT 27"
-                },
-                "timeElapsed": {
-                  "displayValue": "4:05"
-                },
-                "result": "FG"
-              },
-              "start": {
-                "yardLine": 35,
-                "team": {
-                  "id": "4"
-                }
-              },
-              "end": {
-                "yardLine": 35,
-                "team": {
-                  "id": "4"
-                }
-              },
-              "statYardage": 0
-            },
-            "down": -1,
-            "yardLine": 35,
-            "distance": 0,
-            "isRedZone": true,
-            "homeTimeouts": 2,
-            "awayTimeouts": 3
-          },
           "status": {
-            "clock": 418.0,
-            "displayClock": "6:58",
+            "clock": 0.0,
+            "displayClock": "0:00",
             "period": 4,
             "type": {
-              "id": "2",
-              "name": "STATUS_IN_PROGRESS",
-              "state": "in",
-              "completed": false,
-              "description": "In Progress",
-              "detail": "6:58 - 4th Quarter",
-              "shortDetail": "6:58 - 4th"
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
             },
             "isTBDFlex": false
           },
@@ -351,8 +304,8 @@
               "abbreviation": "PYDS",
               "leaders": [
                 {
-                  "displayValue": "28/42, 281 YDS, 3 TD",
-                  "value": 281.0,
+                  "displayValue": "31/47, 342 YDS, 3 TD",
+                  "value": 342.0,
                   "athlete": {
                     "id": "11252",
                     "fullName": "Joe Flacco",
@@ -391,8 +344,8 @@
               "abbreviation": "RYDS",
               "leaders": [
                 {
-                  "displayValue": "14 CAR, 121 YDS",
-                  "value": 121.0,
+                  "displayValue": "16 CAR, 127 YDS",
+                  "value": 127.0,
                   "athlete": {
                     "id": "4569987",
                     "fullName": "Jaylen Warren",
@@ -431,8 +384,8 @@
               "abbreviation": "RECYDS",
               "leaders": [
                 {
-                  "displayValue": "14 REC, 128 YDS, 1 TD",
-                  "value": 128.0,
+                  "displayValue": "16 REC, 161 YDS, 1 TD",
+                  "value": 161.0,
                   "athlete": {
                     "id": "4362628",
                     "fullName": "Ja'Marr Chase",
@@ -496,11 +449,11 @@
         {
           "language": "en-US",
           "rel": [
-            "live",
+            "summary",
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/game?gameId=401772941",
+          "href": "https://www.espn.com/nfl/game/_/gameId/401772941/steelers-bengals",
           "text": "Gamecast",
           "shortText": "Gamecast",
           "isExternal": false,
@@ -522,6 +475,18 @@
         {
           "language": "en-US",
           "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401772941",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
             "pbp",
             "desktop",
             "event"
@@ -533,35 +498,18 @@
           "isPremium": false
         }
       ],
-      "weather": {
-        "displayValue": "33",
-        "temperature": 53,
-        "highTemperature": 53,
-        "conditionId": "Clear",
-        "link": {
-          "language": "en-US",
-          "rel": [
-            "45202"
-          ],
-          "href": "http://www.accuweather.com/en/us/paycor-stadium-oh/45212/current-weather/53622_poi?lang=en-us",
-          "text": "Weather",
-          "shortText": "Weather",
-          "isExternal": true,
-          "isPremium": false
-        }
-      },
       "status": {
-        "clock": 418.0,
-        "displayClock": "6:58",
+        "clock": 0.0,
+        "displayClock": "0:00",
         "period": 4,
         "type": {
-          "id": "2",
-          "name": "STATUS_IN_PROGRESS",
-          "state": "in",
-          "completed": false,
-          "description": "In Progress",
-          "detail": "6:58 - 4th Quarter",
-          "shortDetail": "6:58 - 4th"
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
         }
       }
     },
@@ -2267,7 +2215,7 @@
                   "id": "13429406-19bf-49a0-8714-332f3d3e34bd",
                   "displayName": "First Things First",
                   "type": "PARLAY_PLUS",
-                  "odds": "+1485",
+                  "odds": "+1189",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=13429406-19bf-49a0-8714-332f3d3e34bd",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=13429406-19bf-49a0-8714-332f3d3e34bd",
@@ -2281,7 +2229,7 @@
                     }
                   },
                   "startTime": "2025-10-19T13:30Z",
-                  "payoutText": "$10.00 pays $148.52",
+                  "payoutText": "$10.00 pays $118.89",
                   "displayOrder": 82,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
@@ -2326,9 +2274,9 @@
                       "marketText": "Travis Etienne Jr. 1st Quarter Total Rushing Yards",
                       "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                       "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/0fbf17fd-14b6-4396-a4e6-2805db5b5b3e/section/player_props&market_selection_id[0]=dcc8bfeb-0c68-444d-9e38-309641971988&odds_numerator[0]=21&odds_denominator[0]=10",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/0fbf17fd-14b6-4396-a4e6-2805db5b5b3e/section/player_props&market_selection_id[0]=dcc8bfeb-0c68-444d-9e38-309641971988&odds_numerator[0]=47&odds_denominator[0]=27",
                       "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/0fbf17fd-14b6-4396-a4e6-2805db5b5b3e/section/player_props&market_selection_id[0]=dcc8bfeb-0c68-444d-9e38-309641971988&odds_numerator[0]=21&odds_denominator[0]=10",
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/0fbf17fd-14b6-4396-a4e6-2805db5b5b3e/section/player_props&market_selection_id[0]=dcc8bfeb-0c68-444d-9e38-309641971988&odds_numerator[0]=47&odds_denominator[0]=27",
                         "tracking": {
                           "campaign": "betting-integrations",
                           "tags": {
@@ -2431,9 +2379,9 @@
                           "marketText": "Travis Etienne Jr. 1st Quarter Total Rushing Yards",
                           "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                           "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/0fbf17fd-14b6-4396-a4e6-2805db5b5b3e/section/player_props&market_selection_id[0]=dcc8bfeb-0c68-444d-9e38-309641971988&odds_numerator[0]=21&odds_denominator[0]=10",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/0fbf17fd-14b6-4396-a4e6-2805db5b5b3e/section/player_props&market_selection_id[0]=dcc8bfeb-0c68-444d-9e38-309641971988&odds_numerator[0]=47&odds_denominator[0]=27",
                           "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/0fbf17fd-14b6-4396-a4e6-2805db5b5b3e/section/player_props&market_selection_id[0]=dcc8bfeb-0c68-444d-9e38-309641971988&odds_numerator[0]=21&odds_denominator[0]=10",
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/0fbf17fd-14b6-4396-a4e6-2805db5b5b3e/section/player_props&market_selection_id[0]=dcc8bfeb-0c68-444d-9e38-309641971988&odds_numerator[0]=47&odds_denominator[0]=27",
                             "tracking": {
                               "campaign": "betting-integrations",
                               "tags": {
@@ -3399,8 +3347,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $232",
-              "numberAvailable": 1867,
+              "summary": "Tickets as low as $237",
+              "numberAvailable": 1849,
               "links": [
                 {
                   "href": "https://www.vividseats.com/chicago-bears-tickets-soldier-field-3-6-2026--sports-nfl-football/production/5470716?wsUser=717"
@@ -5271,7 +5219,7 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "162",
+                  "betsPlaced": "166",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $86.86",
@@ -6064,24 +6012,6 @@
               },
               "score": "0",
               "statistics": [],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "4-2"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "1-2"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "3-0"
-                }
-              ],
               "leaders": [
                 {
                   "name": "passingLeader",
@@ -6202,6 +6132,24 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "4-2"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-2"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "3-0"
                 }
               ]
             }
@@ -6360,7 +6308,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $46",
-              "numberAvailable": 2029,
+              "numberAvailable": 2023,
               "links": [
                 {
                   "href": "https://www.vividseats.com/tennessee-titans-tickets-nissan-stadium-3-6-2026--sports-nfl-football/production/5472067?wsUser=717"
@@ -6871,7 +6819,7 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "124",
+                  "betsPlaced": "127",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $40.57",
@@ -8066,7 +8014,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $197",
-              "numberAvailable": 4006,
+              "numberAvailable": 3997,
               "links": [
                 {
                   "href": "https://www.vividseats.com/kansas-city-chiefs-tickets-geha-field-at-arrowhead-stadium-3-3-2026--sports-nfl-football/production/5472314?wsUser=717"
@@ -9726,7 +9674,7 @@
               "awayTeamOdds": {
                 "favorite": true,
                 "underdog": false,
-                "moneyLine": -135,
+                "moneyLine": -140,
                 "spreadOdds": -105.0,
                 "team": {
                   "id": "21",
@@ -9739,7 +9687,7 @@
               "homeTeamOdds": {
                 "favorite": false,
                 "underdog": true,
-                "moneyLine": 115,
+                "moneyLine": 120,
                 "spreadOdds": -115.0,
                 "team": {
                   "id": "16",
@@ -9758,7 +9706,7 @@
                     "bets",
                     "espn-bet"
                   ],
-                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6de796ce-2332-4cc1-8eed-62da88e31661&market_selection_id[0]=edebee25-79e7-4b8a-91f2-e8dc3f7ac15e&odds_numerator[0]=43&odds_denominator[0]=20",
+                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6de796ce-2332-4cc1-8eed-62da88e31661&market_selection_id[0]=edebee25-79e7-4b8a-91f2-e8dc3f7ac15e&odds_numerator[0]=11&odds_denominator[0]=5",
                   "text": "Home Bet",
                   "shortText": "Home Bet",
                   "isExternal": true,
@@ -9782,7 +9730,7 @@
                     "bets",
                     "espn-bet"
                   ],
-                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6de796ce-2332-4cc1-8eed-62da88e31661&market_selection_id[0]=88ef7fe6-a620-40a9-b4fe-5e721ee06154&odds_numerator[0]=47&odds_denominator[0]=27",
+                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6de796ce-2332-4cc1-8eed-62da88e31661&market_selection_id[0]=88ef7fe6-a620-40a9-b4fe-5e721ee06154&odds_numerator[0]=12&odds_denominator[0]=7",
                   "text": "Away Bet",
                   "shortText": "Away Bet",
                   "isExternal": true,
@@ -9923,7 +9871,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "+115",
+                    "odds": "+120",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -9932,7 +9880,7 @@
                         "bets",
                         "espn-bet"
                       ],
-                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6de796ce-2332-4cc1-8eed-62da88e31661&market_selection_id[0]=edebee25-79e7-4b8a-91f2-e8dc3f7ac15e&odds_numerator[0]=43&odds_denominator[0]=20",
+                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6de796ce-2332-4cc1-8eed-62da88e31661&market_selection_id[0]=edebee25-79e7-4b8a-91f2-e8dc3f7ac15e&odds_numerator[0]=11&odds_denominator[0]=5",
                       "text": "Home Bet",
                       "shortText": "Home Bet",
                       "isExternal": true,
@@ -9955,7 +9903,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "-135",
+                    "odds": "-140",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -9964,7 +9912,7 @@
                         "bets",
                         "espn-bet"
                       ],
-                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6de796ce-2332-4cc1-8eed-62da88e31661&market_selection_id[0]=88ef7fe6-a620-40a9-b4fe-5e721ee06154&odds_numerator[0]=47&odds_denominator[0]=27",
+                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6de796ce-2332-4cc1-8eed-62da88e31661&market_selection_id[0]=88ef7fe6-a620-40a9-b4fe-5e721ee06154&odds_numerator[0]=12&odds_denominator[0]=7",
                       "text": "Away Bet",
                       "shortText": "Away Bet",
                       "isExternal": true,
@@ -10831,7 +10779,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $56",
-              "numberAvailable": 4493,
+              "numberAvailable": 4466,
               "links": [
                 {
                   "href": "https://www.vividseats.com/new-york-jets-tickets-metlife-stadium-3-8-2026--sports-nfl-football/production/5471071?wsUser=717"
@@ -11992,8 +11940,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $206",
-              "numberAvailable": 1367,
+              "summary": "Tickets as low as $203",
+              "numberAvailable": 1369,
               "links": [
                 {
                   "href": "https://www.vividseats.com/denver-broncos-tickets-empower-field-at-mile-high-3-8-2026--sports-nfl-football/production/5472094?wsUser=717"
@@ -12653,7 +12601,7 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "124",
+                  "betsPlaced": "127",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $40.57",
@@ -14090,8 +14038,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $33",
-              "numberAvailable": 4622,
+              "summary": "Tickets as low as $34",
+              "numberAvailable": 4590,
               "links": [
                 {
                   "href": "https://www.vividseats.com/los-angeles-chargers-tickets-sofi-stadium-3-5-2026--sports-nfl-football/production/5472497?wsUser=717"
@@ -14751,7 +14699,7 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "162",
+                  "betsPlaced": "166",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $86.86",
@@ -16083,7 +16031,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $22",
-              "numberAvailable": 5464,
+              "numberAvailable": 5478,
               "links": [
                 {
                   "href": "https://www.vividseats.com/dallas-cowboys-tickets-att-stadium-3-3-2026--sports-nfl-football/production/5470560?wsUser=717"
@@ -16547,7 +16495,7 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "162",
+                  "betsPlaced": "166",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $86.86",
@@ -17583,6 +17531,24 @@
               },
               "score": "0",
               "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "3-1-1"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "3-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-1-1"
+                }
+              ],
               "leaders": [
                 {
                   "name": "passingLeader",
@@ -17703,24 +17669,6 @@
                       }
                     }
                   ]
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "3-1-1"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "3-0"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "0-1-1"
                 }
               ]
             }
@@ -17879,7 +17827,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $89",
-              "numberAvailable": 3710,
+              "numberAvailable": 3699,
               "links": [
                 {
                   "href": "https://www.vividseats.com/arizona-cardinals-tickets-state-farm-stadium-3-8-2026--sports-nfl-football/production/5470311?wsUser=717"
@@ -18343,7 +18291,7 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "124",
+                  "betsPlaced": "127",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $40.57",
@@ -19781,7 +19729,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $90",
-              "numberAvailable": 3155,
+              "numberAvailable": 3141,
               "links": [
                 {
                   "href": "https://www.vividseats.com/san-francisco-49ers-tickets-levis-stadium-3-4-2026--sports-nfl-football/production/5470911?wsUser=717"
@@ -20049,7 +19997,7 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "124",
+                  "betsPlaced": "127",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $40.57",
@@ -21435,7 +21383,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $243",
-              "numberAvailable": 2093,
+              "numberAvailable": 2083,
               "links": [
                 {
                   "href": "https://www.vividseats.com/detroit-lions-tickets-ford-field-3-8-2026--sports-nfl-football/production/5470693?wsUser=717"
@@ -21918,7 +21866,7 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "124",
+                  "betsPlaced": "127",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $40.57",
@@ -23303,7 +23251,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $88",
-              "numberAvailable": 2769,
+              "numberAvailable": 2756,
               "links": [
                 {
                   "href": "https://www.vividseats.com/seattle-seahawks-tickets-lumen-field-3-7-2026--sports-nfl-football/production/5470922?wsUser=717"
