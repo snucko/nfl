@@ -2567,7 +2567,7 @@
                     }
                   },
                   "startTime": "2025-10-19T13:30Z",
-                  "betsPlaced": "132",
+                  "betsPlaced": "134",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $118.89",
@@ -3689,7 +3689,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $232",
-              "numberAvailable": 1796,
+              "numberAvailable": 1788,
               "links": [
                 {
                   "href": "https://www.vividseats.com/chicago-bears-tickets-soldier-field-3-6-2026--sports-nfl-football/production/5470716?wsUser=717"
@@ -4800,24 +4800,6 @@
               },
               "score": "0",
               "statistics": [],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "1-5"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "1-2"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "0-3"
-                }
-              ],
               "leaders": [
                 {
                   "name": "passingLeader",
@@ -4938,6 +4920,24 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "1-5"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-2"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-3"
                 }
               ]
             }
@@ -5095,8 +5095,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $27",
-              "numberAvailable": 4431,
+              "summary": "Tickets as low as $24",
+              "numberAvailable": 4438,
               "links": [
                 {
                   "href": "https://www.vividseats.com/cleveland-browns-tickets-huntington-bank-field-3-5-2026--sports-nfl-football/production/5471087?wsUser=717"
@@ -5560,7 +5560,7 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "183",
+                  "betsPlaced": "187",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $86.86",
@@ -8355,7 +8355,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $197",
-              "numberAvailable": 3982,
+              "numberAvailable": 3979,
               "links": [
                 {
                   "href": "https://www.vividseats.com/kansas-city-chiefs-tickets-geha-field-at-arrowhead-stadium-3-3-2026--sports-nfl-football/production/5472314?wsUser=717"
@@ -9958,7 +9958,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $109",
-              "numberAvailable": 3930,
+              "numberAvailable": 3921,
               "links": [
                 {
                   "href": "https://www.vividseats.com/minnesota-vikings-tickets-us-bank-stadium-3-4-2026--sports-nfl-football/production/5470673?wsUser=717"
@@ -10015,7 +10015,7 @@
               "awayTeamOdds": {
                 "favorite": true,
                 "underdog": false,
-                "moneyLine": -135,
+                "moneyLine": -140,
                 "spreadOdds": -105.0,
                 "team": {
                   "id": "21",
@@ -10028,7 +10028,7 @@
               "homeTeamOdds": {
                 "favorite": false,
                 "underdog": true,
-                "moneyLine": 115,
+                "moneyLine": 120,
                 "spreadOdds": -115.0,
                 "team": {
                   "id": "16",
@@ -10047,7 +10047,7 @@
                     "bets",
                     "espn-bet"
                   ],
-                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6de796ce-2332-4cc1-8eed-62da88e31661&market_selection_id[0]=edebee25-79e7-4b8a-91f2-e8dc3f7ac15e&odds_numerator[0]=43&odds_denominator[0]=20",
+                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6de796ce-2332-4cc1-8eed-62da88e31661&market_selection_id[0]=edebee25-79e7-4b8a-91f2-e8dc3f7ac15e&odds_numerator[0]=11&odds_denominator[0]=5",
                   "text": "Home Bet",
                   "shortText": "Home Bet",
                   "isExternal": true,
@@ -10071,7 +10071,7 @@
                     "bets",
                     "espn-bet"
                   ],
-                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6de796ce-2332-4cc1-8eed-62da88e31661&market_selection_id[0]=88ef7fe6-a620-40a9-b4fe-5e721ee06154&odds_numerator[0]=47&odds_denominator[0]=27",
+                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6de796ce-2332-4cc1-8eed-62da88e31661&market_selection_id[0]=88ef7fe6-a620-40a9-b4fe-5e721ee06154&odds_numerator[0]=12&odds_denominator[0]=7",
                   "text": "Away Bet",
                   "shortText": "Away Bet",
                   "isExternal": true,
@@ -10212,7 +10212,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "+115",
+                    "odds": "+120",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -10221,7 +10221,7 @@
                         "bets",
                         "espn-bet"
                       ],
-                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6de796ce-2332-4cc1-8eed-62da88e31661&market_selection_id[0]=edebee25-79e7-4b8a-91f2-e8dc3f7ac15e&odds_numerator[0]=43&odds_denominator[0]=20",
+                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6de796ce-2332-4cc1-8eed-62da88e31661&market_selection_id[0]=edebee25-79e7-4b8a-91f2-e8dc3f7ac15e&odds_numerator[0]=11&odds_denominator[0]=5",
                       "text": "Home Bet",
                       "shortText": "Home Bet",
                       "isExternal": true,
@@ -10244,7 +10244,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "-135",
+                    "odds": "-140",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -10253,7 +10253,7 @@
                         "bets",
                         "espn-bet"
                       ],
-                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6de796ce-2332-4cc1-8eed-62da88e31661&market_selection_id[0]=88ef7fe6-a620-40a9-b4fe-5e721ee06154&odds_numerator[0]=47&odds_denominator[0]=27",
+                      "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/6de796ce-2332-4cc1-8eed-62da88e31661&market_selection_id[0]=88ef7fe6-a620-40a9-b4fe-5e721ee06154&odds_numerator[0]=12&odds_denominator[0]=7",
                       "text": "Away Bet",
                       "shortText": "Away Bet",
                       "isExternal": true,
@@ -11120,7 +11120,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $56",
-              "numberAvailable": 4417,
+              "numberAvailable": 4418,
               "links": [
                 {
                   "href": "https://www.vividseats.com/new-york-jets-tickets-metlife-stadium-3-8-2026--sports-nfl-football/production/5471071?wsUser=717"
@@ -14380,7 +14380,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $36",
-              "numberAvailable": 4487,
+              "numberAvailable": 4466,
               "links": [
                 {
                   "href": "https://www.vividseats.com/los-angeles-chargers-tickets-sofi-stadium-3-5-2026--sports-nfl-football/production/5472497?wsUser=717"
@@ -15040,7 +15040,7 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "183",
+                  "betsPlaced": "187",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $86.86",
@@ -16372,7 +16372,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $22",
-              "numberAvailable": 5452,
+              "numberAvailable": 5442,
               "links": [
                 {
                   "href": "https://www.vividseats.com/dallas-cowboys-tickets-att-stadium-3-3-2026--sports-nfl-football/production/5470560?wsUser=717"
@@ -16836,7 +16836,7 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "183",
+                  "betsPlaced": "187",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $86.86",
@@ -18168,7 +18168,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $89",
-              "numberAvailable": 3625,
+              "numberAvailable": 3628,
               "links": [
                 {
                   "href": "https://www.vividseats.com/arizona-cardinals-tickets-state-farm-stadium-3-8-2026--sports-nfl-football/production/5470311?wsUser=717"
@@ -20070,7 +20070,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $90",
-              "numberAvailable": 3098,
+              "numberAvailable": 3060,
               "links": [
                 {
                   "href": "https://www.vividseats.com/san-francisco-49ers-tickets-levis-stadium-3-4-2026--sports-nfl-football/production/5470911?wsUser=717"
@@ -23592,7 +23592,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $91",
-              "numberAvailable": 2748,
+              "numberAvailable": 2765,
               "links": [
                 {
                   "href": "https://www.vividseats.com/seattle-seahawks-tickets-lumen-field-3-7-2026--sports-nfl-football/production/5470922?wsUser=717"
