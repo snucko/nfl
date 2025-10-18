@@ -442,111 +442,6 @@
               "region": "us"
             }
           ],
-          "headlines": [
-            {
-              "type": "Recap",
-              "description": "\u2014 Mike Tomlin wondered this week why the Cleveland Browns traded Joe Flacco to their AFC North rival, the Cincinnati Bengals.",
-              "shortLinkText": "Flacco rallies Bengals past Rodgers and Steelers 33-31 in battle of 40-year-old QBs",
-              "video": [
-                {
-                  "id": 46621875,
-                  "source": "espn",
-                  "headline": "Bengals prevail late to beat Steelers in thriller",
-                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d.jpg",
-                  "duration": 90,
-                  "tracking": {
-                    "sportName": "football",
-                    "leagueName": "NFL",
-                    "coverageType": "Final Game Highlight",
-                    "trackingName": "COM_NFL Highlight (Bengals prevail late to beat Steelers in thriller) 2025/10/17 ESHEET SOTFULL",
-                    "trackingId": "dm_20251017_NFL_bengals_prevail_late_to_beat_steelers_in_thriller"
-                  },
-                  "deviceRestrictions": {
-                    "type": "whitelist",
-                    "devices": [
-                      "desktop",
-                      "ipad",
-                      "settop",
-                      "handset",
-                      "tablet"
-                    ]
-                  },
-                  "links": {
-                    "web": {
-                      "href": "https://www.espn.com/video/clip?id=46621875",
-                      "self": {
-                        "href": "https://www.espn.com/video/clip?id=46621875"
-                      },
-                      "seo": {
-                        "href": "https://www.espn.com/video/clip/_/id/46621875"
-                      }
-                    },
-                    "mobile": {
-                      "source": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d.mp4"
-                      },
-                      "alert": {
-                        "href": "https://m.espn.com/general/video/videoAlert?vid=46621875"
-                      },
-                      "streaming": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/5bc2d5b9-2f33-4f62-89c5-f5b72a39b190/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46621875"
-                      },
-                      "progressiveDownload": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/5bc2d5b9-2f33-4f62-89c5-f5b72a39b190/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46621875"
-                      }
-                    },
-                    "api": {
-                      "self": {
-                        "href": "https://content.core.api.espn.com/v1/video/clips/46621875"
-                      },
-                      "artwork": {
-                        "href": "https://artwork.api.espn.com/artwork/collections/media/5bc2d5b9-2f33-4f62-89c5-f5b72a39b190"
-                      }
-                    },
-                    "source": {
-                      "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d_360p30_1464k.mp4",
-                      "mezzanine": {
-                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d.mp4"
-                      },
-                      "flash": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d.smil"
-                      },
-                      "hds": {
-                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d_rel.smil/manifest.f4m"
-                      },
-                      "HLS": {
-                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d/playlist.m3u8",
-                        "HD": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d/playlist.m3u8"
-                        },
-                        "cmaf": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d/playlist.m3u8",
-                          "9x16": {
-                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d/playlist.m3u8"
-                          }
-                        },
-                        "9x16": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d/playlist.m3u8"
-                        },
-                        "shield": {
-                          "href": "https://watch.auth.api.espn.com/video/auth/media/5bc2d5b9-2f33-4f62-89c5-f5b72a39b190/asset"
-                        }
-                      },
-                      "HD": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d_720p30_2896k.mp4"
-                      },
-                      "full": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d_360p30_1464k.mp4"
-                      }
-                    },
-                    "sportscenter": {
-                      "href": "sportscenter://x-callback-url/showVideo?videoID=46621875&videoDSI=7163a3580d954"
-                    }
-                  }
-                }
-              ]
-            }
-          ],
           "highlights": [
             {
               "id": 46621711,
@@ -766,6 +661,111 @@
                 "trackingName": "COM_NFL Highlight (Bengals prevail late to beat Steelers in thriller) 2025/10/17 ESHEET SOTFULL",
                 "trackingId": "dm_20251017_NFL_bengals_prevail_late_to_beat_steelers_in_thriller"
               }
+            }
+          ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "\u2014 Mike Tomlin wondered this week why the Cleveland Browns traded Joe Flacco to their AFC North rival, the Cincinnati Bengals.",
+              "shortLinkText": "Flacco rallies Bengals past Rodgers and Steelers 33-31 in battle of 40-year-old QBs",
+              "video": [
+                {
+                  "id": 46621875,
+                  "source": "espn",
+                  "headline": "Bengals prevail late to beat Steelers in thriller",
+                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d.jpg",
+                  "duration": 90,
+                  "tracking": {
+                    "sportName": "football",
+                    "leagueName": "NFL",
+                    "coverageType": "Final Game Highlight",
+                    "trackingName": "COM_NFL Highlight (Bengals prevail late to beat Steelers in thriller) 2025/10/17 ESHEET SOTFULL",
+                    "trackingId": "dm_20251017_NFL_bengals_prevail_late_to_beat_steelers_in_thriller"
+                  },
+                  "deviceRestrictions": {
+                    "type": "whitelist",
+                    "devices": [
+                      "desktop",
+                      "ipad",
+                      "settop",
+                      "handset",
+                      "tablet"
+                    ]
+                  },
+                  "links": {
+                    "web": {
+                      "href": "https://www.espn.com/video/clip?id=46621875",
+                      "self": {
+                        "href": "https://www.espn.com/video/clip?id=46621875"
+                      },
+                      "seo": {
+                        "href": "https://www.espn.com/video/clip/_/id/46621875"
+                      }
+                    },
+                    "mobile": {
+                      "source": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d.mp4"
+                      },
+                      "alert": {
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=46621875"
+                      },
+                      "streaming": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/5bc2d5b9-2f33-4f62-89c5-f5b72a39b190/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46621875"
+                      },
+                      "progressiveDownload": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/5bc2d5b9-2f33-4f62-89c5-f5b72a39b190/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46621875"
+                      }
+                    },
+                    "api": {
+                      "self": {
+                        "href": "https://content.core.api.espn.com/v1/video/clips/46621875"
+                      },
+                      "artwork": {
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/5bc2d5b9-2f33-4f62-89c5-f5b72a39b190"
+                      }
+                    },
+                    "source": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d_360p30_1464k.mp4",
+                      "mezzanine": {
+                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d.mp4"
+                      },
+                      "flash": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d.smil"
+                      },
+                      "hds": {
+                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d_rel.smil/manifest.f4m"
+                      },
+                      "HLS": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d/playlist.m3u8",
+                        "HD": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d/playlist.m3u8"
+                        },
+                        "cmaf": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d/playlist.m3u8",
+                          "9x16": {
+                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d/playlist.m3u8"
+                          }
+                        },
+                        "9x16": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d/playlist.m3u8"
+                        },
+                        "shield": {
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/5bc2d5b9-2f33-4f62-89c5-f5b72a39b190/asset"
+                        }
+                      },
+                      "HD": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d_720p30_2896k.mp4"
+                      },
+                      "full": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1017/f690585f-8d8b-4ce4-9907-02d27b0ce74d/f690585f-8d8b-4ce4-9907-02d27b0ce74d_360p30_1464k.mp4"
+                      }
+                    },
+                    "sportscenter": {
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=46621875&videoDSI=7163a3580d954"
+                    }
+                  }
+                }
+              ]
             }
           ]
         }
@@ -1473,7 +1473,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $128",
-              "numberAvailable": 313,
+              "numberAvailable": 311,
               "links": [
                 {
                   "href": "https://www.vividseats.com/jacksonville-jaguars-tickets-wembley-stadium-11-1-2026--sports-nfl-football/production/5731133?wsUser=717"
@@ -1988,7 +1988,7 @@
                   "id": "fd34389f-16f5-487c-99b6-bb207ae5fd3f",
                   "displayName": "Touchdowns Abroad",
                   "type": "PARLAY_PLUS",
-                  "odds": "+584",
+                  "odds": "+601",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=fd34389f-16f5-487c-99b6-bb207ae5fd3f",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=fd34389f-16f5-487c-99b6-bb207ae5fd3f",
@@ -2002,7 +2002,7 @@
                     }
                   },
                   "startTime": "2025-10-19T13:30Z",
-                  "payoutText": "$10.00 pays $58.42",
+                  "payoutText": "$10.00 pays $60.12",
                   "displayOrder": 61,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
@@ -2047,9 +2047,9 @@
                       "marketText": "Davante Adams Touchdowns Scored",
                       "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                       "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/0fbf17fd-14b6-4396-a4e6-2805db5b5b3e/section/player_props&market_selection_id[0]=7abca210-a0ce-451f-8279-39dfa17c5ea0&odds_numerator[0]=9&odds_denominator[0]=5",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/0fbf17fd-14b6-4396-a4e6-2805db5b5b3e/section/player_props&market_selection_id[0]=7abca210-a0ce-451f-8279-39dfa17c5ea0&odds_numerator[0]=43&odds_denominator[0]=23",
                       "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/0fbf17fd-14b6-4396-a4e6-2805db5b5b3e/section/player_props&market_selection_id[0]=7abca210-a0ce-451f-8279-39dfa17c5ea0&odds_numerator[0]=9&odds_denominator[0]=5",
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/0fbf17fd-14b6-4396-a4e6-2805db5b5b3e/section/player_props&market_selection_id[0]=7abca210-a0ce-451f-8279-39dfa17c5ea0&odds_numerator[0]=43&odds_denominator[0]=23",
                         "tracking": {
                           "campaign": "betting-integrations",
                           "tags": {
@@ -2127,9 +2127,9 @@
                           "marketText": "Davante Adams Touchdowns Scored",
                           "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                           "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/0fbf17fd-14b6-4396-a4e6-2805db5b5b3e/section/player_props&market_selection_id[0]=7abca210-a0ce-451f-8279-39dfa17c5ea0&odds_numerator[0]=9&odds_denominator[0]=5",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/0fbf17fd-14b6-4396-a4e6-2805db5b5b3e/section/player_props&market_selection_id[0]=7abca210-a0ce-451f-8279-39dfa17c5ea0&odds_numerator[0]=43&odds_denominator[0]=23",
                           "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/0fbf17fd-14b6-4396-a4e6-2805db5b5b3e/section/player_props&market_selection_id[0]=7abca210-a0ce-451f-8279-39dfa17c5ea0&odds_numerator[0]=9&odds_denominator[0]=5",
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/0fbf17fd-14b6-4396-a4e6-2805db5b5b3e/section/player_props&market_selection_id[0]=7abca210-a0ce-451f-8279-39dfa17c5ea0&odds_numerator[0]=43&odds_denominator[0]=23",
                             "tracking": {
                               "campaign": "betting-integrations",
                               "tags": {
@@ -2178,7 +2178,7 @@
                   "id": "0c6fc671-1c9b-43ce-8dfe-0dc67021259a",
                   "displayName": "From LA To London",
                   "type": "PARLAY_PLUS",
-                  "odds": "+324",
+                  "odds": "+322",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=0c6fc671-1c9b-43ce-8dfe-0dc67021259a",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=0c6fc671-1c9b-43ce-8dfe-0dc67021259a",
@@ -2192,7 +2192,7 @@
                     }
                   },
                   "startTime": "2025-10-19T13:30Z",
-                  "payoutText": "$10.00 pays $32.42",
+                  "payoutText": "$10.00 pays $32.19",
                   "displayOrder": 62,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
@@ -2367,7 +2367,7 @@
                   "id": "c5331910-673c-4387-94e6-024ecfc040f4",
                   "displayName": "Like A Second Home",
                   "type": "PARLAY_PLUS",
-                  "odds": "+536",
+                  "odds": "+517",
                   "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=c5331910-673c-4387-94e6-024ecfc040f4",
                   "link": {
                     "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/parlay-lounge/section/featured&featured_bet_id=c5331910-673c-4387-94e6-024ecfc040f4",
@@ -2381,7 +2381,7 @@
                     }
                   },
                   "startTime": "2025-10-19T13:30Z",
-                  "payoutText": "$10.00 pays $53.55",
+                  "payoutText": "$10.00 pays $51.66",
                   "displayOrder": 63,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
@@ -2400,9 +2400,9 @@
                       "marketText": "Travis Etienne Jr. Total Rushing Yards",
                       "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                       "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/0fbf17fd-14b6-4396-a4e6-2805db5b5b3e/section/player_props&market_selection_id[0]=01aceed5-6320-4186-bbce-f82fca40d0eb&odds_numerator[0]=43&odds_denominator[0]=23",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/0fbf17fd-14b6-4396-a4e6-2805db5b5b3e/section/player_props&market_selection_id[0]=01aceed5-6320-4186-bbce-f82fca40d0eb&odds_numerator[0]=11&odds_denominator[0]=6",
                       "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/0fbf17fd-14b6-4396-a4e6-2805db5b5b3e/section/player_props&market_selection_id[0]=01aceed5-6320-4186-bbce-f82fca40d0eb&odds_numerator[0]=43&odds_denominator[0]=23",
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/0fbf17fd-14b6-4396-a4e6-2805db5b5b3e/section/player_props&market_selection_id[0]=01aceed5-6320-4186-bbce-f82fca40d0eb&odds_numerator[0]=11&odds_denominator[0]=6",
                         "tracking": {
                           "campaign": "betting-integrations",
                           "tags": {
@@ -2450,9 +2450,9 @@
                       "marketText": "Brian Thomas Jr. Total Receiving Yards",
                       "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                       "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/0fbf17fd-14b6-4396-a4e6-2805db5b5b3e/section/player_props&market_selection_id[0]=878e57da-281a-4c0c-a3bf-ddb26cf5db9d&odds_numerator[0]=41&odds_denominator[0]=21",
+                      "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/0fbf17fd-14b6-4396-a4e6-2805db5b5b3e/section/player_props&market_selection_id[0]=878e57da-281a-4c0c-a3bf-ddb26cf5db9d&odds_numerator[0]=21&odds_denominator[0]=11",
                       "link": {
-                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/0fbf17fd-14b6-4396-a4e6-2805db5b5b3e/section/player_props&market_selection_id[0]=878e57da-281a-4c0c-a3bf-ddb26cf5db9d&odds_numerator[0]=41&odds_denominator[0]=21",
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/0fbf17fd-14b6-4396-a4e6-2805db5b5b3e/section/player_props&market_selection_id[0]=878e57da-281a-4c0c-a3bf-ddb26cf5db9d&odds_numerator[0]=21&odds_denominator[0]=11",
                         "tracking": {
                           "campaign": "betting-integrations",
                           "tags": {
@@ -2480,9 +2480,9 @@
                           "marketText": "Travis Etienne Jr. Total Rushing Yards",
                           "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                           "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/0fbf17fd-14b6-4396-a4e6-2805db5b5b3e/section/player_props&market_selection_id[0]=01aceed5-6320-4186-bbce-f82fca40d0eb&odds_numerator[0]=43&odds_denominator[0]=23",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/0fbf17fd-14b6-4396-a4e6-2805db5b5b3e/section/player_props&market_selection_id[0]=01aceed5-6320-4186-bbce-f82fca40d0eb&odds_numerator[0]=11&odds_denominator[0]=6",
                           "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/0fbf17fd-14b6-4396-a4e6-2805db5b5b3e/section/player_props&market_selection_id[0]=01aceed5-6320-4186-bbce-f82fca40d0eb&odds_numerator[0]=43&odds_denominator[0]=23",
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/0fbf17fd-14b6-4396-a4e6-2805db5b5b3e/section/player_props&market_selection_id[0]=01aceed5-6320-4186-bbce-f82fca40d0eb&odds_numerator[0]=11&odds_denominator[0]=6",
                             "tracking": {
                               "campaign": "betting-integrations",
                               "tags": {
@@ -2530,9 +2530,9 @@
                           "marketText": "Brian Thomas Jr. Total Receiving Yards",
                           "icon": "https://a.espncdn.com/i/espnbet/mybets_fball_icon.png",
                           "iconDark": "https://a.espncdn.com/i/espnbet/dark/mybets_fball_icon.png",
-                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/0fbf17fd-14b6-4396-a4e6-2805db5b5b3e/section/player_props&market_selection_id[0]=878e57da-281a-4c0c-a3bf-ddb26cf5db9d&odds_numerator[0]=41&odds_denominator[0]=21",
+                          "url": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/0fbf17fd-14b6-4396-a4e6-2805db5b5b3e/section/player_props&market_selection_id[0]=878e57da-281a-4c0c-a3bf-ddb26cf5db9d&odds_numerator[0]=21&odds_denominator[0]=11",
                           "link": {
-                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/0fbf17fd-14b6-4396-a4e6-2805db5b5b3e/section/player_props&market_selection_id[0]=878e57da-281a-4c0c-a3bf-ddb26cf5db9d&odds_numerator[0]=41&odds_denominator[0]=21",
+                            "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/football/organization/united-states/competition/nfl/event/0fbf17fd-14b6-4396-a4e6-2805db5b5b3e/section/player_props&market_selection_id[0]=878e57da-281a-4c0c-a3bf-ddb26cf5db9d&odds_numerator[0]=21&odds_denominator[0]=11",
                             "tracking": {
                               "campaign": "betting-integrations",
                               "tags": {
@@ -2570,7 +2570,7 @@
                     }
                   },
                   "startTime": "2025-10-19T13:30Z",
-                  "betsPlaced": "486",
+                  "betsPlaced": "490",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $116.22",
@@ -3692,7 +3692,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $170",
-              "numberAvailable": 1347,
+              "numberAvailable": 1348,
               "links": [
                 {
                   "href": "https://www.vividseats.com/chicago-bears-tickets-soldier-field-3-6-2026--sports-nfl-football/production/5470716?wsUser=717"
@@ -4402,7 +4402,7 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "193",
+                  "betsPlaced": "201",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $394.61",
@@ -5552,7 +5552,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $23",
-              "numberAvailable": 3760,
+              "numberAvailable": 3763,
               "links": [
                 {
                   "href": "https://www.vividseats.com/cleveland-browns-tickets-huntington-bank-field-3-5-2026--sports-nfl-football/production/5471087?wsUser=717"
@@ -6019,7 +6019,7 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "306",
+                  "betsPlaced": "307",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $76.63",
@@ -9399,7 +9399,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $168",
-              "numberAvailable": 3524,
+              "numberAvailable": 3521,
               "links": [
                 {
                   "href": "https://www.vividseats.com/kansas-city-chiefs-tickets-geha-field-at-arrowhead-stadium-3-3-2026--sports-nfl-football/production/5472314?wsUser=717"
@@ -10305,7 +10305,7 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "193",
+                  "betsPlaced": "201",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $394.61",
@@ -11841,7 +11841,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $97",
-              "numberAvailable": 3113,
+              "numberAvailable": 3124,
               "links": [
                 {
                   "href": "https://www.vividseats.com/minnesota-vikings-tickets-us-bank-stadium-3-4-2026--sports-nfl-football/production/5470673?wsUser=717"
@@ -12109,7 +12109,7 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "193",
+                  "betsPlaced": "201",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $394.61",
@@ -13644,7 +13644,7 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $57",
+              "summary": "Tickets as low as $54",
               "numberAvailable": 3312,
               "links": [
                 {
@@ -13913,7 +13913,7 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "193",
+                  "betsPlaced": "201",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $394.61",
@@ -15259,7 +15259,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $237",
-              "numberAvailable": 972,
+              "numberAvailable": 962,
               "links": [
                 {
                   "href": "https://www.vividseats.com/denver-broncos-tickets-empower-field-at-mile-high-3-8-2026--sports-nfl-football/production/5472094?wsUser=717"
@@ -17093,6 +17093,24 @@
               },
               "score": "0",
               "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "4-2"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "2-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-1"
+                }
+              ],
               "leaders": [
                 {
                   "name": "passingLeader",
@@ -17213,24 +17231,6 @@
                       }
                     }
                   ]
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "4-2"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "2-1"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "2-1"
                 }
               ]
             },
@@ -17599,8 +17599,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $34",
-              "numberAvailable": 3500,
+              "summary": "Tickets as low as $35",
+              "numberAvailable": 3396,
               "links": [
                 {
                   "href": "https://www.vividseats.com/los-angeles-chargers-tickets-sofi-stadium-3-5-2026--sports-nfl-football/production/5472497?wsUser=717"
@@ -17868,7 +17868,7 @@
                     }
                   },
                   "startTime": "2025-10-19T20:05Z",
-                  "betsPlaced": "171",
+                  "betsPlaced": "173",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $44.98",
@@ -18462,7 +18462,7 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "306",
+                  "betsPlaced": "307",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $76.63",
@@ -20180,7 +20180,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $20",
-              "numberAvailable": 4546,
+              "numberAvailable": 4544,
               "links": [
                 {
                   "href": "https://www.vividseats.com/dallas-cowboys-tickets-att-stadium-3-3-2026--sports-nfl-football/production/5470560?wsUser=717"
@@ -20448,7 +20448,7 @@
                     }
                   },
                   "startTime": "2025-10-19T20:05Z",
-                  "betsPlaced": "171",
+                  "betsPlaced": "173",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $44.98",
@@ -20647,7 +20647,7 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "306",
+                  "betsPlaced": "307",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $76.63",
@@ -22756,7 +22756,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $105",
-              "numberAvailable": 2846,
+              "numberAvailable": 2840,
               "links": [
                 {
                   "href": "https://www.vividseats.com/arizona-cardinals-tickets-state-farm-stadium-3-8-2026--sports-nfl-football/production/5470311?wsUser=717"
@@ -25043,7 +25043,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $104",
-              "numberAvailable": 2219,
+              "numberAvailable": 2235,
               "links": [
                 {
                   "href": "https://www.vividseats.com/san-francisco-49ers-tickets-levis-stadium-3-4-2026--sports-nfl-football/production/5470911?wsUser=717"
@@ -26379,24 +26379,6 @@
               },
               "score": "0",
               "statistics": [],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "4-2"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "2-0"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "2-2"
-                }
-              ],
               "leaders": [
                 {
                   "name": "passingLeader",
@@ -26517,6 +26499,24 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "4-2"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "2-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-2"
                 }
               ]
             },
@@ -26887,7 +26887,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $249",
-              "numberAvailable": 1828,
+              "numberAvailable": 1829,
               "links": [
                 {
                   "href": "https://www.vividseats.com/detroit-lions-tickets-ford-field-3-8-2026--sports-nfl-football/production/5470693?wsUser=717"
@@ -27174,7 +27174,7 @@
                     }
                   },
                   "startTime": "2025-10-19T20:05Z",
-                  "betsPlaced": "171",
+                  "betsPlaced": "173",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $44.98",
@@ -29091,7 +29091,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $98",
-              "numberAvailable": 2583,
+              "numberAvailable": 2582,
               "links": [
                 {
                   "href": "https://www.vividseats.com/seattle-seahawks-tickets-lumen-field-3-7-2026--sports-nfl-football/production/5470922?wsUser=717"
