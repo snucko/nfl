@@ -1473,7 +1473,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $140",
-              "numberAvailable": 307,
+              "numberAvailable": 304,
               "links": [
                 {
                   "href": "https://www.vividseats.com/jacksonville-jaguars-tickets-wembley-stadium-11-1-2026--sports-nfl-football/production/5731133?wsUser=717"
@@ -1756,11 +1756,11 @@
                     }
                   },
                   "startTime": "2025-10-19T13:30Z",
-                  "betsPlaced": "223",
+                  "betsPlaced": "228",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $23.02",
-                  "displayOrder": 60,
+                  "displayOrder": 61,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -2003,7 +2003,7 @@
                   },
                   "startTime": "2025-10-19T13:30Z",
                   "payoutText": "$10.00 pays $60.12",
-                  "displayOrder": 61,
+                  "displayOrder": 62,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -2193,7 +2193,7 @@
                   },
                   "startTime": "2025-10-19T13:30Z",
                   "payoutText": "$10.00 pays $32.19",
-                  "displayOrder": 62,
+                  "displayOrder": 63,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE"
@@ -2382,7 +2382,7 @@
                   },
                   "startTime": "2025-10-19T13:30Z",
                   "payoutText": "$10.00 pays $51.66",
-                  "displayOrder": 63,
+                  "displayOrder": 64,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE"
@@ -2570,11 +2570,11 @@
                     }
                   },
                   "startTime": "2025-10-19T13:30Z",
-                  "betsPlaced": "523",
+                  "betsPlaced": "536",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $116.22",
-                  "displayOrder": 64,
+                  "displayOrder": 65,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -3396,6 +3396,24 @@
               },
               "score": "0",
               "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "1-5"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-3"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-2"
+                }
+              ],
               "leaders": [
                 {
                   "name": "passingLeader",
@@ -3516,24 +3534,6 @@
                       }
                     }
                   ]
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "1-5"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "1-3"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "0-2"
                 }
               ]
             }
@@ -3692,7 +3692,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $170",
-              "numberAvailable": 1349,
+              "numberAvailable": 1337,
               "links": [
                 {
                   "href": "https://www.vividseats.com/chicago-bears-tickets-soldier-field-3-6-2026--sports-nfl-football/production/5470716?wsUser=717"
@@ -3961,7 +3961,7 @@
                   },
                   "startTime": "2025-10-19T17:00Z",
                   "payoutText": "$10.00 pays $46.98",
-                  "displayOrder": 59,
+                  "displayOrder": 60,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -4156,11 +4156,11 @@
                     }
                   },
                   "startTime": "2025-10-19T13:30Z",
-                  "betsPlaced": "223",
+                  "betsPlaced": "228",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $23.02",
-                  "displayOrder": 60,
+                  "displayOrder": 61,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -4402,11 +4402,11 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "250",
+                  "betsPlaced": "276",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $394.61",
-                  "displayOrder": 74,
+                  "displayOrder": 75,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -5551,8 +5551,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $23",
-              "numberAvailable": 3780,
+              "summary": "Tickets as low as $24",
+              "numberAvailable": 3221,
               "links": [
                 {
                   "href": "https://www.vividseats.com/cleveland-browns-tickets-huntington-bank-field-3-5-2026--sports-nfl-football/production/5471087?wsUser=717"
@@ -5820,11 +5820,11 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "235",
+                  "betsPlaced": "241",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $54.74",
-                  "displayOrder": 67,
+                  "displayOrder": 68,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -6019,11 +6019,11 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "319",
+                  "betsPlaced": "327",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $76.63",
-                  "displayOrder": 71,
+                  "displayOrder": 72,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -6213,7 +6213,7 @@
                   },
                   "startTime": "2025-10-19T17:00Z",
                   "payoutText": "$10.00 pays $2300.00",
-                  "displayOrder": 78,
+                  "displayOrder": 79,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -7297,8 +7297,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $40",
-              "numberAvailable": 2249,
+              "summary": "Tickets as low as $41",
+              "numberAvailable": 2307,
               "links": [
                 {
                   "href": "https://www.vividseats.com/tennessee-titans-tickets-nissan-stadium-3-6-2026--sports-nfl-football/production/5472067?wsUser=717"
@@ -7566,11 +7566,11 @@
                     }
                   },
                   "startTime": "2025-10-19T13:30Z",
-                  "betsPlaced": "223",
+                  "betsPlaced": "228",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $23.02",
-                  "displayOrder": 60,
+                  "displayOrder": 61,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -7812,11 +7812,11 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "196",
+                  "betsPlaced": "199",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $38.26",
-                  "displayOrder": 73,
+                  "displayOrder": 74,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -8112,7 +8112,7 @@
                   },
                   "startTime": "2025-10-19T17:00Z",
                   "payoutText": "$10.00 pays $94.16",
-                  "displayOrder": 76,
+                  "displayOrder": 77,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -8308,7 +8308,7 @@
                   },
                   "startTime": "2025-10-19T17:00Z",
                   "payoutText": "$10.00 pays $245.94",
-                  "displayOrder": 80,
+                  "displayOrder": 81,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -9398,8 +9398,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $171",
-              "numberAvailable": 3465,
+              "summary": "Tickets as low as $163",
+              "numberAvailable": 3477,
               "links": [
                 {
                   "href": "https://www.vividseats.com/kansas-city-chiefs-tickets-geha-field-at-arrowhead-stadium-3-3-2026--sports-nfl-football/production/5472314?wsUser=717"
@@ -9668,7 +9668,7 @@
                   },
                   "startTime": "2025-10-19T17:00Z",
                   "payoutText": "$10.00 pays $46.98",
-                  "displayOrder": 59,
+                  "displayOrder": 60,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -9863,11 +9863,11 @@
                     }
                   },
                   "startTime": "2025-10-19T13:30Z",
-                  "betsPlaced": "223",
+                  "betsPlaced": "228",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $23.02",
-                  "displayOrder": 60,
+                  "displayOrder": 61,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -10110,7 +10110,7 @@
                   },
                   "startTime": "2025-10-19T17:00Z",
                   "payoutText": "$10.00 pays $50.45",
-                  "displayOrder": 69,
+                  "displayOrder": 70,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -10305,11 +10305,11 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "250",
+                  "betsPlaced": "276",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $394.61",
-                  "displayOrder": 74,
+                  "displayOrder": 75,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -10560,7 +10560,7 @@
                   },
                   "startTime": "2025-10-19T17:00Z",
                   "payoutText": "$10.00 pays $2300.00",
-                  "displayOrder": 78,
+                  "displayOrder": 79,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -10750,7 +10750,7 @@
                   },
                   "startTime": "2025-10-19T17:00Z",
                   "payoutText": "$10.00 pays $35.21",
-                  "displayOrder": 82,
+                  "displayOrder": 83,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -11841,7 +11841,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $99",
-              "numberAvailable": 3060,
+              "numberAvailable": 3064,
               "links": [
                 {
                   "href": "https://www.vividseats.com/minnesota-vikings-tickets-us-bank-stadium-3-4-2026--sports-nfl-football/production/5470673?wsUser=717"
@@ -12109,11 +12109,11 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "250",
+                  "betsPlaced": "276",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $394.61",
-                  "displayOrder": 74,
+                  "displayOrder": 75,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -12364,7 +12364,7 @@
                   },
                   "startTime": "2025-10-19T17:00Z",
                   "payoutText": "$10.00 pays $2300.00",
-                  "displayOrder": 78,
+                  "displayOrder": 79,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -12554,7 +12554,7 @@
                   },
                   "startTime": "2025-10-19T17:00Z",
                   "payoutText": "$10.00 pays $35.21",
-                  "displayOrder": 82,
+                  "displayOrder": 83,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -13645,7 +13645,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $54",
-              "numberAvailable": 3271,
+              "numberAvailable": 3254,
               "links": [
                 {
                   "href": "https://www.vividseats.com/new-york-jets-tickets-metlife-stadium-3-8-2026--sports-nfl-football/production/5471071?wsUser=717"
@@ -13913,11 +13913,11 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "250",
+                  "betsPlaced": "276",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $394.61",
-                  "displayOrder": 74,
+                  "displayOrder": 75,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -14168,7 +14168,7 @@
                   },
                   "startTime": "2025-10-19T17:00Z",
                   "payoutText": "$10.00 pays $94.16",
-                  "displayOrder": 76,
+                  "displayOrder": 77,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -15259,7 +15259,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $237",
-              "numberAvailable": 964,
+              "numberAvailable": 924,
               "links": [
                 {
                   "href": "https://www.vividseats.com/denver-broncos-tickets-empower-field-at-mile-high-3-8-2026--sports-nfl-football/production/5472094?wsUser=717"
@@ -15527,11 +15527,11 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "235",
+                  "betsPlaced": "241",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $54.74",
-                  "displayOrder": 67,
+                  "displayOrder": 68,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -15727,7 +15727,7 @@
                   },
                   "startTime": "2025-10-19T17:00Z",
                   "payoutText": "$10.00 pays $50.45",
-                  "displayOrder": 69,
+                  "displayOrder": 70,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -15922,11 +15922,11 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "196",
+                  "betsPlaced": "199",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $38.26",
-                  "displayOrder": 73,
+                  "displayOrder": 74,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -16222,7 +16222,7 @@
                   },
                   "startTime": "2025-10-19T20:05Z",
                   "payoutText": "$10.00 pays $34.25",
-                  "displayOrder": 86,
+                  "displayOrder": 87,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -16462,7 +16462,7 @@
                   },
                   "startTime": "2025-10-19T20:05Z",
                   "payoutText": "$10.00 pays $45.85",
-                  "displayOrder": 90,
+                  "displayOrder": 91,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -17093,6 +17093,24 @@
               },
               "score": "0",
               "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "4-2"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "2-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-1"
+                }
+              ],
               "leaders": [
                 {
                   "name": "passingLeader",
@@ -17213,24 +17231,6 @@
                       }
                     }
                   ]
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "4-2"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "2-1"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "2-1"
                 }
               ]
             },
@@ -17600,7 +17600,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $31",
-              "numberAvailable": 3373,
+              "numberAvailable": 3371,
               "links": [
                 {
                   "href": "https://www.vividseats.com/los-angeles-chargers-tickets-sofi-stadium-3-5-2026--sports-nfl-football/production/5472497?wsUser=717"
@@ -17868,11 +17868,11 @@
                     }
                   },
                   "startTime": "2025-10-19T20:05Z",
-                  "betsPlaced": "194",
+                  "betsPlaced": "198",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $44.98",
-                  "displayOrder": 58,
+                  "displayOrder": 59,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -18068,7 +18068,7 @@
                   },
                   "startTime": "2025-10-19T17:00Z",
                   "payoutText": "$10.00 pays $46.98",
-                  "displayOrder": 59,
+                  "displayOrder": 60,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -18263,11 +18263,11 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "235",
+                  "betsPlaced": "241",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $54.74",
-                  "displayOrder": 67,
+                  "displayOrder": 68,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -18462,11 +18462,11 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "319",
+                  "betsPlaced": "327",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $76.63",
-                  "displayOrder": 71,
+                  "displayOrder": 72,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -18656,7 +18656,7 @@
                   },
                   "startTime": "2025-10-19T17:00Z",
                   "payoutText": "$10.00 pays $245.94",
-                  "displayOrder": 80,
+                  "displayOrder": 81,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -18852,7 +18852,7 @@
                   },
                   "startTime": "2025-10-19T20:05Z",
                   "payoutText": "$10.00 pays $1420.00",
-                  "displayOrder": 84,
+                  "displayOrder": 85,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -19042,7 +19042,7 @@
                   },
                   "startTime": "2025-10-19T20:05Z",
                   "payoutText": "$10.00 pays $45.85",
-                  "displayOrder": 90,
+                  "displayOrder": 91,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -20180,7 +20180,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $21",
-              "numberAvailable": 4510,
+              "numberAvailable": 4477,
               "links": [
                 {
                   "href": "https://www.vividseats.com/dallas-cowboys-tickets-att-stadium-3-3-2026--sports-nfl-football/production/5470560?wsUser=717"
@@ -20448,11 +20448,11 @@
                     }
                   },
                   "startTime": "2025-10-19T20:05Z",
-                  "betsPlaced": "194",
+                  "betsPlaced": "198",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $44.98",
-                  "displayOrder": 58,
+                  "displayOrder": 59,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -20647,11 +20647,11 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "319",
+                  "betsPlaced": "327",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $76.63",
-                  "displayOrder": 71,
+                  "displayOrder": 72,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -20841,7 +20841,7 @@
                   },
                   "startTime": "2025-10-19T17:00Z",
                   "payoutText": "$10.00 pays $94.16",
-                  "displayOrder": 76,
+                  "displayOrder": 77,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -21037,7 +21037,7 @@
                   },
                   "startTime": "2025-10-19T17:00Z",
                   "payoutText": "$10.00 pays $35.21",
-                  "displayOrder": 82,
+                  "displayOrder": 83,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -21233,7 +21233,7 @@
                   },
                   "startTime": "2025-10-19T20:05Z",
                   "payoutText": "$10.00 pays $1420.00",
-                  "displayOrder": 84,
+                  "displayOrder": 85,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -21423,7 +21423,7 @@
                   },
                   "startTime": "2025-10-19T20:25Z",
                   "payoutText": "$10.00 pays $67.74",
-                  "displayOrder": 88,
+                  "displayOrder": 89,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -21618,7 +21618,7 @@
                   },
                   "startTime": "2025-10-19T20:05Z",
                   "payoutText": "$10.00 pays $45.85",
-                  "displayOrder": 90,
+                  "displayOrder": 91,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -22756,7 +22756,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $102",
-              "numberAvailable": 2822,
+              "numberAvailable": 2819,
               "links": [
                 {
                   "href": "https://www.vividseats.com/arizona-cardinals-tickets-state-farm-stadium-3-8-2026--sports-nfl-football/production/5470311?wsUser=717"
@@ -23025,7 +23025,7 @@
                   },
                   "startTime": "2025-10-19T17:00Z",
                   "payoutText": "$10.00 pays $50.45",
-                  "displayOrder": 69,
+                  "displayOrder": 70,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -23220,11 +23220,11 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "196",
+                  "betsPlaced": "199",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $38.26",
-                  "displayOrder": 73,
+                  "displayOrder": 74,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -23520,7 +23520,7 @@
                   },
                   "startTime": "2025-10-19T20:05Z",
                   "payoutText": "$10.00 pays $1420.00",
-                  "displayOrder": 84,
+                  "displayOrder": 85,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -23710,7 +23710,7 @@
                   },
                   "startTime": "2025-10-19T20:25Z",
                   "payoutText": "$10.00 pays $67.74",
-                  "displayOrder": 88,
+                  "displayOrder": 89,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -23905,7 +23905,7 @@
                   },
                   "startTime": "2025-10-19T20:05Z",
                   "payoutText": "$10.00 pays $45.85",
-                  "displayOrder": 90,
+                  "displayOrder": 91,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -25042,8 +25042,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $98",
-              "numberAvailable": 2252,
+              "summary": "Tickets as low as $89",
+              "numberAvailable": 2187,
               "links": [
                 {
                   "href": "https://www.vividseats.com/san-francisco-49ers-tickets-levis-stadium-3-4-2026--sports-nfl-football/production/5470911?wsUser=717"
@@ -25311,11 +25311,11 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "196",
+                  "betsPlaced": "199",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $38.26",
-                  "displayOrder": 73,
+                  "displayOrder": 74,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -25611,7 +25611,7 @@
                   },
                   "startTime": "2025-10-20T00:20Z",
                   "payoutText": "$10.00 pays $52.96",
-                  "displayOrder": 91,
+                  "displayOrder": 92,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -25801,7 +25801,7 @@
                   },
                   "startTime": "2025-10-20T00:20Z",
                   "payoutText": "$10.00 pays $26.39",
-                  "displayOrder": 93,
+                  "displayOrder": 94,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -26379,24 +26379,6 @@
               },
               "score": "0",
               "statistics": [],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "4-2"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "2-0"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "2-2"
-                }
-              ],
               "leaders": [
                 {
                   "name": "passingLeader",
@@ -26517,6 +26499,24 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "4-2"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "2-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-2"
                 }
               ]
             },
@@ -26887,7 +26887,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $249",
-              "numberAvailable": 1792,
+              "numberAvailable": 1736,
               "links": [
                 {
                   "href": "https://www.vividseats.com/detroit-lions-tickets-ford-field-3-8-2026--sports-nfl-football/production/5470693?wsUser=717"
@@ -27174,11 +27174,11 @@
                     }
                   },
                   "startTime": "2025-10-19T20:05Z",
-                  "betsPlaced": "194",
+                  "betsPlaced": "198",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $44.98",
-                  "displayOrder": 58,
+                  "displayOrder": 59,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -27373,11 +27373,11 @@
                     }
                   },
                   "startTime": "2025-10-19T17:00Z",
-                  "betsPlaced": "196",
+                  "betsPlaced": "199",
                   "betsPlacedText": "bets placed",
                   "betsPlacedIcon": "https://a.espncdn.com/i/espnbet/fire.svg",
                   "payoutText": "$10.00 pays $38.26",
-                  "displayOrder": 73,
+                  "displayOrder": 74,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -27673,7 +27673,7 @@
                   },
                   "startTime": "2025-10-19T17:00Z",
                   "payoutText": "$10.00 pays $245.94",
-                  "displayOrder": 80,
+                  "displayOrder": 81,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -27869,7 +27869,7 @@
                   },
                   "startTime": "2025-10-20T00:20Z",
                   "payoutText": "$10.00 pays $26.39",
-                  "displayOrder": 93,
+                  "displayOrder": 94,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -28059,7 +28059,7 @@
                   },
                   "startTime": "2025-10-20T23:00Z",
                   "payoutText": "$10.00 pays $440.00",
-                  "displayOrder": 94,
+                  "displayOrder": 95,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -29091,7 +29091,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $98",
-              "numberAvailable": 2580,
+              "numberAvailable": 2578,
               "links": [
                 {
                   "href": "https://www.vividseats.com/seattle-seahawks-tickets-lumen-field-3-7-2026--sports-nfl-football/production/5470922?wsUser=717"
@@ -29362,7 +29362,7 @@
                   },
                   "startTime": "2025-10-20T00:20Z",
                   "payoutText": "$10.00 pays $26.39",
-                  "displayOrder": 93,
+                  "displayOrder": 94,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
@@ -29552,7 +29552,7 @@
                   },
                   "startTime": "2025-10-20T23:00Z",
                   "payoutText": "$10.00 pays $440.00",
-                  "displayOrder": 94,
+                  "displayOrder": 95,
                   "locations": [
                     "FEATURED_BET_LOCATION_HOME",
                     "FEATURED_BET_LOCATION-PARLAY_LOUNGE",
