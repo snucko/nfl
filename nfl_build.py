@@ -89,12 +89,48 @@ def flatten_payload(data, fallback_year, fallback_type, fallback_week):
     week   = data.get("week")   or {"number": fallback_week}
     events = data.get("events") or []
 
-    # (Optional) sort by kickoff time
-    events = sorted(events, key=lambda e: e.get("date", ""))
+    # Strip events to minimal data needed for templates (under 2KB limit)
+    minimal_events = []
+    for event in events:
+        comp = event.get("competitions", [{}])[0]
+        competitors = comp.get("competitors", [])
+        
+        # Extract home/away teams
+        away = next((c for c in competitors if c.get("homeAway") == "away"), {})
+        home = next((c for c in competitors if c.get("homeAway") == "home"), {})
+        
+        minimal_events.append({
+            "id": event.get("id"),
+            "date": event.get("date"),
+            "shortName": event.get("shortName"),
+            "competitions": [{
+                "competitors": [
+                    {
+                        "homeAway": "home",
+                        "team": {"abbreviation": home.get("team", {}).get("abbreviation")},
+                        "score": home.get("score")
+                    },
+                    {
+                        "homeAway": "away",
+                        "team": {"abbreviation": away.get("team", {}).get("abbreviation")},
+                        "score": away.get("score")
+                    }
+                ],
+                "status": {
+                    "type": {
+                        "state": comp.get("status", {}).get("type", {}).get("state"),
+                        "completed": comp.get("status", {}).get("type", {}).get("completed")
+                    }
+                }
+            }]
+        })
+
+    # Sort by kickoff time
+    minimal_events = sorted(minimal_events, key=lambda e: e.get("date", ""))
 
     return {"season": {"year": season.get("year"), "type": season.get("type")},
             "week":   {"number": (week or {}).get("number")},
-            "events": events}
+            "events": minimal_events}
 
 def main():
     repo = pathlib.Path(__file__).resolve().parent
