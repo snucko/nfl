@@ -90,43 +90,69 @@ def flatten_payload(data, fallback_year, fallback_type, fallback_week):
     events = data.get("events") or []
 
     # Strip events to minimal data needed for templates (under 2KB limit)
+    # Only include next 10 games to stay under limit
     minimal_events = []
-    for event in events:
+    for event in events[:10]:  # Limit to 10 games
         comp = event.get("competitions", [{}])[0]
         competitors = comp.get("competitors", [])
+        status = comp.get("status", {}).get("type", {})
         
         # Extract home/away teams
         away = next((c for c in competitors if c.get("homeAway") == "away"), {})
         home = next((c for c in competitors if c.get("homeAway") == "home"), {})
         
         minimal_events.append({
-            "id": event.get("id"),
-            "date": event.get("date"),
             "shortName": event.get("shortName"),
-            "competitions": [{
-                "competitors": [
-                    {
-                        "homeAway": "home",
-                        "team": {"abbreviation": home.get("team", {}).get("abbreviation")},
-                        "score": home.get("score")
-                    },
-                    {
-                        "homeAway": "away",
-                        "team": {"abbreviation": away.get("team", {}).get("abbreviation")},
-                        "score": away.get("score")
-                    }
-                ],
-                "status": {
-                    "type": {
-                        "state": comp.get("status", {}).get("type", {}).get("state"),
-                        "completed": comp.get("status", {}).get("type", {}).get("completed")
-                    }
+            "competitors": [
+                {
+                    "homeAway": "away",
+                    "team": {"abbreviation": away.get("team", {}).get("abbreviation")},
+                    "score": away.get("score", "")
+                },
+                {
+                    "homeAway": "home",
+                    "team": {"abbreviation": home.get("team", {}).get("abbreviation")},
+                    "score": home.get("score", "")
                 }
-            }]
+            ],
+            "status": {
+                "state": status.get("state"),
+                "completed": status.get("completed")
+            }
         })
 
-    # Sort by kickoff time
-    minimal_events = sorted(minimal_events, key=lambda e: e.get("date", ""))
+    # Sort by kickoff time first
+    events = sorted(events, key=lambda e: e.get("date", ""))
+    
+    # Re-process with sorted events
+    minimal_events = []
+    for event in events[:10]:
+        comp = event.get("competitions", [{}])[0]
+        competitors = comp.get("competitors", [])
+        status = comp.get("status", {}).get("type", {})
+        
+        away = next((c for c in competitors if c.get("homeAway") == "away"), {})
+        home = next((c for c in competitors if c.get("homeAway") == "home"), {})
+        
+        minimal_events.append({
+            "shortName": event.get("shortName"),
+            "competitors": [
+                {
+                    "homeAway": "away",
+                    "team": {"abbreviation": away.get("team", {}).get("abbreviation")},
+                    "score": away.get("score", "")
+                },
+                {
+                    "homeAway": "home",
+                    "team": {"abbreviation": home.get("team", {}).get("abbreviation")},
+                    "score": home.get("score", "")
+                }
+            ],
+            "status": {
+                "state": status.get("state"),
+                "completed": status.get("completed")
+            }
+        })
 
     return {"season": {"year": season.get("year"), "type": season.get("type")},
             "week":   {"number": (week or {}).get("number")},

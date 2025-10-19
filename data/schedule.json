@@ -8,469 +8,234 @@
   },
   "events": [
     {
-      "id": "401772941",
-      "date": "2025-10-17T00:15Z",
       "shortName": "PIT @ CIN",
-      "competitions": [
+      "competitors": [
         {
-          "competitors": [
-            {
-              "homeAway": "home",
-              "team": {
-                "abbreviation": "CIN"
-              },
-              "score": "33"
-            },
-            {
-              "homeAway": "away",
-              "team": {
-                "abbreviation": "PIT"
-              },
-              "score": "31"
-            }
-          ],
-          "status": {
-            "type": {
-              "state": "post",
-              "completed": true
-            }
-          }
+          "homeAway": "away",
+          "team": {
+            "abbreviation": "PIT"
+          },
+          "score": "31"
+        },
+        {
+          "homeAway": "home",
+          "team": {
+            "abbreviation": "CIN"
+          },
+          "score": "33"
         }
-      ]
+      ],
+      "status": {
+        "state": "post",
+        "completed": true
+      }
     },
     {
-      "id": "401772635",
-      "date": "2025-10-19T13:30Z",
       "shortName": "LAR VS JAX",
-      "competitions": [
+      "competitors": [
         {
-          "competitors": [
-            {
-              "homeAway": "home",
-              "team": {
-                "abbreviation": "JAX"
-              },
-              "score": "0"
-            },
-            {
-              "homeAway": "away",
-              "team": {
-                "abbreviation": "LAR"
-              },
-              "score": "0"
-            }
-          ],
-          "status": {
-            "type": {
-              "state": "pre",
-              "completed": false
-            }
-          }
+          "homeAway": "away",
+          "team": {
+            "abbreviation": "LAR"
+          },
+          "score": "0"
+        },
+        {
+          "homeAway": "home",
+          "team": {
+            "abbreviation": "JAX"
+          },
+          "score": "0"
         }
-      ]
+      ],
+      "status": {
+        "state": "pre",
+        "completed": false
+      }
     },
     {
-      "id": "401772861",
-      "date": "2025-10-19T17:00Z",
       "shortName": "NO @ CHI",
-      "competitions": [
+      "competitors": [
         {
-          "competitors": [
-            {
-              "homeAway": "home",
-              "team": {
-                "abbreviation": "CHI"
-              },
-              "score": "0"
-            },
-            {
-              "homeAway": "away",
-              "team": {
-                "abbreviation": "NO"
-              },
-              "score": "0"
-            }
-          ],
-          "status": {
-            "type": {
-              "state": "pre",
-              "completed": false
-            }
-          }
+          "homeAway": "away",
+          "team": {
+            "abbreviation": "NO"
+          },
+          "score": "0"
+        },
+        {
+          "homeAway": "home",
+          "team": {
+            "abbreviation": "CHI"
+          },
+          "score": "0"
         }
-      ]
+      ],
+      "status": {
+        "state": "pre",
+        "completed": false
+      }
     },
     {
-      "id": "401772754",
-      "date": "2025-10-19T17:00Z",
       "shortName": "MIA @ CLE",
-      "competitions": [
+      "competitors": [
         {
-          "competitors": [
-            {
-              "homeAway": "home",
-              "team": {
-                "abbreviation": "CLE"
-              },
-              "score": "0"
-            },
-            {
-              "homeAway": "away",
-              "team": {
-                "abbreviation": "MIA"
-              },
-              "score": "0"
-            }
-          ],
-          "status": {
-            "type": {
-              "state": "pre",
-              "completed": false
-            }
-          }
+          "homeAway": "away",
+          "team": {
+            "abbreviation": "MIA"
+          },
+          "score": "0"
+        },
+        {
+          "homeAway": "home",
+          "team": {
+            "abbreviation": "CLE"
+          },
+          "score": "0"
         }
-      ]
+      ],
+      "status": {
+        "state": "pre",
+        "completed": false
+      }
     },
     {
-      "id": "401772755",
-      "date": "2025-10-19T17:00Z",
       "shortName": "NE @ TEN",
-      "competitions": [
+      "competitors": [
         {
-          "competitors": [
-            {
-              "homeAway": "home",
-              "team": {
-                "abbreviation": "TEN"
-              },
-              "score": "0"
-            },
-            {
-              "homeAway": "away",
-              "team": {
-                "abbreviation": "NE"
-              },
-              "score": "0"
-            }
-          ],
-          "status": {
-            "type": {
-              "state": "pre",
-              "completed": false
-            }
-          }
+          "homeAway": "away",
+          "team": {
+            "abbreviation": "NE"
+          },
+          "score": "0"
+        },
+        {
+          "homeAway": "home",
+          "team": {
+            "abbreviation": "TEN"
+          },
+          "score": "0"
         }
-      ]
+      ],
+      "status": {
+        "state": "pre",
+        "completed": false
+      }
     },
     {
-      "id": "401772753",
-      "date": "2025-10-19T17:00Z",
       "shortName": "LV @ KC",
-      "competitions": [
+      "competitors": [
         {
-          "competitors": [
-            {
-              "homeAway": "home",
-              "team": {
-                "abbreviation": "KC"
-              },
-              "score": "0"
-            },
-            {
-              "homeAway": "away",
-              "team": {
-                "abbreviation": "LV"
-              },
-              "score": "0"
-            }
-          ],
-          "status": {
-            "type": {
-              "state": "pre",
-              "completed": false
-            }
-          }
+          "homeAway": "away",
+          "team": {
+            "abbreviation": "LV"
+          },
+          "score": "0"
+        },
+        {
+          "homeAway": "home",
+          "team": {
+            "abbreviation": "KC"
+          },
+          "score": "0"
         }
-      ]
+      ],
+      "status": {
+        "state": "pre",
+        "completed": false
+      }
     },
     {
-      "id": "401772862",
-      "date": "2025-10-19T17:00Z",
       "shortName": "PHI @ MIN",
-      "competitions": [
+      "competitors": [
         {
-          "competitors": [
-            {
-              "homeAway": "home",
-              "team": {
-                "abbreviation": "MIN"
-              },
-              "score": "0"
-            },
-            {
-              "homeAway": "away",
-              "team": {
-                "abbreviation": "PHI"
-              },
-              "score": "0"
-            }
-          ],
-          "status": {
-            "type": {
-              "state": "pre",
-              "completed": false
-            }
-          }
+          "homeAway": "away",
+          "team": {
+            "abbreviation": "PHI"
+          },
+          "score": "0"
+        },
+        {
+          "homeAway": "home",
+          "team": {
+            "abbreviation": "MIN"
+          },
+          "score": "0"
         }
-      ]
+      ],
+      "status": {
+        "state": "pre",
+        "completed": false
+      }
     },
     {
-      "id": "401772860",
-      "date": "2025-10-19T17:00Z",
       "shortName": "CAR @ NYJ",
-      "competitions": [
+      "competitors": [
         {
-          "competitors": [
-            {
-              "homeAway": "home",
-              "team": {
-                "abbreviation": "NYJ"
-              },
-              "score": "0"
-            },
-            {
-              "homeAway": "away",
-              "team": {
-                "abbreviation": "CAR"
-              },
-              "score": "0"
-            }
-          ],
-          "status": {
-            "type": {
-              "state": "pre",
-              "completed": false
-            }
-          }
+          "homeAway": "away",
+          "team": {
+            "abbreviation": "CAR"
+          },
+          "score": "0"
+        },
+        {
+          "homeAway": "home",
+          "team": {
+            "abbreviation": "NYJ"
+          },
+          "score": "0"
         }
-      ]
+      ],
+      "status": {
+        "state": "pre",
+        "completed": false
+      }
     },
     {
-      "id": "401772757",
-      "date": "2025-10-19T20:05Z",
       "shortName": "NYG @ DEN",
-      "competitions": [
+      "competitors": [
         {
-          "competitors": [
-            {
-              "homeAway": "home",
-              "team": {
-                "abbreviation": "DEN"
-              },
-              "score": "0"
-            },
-            {
-              "homeAway": "away",
-              "team": {
-                "abbreviation": "NYG"
-              },
-              "score": "0"
-            }
-          ],
-          "status": {
-            "type": {
-              "state": "pre",
-              "completed": false
-            }
-          }
+          "homeAway": "away",
+          "team": {
+            "abbreviation": "NYG"
+          },
+          "score": "0"
+        },
+        {
+          "homeAway": "home",
+          "team": {
+            "abbreviation": "DEN"
+          },
+          "score": "0"
         }
-      ]
+      ],
+      "status": {
+        "state": "pre",
+        "completed": false
+      }
     },
     {
-      "id": "401772756",
-      "date": "2025-10-19T20:05Z",
       "shortName": "IND @ LAC",
-      "competitions": [
+      "competitors": [
         {
-          "competitors": [
-            {
-              "homeAway": "home",
-              "team": {
-                "abbreviation": "LAC"
-              },
-              "score": "0"
-            },
-            {
-              "homeAway": "away",
-              "team": {
-                "abbreviation": "IND"
-              },
-              "score": "0"
-            }
-          ],
-          "status": {
-            "type": {
-              "state": "pre",
-              "completed": false
-            }
-          }
-        }
-      ]
-    },
-    {
-      "id": "401772864",
-      "date": "2025-10-19T20:25Z",
-      "shortName": "WSH @ DAL",
-      "competitions": [
+          "homeAway": "away",
+          "team": {
+            "abbreviation": "IND"
+          },
+          "score": "0"
+        },
         {
-          "competitors": [
-            {
-              "homeAway": "home",
-              "team": {
-                "abbreviation": "DAL"
-              },
-              "score": "0"
-            },
-            {
-              "homeAway": "away",
-              "team": {
-                "abbreviation": "WSH"
-              },
-              "score": "0"
-            }
-          ],
-          "status": {
-            "type": {
-              "state": "pre",
-              "completed": false
-            }
-          }
+          "homeAway": "home",
+          "team": {
+            "abbreviation": "LAC"
+          },
+          "score": "0"
         }
-      ]
-    },
-    {
-      "id": "401772863",
-      "date": "2025-10-19T20:25Z",
-      "shortName": "GB @ ARI",
-      "competitions": [
-        {
-          "competitors": [
-            {
-              "homeAway": "home",
-              "team": {
-                "abbreviation": "ARI"
-              },
-              "score": "0"
-            },
-            {
-              "homeAway": "away",
-              "team": {
-                "abbreviation": "GB"
-              },
-              "score": "0"
-            }
-          ],
-          "status": {
-            "type": {
-              "state": "pre",
-              "completed": false
-            }
-          }
-        }
-      ]
-    },
-    {
-      "id": "401772924",
-      "date": "2025-10-20T00:20Z",
-      "shortName": "ATL @ SF",
-      "competitions": [
-        {
-          "competitors": [
-            {
-              "homeAway": "home",
-              "team": {
-                "abbreviation": "SF"
-              },
-              "score": "0"
-            },
-            {
-              "homeAway": "away",
-              "team": {
-                "abbreviation": "ATL"
-              },
-              "score": "0"
-            }
-          ],
-          "status": {
-            "type": {
-              "state": "pre",
-              "completed": false
-            }
-          }
-        }
-      ]
-    },
-    {
-      "id": "401772816",
-      "date": "2025-10-20T23:00Z",
-      "shortName": "TB @ DET",
-      "competitions": [
-        {
-          "competitors": [
-            {
-              "homeAway": "home",
-              "team": {
-                "abbreviation": "DET"
-              },
-              "score": "0"
-            },
-            {
-              "homeAway": "away",
-              "team": {
-                "abbreviation": "TB"
-              },
-              "score": "0"
-            }
-          ],
-          "status": {
-            "type": {
-              "state": "pre",
-              "completed": false
-            }
-          }
-        }
-      ]
-    },
-    {
-      "id": "401772826",
-      "date": "2025-10-21T02:00Z",
-      "shortName": "HOU @ SEA",
-      "competitions": [
-        {
-          "competitors": [
-            {
-              "homeAway": "home",
-              "team": {
-                "abbreviation": "SEA"
-              },
-              "score": "0"
-            },
-            {
-              "homeAway": "away",
-              "team": {
-                "abbreviation": "HOU"
-              },
-              "score": "0"
-            }
-          ],
-          "status": {
-            "type": {
-              "state": "pre",
-              "completed": false
-            }
-          }
-        }
-      ]
+      ],
+      "status": {
+        "state": "pre",
+        "completed": false
+      }
     }
   ]
 }
