@@ -206,7 +206,7 @@
           "team": {
             "abbreviation": "DEN"
           },
-          "score": "23"
+          "score": "30"
         }
       ],
       "status": {
@@ -233,8 +233,8 @@
         }
       ],
       "status": {
-        "state": "in",
-        "completed": false
+        "state": "post",
+        "completed": true
       }
     }
   ]
