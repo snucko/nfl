@@ -4,90 +4,48 @@ NFL Schedule - Full Size TRMNL Plugin
 
 <div class="plugin">
   <h1 class="title">
-    NFL Week 7 · 2025
-    (Regular Season)
+    NFL Week {{ merge_variables.week.number }} · {{ merge_variables.season.year }}
+    ({{ merge_variables.season.type | replace: '2', 'Regular Season' | replace: '3', 'Playoffs' }})
   </h1>
   
   <div class="games">
+    {% for event in merge_variables.events %}
     <div class="game-row">
-      <div class="teams">Pittsburgh Steelers 31 - 33 Cincinnati Bengals <span class="status">(Final)</span></div>
-      <div class="meta">Fri Oct 17, 12:15 AM · Paycor Stadium</div>
+      <div class="teams">
+        {{ event.shortName }}
+        {% if event.status.completed %}
+          {% assign away = event.competitors | where: "homeAway", "away" | first %}
+          {% assign home = event.competitors | where: "homeAway", "home" | first %}
+          <span class="score">{{ away.score }}-{{ home.score }}</span>
+          <span class="status">✓ FINAL</span>
+        {% elsif event.status.state == "in" %}
+          <span class="status">🔴 LIVE</span>
+        {% else %}
+          <span class="status">📅</span>
+        {% endif %}
+      </div>
     </div>
-    <div class="game-row">
-      <div class="teams">Los Angeles Rams at Jacksonville Jaguars <span class="status">(10/19 - 9:30 AM EDT)</span></div>
-      <div class="meta">Sun Oct 19, 01:30 PM · Wembley Stadium</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">New Orleans Saints at Chicago Bears <span class="status">(10/19 - 1:00 PM EDT)</span></div>
-      <div class="meta">Sun Oct 19, 05:00 PM · Soldier Field</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">Miami Dolphins at Cleveland Browns <span class="status">(10/19 - 1:00 PM EDT)</span></div>
-      <div class="meta">Sun Oct 19, 05:00 PM · Huntington Bank Field</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">New England Patriots at Tennessee Titans <span class="status">(10/19 - 1:00 PM EDT)</span></div>
-      <div class="meta">Sun Oct 19, 05:00 PM · Nissan Stadium</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">Las Vegas Raiders at Kansas City Chiefs <span class="status">(10/19 - 1:00 PM EDT)</span></div>
-      <div class="meta">Sun Oct 19, 05:00 PM · GEHA Field at Arrowhead Stadium</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">Philadelphia Eagles at Minnesota Vikings <span class="status">(10/19 - 1:00 PM EDT)</span></div>
-      <div class="meta">Sun Oct 19, 05:00 PM · U.S. Bank Stadium</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">Carolina Panthers at New York Jets <span class="status">(10/19 - 1:00 PM EDT)</span></div>
-      <div class="meta">Sun Oct 19, 05:00 PM · MetLife Stadium</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">New York Giants at Denver Broncos <span class="status">(10/19 - 4:05 PM EDT)</span></div>
-      <div class="meta">Sun Oct 19, 08:05 PM · Empower Field at Mile High</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">Indianapolis Colts at Los Angeles Chargers <span class="status">(10/19 - 4:05 PM EDT)</span></div>
-      <div class="meta">Sun Oct 19, 08:05 PM · SoFi Stadium</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">Washington Commanders at Dallas Cowboys <span class="status">(10/19 - 4:25 PM EDT)</span></div>
-      <div class="meta">Sun Oct 19, 08:25 PM · AT&T Stadium</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">Green Bay Packers at Arizona Cardinals <span class="status">(10/19 - 4:25 PM EDT)</span></div>
-      <div class="meta">Sun Oct 19, 08:25 PM · State Farm Stadium</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">Atlanta Falcons at San Francisco 49ers <span class="status">(10/19 - 8:20 PM EDT)</span></div>
-      <div class="meta">Mon Oct 20, 12:20 AM · Levi's Stadium</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">Tampa Bay Buccaneers at Detroit Lions <span class="status">(10/20 - 7:00 PM EDT)</span></div>
-      <div class="meta">Mon Oct 20, 11:00 PM · Ford Field</div>
-    </div>
-    <div class="game-row">
-      <div class="teams">Houston Texans at Seattle Seahawks <span class="status">(10/20 - 10:00 PM EDT)</span></div>
-      <div class="meta">Tue Oct 21, 02:00 AM · Lumen Field</div>
-    </div>
+    {% endfor %}
   </div>
 </div>
 
 <style>
   .plugin {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     padding: 16px;
-    color: #000;
-    background: #fff;
+    color: #E0E0E0;
+    background: #1E1E1E;
     height: 100vh;
     overflow: hidden;
   }
   
   .title {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 600;
     margin: 0 0 12px 0;
-    border-bottom: 2px solid #000;
+    border-bottom: 1px solid #444;
     padding-bottom: 4px;
+    color: #FFFFFF;
   }
   
   .games {
@@ -97,27 +55,36 @@ NFL Schedule - Full Size TRMNL Plugin
   }
   
   .game-row {
-    padding: 8px 0;
-    border-bottom: 1px solid #ccc;
-  }
-  
-  .game-row:last-child {
-    border-bottom: none;
+    padding: 8px;
+    border-radius: 6px;
+    background: #282828;
   }
   
   .teams {
-    font-weight: bold;
+    font-weight: 600;
     font-size: 14px;
     margin-bottom: 2px;
+    color: #FFFFFF;
+  }
+  
+  .score {
+    display: inline-block;
+    background: #000;
+    color: #FFF;
+    padding: 2px 6px;
+    border-radius: 3px;
+    margin: 0 4px;
+    font-size: 13px;
   }
   
   .status {
     font-weight: normal;
-    color: #666;
+    color: #9E9E9E;
+    font-size: 12px;
   }
   
   .meta {
     font-size: 11px;
-    color: #666;
+    color: #9E9E9E;
   }
 </style>
