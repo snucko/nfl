@@ -68,7 +68,7 @@
           "team": {
             "abbreviation": "CHI"
           },
-          "score": "23"
+          "score": "26"
         }
       ],
       "status": {
@@ -118,8 +118,8 @@
         }
       ],
       "status": {
-        "state": "in",
-        "completed": false
+        "state": "post",
+        "completed": true
       }
     },
     {
@@ -141,8 +141,8 @@
         }
       ],
       "status": {
-        "state": "in",
-        "completed": false
+        "state": "post",
+        "completed": true
       }
     },
     {
@@ -153,7 +153,7 @@
           "team": {
             "abbreviation": "PHI"
           },
-          "score": "21"
+          "score": "28"
         },
         {
           "homeAway": "home",
@@ -183,7 +183,7 @@
           "team": {
             "abbreviation": "NYJ"
           },
-          "score": "3"
+          "score": "6"
         }
       ],
       "status": {
