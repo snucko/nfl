@@ -4,12 +4,12 @@ NFL Schedule - Full Size TRMNL Plugin
 
 <div class="plugin">
   <h1 class="title">
-    NFL Week {{ merge_variables.week.number }} · {{ merge_variables.season.year }}
-    ({{ merge_variables.season.type | replace: '2', 'Regular Season' | replace: '3', 'Playoffs' }})
+    NFL Week {{ week.number }} · {{ season.year }}
+    ({{ season.type | replace: '2', 'Regular Season' | replace: '3', 'Playoffs' }})
   </h1>
   
   <div class="games">
-    {% for event in merge_variables.events %}
+    {% for event in events %}
     <div class="game-row">
       <div class="teams">
         {{ event.shortName }}
