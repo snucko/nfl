@@ -72,8 +72,8 @@
         }
       ],
       "status": {
-        "state": "in",
-        "completed": false
+        "state": "post",
+        "completed": true
       }
     },
     {
@@ -95,8 +95,8 @@
         }
       ],
       "status": {
-        "state": "in",
-        "completed": false
+        "state": "post",
+        "completed": true
       }
     },
     {
@@ -164,8 +164,8 @@
         }
       ],
       "status": {
-        "state": "in",
-        "completed": false
+        "state": "post",
+        "completed": true
       }
     },
     {
@@ -187,8 +187,8 @@
         }
       ],
       "status": {
-        "state": "in",
-        "completed": false
+        "state": "post",
+        "completed": true
       }
     },
     {
@@ -210,7 +210,7 @@
         }
       ],
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false
       }
     },
@@ -222,7 +222,7 @@
           "team": {
             "abbreviation": "IND"
           },
-          "score": "0"
+          "score": "6"
         },
         {
           "homeAway": "home",
@@ -233,7 +233,7 @@
         }
       ],
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false
       }
     }
