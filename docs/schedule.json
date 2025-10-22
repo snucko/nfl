@@ -4,237 +4,237 @@
     "type": 2
   },
   "week": {
-    "number": 7
+    "number": 8
   },
   "events": [
     {
-      "shortName": "PIT @ CIN",
+      "shortName": "MIN @ LAC",
       "competitors": [
         {
           "homeAway": "away",
           "team": {
-            "abbreviation": "PIT"
-          },
-          "score": "31"
-        },
-        {
-          "homeAway": "home",
-          "team": {
-            "abbreviation": "CIN"
-          },
-          "score": "33"
-        }
-      ],
-      "status": {
-        "state": "post",
-        "completed": true
-      }
-    },
-    {
-      "shortName": "LAR VS JAX",
-      "competitors": [
-        {
-          "homeAway": "away",
-          "team": {
-            "abbreviation": "LAR"
-          },
-          "score": "35"
-        },
-        {
-          "homeAway": "home",
-          "team": {
-            "abbreviation": "JAX"
-          },
-          "score": "7"
-        }
-      ],
-      "status": {
-        "state": "post",
-        "completed": true
-      }
-    },
-    {
-      "shortName": "NO @ CHI",
-      "competitors": [
-        {
-          "homeAway": "away",
-          "team": {
-            "abbreviation": "NO"
-          },
-          "score": "14"
-        },
-        {
-          "homeAway": "home",
-          "team": {
-            "abbreviation": "CHI"
-          },
-          "score": "26"
-        }
-      ],
-      "status": {
-        "state": "post",
-        "completed": true
-      }
-    },
-    {
-      "shortName": "MIA @ CLE",
-      "competitors": [
-        {
-          "homeAway": "away",
-          "team": {
-            "abbreviation": "MIA"
-          },
-          "score": "6"
-        },
-        {
-          "homeAway": "home",
-          "team": {
-            "abbreviation": "CLE"
-          },
-          "score": "31"
-        }
-      ],
-      "status": {
-        "state": "post",
-        "completed": true
-      }
-    },
-    {
-      "shortName": "NE @ TEN",
-      "competitors": [
-        {
-          "homeAway": "away",
-          "team": {
-            "abbreviation": "NE"
-          },
-          "score": "31"
-        },
-        {
-          "homeAway": "home",
-          "team": {
-            "abbreviation": "TEN"
-          },
-          "score": "13"
-        }
-      ],
-      "status": {
-        "state": "post",
-        "completed": true
-      }
-    },
-    {
-      "shortName": "LV @ KC",
-      "competitors": [
-        {
-          "homeAway": "away",
-          "team": {
-            "abbreviation": "LV"
+            "abbreviation": "MIN"
           },
           "score": "0"
         },
         {
           "homeAway": "home",
           "team": {
-            "abbreviation": "KC"
+            "abbreviation": "LAC"
           },
-          "score": "31"
+          "score": "0"
         }
       ],
       "status": {
-        "state": "post",
-        "completed": true
+        "state": "pre",
+        "completed": false
       }
     },
     {
-      "shortName": "PHI @ MIN",
+      "shortName": "MIA @ ATL",
       "competitors": [
         {
           "homeAway": "away",
           "team": {
-            "abbreviation": "PHI"
+            "abbreviation": "MIA"
           },
-          "score": "28"
+          "score": "0"
         },
         {
           "homeAway": "home",
           "team": {
-            "abbreviation": "MIN"
+            "abbreviation": "ATL"
           },
-          "score": "22"
+          "score": "0"
         }
       ],
       "status": {
-        "state": "post",
-        "completed": true
+        "state": "pre",
+        "completed": false
       }
     },
     {
-      "shortName": "CAR @ NYJ",
+      "shortName": "NYJ @ CIN",
       "competitors": [
         {
           "homeAway": "away",
-          "team": {
-            "abbreviation": "CAR"
-          },
-          "score": "13"
-        },
-        {
-          "homeAway": "home",
           "team": {
             "abbreviation": "NYJ"
           },
-          "score": "6"
+          "score": "0"
+        },
+        {
+          "homeAway": "home",
+          "team": {
+            "abbreviation": "CIN"
+          },
+          "score": "0"
         }
       ],
       "status": {
-        "state": "post",
-        "completed": true
+        "state": "pre",
+        "completed": false
       }
     },
     {
-      "shortName": "NYG @ DEN",
+      "shortName": "CLE @ NE",
+      "competitors": [
+        {
+          "homeAway": "away",
+          "team": {
+            "abbreviation": "CLE"
+          },
+          "score": "0"
+        },
+        {
+          "homeAway": "home",
+          "team": {
+            "abbreviation": "NE"
+          },
+          "score": "0"
+        }
+      ],
+      "status": {
+        "state": "pre",
+        "completed": false
+      }
+    },
+    {
+      "shortName": "NYG @ PHI",
       "competitors": [
         {
           "homeAway": "away",
           "team": {
             "abbreviation": "NYG"
           },
-          "score": "32"
+          "score": "0"
+        },
+        {
+          "homeAway": "home",
+          "team": {
+            "abbreviation": "PHI"
+          },
+          "score": "0"
+        }
+      ],
+      "status": {
+        "state": "pre",
+        "completed": false
+      }
+    },
+    {
+      "shortName": "BUF @ CAR",
+      "competitors": [
+        {
+          "homeAway": "away",
+          "team": {
+            "abbreviation": "BUF"
+          },
+          "score": "0"
+        },
+        {
+          "homeAway": "home",
+          "team": {
+            "abbreviation": "CAR"
+          },
+          "score": "0"
+        }
+      ],
+      "status": {
+        "state": "pre",
+        "completed": false
+      }
+    },
+    {
+      "shortName": "CHI @ BAL",
+      "competitors": [
+        {
+          "homeAway": "away",
+          "team": {
+            "abbreviation": "CHI"
+          },
+          "score": "0"
+        },
+        {
+          "homeAway": "home",
+          "team": {
+            "abbreviation": "BAL"
+          },
+          "score": "0"
+        }
+      ],
+      "status": {
+        "state": "pre",
+        "completed": false
+      }
+    },
+    {
+      "shortName": "SF @ HOU",
+      "competitors": [
+        {
+          "homeAway": "away",
+          "team": {
+            "abbreviation": "SF"
+          },
+          "score": "0"
+        },
+        {
+          "homeAway": "home",
+          "team": {
+            "abbreviation": "HOU"
+          },
+          "score": "0"
+        }
+      ],
+      "status": {
+        "state": "pre",
+        "completed": false
+      }
+    },
+    {
+      "shortName": "TB @ NO",
+      "competitors": [
+        {
+          "homeAway": "away",
+          "team": {
+            "abbreviation": "TB"
+          },
+          "score": "0"
+        },
+        {
+          "homeAway": "home",
+          "team": {
+            "abbreviation": "NO"
+          },
+          "score": "0"
+        }
+      ],
+      "status": {
+        "state": "pre",
+        "completed": false
+      }
+    },
+    {
+      "shortName": "DAL @ DEN",
+      "competitors": [
+        {
+          "homeAway": "away",
+          "team": {
+            "abbreviation": "DAL"
+          },
+          "score": "0"
         },
         {
           "homeAway": "home",
           "team": {
             "abbreviation": "DEN"
           },
-          "score": "33"
+          "score": "0"
         }
       ],
       "status": {
-        "state": "post",
-        "completed": true
-      }
-    },
-    {
-      "shortName": "IND @ LAC",
-      "competitors": [
-        {
-          "homeAway": "away",
-          "team": {
-            "abbreviation": "IND"
-          },
-          "score": "38"
-        },
-        {
-          "homeAway": "home",
-          "team": {
-            "abbreviation": "LAC"
-          },
-          "score": "24"
-        }
-      ],
-      "status": {
-        "state": "post",
-        "completed": true
+        "state": "pre",
+        "completed": false
       }
     }
   ]
