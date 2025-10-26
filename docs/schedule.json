@@ -31,6 +31,29 @@
       }
     },
     {
+      "shortName": "NYJ @ CIN",
+      "competitors": [
+        {
+          "homeAway": "away",
+          "team": {
+            "abbreviation": "NYJ"
+          },
+          "score": "39"
+        },
+        {
+          "homeAway": "home",
+          "team": {
+            "abbreviation": "CIN"
+          },
+          "score": "38"
+        }
+      ],
+      "status": {
+        "state": "post",
+        "completed": true
+      }
+    },
+    {
       "shortName": "MIA @ ATL",
       "competitors": [
         {
@@ -49,31 +72,8 @@
         }
       ],
       "status": {
-        "state": "in",
-        "completed": false
-      }
-    },
-    {
-      "shortName": "NYJ @ CIN",
-      "competitors": [
-        {
-          "homeAway": "away",
-          "team": {
-            "abbreviation": "NYJ"
-          },
-          "score": "32"
-        },
-        {
-          "homeAway": "home",
-          "team": {
-            "abbreviation": "CIN"
-          },
-          "score": "38"
-        }
-      ],
-      "status": {
-        "state": "in",
-        "completed": false
+        "state": "post",
+        "completed": true
       }
     },
     {
@@ -91,12 +91,12 @@
           "team": {
             "abbreviation": "NE"
           },
-          "score": "30"
+          "score": "32"
         }
       ],
       "status": {
-        "state": "in",
-        "completed": false
+        "state": "post",
+        "completed": true
       }
     },
     {
@@ -107,7 +107,7 @@
           "team": {
             "abbreviation": "NYG"
           },
-          "score": "13"
+          "score": "20"
         },
         {
           "homeAway": "home",
@@ -118,8 +118,8 @@
         }
       ],
       "status": {
-        "state": "in",
-        "completed": false
+        "state": "post",
+        "completed": true
       }
     },
     {
@@ -141,8 +141,8 @@
         }
       ],
       "status": {
-        "state": "in",
-        "completed": false
+        "state": "post",
+        "completed": true
       }
     },
     {
@@ -160,12 +160,12 @@
           "team": {
             "abbreviation": "BAL"
           },
-          "score": "23"
+          "score": "30"
         }
       ],
       "status": {
-        "state": "in",
-        "completed": false
+        "state": "post",
+        "completed": true
       }
     },
     {
@@ -187,8 +187,8 @@
         }
       ],
       "status": {
-        "state": "in",
-        "completed": false
+        "state": "post",
+        "completed": true
       }
     },
     {
@@ -210,7 +210,7 @@
         }
       ],
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false
       }
     },
