@@ -31,29 +31,6 @@
       }
     },
     {
-      "shortName": "NYJ @ CIN",
-      "competitors": [
-        {
-          "homeAway": "away",
-          "team": {
-            "abbreviation": "NYJ"
-          },
-          "score": "39"
-        },
-        {
-          "homeAway": "home",
-          "team": {
-            "abbreviation": "CIN"
-          },
-          "score": "38"
-        }
-      ],
-      "status": {
-        "state": "post",
-        "completed": true
-      }
-    },
-    {
       "shortName": "MIA @ ATL",
       "competitors": [
         {
@@ -69,6 +46,29 @@
             "abbreviation": "ATL"
           },
           "score": "10"
+        }
+      ],
+      "status": {
+        "state": "post",
+        "completed": true
+      }
+    },
+    {
+      "shortName": "NYJ @ CIN",
+      "competitors": [
+        {
+          "homeAway": "away",
+          "team": {
+            "abbreviation": "NYJ"
+          },
+          "score": "39"
+        },
+        {
+          "homeAway": "home",
+          "team": {
+            "abbreviation": "CIN"
+          },
+          "score": "38"
         }
       ],
       "status": {
