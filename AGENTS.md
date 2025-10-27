@@ -108,8 +108,9 @@ Using TRMNL's polling strategy to fetch live data directly from ESPN API:
 
 ### Template Features
 - **Main Game**: Featured game with large team logos, records, and QR code link
-- **Grid Layout**: Additional games in a 2-column grid with small logos
-- **Live Updates**: Shows current scores, game status, and records
+- **Live Scores**: Prominent score display for games currently in progress
+- **Grid Layout**: Additional games in a 2-column grid with small logos and live scores
+- **Game Status**: Shows current quarter/time for live games, final status for completed
 - **Responsive Design**: Optimized for TRMNL's e-ink display
 
 ## Notes
