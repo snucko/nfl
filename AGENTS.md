@@ -91,18 +91,18 @@ Templates receive data via TRMNL webhook with this structure:
 2. Check TRMNL plugin is using "Webhook" strategy
 3. Verify webhook URL in TRMNL matches UUID above
 
-## Alternative TRMNL Integration (API Fetch Method)
+## TRMNL Integration (Webhook with Filtered Data)
 
-Since webhook payloads exceeded TRMNL's 2kb free limit, switched to API fetch mode:
+Switched to filtered data to keep webhook payloads under 2kb free limit:
 
-- **Data Source**: TRMNL fetches from `https://snucko.github.io/nfl/schedule.json` periodically
-- **Filtered Data**: Only live/upcoming games included (max 6) to reduce payload size
+- **Data Source**: Webhook push from GitHub Actions to TRMNL
+- **Filtered Data**: Only live/upcoming games included (max 6) to reduce payload size (~300 bytes)
 - **Team Icons**: Template includes emoji icons for each NFL team
-- **No Webhook**: Removed webhook push from GitHub Actions
+- **Automation**: Scheduled updates with webhook push
 
 ### Plugin Setup
-1. In TRMNL dashboard, set plugin to "API" mode
-2. Set data URL to: `https://snucko.github.io/nfl/schedule.json`
+1. In TRMNL dashboard, set plugin to "Webhook" mode
+2. Ensure webhook URL is set to: `https://usetrmnl.com/api/custom_plugins/960f3b34-4632-4060-82c7-5847d72175c8`
 3. Upload updated `src/full.liquid` template
 
 ### Team Icons
