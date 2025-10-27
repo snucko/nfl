@@ -1,109 +1,28 @@
-{% comment %}
-NFL Schedule - Half Vertical TRMNL Plugin
-Uses webhook data pushed from GitHub Actions
-{% endcomment %}
+<div class="view view--half_vertical">
+  <div class="layout">
+    <div class="title-bar">
+      <span class="title">NFL Week {{ week.number }}</span>
+    </div>
 
-<div class="plugin half-vertical">
-  <h2 class="title">NFL Week {{ week.number }}</h2>
-  <div class="games">
     {% for event in events limit:8 %}
-      {% assign competition = event.competitions[0] %}
-      {% assign status = competition.status %}
-      {% assign away_team = '' %}
-      {% assign home_team = '' %}
-      
-      {% for competitor in competition.competitors %}
-        {% if competitor.homeAway == 'away' %}
-          {% assign away_team = competitor %}
-        {% elsif competitor.homeAway == 'home' %}
-          {% assign home_team = competitor %}
-        {% endif %}
-      {% endfor %}
-      
-      <div class="game-row {% if away_team.team.abbreviation == 'NE' or home_team.team.abbreviation == 'NE' %}favorite{% endif %}">
-        <div class="teams-compact">
-          <img src="{{ away_team.team.logo }}" alt="{{ away_team.team.abbreviation }}" class="logo-small">
-          <span class="team-abbr">{{ away_team.team.abbreviation }}</span>
-          {% if status.type.completed or status.type.state == 'in' %}
-            <span class="score-small">{{ away_team.score }}</span>
-          {% endif %}
-          <span class="vs-small">@</span>
-          <img src="{{ home_team.team.logo }}" alt="{{ home_team.team.abbreviation }}" class="logo-small">
-          <span class="team-abbr">{{ home_team.team.abbreviation }}</span>
-          {% if status.type.completed or status.type.state == 'in' %}
-            <span class="score-small">{{ home_team.score }}</span>
-          {% endif %}
-        </div>
-        <div class="meta-compact">
-          {% if status.type.state == 'in' %}🔴{% elsif status.type.completed %}✓{% else %}📅{% endif %} {{ status.type.shortDetail }}
-        </div>
+    {% assign teams = event.competitions[0].competitors %}
+    <div class="item">
+      <div class="label">
+        {% for team in teams %}
+        <img src="{{ team.team.logo }}" alt="{{ team.team.displayName }}" width="20">
+        {{ team.team.abbreviation }}
+        {% endfor %}
       </div>
+      <div class="value">
+        {% if event.status.type.state == "in" %}
+          {{ teams[0].score }}-{{ teams[1].score }}
+        {% else %}
+          {{ event.status.type.shortDetail }}
+        {% endif %}
+      </div>
+    </div>
     {% endfor %}
   </div>
 </div>
 
-<style>
-  .plugin.half-vertical {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    padding: 12px;
-    height: 480px;
-    width: 400px;
-    overflow: hidden;
-    background: #1E1E1E;
-    color: #E0E0E0;
-  }
-  .title {
-    font-size: 18px;
-    font-weight: 600;
-    margin: 0 0 10px 0;
-    border-bottom: 1px solid #444;
-    padding-bottom: 6px;
-    color: #FFFFFF;
-  }
-  .games {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  .game-row {
-    padding: 10px;
-    border-radius: 6px;
-    background: #282828;
-  }
-  .game-row.favorite {
-    background: #303030;
-    border-left: 3px solid #007AFF;
-  }
-  .teams-compact {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 14px;
-    margin-bottom: 4px;
-  }
-  .logo-small {
-    width: 22px;
-    height: 22px;
-    object-fit: contain;
-  }
-  .team-abbr {
-    font-weight: 600;
-    color: #FFFFFF;
-  }
-  .score-small {
-    font-weight: bold;
-    background: #007AFF;
-    color: #fff;
-    padding: 2px 6px;
-    border-radius: 4px;
-    font-size: 12px;
-  }
-  .vs-small {
-    color: #9E9E9E;
-    font-size: 12px;
-  }
-  .meta-compact {
-    font-size: 12px;
-    color: #9E9E9E;
-  }
-</style>
+
