@@ -91,41 +91,29 @@ Templates receive data via TRMNL webhook with this structure:
 2. Check TRMNL plugin is using "Webhook" strategy
 3. Verify webhook URL in TRMNL matches UUID above
 
-## TRMNL Integration (Polling Strategy)
+## TRMNL Integration (Direct ESPN Polling)
 
-Using TRMNL's polling strategy to fetch data from GitHub Pages:
+Using TRMNL's polling strategy to fetch live data directly from ESPN API:
 
-- **Data Source**: TRMNL polls `https://snucko.github.io/nfl/schedule.json` periodically
-- **Filtered Data**: Only live/upcoming games included (max 6) to reduce payload size (~300 bytes)
-- **Team Icons**: Template includes emoji icons for each NFL team
-- **No Webhook**: Data fetched automatically by TRMNL
+- **Data Source**: TRMNL polls `https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard` periodically
+- **Full Data**: Complete NFL scoreboard with team logos, records, and live scores
+- **No Processing**: Direct API integration, no custom filtering needed
+- **Automatic Updates**: TRMNL fetches fresh data on schedule
 
 ### Plugin Setup
 1. In TRMNL dashboard, set **Strategy** to "Polling"
-2. Set **Polling URL** to: `https://snucko.github.io/nfl/schedule.json`
+2. Set **Polling URL** to: `https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard`
 3. Set **Polling Verb** to "GET" (default)
-4. Upload updated `src/full.liquid` template
+4. Upload the template from `src/full.liquid`
 
-### Team Icons
-- 🐱 KC, 🪶 SF/ARI, 🦬 BUF, 🦅 BAL/ATL, 🦌 DET, 🧀 GB, 🐻 CHI, 🧝 MIN, ☕ SEA
-- 🐑 LAR, ⭐ DAL, 🔔 PHI, 🗽 NYG, 🏛️ WSH, 🦃 TB, 🐾 CAR, 🎷 NO, 🐶 CLE
-- 🐯 CIN, 🏴‍☠️ PIT, 🎶 TEN, 🦎 JAX, 🐴 IND, 🚀 HOU, 🐬 MIA, 🧙 NE, ✈️ NYJ
-
-## Git Workflow
-
-### Pushing Local Changes
-- Data updates are automated via GitHub Actions; avoid committing `data/schedule.json` manually unless necessary
-- For template changes (e.g., `src/*.liquid` files), commit and push them directly
-- If conflicts arise (e.g., remote has newer data), resolve by:
-  1. `git pull --rebase` to fetch remote changes
-  2. Resolve conflicts in files (choose appropriate versions)
-  3. `git add <resolved_files>`
-  4. `git rebase --continue` (or abort and reset if needed)
-- If rebase fails, `git rebase --abort` and `git reset --hard origin/main` to sync, then reapply changes
-- Push with `git push` after resolving
+### Template Features
+- **Main Game**: Featured game with large team logos, records, and QR code link
+- **Grid Layout**: Additional games in a 2-column grid with small logos
+- **Live Updates**: Shows current scores, game status, and records
+- **Responsive Design**: Optimized for TRMNL's e-ink display
 
 ## Notes
-- Static template generation is **disabled** in `update-nfl.sh` (line 18: `exit 0`)
-- Templates are dynamic and should **not** be regenerated
-- GitHub Pages serves backup at https://snucko.github.io/nfl/schedule.json
+- Direct ESPN API integration - no custom data processing needed
+- Template uses live ESPN data with team logos and records
+- Automatic updates via TRMNL's polling schedule
 - ESPN API endpoint: `https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard`

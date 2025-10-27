@@ -1,97 +1,85 @@
-{% comment %}
-NFL Schedule - Full Size TRMNL Plugin
-{% endcomment %}
+{% assign game = events[0] %}
+{% assign matchup = game.competitions[0].competitors %}
+{% assign home = matchup | where: "homeAway", "home" | first %}
+{% assign away = matchup | where: "homeAway", "away" | first %}
+{% assign game_link = game.links[0].href %}
 
-<div class="plugin">
-  <h1 class="title">
-    NFL Week {{ week.number }} · {{ season.year }}
-    ({{ season.type | replace: '2', 'Regular Season' | replace: '3', 'Playoffs' }})
-  </h1>
-
-  <div class="games">
-    {% for event in events %}
-    <div class="game-row">
-      <div class="teams">
-        {% assign away = event.competitors | where: "homeAway", "away" | first %}
-        {% assign home = event.competitors | where: "homeAway", "home" | first %}
-        {% assign away_icon = away.team.abbreviation | downcase %}
-        {% assign home_icon = home.team.abbreviation | downcase %}
-        {% case away_icon %}
-          {% when 'kc' %}🐱{% when 'sf' %}🪶{% when 'buf' %}🦬{% when 'bal' %}🦅{% when 'det' %}🦌{% when 'gb' %}🧀{% when 'chi' %}🐻{% when 'min' %}🧝{% when 'sea' %}☕{% when 'ari' %}🪶{% when 'lar' %}🐑{% when 'dal' %}⭐{% when 'phi' %}🔔{% when 'nyg' %}🗽{% when 'was' %}🏛️{% when 'tb' %}🦃{% when 'atl' %}🦅{% when 'car' %}🐾{% when 'no' %}🎷{% when 'cle' %}🐶{% when 'cin' %}🐯{% when 'pit' %}🏴‍☠️{% when 'ten' %}🎶{% when 'jax' %}🦎{% when 'ind' %}🐴{% when 'hou' %}🚀{% when 'mia' %}🐬{% when 'ne' %}🧙{% when 'nyj' %}✈️{% else %}🏈{% endcase %}
-        @ {{ away.team.abbreviation }} vs {{ home.team.abbreviation }}
-        {% case home_icon %}
-          {% when 'kc' %}🐱{% when 'sf' %}🪶{% when 'buf' %}🦬{% when 'bal' %}🦅{% when 'det' %}🦌{% when 'gb' %}🧀{% when 'chi' %}🐻{% when 'min' %}🧝{% when 'sea' %}☕{% when 'ari' %}🪶{% when 'lar' %}🐑{% when 'dal' %}⭐{% when 'phi' %}🔔{% when 'nyg' %}🗽{% when 'was' %}🏛️{% when 'tb' %}🦃{% when 'atl' %}🦅{% when 'car' %}🐾{% when 'no' %}🎷{% when 'cle' %}🐶{% when 'cin' %}🐯{% when 'pit' %}🏴‍☠️{% when 'ten' %}🎶{% when 'jax' %}🦎{% when 'ind' %}🐴{% when 'hou' %}🚀{% when 'mia' %}🐬{% when 'ne' %}🧙{% when 'nyj' %}✈️{% else %}🏈{% endcase %}
-        {% if event.status.completed %}
-          <span class="score">{{ away.score }}-{{ home.score }}</span>
-          <span class="status">✓ FINAL</span>
-        {% elsif event.status.state == "in" %}
-          <span class="score">{{ away.score }}-{{ home.score }}</span>
-          <span class="status">🔴 LIVE</span>
-        {% else %}
-          <span class="status">📅</span>
-        {% endif %}
-      </div>
+<div class="mashup mashup--1Tx1B">
+<div class="view view--half_horizontal">
+  <div class="layout">
+      <div class="flex flex--row flex--center-x">
+      <div class="flex flex--row">
+      <div class="">
+        <img src="{{ matchup[0].team.logo }}" alt="{{ matchup[0].team.displayName }}" width="100">
+      <div><strong>{{ matchup[0].team.displayName }}</strong></div>
+    <div><small>{{ matchup[0].records[0].summary }}</small></div>
+    <div><em>{{ matchup[0].homeAway | capitalize }}</em></div>
+  </div>
+  <div class="col">
+    <div class="row row--center">
+    <span class="value value--small">{{ game.status.type.shortDetail }}</span>
     </div>
-    {% endfor %}
+    <div class="row row--center"><qr>{{ game_link }}</qr></div>
+</div>
+  <div class="">
+  <img src="{{ matchup[1].team.logo }}" alt="{{ matchup[1].team.displayName }}" width="100">
+  <div><strong>{{ matchup[1].team.displayName }}</strong></div>
+    <div><small>{{ matchup[1].records[0].summary }}</small></div>
+  <div><em>{{ matchup[1].homeAway | capitalize }}</em></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="view view--half_horizontal">
+<div class="layout">
+    {% assign rest = events | slice:1,10 %}
+      <div class="grid grid--cols-2">
+        <!-- Left Column -->
+        <div>
+        {% for game in rest limit:5 %}
+      {% assign teams = game.competitions[0].competitors %}
+      <div class="row">
+        {% for team in teams %}
+        <div class="col col-6 layout--center">
+          <img src="{{ team.team.logo }}" alt="{{ team.team.displayName }}" width="25">
+          <div><small>{{ team.team.abbreviation }}</small></div>
+          </div>
+            {% endfor %}
+          <div class="col">
+          <small>{{ game.status.type.shortDetail }}</small>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <!-- Right Column -->
+      <div>
+          {% for game in rest offset:5 %}
+        {% assign teams = game.competitions[0].competitors %}
+      <div class="row">
+        {% for team in teams %}
+        <div class="col col-4 layout--center">
+            <img src="{{ team.team.logo }}" alt="{{ team.team.displayName }}" width="25">
+              <div><small>{{ team.team.abbreviation }}</small></div>
+          </div>
+        {% endfor %}
+        <div class="col col-2">
+          <small>{{ game.status.type.shortDetail }}</small>
+          </div>
+          </div>
+        {% endfor %}
+    </div>
   </div>
 </div>
+</div>
+</div>
 
+<!-- QR Code Support -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/yunruse/trmnl-tricks/QR.js"></script>
 <style>
-  .plugin {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    padding: 16px;
-    color: #E0E0E0;
-    background: #1E1E1E;
-    height: 100vh;
-    overflow: hidden;
-  }
-  
-  .title {
-    font-size: 18px;
-    font-weight: 600;
-    margin: 0 0 12px 0;
-    border-bottom: 1px solid #444;
-    padding-bottom: 4px;
-    color: #FFFFFF;
-  }
-  
-  .games {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-  }
-  
-  .game-row {
-    padding: 8px;
-    border-radius: 6px;
-    background: #282828;
-  }
-  
-  .teams {
-    font-weight: 600;
-    font-size: 14px;
-    margin-bottom: 2px;
-    color: #FFFFFF;
-  }
-  
-  .score {
-    display: inline-block;
-    background: #000;
-    color: #FFF;
-    padding: 2px 6px;
-    border-radius: 3px;
-    margin: 0 4px;
-    font-size: 13px;
-  }
-  
-  .status {
-    font-weight: normal;
-    color: #9E9E9E;
-    font-size: 12px;
-  }
-  
-  .meta {
-    font-size: 11px;
-    color: #9E9E9E;
-  }
+qr img {
+border: 10px solid white;
+display: inline !important;
+}
 </style>
