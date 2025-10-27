@@ -91,6 +91,19 @@ Templates receive data via TRMNL webhook with this structure:
 2. Check TRMNL plugin is using "Webhook" strategy
 3. Verify webhook URL in TRMNL matches UUID above
 
+## Git Workflow
+
+### Pushing Local Changes
+- Data updates are automated via GitHub Actions; avoid committing `data/schedule.json` manually unless necessary
+- For template changes (e.g., `src/*.liquid` files), commit and push them directly
+- If conflicts arise (e.g., remote has newer data), resolve by:
+  1. `git pull --rebase` to fetch remote changes
+  2. Resolve conflicts in files (choose appropriate versions)
+  3. `git add <resolved_files>`
+  4. `git rebase --continue` (or abort and reset if needed)
+- If rebase fails, `git rebase --abort` and `git reset --hard origin/main` to sync, then reapply changes
+- Push with `git push` after resolving
+
 ## Notes
 - Static template generation is **disabled** in `update-nfl.sh` (line 18: `exit 0`)
 - Templates are dynamic and should **not** be regenerated

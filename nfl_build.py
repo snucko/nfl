@@ -123,36 +123,44 @@ def flatten_payload(data, fallback_year, fallback_type, fallback_week):
 
     # Sort by kickoff time first
     events = sorted(events, key=lambda e: e.get("date", ""))
-    
-    # Re-process with sorted events
+
+    # Filter to only live/upcoming games to reduce payload size
     minimal_events = []
-    for event in events[:10]:
+    for event in events:
         comp = event.get("competitions", [{}])[0]
         competitors = comp.get("competitors", [])
         status = comp.get("status", {}).get("type", {})
-        
+
+        # Skip completed games
+        if status.get("completed"):
+            continue
+
         away = next((c for c in competitors if c.get("homeAway") == "away"), {})
         home = next((c for c in competitors if c.get("homeAway") == "home"), {})
-        
+
         minimal_events.append({
-            "shortName": event.get("shortName"),
-            "competitors": [
-                {
-                    "homeAway": "away",
-                    "team": {"abbreviation": away.get("team", {}).get("abbreviation")},
-                    "score": away.get("score", "")
-                },
-                {
-                    "homeAway": "home",
-                    "team": {"abbreviation": home.get("team", {}).get("abbreviation")},
-                    "score": home.get("score", "")
-                }
-            ],
-            "status": {
+        "shortName": event.get("shortName"),
+        "competitors": [
+        {
+            "homeAway": "away",
+        "team": {"abbreviation": away.get("team", {}).get("abbreviation")},
+        "score": away.get("score", "")
+        },
+        {
+               "homeAway": "home",
+               "team": {"abbreviation": home.get("team", {}).get("abbreviation")},
+            "score": home.get("score", "")
+        }
+        ],
+           "status": {
                 "state": status.get("state"),
                 "completed": status.get("completed")
             }
         })
+
+        # Limit to 6 games
+        if len(minimal_events) >= 6:
+            break
 
     return {"season": {"year": season.get("year"), "type": season.get("type")},
             "week":   {"number": (week or {}).get("number")},

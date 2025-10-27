@@ -7,18 +7,25 @@ NFL Schedule - Full Size TRMNL Plugin
     NFL Week {{ week.number }} · {{ season.year }}
     ({{ season.type | replace: '2', 'Regular Season' | replace: '3', 'Playoffs' }})
   </h1>
-  
+
   <div class="games">
     {% for event in events %}
     <div class="game-row">
       <div class="teams">
-        {{ event.shortName }}
+        {% assign away = event.competitors | where: "homeAway", "away" | first %}
+        {% assign home = event.competitors | where: "homeAway", "home" | first %}
+        {% assign away_icon = away.team.abbreviation | downcase %}
+        {% assign home_icon = home.team.abbreviation | downcase %}
+        {% case away_icon %}
+          {% when 'kc' %}🐱{% when 'sf' %}🪶{% when 'buf' %}🦬{% when 'bal' %}🦅{% when 'det' %}🦌{% when 'gb' %}🧀{% when 'chi' %}🐻{% when 'min' %}🧝{% when 'sea' %}☕{% when 'ari' %}🪶{% when 'lar' %}🐑{% when 'dal' %}⭐{% when 'phi' %}🔔{% when 'nyg' %}🗽{% when 'was' %}🏛️{% when 'tb' %}🦃{% when 'atl' %}🦅{% when 'car' %}🐾{% when 'no' %}🎷{% when 'cle' %}🐶{% when 'cin' %}🐯{% when 'pit' %}🏴‍☠️{% when 'ten' %}🎶{% when 'jax' %}🦎{% when 'ind' %}🐴{% when 'hou' %}🚀{% when 'mia' %}🐬{% when 'ne' %}🧙{% when 'nyj' %}✈️{% else %}🏈{% endcase %}
+        @ {{ away.team.abbreviation }} vs {{ home.team.abbreviation }}
+        {% case home_icon %}
+          {% when 'kc' %}🐱{% when 'sf' %}🪶{% when 'buf' %}🦬{% when 'bal' %}🦅{% when 'det' %}🦌{% when 'gb' %}🧀{% when 'chi' %}🐻{% when 'min' %}🧝{% when 'sea' %}☕{% when 'ari' %}🪶{% when 'lar' %}🐑{% when 'dal' %}⭐{% when 'phi' %}🔔{% when 'nyg' %}🗽{% when 'was' %}🏛️{% when 'tb' %}🦃{% when 'atl' %}🦅{% when 'car' %}🐾{% when 'no' %}🎷{% when 'cle' %}🐶{% when 'cin' %}🐯{% when 'pit' %}🏴‍☠️{% when 'ten' %}🎶{% when 'jax' %}🦎{% when 'ind' %}🐴{% when 'hou' %}🚀{% when 'mia' %}🐬{% when 'ne' %}🧙{% when 'nyj' %}✈️{% else %}🏈{% endcase %}
         {% if event.status.completed %}
-          {% assign away = event.competitors | where: "homeAway", "away" | first %}
-          {% assign home = event.competitors | where: "homeAway", "home" | first %}
           <span class="score">{{ away.score }}-{{ home.score }}</span>
           <span class="status">✓ FINAL</span>
         {% elsif event.status.state == "in" %}
+          <span class="score">{{ away.score }}-{{ home.score }}</span>
           <span class="status">🔴 LIVE</span>
         {% else %}
           <span class="status">📅</span>

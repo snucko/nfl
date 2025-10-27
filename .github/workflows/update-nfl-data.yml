@@ -34,18 +34,8 @@ jobs:
           pip install requests
 
       - name: Update NFL data
-        run: |
-          python3 nfl_build.py
-
-      - name: Push to TRMNL webhook
-        env:
-          TRMNL_WEBHOOK_URL: ${{ secrets.TRMNL_WEBHOOK_URL }}
-        if: env.TRMNL_WEBHOOK_URL != ''
-        run: |
-          curl "$TRMNL_WEBHOOK_URL" \
-            -H "Content-Type: application/json" \
-            -d @data/schedule.json \
-            -X POST
+      run: |
+      python3 nfl_build.py
 
       - name: Check for changes
         id: git-check
