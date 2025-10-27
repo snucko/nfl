@@ -16,11 +16,16 @@
     <div><em>{{ matchup[0].homeAway | capitalize }}</em></div>
   </div>
   <div class="col">
-    <div class="row row--center">
-    <span class="value value--small">{{ game.status.type.shortDetail }}</span>
-    </div>
-    <div class="row row--center"><qr>{{ game_link }}</qr></div>
-</div>
+  <div class="row row--center">
+  {% if game.status.type.state == "in" %}
+      <span class="value value--large">{{ away.score }}-{{ home.score }}</span>
+      <div class="status">{{ game.status.type.shortDetail }}</div>
+      {% else %}
+                <span class="value value--small">{{ game.status.type.shortDetail }}</span>
+              {% endif %}
+            </div>
+            <div class="row row--center"><qr>{{ game_link }}</qr></div>
+          </div>
   <div class="">
   <img src="{{ matchup[1].team.logo }}" alt="{{ matchup[1].team.displayName }}" width="100">
   <div><strong>{{ matchup[1].team.displayName }}</strong></div>
@@ -42,13 +47,17 @@
       <div class="row">
         {% for team in teams %}
         <div class="col col-6 layout--center">
-          <img src="{{ team.team.logo }}" alt="{{ team.team.displayName }}" width="25">
-          <div><small>{{ team.team.abbreviation }}</small></div>
-          </div>
-            {% endfor %}
-          <div class="col">
-          <small>{{ game.status.type.shortDetail }}</small>
+        <img src="{{ team.team.logo }}" alt="{{ team.team.displayName }}" width="25">
+        <div><small>{{ team.team.abbreviation }}</small></div>
         </div>
+        {% endfor %}
+        <div class="col">
+        {% if game.status.type.state == "in" %}
+            <small>{{ teams[0].score }}-{{ teams[1].score }}</small>
+              {% else %}
+                <small>{{ game.status.type.shortDetail }}</small>
+              {% endif %}
+            </div>
       </div>
       {% endfor %}
     </div>
@@ -64,7 +73,11 @@
           </div>
         {% endfor %}
         <div class="col col-2">
-          <small>{{ game.status.type.shortDetail }}</small>
+        {% if game.status.type.state == "in" %}
+            <small>{{ teams[0].score }}-{{ teams[1].score }}</small>
+              {% else %}
+                <small>{{ game.status.type.shortDetail }}</small>
+              {% endif %}
           </div>
           </div>
         {% endfor %}
@@ -81,5 +94,10 @@
 qr img {
 border: 10px solid white;
 display: inline !important;
+}
+
+.value--large {
+font-size: 24px;
+font-weight: bold;
 }
 </style>
