@@ -34,8 +34,8 @@ jobs:
           pip install requests
 
       - name: Update NFL data
-      run: |
-      python3 nfl_build.py
+        run: |
+          python3 nfl_build.py
 
       - name: Check for changes
         id: git-check
