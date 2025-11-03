@@ -32,11 +32,4 @@ jobs:
     - name: Update NFL data
       run: python nfl_build.py
 
-    - name: Deploy to GitHub Pages (docs/)
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./docs
-        keep_files: true
-
 
