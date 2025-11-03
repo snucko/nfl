@@ -13,24 +13,22 @@ Automated NFL schedule and live scores plugin for TRMNL e-ink displays.
 
 ## How It Works
 
-1. **GitHub Actions** runs on schedule (every 10min on Sundays 1-9pm EST)
-2. **Fetches** current NFL data from ESPN API
-3. **Pushes** data to TRMNL via webhook
-4. **Your TRMNL** displays live scores automatically
+TRMNL automatically polls live NFL data from ESPN API and displays it on your device.
+
+- **Direct Polling**: No custom processing needed - TRMNL fetches fresh data directly
+- **Live Scores**: Team logos, records, and real-time game status
+- **Automatic Updates**: TRMNL handles scheduling and data refresh
 
 ## Setup for TRMNL Device
 
 ### 1. Create Private Plugin
 1. Go to [TRMNL Dashboard](https://usetrmnl.com/)
 2. Create a **Private Plugin**
-3. Choose **"Webhook"** as the data strategy
-4. Copy your webhook URL (looks like `https://usetrmnl.com/api/custom_plugins/YOUR-UUID`)
+3. Choose **"Polling"** as the data strategy
+4. Set **Polling URL** to: `https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard`
+5. Set **Polling Verb** to "GET" (default)
 
-### 2. Add Webhook to GitHub
-1. Go to this repo's [Settings → Secrets → Actions](https://github.com/snucko/nfl/settings/secrets/actions)
-2. Add secret: `TRMNL_WEBHOOK_URL` = your webhook URL from step 1
-
-### 3. Copy Template
+### 2. Copy Template
 Copy the template from `src/` based on your preferred layout:
 - **Full screen** → `src/full.liquid`
 - **Half horizontal** → `src/half_horizontal.liquid`
@@ -39,8 +37,8 @@ Copy the template from `src/` based on your preferred layout:
 
 Paste into your TRMNL private plugin's template editor.
 
-### 4. Done! 
-Your TRMNL will now auto-update with live NFL scores!
+### 3. Done!
+Your TRMNL will now auto-update with live NFL scores directly from ESPN!
 
 ## Local Development
 
@@ -60,20 +58,9 @@ Then visit:
 python3 nfl_build.py
 ```
 
-### Test Webhook
-```bash
-curl "YOUR_WEBHOOK_URL" \
-  -H "Content-Type: application/json" \
-  -d @data/schedule.json \
-  -X POST
-```
-
 ## Update Schedule
 
-The GitHub Action runs on this schedule:
-- **Sundays 1-9pm EST**: Every 10 minutes (live game tracking)
-- **Thu/Mon nights 7pm-12am EST**: Every 15 minutes (primetime games)
-- **All other times**: Every hour
+TRMNL polls the ESPN API according to your device's refresh settings. For live games, set a frequent refresh interval (recommended: 1-4 hours).
 
 ## File Structure
 
@@ -102,10 +89,9 @@ nfl/
 - **ESPN NFL API**: `https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard`
 - **Backup endpoint**: https://snucko.github.io/nfl/schedule.json
 
-## GitHub Secrets Required
+## Manual Data Override
 
-### Environment Variables
-Override automatic detection:
+Override automatic season/week detection:
 ```bash
 YEAR=2024 TYPE=2 WEEK=18 python3 nfl_build.py
 ```
@@ -113,13 +99,6 @@ YEAR=2024 TYPE=2 WEEK=18 python3 nfl_build.py
 Where:
 - `TYPE=2` = Regular season, `TYPE=3` = Playoffs
 - `WEEK` = Week number (1-18 for regular season, 1-4 for playoffs)
-
-### Automatic Updates
-The plugin can be configured to update automatically:
-
-1. **GitHub Actions** - Set up workflows to run `nfl_build.py`
-2. **TRMNL Webhooks** - Trigger updates via TRMNL's webhook system
-3. **Cron Jobs** - Schedule regular updates
 
 ## Display Examples
 
@@ -137,23 +116,18 @@ The plugin can be configured to update automatically:
 
 ## Deployment to TRMNL
 
-1. **Copy plugin files:**
-   ```bash
-   # Copy these files to your TRMNL plugin:
-   src/full.liquid
-   src/half_horizontal.liquid
-   src/half_vertical.liquid
-   src/quadrant.liquid
-   src/settings.yml
-   ```
+1. **Create polling plugin:**
+- In TRMNL dashboard, create a Private Plugin
+- Set Strategy to "Polling"
+- Polling URL: `https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard`
 
-2. **Set up data updates:**
-   - Use TRMNL's scheduling features
-   - Or set up external triggers to run `nfl_build.py`
+2. **Upload template:**
+- Copy template from `src/` folder
+- Paste into TRMNL plugin template editor
 
 3. **Configure display:**
-   - Choose your preferred layout size
-   - Set refresh frequency (recommended: 1-4 hours)
+    - Choose your preferred layout size
+- Set refresh frequency (recommended: 1-4 hours)
 
 ## Development
 

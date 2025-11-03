@@ -1,15 +1,14 @@
 # NFL TRMNL Plugin - AI Agent Context
 
 ## Overview
-This is an automated NFL schedule and scores plugin for TRMNL e-ink displays. It fetches live NFL data from ESPN's API and pushes it to TRMNL devices via webhooks.
+This is an NFL schedule and scores plugin for TRMNL e-ink displays. It uses TRMNL's polling strategy to fetch live NFL data directly from ESPN's API.
 
 ## Architecture
 
 ### Data Flow
-1. **GitHub Actions** runs on a schedule (every 10min Sundays, 15min game nights, hourly otherwise)
-2. **nfl_build.py** fetches current NFL data from ESPN API
-3. **Webhook** pushes data to TRMNL plugin UUID: `960f3b34-4632-4060-82c7-5847d72175c8`
-4. **TRMNL device** renders templates with fresh data
+1. **TRMNL** polls ESPN API directly: `https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard`
+2. **Template** renders data with team logos, records, and live scores
+3. **Device** displays updated NFL information automatically
 
 ### Key Files
 
@@ -30,32 +29,18 @@ All templates use webhook data with:
 - Status icons: 🔴 LIVE, ✓ FINAL, 📅 Upcoming
 
 #### Automation
-- `.github/workflows/update-nfl-data.yml` - Automated data updates & webhook push
-  - Sundays 1pm-9pm EST: Every 10 minutes
-  - Thu/Mon nights 7pm-12am EST: Every 15 minutes
-  - Other times: Every hour
+- TRMNL handles automatic polling and updates based on device refresh settings
 
 #### Local Development
 - `start-trmnl.sh` - Start local TRMNL development server
-- `update-nfl.sh` - Manually update NFL data (static template generation disabled)
+- `update-nfl.sh` - Manually update NFL data for testing
 - `.trmnlp.yml` - TRMNL local dev configuration
-
-## GitHub Secrets Required
-- `TRMNL_WEBHOOK_URL` = `https://usetrmnl.com/api/custom_plugins/960f3b34-4632-4060-82c7-5847d72175c8`
 
 ## Common Commands
 
 ### Update data manually
 ```bash
 python3 nfl_build.py
-```
-
-### Test webhook locally
-```bash
-curl "https://usetrmnl.com/api/custom_plugins/960f3b34-4632-4060-82c7-5847d72175c8" \
-  -H "Content-Type: application/json" \
-  -d @data/schedule.json \
-  -X POST
 ```
 
 ### Start local TRMNL dev server
@@ -82,14 +67,14 @@ Templates receive data via TRMNL webhook with this structure:
 ## Troubleshooting
 
 ### Data not updating on TRMNL
-1. Check GitHub Actions is running: https://github.com/snucko/nfl/actions
-2. Verify webhook secret is set in repo settings
-3. Manually trigger workflow from Actions tab
+1. Check TRMNL device refresh settings
+2. Verify polling URL is correct: `https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard`
+3. Manually trigger data fetch from TRMNL dashboard
 
 ### Templates not showing data
 1. Ensure you copied the latest template from `src/` to TRMNL
-2. Check TRMNL plugin is using "Webhook" strategy
-3. Verify webhook URL in TRMNL matches UUID above
+2. Check TRMNL plugin is using "Polling" strategy
+3. Verify polling URL matches the ESPN API endpoint
 
 ## TRMNL Integration (Direct ESPN Polling)
 
