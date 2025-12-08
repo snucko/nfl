@@ -1,0 +1,2203 @@
+{
+  "season": {
+    "type": 2,
+    "year": 2025
+  },
+  "week": {
+    "number": 14,
+    "teamsOnBye": [
+      {
+        "id": "17",
+        "uid": "s:20~l:28~t:17",
+        "location": "New England",
+        "name": "Patriots",
+        "abbreviation": "NE",
+        "displayName": "New England Patriots",
+        "shortDisplayName": "Patriots",
+        "isActive": true,
+        "links": [
+          {
+            "rel": [
+              "clubhouse",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/nfl/team/_/name/ne/new-england-patriots",
+            "text": "Clubhouse",
+            "isExternal": false,
+            "isPremium": false
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png"
+      },
+      {
+        "id": "19",
+        "uid": "s:20~l:28~t:19",
+        "location": "New York",
+        "name": "Giants",
+        "abbreviation": "NYG",
+        "displayName": "New York Giants",
+        "shortDisplayName": "Giants",
+        "isActive": true,
+        "links": [
+          {
+            "rel": [
+              "clubhouse",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/nfl/team/_/name/nyg/new-york-giants",
+            "text": "Clubhouse",
+            "isExternal": false,
+            "isPremium": false
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png"
+      },
+      {
+        "id": "25",
+        "uid": "s:20~l:28~t:25",
+        "location": "San Francisco",
+        "name": "49ers",
+        "abbreviation": "SF",
+        "displayName": "San Francisco 49ers",
+        "shortDisplayName": "49ers",
+        "isActive": true,
+        "links": [
+          {
+            "rel": [
+              "clubhouse",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/nfl/team/_/name/sf/san-francisco-49ers",
+            "text": "Clubhouse",
+            "isExternal": false,
+            "isPremium": false
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png"
+      },
+      {
+        "id": "29",
+        "uid": "s:20~l:28~t:29",
+        "location": "Carolina",
+        "name": "Panthers",
+        "abbreviation": "CAR",
+        "displayName": "Carolina Panthers",
+        "shortDisplayName": "Panthers",
+        "isActive": true,
+        "links": [
+          {
+            "rel": [
+              "clubhouse",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/nfl/team/_/name/car/carolina-panthers",
+            "text": "Clubhouse",
+            "isExternal": false,
+            "isPremium": false
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png"
+      }
+    ]
+  },
+  "events": [
+    {
+      "id": "401772822",
+      "name": "Philadelphia Eagles at Los Angeles Chargers",
+      "date": "2025-12-09T01:15Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401772822/eagles-chargers",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2025,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 14
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Mon, December 8th at 8:15 PM EST",
+              "shortDetail": "12/8 - 8:15 PM EST"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "0",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "8-4"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "5-2"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "3-2"
+                }
+              ],
+              "team": {
+                "abbreviation": "LAC",
+                "displayName": "Los Angeles Chargers",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "0",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "8-4"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "4-2"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "4-2"
+                }
+              ],
+              "team": {
+                "abbreviation": "PHI",
+                "displayName": "Philadelphia Eagles",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401772947",
+      "name": "Dallas Cowboys at Detroit Lions",
+      "date": "2025-12-05T01:15Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401772947/cowboys-lions",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401772947",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401772947",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401772947",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2025,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 14
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "44",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "8-5"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "5-2"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "3-3"
+                }
+              ],
+              "team": {
+                "abbreviation": "DET",
+                "displayName": "Detroit Lions",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "30",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "6-6-1"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "4-1-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-5"
+                }
+              ],
+              "team": {
+                "abbreviation": "DAL",
+                "displayName": "Dallas Cowboys",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401772900",
+      "name": "Seattle Seahawks at Atlanta Falcons",
+      "date": "2025-12-07T18:00Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401772900/seahawks-falcons",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401772900",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401772900",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401772900",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401772900",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2025,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 14
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "9",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "4-9"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "2-4"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-5"
+                }
+              ],
+              "team": {
+                "abbreviation": "ATL",
+                "displayName": "Atlanta Falcons",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "37",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "10-3"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "4-2"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "6-1"
+                }
+              ],
+              "team": {
+                "abbreviation": "SEA",
+                "displayName": "Seattle Seahawks",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401772902",
+      "name": "Cincinnati Bengals at Buffalo Bills",
+      "date": "2025-12-07T18:00Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401772902/bengals-bills",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401772902",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401772902",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401772902",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401772902",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2025,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 14
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "39",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "9-4"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "6-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "3-3"
+                }
+              ],
+              "team": {
+                "abbreviation": "BUF",
+                "displayName": "Buffalo Bills",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "34",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "4-9"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "2-4"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-5"
+                }
+              ],
+              "team": {
+                "abbreviation": "CIN",
+                "displayName": "Cincinnati Bengals",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401772898",
+      "name": "Tennessee Titans at Cleveland Browns",
+      "date": "2025-12-07T18:00Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401772898/titans-browns",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401772898",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401772898",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401772898",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401772898",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2025,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 14
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "29",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "3-10"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "2-5"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "1-5"
+                }
+              ],
+              "team": {
+                "abbreviation": "CLE",
+                "displayName": "Cleveland Browns",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "31",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "2-11"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-7"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-4"
+                }
+              ],
+              "team": {
+                "abbreviation": "TEN",
+                "displayName": "Tennessee Titans",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401772899",
+      "name": "Washington Commanders at Minnesota Vikings",
+      "date": "2025-12-07T18:00Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401772899/commanders-vikings",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401772899",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401772899",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401772899",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401772899",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2025,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 14
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "31",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "5-8"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "2-4"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "3-4"
+                }
+              ],
+              "team": {
+                "abbreviation": "MIN",
+                "displayName": "Minnesota Vikings",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "0",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "3-10"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "2-4"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "1-6"
+                }
+              ],
+              "team": {
+                "abbreviation": "WSH",
+                "displayName": "Washington Commanders",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401772790",
+      "name": "Miami Dolphins at New York Jets",
+      "date": "2025-12-07T18:00Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401772790/dolphins-jets",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401772790",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401772790",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401772790",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401772790",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2025,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 14
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "10",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "3-10"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "2-6"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "1-4"
+                }
+              ],
+              "team": {
+                "abbreviation": "NYJ",
+                "displayName": "New York Jets",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "34",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "6-7"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "4-3"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-4"
+                }
+              ],
+              "team": {
+                "abbreviation": "MIA",
+                "displayName": "Miami Dolphins",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401772792",
+      "name": "New Orleans Saints at Tampa Bay Buccaneers",
+      "date": "2025-12-07T18:00Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401772792/saints-buccaneers",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401772792",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401772792",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401772792",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401772792",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2025,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 14
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "20",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "7-6"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "3-3"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "4-3"
+                }
+              ],
+              "team": {
+                "abbreviation": "TB",
+                "displayName": "Tampa Bay Buccaneers",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "24",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "3-10"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-5"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-5"
+                }
+              ],
+              "team": {
+                "abbreviation": "NO",
+                "displayName": "New Orleans Saints",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401772793",
+      "name": "Indianapolis Colts at Jacksonville Jaguars",
+      "date": "2025-12-07T18:00Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401772793/colts-jaguars",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401772793",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401772793",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401772793",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401772793",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2025,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 14
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "36",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "9-4"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "5-2"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "4-2"
+                }
+              ],
+              "team": {
+                "abbreviation": "JAX",
+                "displayName": "Jacksonville Jaguars",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "19",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "8-5"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "6-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-4"
+                }
+              ],
+              "team": {
+                "abbreviation": "IND",
+                "displayName": "Indianapolis Colts",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401772791",
+      "name": "Pittsburgh Steelers at Baltimore Ravens",
+      "date": "2025-12-07T18:00Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401772791/steelers-ravens",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401772791",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401772791",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401772791",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401772791",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2025,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 14
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "22",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "6-7"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "3-5"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "3-2"
+                }
+              ],
+              "team": {
+                "abbreviation": "BAL",
+                "displayName": "Baltimore Ravens",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "27",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "7-6"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "4-3"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "3-3"
+                }
+              ],
+              "team": {
+                "abbreviation": "PIT",
+                "displayName": "Pittsburgh Steelers",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401772794",
+      "name": "Denver Broncos at Las Vegas Raiders",
+      "date": "2025-12-07T21:05Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401772794/broncos-raiders",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401772794",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401772794",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401772794",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401772794",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2025,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 14
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "17",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "2-11"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-6"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "1-5"
+                }
+              ],
+              "team": {
+                "abbreviation": "LV",
+                "displayName": "Las Vegas Raiders",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "24",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "11-2"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "6-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "5-2"
+                }
+              ],
+              "team": {
+                "abbreviation": "DEN",
+                "displayName": "Denver Broncos",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401772897",
+      "name": "Chicago Bears at Green Bay Packers",
+      "date": "2025-12-07T21:25Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401772897/bears-packers",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401772897",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401772897",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401772897",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401772897",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2025,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 14
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "28",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "9-3-1"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "5-2"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "4-1-1"
+                }
+              ],
+              "team": {
+                "abbreviation": "GB",
+                "displayName": "Green Bay Packers",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "21",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "9-4"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "4-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "5-3"
+                }
+              ],
+              "team": {
+                "abbreviation": "CHI",
+                "displayName": "Chicago Bears",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401772901",
+      "name": "Los Angeles Rams at Arizona Cardinals",
+      "date": "2025-12-07T21:25Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401772901/rams-cardinals",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401772901",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401772901",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401772901",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401772901",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2025,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 14
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "17",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "3-10"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-6"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-4"
+                }
+              ],
+              "team": {
+                "abbreviation": "ARI",
+                "displayName": "Arizona Cardinals",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "45",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "10-3"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "5-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "5-2"
+                }
+              ],
+              "team": {
+                "abbreviation": "LAR",
+                "displayName": "Los Angeles Rams",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401772932",
+      "name": "Houston Texans at Kansas City Chiefs",
+      "date": "2025-12-08T01:20Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401772932/texans-chiefs",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401772932",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401772932",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401772932",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401772932",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2025,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 14
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "10",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "6-7"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "5-2"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "1-5"
+                }
+              ],
+              "team": {
+                "abbreviation": "KC",
+                "displayName": "Kansas City Chiefs",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "20",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "8-5"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "4-2"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "4-3"
+                }
+              ],
+              "team": {
+                "abbreviation": "HOU",
+                "displayName": "Houston Texans",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "lastUpdated": "2025-12-08T16:47:25.456489Z"
+}
