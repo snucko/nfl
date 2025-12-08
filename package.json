@@ -4,11 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "snap": "node scripts/capture.js",
-    "snap:trmnl": "SNAP_WIDTH=800 SNAP_HEIGHT=480 node scripts/capture.js",
-    "snap:hires": "SNAP_WIDTH=1600 SNAP_HEIGHT=960 node scripts/capture.js",
-    "snap:both": "node scripts/capture.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",

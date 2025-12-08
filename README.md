@@ -8,14 +8,14 @@ Automated NFL schedule and live scores plugin for TRMNL e-ink displays.
 - 📅 **Auto-detects** current NFL season and week
 - 🔴 **Live game indicators** with status icons (LIVE/FINAL/Upcoming)
 - 📺 **All TRMNL layouts** - full, half horizontal/vertical, quadrant
-- ⚡ **Smart updates** - Every 10min on Sundays, 15min on game nights, hourly otherwise
-- 🤖 **Fully automated** via GitHub Actions webhooks
+- ⚡ **Smart updates** - TRMNL polls ESPN API automatically
+- 🤖 **Zero processing** - Direct ESPN API polling from TRMNL device
 
 ## How It Works
 
 TRMNL automatically polls live NFL data from ESPN API and displays it on your device.
 
-- **Direct Polling**: No custom processing needed - TRMNL fetches fresh data directly
+- **Direct Polling**: TRMNL fetches fresh data directly from ESPN API
 - **Live Scores**: Team logos, records, and real-time game status
 - **Automatic Updates**: TRMNL handles scheduling and data refresh
 
@@ -53,52 +53,23 @@ Then visit:
 - http://localhost:4567/half_vertical
 - http://localhost:4567/quadrant
 
-### Update Data Manually
-```bash
-python3 nfl_build.py
-```
-
-## Update Schedule
-
-TRMNL polls the ESPN API according to your device's refresh settings. For live games, set a frequent refresh interval (recommended: 1-4 hours).
-
 ## File Structure
 
 ```
 nfl/
-├── .github/workflows/
-│   └── update-nfl-data.yml      # Automated updates
 ├── src/                         # TRMNL templates
 │   ├── full.liquid             # Full screen (10 games)
 │   ├── half_horizontal.liquid  # Half horizontal (4 games)
 │   ├── half_vertical.liquid    # Half vertical (8 games)
-│   ├── quadrant.liquid         # Quadrant (next game)
-│   └── settings.yml
-├── data/
-│   └── schedule.json           # Current NFL data
-├── docs/
-│   └── schedule.json           # GitHub Pages copy
-├── nfl_build.py               # ESPN API data fetcher
-├── update-nfl.sh              # Manual update script
-├── start-trmnl.sh             # Local dev server
-└── AGENTS.md                  # AI agent context
+│   └── quadrant.liquid         # Quadrant (next game)
+├── .trmnlp.yml                 # TRMNL dev configuration
+├── start-trmnl.sh              # Local dev server
+└── AGENTS.md                   # AI agent context
 ```
 
 ## Data Source
 
-- **ESPN NFL API**: `https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard`
-- **Backup endpoint**: https://snucko.github.io/nfl/schedule.json
-
-## Manual Data Override
-
-Override automatic season/week detection:
-```bash
-YEAR=2024 TYPE=2 WEEK=18 python3 nfl_build.py
-```
-
-Where:
-- `TYPE=2` = Regular season, `TYPE=3` = Playoffs
-- `WEEK` = Week number (1-18 for regular season, 1-4 for playoffs)
+**ESPN NFL API**: `https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard`
 
 ## Display Examples
 
@@ -117,34 +88,20 @@ Where:
 ## Deployment to TRMNL
 
 1. **Create polling plugin:**
-- In TRMNL dashboard, create a Private Plugin
-- Set Strategy to "Polling"
-- Polling URL: `https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard`
+   - In TRMNL dashboard, create a Private Plugin
+   - Set Strategy to "Polling"
+   - Polling URL: `https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard`
 
 2. **Upload template:**
-- Copy template from `src/` folder
-- Paste into TRMNL plugin template editor
+   - Copy template from `src/` folder
+   - Paste into TRMNL plugin template editor
 
 3. **Configure display:**
-    - Choose your preferred layout size
-- Set refresh frequency (recommended: 1-4 hours)
+   - Choose your preferred layout size
+   - Set refresh frequency (recommended: 1-4 hours)
 
-## Development
+## Customization
 
-### Update NFL Data
-```bash
-python3 nfl_build.py
-```
-
-### Test Locally
-```bash
-# Start TRMNL development server
-./start-trmnl.sh
-
-# View at http://localhost:4567
-```
-
-### Customize Display
 Edit the Liquid templates in `src/` to modify:
 - Colors and fonts
 - Information displayed
@@ -154,13 +111,10 @@ Edit the Liquid templates in `src/` to modify:
 
 ### No Games Showing
 - Check if it's NFL offseason
-- Verify ESPN API connectivity
-- Run `python3 nfl_build.py` manually
+- Verify ESPN API connectivity at: `https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard`
 
 ### Wrong Week Displayed
-- Check system date/time
-- Override with environment variables
-- Verify ESPN API responses
+- Check your system date/time
 
 ### Display Issues
 - Ensure templates are properly formatted

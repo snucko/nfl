@@ -3,9 +3,6 @@
 
 echo "🏈 Starting NFL TRMNL Plugin with Docker..."
 echo ""
-echo "📊 Updating NFL data first..."
-python3 nfl_build.py
-echo ""
 echo "🚀 Starting official TRMNL development server..."
 echo "   Access your plugin at: http://localhost:4567"
 echo ""
