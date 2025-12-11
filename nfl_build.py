@@ -7,7 +7,7 @@ Serves filtered data (~20KB) via GitHub Pages to avoid TRMNL's 100KB payload lim
 import requests
 import json
 import os
-from datetime import datetime
+from datetime import datetime, UTC
 
 def fetch_nfl_data():
     """Fetch live NFL data from ESPN API"""
@@ -64,7 +64,7 @@ def filter_payload(data):
         'season': data.get('season', {}),
         'week': data.get('week', {}),
         'events': filtered_events,
-        'lastUpdated': datetime.utcnow().isoformat() + 'Z'
+        'lastUpdated': datetime.now(UTC).isoformat().replace('+00:00', 'Z')
     }
 
 def save_schedule(data, filepath):
