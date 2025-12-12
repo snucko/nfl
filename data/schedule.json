@@ -15,13 +15,39 @@
         {
           "language": "en-US",
           "rel": [
-            "summary",
+            "live",
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/game/_/gameId/401772948/falcons-buccaneers",
+          "href": "https://www.espn.com/nfl/game?gameId=401772948",
           "text": "Gamecast",
           "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401772948",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401772948",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
           "isExternal": false,
           "isPremium": false
         }
@@ -37,17 +63,17 @@
       "competitions": [
         {
           "status": {
-            "clock": 0.0,
-            "displayClock": "0:00",
-            "period": 0,
+            "clock": 670.0,
+            "displayClock": "11:10",
+            "period": 1,
             "type": {
-              "id": "1",
-              "name": "STATUS_SCHEDULED",
-              "state": "pre",
+              "id": "2",
+              "name": "STATUS_IN_PROGRESS",
+              "state": "in",
               "completed": false,
-              "description": "Scheduled",
-              "detail": "Thu, December 11th at 8:15 PM EST",
-              "shortDetail": "12/11 - 8:15 PM EST"
+              "description": "In Progress",
+              "detail": "11:10 - 1st Quarter",
+              "shortDetail": "11:10 - 1st"
             },
             "isTBDFlex": false
           },
@@ -1656,5 +1682,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-12-11T18:27:25.619147Z"
+  "lastUpdated": "2025-12-12T01:25:13.585472Z"
 }
