@@ -15,11 +15,11 @@
         {
           "language": "en-US",
           "rel": [
-            "live",
+            "summary",
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/game?gameId=401772948",
+          "href": "https://www.espn.com/nfl/game/_/gameId/401772948/falcons-buccaneers",
           "text": "Gamecast",
           "shortText": "Gamecast",
           "isExternal": false,
@@ -41,6 +41,18 @@
         {
           "language": "en-US",
           "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401772948",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
             "pbp",
             "desktop",
             "event"
@@ -48,6 +60,19 @@
           "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401772948",
           "text": "Play-by-Play",
           "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401772948",
+          "text": "Recap",
+          "shortText": "Recap",
           "isExternal": false,
           "isPremium": false
         }
@@ -63,35 +88,35 @@
       "competitions": [
         {
           "status": {
-            "clock": 670.0,
-            "displayClock": "11:10",
-            "period": 1,
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
             "type": {
-              "id": "2",
-              "name": "STATUS_IN_PROGRESS",
-              "state": "in",
-              "completed": false,
-              "description": "In Progress",
-              "detail": "11:10 - 1st Quarter",
-              "shortDetail": "11:10 - 1st"
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
             },
             "isTBDFlex": false
           },
           "competitors": [
             {
               "homeAway": "home",
-              "score": "0",
+              "score": "28",
               "records": [
                 {
                   "name": "overall",
-                  "abbreviation": "Any",
+                  "abbreviation": "Game",
                   "type": "total",
-                  "summary": "7-6"
+                  "summary": "7-7"
                 },
                 {
                   "name": "Home",
                   "type": "home",
-                  "summary": "3-3"
+                  "summary": "3-4"
                 },
                 {
                   "name": "Road",
@@ -107,13 +132,13 @@
             },
             {
               "homeAway": "away",
-              "score": "0",
+              "score": "29",
               "records": [
                 {
                   "name": "overall",
-                  "abbreviation": "Any",
+                  "abbreviation": "Game",
                   "type": "total",
-                  "summary": "4-9"
+                  "summary": "5-9"
                 },
                 {
                   "name": "Home",
@@ -123,7 +148,7 @@
                 {
                   "name": "Road",
                   "type": "road",
-                  "summary": "2-5"
+                  "summary": "3-5"
                 }
               ],
               "team": {
@@ -1682,5 +1707,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-12-12T01:25:13.585472Z"
+  "lastUpdated": "2025-12-12T06:30:06.541738Z"
 }
