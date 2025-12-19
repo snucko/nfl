@@ -15,11 +15,11 @@
         {
           "language": "en-US",
           "rel": [
-            "live",
+            "summary",
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/game?gameId=401772949",
+          "href": "https://www.espn.com/nfl/game/_/gameId/401772949/rams-seahawks",
           "text": "Gamecast",
           "shortText": "Gamecast",
           "isExternal": false,
@@ -41,6 +41,18 @@
         {
           "language": "en-US",
           "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401772949",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
             "pbp",
             "desktop",
             "event"
@@ -48,6 +60,19 @@
           "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401772949",
           "text": "Play-by-Play",
           "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401772949",
+          "text": "Recap",
+          "shortText": "Recap",
           "isExternal": false,
           "isPremium": false
         }
@@ -63,35 +88,36 @@
       "competitions": [
         {
           "status": {
-            "clock": 590.0,
-            "displayClock": "9:50",
-            "period": 1,
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 5,
             "type": {
-              "id": "2",
-              "name": "STATUS_IN_PROGRESS",
-              "state": "in",
-              "completed": false,
-              "description": "In Progress",
-              "detail": "9:50 - 1st Quarter",
-              "shortDetail": "9:50 - 1st"
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final/OT",
+              "shortDetail": "Final/OT",
+              "altDetail": "OT"
             },
             "isTBDFlex": false
           },
           "competitors": [
             {
               "homeAway": "home",
-              "score": "0",
+              "score": "38",
               "records": [
                 {
                   "name": "overall",
-                  "abbreviation": "Any",
+                  "abbreviation": "Game",
                   "type": "total",
-                  "summary": "11-3"
+                  "summary": "12-3"
                 },
                 {
                   "name": "Home",
                   "type": "home",
-                  "summary": "5-2"
+                  "summary": "6-2"
                 },
                 {
                   "name": "Road",
@@ -107,13 +133,13 @@
             },
             {
               "homeAway": "away",
-              "score": "0",
+              "score": "37",
               "records": [
                 {
                   "name": "overall",
-                  "abbreviation": "Any",
+                  "abbreviation": "Game",
                   "type": "total",
-                  "summary": "11-3"
+                  "summary": "11-4"
                 },
                 {
                   "name": "Home",
@@ -123,7 +149,7 @@
                 {
                   "name": "Road",
                   "type": "road",
-                  "summary": "5-2"
+                  "summary": "5-3"
                 }
               ],
               "team": {
@@ -1682,5 +1708,5 @@
       ]
     }
   ],
-  "lastUpdated": "2025-12-19T01:25:21.843195Z"
+  "lastUpdated": "2025-12-19T06:29:02.241810Z"
 }
