@@ -8,18 +8,18 @@
   },
   "events": [
     {
-      "id": "401772960",
-      "name": "Baltimore Ravens at Pittsburgh Steelers",
-      "date": "2026-01-05T01:20Z",
+      "id": "401772969",
+      "name": "Carolina Panthers at Tampa Bay Buccaneers",
+      "date": "2026-01-03T21:30Z",
       "links": [
         {
           "language": "en-US",
           "rel": [
-            "live",
+            "summary",
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/game?gameId=401772960",
+          "href": "https://www.espn.com/nfl/game/_/gameId/401772969/panthers-buccaneers",
           "text": "Gamecast",
           "shortText": "Gamecast",
           "isExternal": false,
@@ -32,9 +32,21 @@
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401772960",
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401772969",
           "text": "Box Score",
           "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401772969",
+          "text": "Highlights",
+          "shortText": "Highlights",
           "isExternal": false,
           "isPremium": false
         },
@@ -45,9 +57,22 @@
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401772960",
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401772969",
           "text": "Play-by-Play",
           "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401772969",
+          "text": "Recap",
+          "shortText": "Recap",
           "isExternal": false,
           "isPremium": false
         }
@@ -63,30 +88,57 @@
       "competitions": [
         {
           "status": {
-            "clock": 434.0,
-            "displayClock": "7:14",
-            "period": 1,
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
             "type": {
-              "id": "2",
-              "name": "STATUS_IN_PROGRESS",
-              "state": "in",
-              "completed": false,
-              "description": "In Progress",
-              "detail": "7:14 - 1st Quarter",
-              "shortDetail": "7:14 - 1st"
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
             },
             "isTBDFlex": false
           },
           "competitors": [
             {
               "homeAway": "home",
-              "score": "0",
+              "score": "16",
               "records": [
                 {
                   "name": "overall",
-                  "abbreviation": "Any",
+                  "abbreviation": "Game",
                   "type": "total",
-                  "summary": "9-7"
+                  "summary": "8-9"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "4-4"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "4-5"
+                }
+              ],
+              "team": {
+                "abbreviation": "TB",
+                "displayName": "Tampa Bay Buccaneers",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "14",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "8-9"
                 },
                 {
                   "name": "Home",
@@ -96,40 +148,167 @@
                 {
                   "name": "Road",
                   "type": "road",
-                  "summary": "4-4"
+                  "summary": "3-6"
                 }
               ],
               "team": {
-                "abbreviation": "PIT",
-                "displayName": "Pittsburgh Steelers",
-                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png"
+                "abbreviation": "CAR",
+                "displayName": "Carolina Panthers",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png"
               }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401772961",
+      "name": "Seattle Seahawks at San Francisco 49ers",
+      "date": "2026-01-04T01:00Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401772961/seahawks-49ers",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401772961",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401772961",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401772961",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401772961",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2025,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 18
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
             },
+            "isTBDFlex": false
+          },
+          "competitors": [
             {
-              "homeAway": "away",
-              "score": "7",
+              "homeAway": "home",
+              "score": "3",
               "records": [
                 {
                   "name": "overall",
-                  "abbreviation": "Any",
+                  "abbreviation": "Game",
                   "type": "total",
-                  "summary": "8-8"
+                  "summary": "12-5"
                 },
                 {
                   "name": "Home",
                   "type": "home",
-                  "summary": "3-6"
+                  "summary": "5-3"
                 },
                 {
                   "name": "Road",
                   "type": "road",
-                  "summary": "5-2"
+                  "summary": "7-2"
                 }
               ],
               "team": {
-                "abbreviation": "BAL",
-                "displayName": "Baltimore Ravens",
-                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png"
+                "abbreviation": "SF",
+                "displayName": "San Francisco 49ers",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "13",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "14-3"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "6-2"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "8-1"
+                }
+              ],
+              "team": {
+                "abbreviation": "SEA",
+                "displayName": "Seattle Seahawks",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png"
               }
             }
           ]
@@ -2113,9 +2292,9 @@
       ]
     },
     {
-      "id": "401772969",
-      "name": "Carolina Panthers at Tampa Bay Buccaneers",
-      "date": "2026-01-03T21:30Z",
+      "id": "401772960",
+      "name": "Baltimore Ravens at Pittsburgh Steelers",
+      "date": "2026-01-05T01:20Z",
       "links": [
         {
           "language": "en-US",
@@ -2124,7 +2303,7 @@
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/game/_/gameId/401772969/panthers-buccaneers",
+          "href": "https://www.espn.com/nfl/game/_/gameId/401772960/ravens-steelers",
           "text": "Gamecast",
           "shortText": "Gamecast",
           "isExternal": false,
@@ -2137,7 +2316,7 @@
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401772969",
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401772960",
           "text": "Box Score",
           "shortText": "Box Score",
           "isExternal": false,
@@ -2149,7 +2328,7 @@
             "highlights",
             "desktop"
           ],
-          "href": "https://www.espn.com/nfl/video?gameId=401772969",
+          "href": "https://www.espn.com/nfl/video?gameId=401772960",
           "text": "Highlights",
           "shortText": "Highlights",
           "isExternal": false,
@@ -2162,7 +2341,7 @@
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401772969",
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401772960",
           "text": "Play-by-Play",
           "shortText": "Play-by-Play",
           "isExternal": false,
@@ -2175,7 +2354,7 @@
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/recap?gameId=401772969",
+          "href": "https://www.espn.com/nfl/recap?gameId=401772960",
           "text": "Recap",
           "shortText": "Recap",
           "isExternal": false,
@@ -2210,34 +2389,34 @@
           "competitors": [
             {
               "homeAway": "home",
-              "score": "16",
+              "score": "26",
               "records": [
                 {
                   "name": "overall",
                   "abbreviation": "Game",
                   "type": "total",
-                  "summary": "8-9"
+                  "summary": "10-7"
                 },
                 {
                   "name": "Home",
                   "type": "home",
+                  "summary": "6-3"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
                   "summary": "4-4"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "4-5"
                 }
               ],
               "team": {
-                "abbreviation": "TB",
-                "displayName": "Tampa Bay Buccaneers",
-                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png"
+                "abbreviation": "PIT",
+                "displayName": "Pittsburgh Steelers",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png"
               }
             },
             {
               "homeAway": "away",
-              "score": "14",
+              "score": "24",
               "records": [
                 {
                   "name": "overall",
@@ -2248,172 +2427,18 @@
                 {
                   "name": "Home",
                   "type": "home",
-                  "summary": "5-3"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
                   "summary": "3-6"
-                }
-              ],
-              "team": {
-                "abbreviation": "CAR",
-                "displayName": "Carolina Panthers",
-                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "401772961",
-      "name": "Seattle Seahawks at San Francisco 49ers",
-      "date": "2026-01-04T01:00Z",
-      "links": [
-        {
-          "language": "en-US",
-          "rel": [
-            "summary",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/game/_/gameId/401772961/seahawks-49ers",
-          "text": "Gamecast",
-          "shortText": "Gamecast",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "boxscore",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401772961",
-          "text": "Box Score",
-          "shortText": "Box Score",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "highlights",
-            "desktop"
-          ],
-          "href": "https://www.espn.com/nfl/video?gameId=401772961",
-          "text": "Highlights",
-          "shortText": "Highlights",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "pbp",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401772961",
-          "text": "Play-by-Play",
-          "shortText": "Play-by-Play",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "recap",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/recap?gameId=401772961",
-          "text": "Recap",
-          "shortText": "Recap",
-          "isExternal": false,
-          "isPremium": false
-        }
-      ],
-      "season": {
-        "year": 2025,
-        "type": 2,
-        "slug": "regular-season"
-      },
-      "week": {
-        "number": 18
-      },
-      "competitions": [
-        {
-          "status": {
-            "clock": 0.0,
-            "displayClock": "0:00",
-            "period": 4,
-            "type": {
-              "id": "3",
-              "name": "STATUS_FINAL",
-              "state": "post",
-              "completed": true,
-              "description": "Final",
-              "detail": "Final",
-              "shortDetail": "Final"
-            },
-            "isTBDFlex": false
-          },
-          "competitors": [
-            {
-              "homeAway": "home",
-              "score": "3",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Game",
-                  "type": "total",
-                  "summary": "12-5"
                 },
                 {
-                  "name": "Home",
-                  "type": "home",
+                  "name": "Road",
+                  "type": "road",
                   "summary": "5-3"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "7-2"
                 }
               ],
               "team": {
-                "abbreviation": "SF",
-                "displayName": "San Francisco 49ers",
-                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png"
-              }
-            },
-            {
-              "homeAway": "away",
-              "score": "13",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Game",
-                  "type": "total",
-                  "summary": "14-3"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "6-2"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "8-1"
-                }
-              ],
-              "team": {
-                "abbreviation": "SEA",
-                "displayName": "Seattle Seahawks",
-                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png"
+                "abbreviation": "BAL",
+                "displayName": "Baltimore Ravens",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png"
               }
             }
           ]
@@ -2421,5 +2446,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-01-05T01:44:55.812265Z"
+  "lastUpdated": "2026-01-05T06:35:55.164422Z"
 }
