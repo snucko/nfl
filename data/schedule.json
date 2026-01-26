@@ -8,135 +8,6 @@
   },
   "events": [
     {
-      "id": "401772987",
-      "name": "Los Angeles Rams at Seattle Seahawks",
-      "date": "2026-01-25T23:30Z",
-      "links": [
-        {
-          "language": "en-US",
-          "rel": [
-            "live",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/game?gameId=401772987",
-          "text": "Gamecast",
-          "shortText": "Gamecast",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "boxscore",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401772987",
-          "text": "Box Score",
-          "shortText": "Box Score",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "pbp",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401772987",
-          "text": "Play-by-Play",
-          "shortText": "Play-by-Play",
-          "isExternal": false,
-          "isPremium": false
-        }
-      ],
-      "season": {
-        "year": 2025,
-        "type": 3,
-        "slug": "post-season"
-      },
-      "week": {
-        "number": 3
-      },
-      "competitions": [
-        {
-          "status": {
-            "clock": 334.0,
-            "displayClock": "5:34",
-            "period": 3,
-            "type": {
-              "id": "2",
-              "name": "STATUS_IN_PROGRESS",
-              "state": "in",
-              "completed": false,
-              "description": "In Progress",
-              "detail": "5:34 - 3rd Quarter",
-              "shortDetail": "5:34 - 3rd"
-            },
-            "isTBDFlex": false
-          },
-          "competitors": [
-            {
-              "homeAway": "home",
-              "score": "24",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "14-3"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "6-2"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "8-1"
-                }
-              ],
-              "team": {
-                "abbreviation": "SEA",
-                "displayName": "Seattle Seahawks",
-                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png"
-              }
-            },
-            {
-              "homeAway": "away",
-              "score": "20",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "12-5"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "7-1"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "5-4"
-                }
-              ],
-              "team": {
-                "abbreviation": "LAR",
-                "displayName": "Los Angeles Rams",
-                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "401772986",
       "name": "New England Patriots at Denver Broncos",
       "date": "2026-01-25T20:00Z",
@@ -289,7 +160,161 @@
           ]
         }
       ]
+    },
+    {
+      "id": "401772987",
+      "name": "Los Angeles Rams at Seattle Seahawks",
+      "date": "2026-01-25T23:30Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401772987/rams-seahawks",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401772987",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401772987",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401772987",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401772987",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2025,
+        "type": 3,
+        "slug": "post-season"
+      },
+      "week": {
+        "number": 3
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "31",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "14-3"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "6-2"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "8-1"
+                }
+              ],
+              "team": {
+                "abbreviation": "SEA",
+                "displayName": "Seattle Seahawks",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "27",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "12-5"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "7-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "5-4"
+                }
+              ],
+              "team": {
+                "abbreviation": "LAR",
+                "displayName": "Los Angeles Rams",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png"
+              }
+            }
+          ]
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-01-26T01:45:52.121373Z"
+  "lastUpdated": "2026-01-26T06:33:58.529197Z"
 }
