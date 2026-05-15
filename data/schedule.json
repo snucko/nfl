@@ -1,16 +1,16 @@
 {
   "season": {
-    "type": 3,
-    "year": 2025
+    "type": 2,
+    "year": 2026
   },
   "week": {
-    "number": 5
+    "number": 1
   },
   "events": [
     {
-      "id": "401772988",
-      "name": "Seattle Seahawks at New England Patriots",
-      "date": "2026-02-08T23:30Z",
+      "id": "401872656",
+      "name": "New England Patriots at Seattle Seahawks",
+      "date": "2026-09-10T00:20Z",
       "links": [
         {
           "language": "en-US",
@@ -19,129 +19,1092 @@
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/game/_/gameId/401772988/seahawks-patriots",
+          "href": "https://www.espn.com/nfl/game/_/gameId/401872656/patriots-seahawks",
           "text": "Gamecast",
           "shortText": "Gamecast",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "boxscore",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401772988",
-          "text": "Box Score",
-          "shortText": "Box Score",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "highlights",
-            "desktop"
-          ],
-          "href": "https://www.espn.com/nfl/video?gameId=401772988",
-          "text": "Highlights",
-          "shortText": "Highlights",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "pbp",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401772988",
-          "text": "Play-by-Play",
-          "shortText": "Play-by-Play",
           "isExternal": false,
           "isPremium": false
         }
       ],
       "season": {
-        "year": 2025,
-        "type": 3,
-        "slug": "post-season"
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
       },
       "week": {
-        "number": 5
+        "number": 1
       },
       "competitions": [
         {
           "status": {
             "clock": 0.0,
             "displayClock": "0:00",
-            "period": 4,
+            "period": 0,
             "type": {
-              "id": "3",
-              "name": "STATUS_FINAL",
-              "state": "post",
-              "completed": true,
-              "description": "Final",
-              "detail": "Final",
-              "shortDetail": "Final"
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Wed, September 9th at 8:20 PM EDT",
+              "shortDetail": "9/9 - 8:20 PM EDT"
             },
             "isTBDFlex": false
           },
           "competitors": [
             {
               "homeAway": "home",
-              "score": "13",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "14-3"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "6-3"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "8-0"
-                }
-              ],
+              "score": "0",
+              "records": [],
+              "team": {
+                "abbreviation": "SEA",
+                "displayName": "Seattle Seahawks",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "0",
+              "records": [],
               "team": {
                 "abbreviation": "NE",
                 "displayName": "New England Patriots",
                 "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png"
               }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401872657",
+      "name": "San Francisco 49ers at Los Angeles Rams",
+      "date": "2026-09-11T00:35Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401872657/49ers-rams",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 1
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Thu, September 10th at 8:35 PM EDT",
+              "shortDetail": "9/10 - 8:35 PM EDT"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "0",
+              "records": [],
+              "team": {
+                "abbreviation": "LAR",
+                "displayName": "Los Angeles Rams",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png"
+              }
             },
             {
               "homeAway": "away",
-              "score": "29",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "14-3"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "6-2"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "8-1"
-                }
-              ],
+              "score": "0",
+              "records": [],
               "team": {
-                "abbreviation": "SEA",
-                "displayName": "Seattle Seahawks",
-                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png"
+                "abbreviation": "SF",
+                "displayName": "San Francisco 49ers",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401872925",
+      "name": "Tampa Bay Buccaneers at Cincinnati Bengals",
+      "date": "2026-09-13T17:00Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401872925/buccaneers-bengals",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 1
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Sun, September 13th at 1:00 PM EDT",
+              "shortDetail": "9/13 - 1:00 PM EDT"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "0",
+              "records": [],
+              "team": {
+                "abbreviation": "CIN",
+                "displayName": "Cincinnati Bengals",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "0",
+              "records": [],
+              "team": {
+                "abbreviation": "TB",
+                "displayName": "Tampa Bay Buccaneers",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401872923",
+      "name": "New Orleans Saints at Detroit Lions",
+      "date": "2026-09-13T17:00Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401872923/saints-lions",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 1
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Sun, September 13th at 1:00 PM EDT",
+              "shortDetail": "9/13 - 1:00 PM EDT"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "0",
+              "records": [],
+              "team": {
+                "abbreviation": "DET",
+                "displayName": "Detroit Lions",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "0",
+              "records": [],
+              "team": {
+                "abbreviation": "NO",
+                "displayName": "New Orleans Saints",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401872924",
+      "name": "New York Jets at Tennessee Titans",
+      "date": "2026-09-13T17:00Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401872924/jets-titans",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 1
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Sun, September 13th at 1:00 PM EDT",
+              "shortDetail": "9/13 - 1:00 PM EDT"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "0",
+              "records": [],
+              "team": {
+                "abbreviation": "TEN",
+                "displayName": "Tennessee Titans",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "0",
+              "records": [],
+              "team": {
+                "abbreviation": "NYJ",
+                "displayName": "New York Jets",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401872659",
+      "name": "Baltimore Ravens at Indianapolis Colts",
+      "date": "2026-09-13T17:00Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401872659/ravens-colts",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 1
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Sun, September 13th at 1:00 PM EDT",
+              "shortDetail": "9/13 - 1:00 PM EDT"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "0",
+              "records": [],
+              "team": {
+                "abbreviation": "IND",
+                "displayName": "Indianapolis Colts",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "0",
+              "records": [],
+              "team": {
+                "abbreviation": "BAL",
+                "displayName": "Baltimore Ravens",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401872658",
+      "name": "Atlanta Falcons at Pittsburgh Steelers",
+      "date": "2026-09-13T17:00Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401872658/falcons-steelers",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 1
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Sun, September 13th at 1:00 PM EDT",
+              "shortDetail": "9/13 - 1:00 PM EDT"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "0",
+              "records": [],
+              "team": {
+                "abbreviation": "PIT",
+                "displayName": "Pittsburgh Steelers",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "0",
+              "records": [],
+              "team": {
+                "abbreviation": "ATL",
+                "displayName": "Atlanta Falcons",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401872661",
+      "name": "Chicago Bears at Carolina Panthers",
+      "date": "2026-09-13T17:00Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401872661/bears-panthers",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 1
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Sun, September 13th at 1:00 PM EDT",
+              "shortDetail": "9/13 - 1:00 PM EDT"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "0",
+              "records": [],
+              "team": {
+                "abbreviation": "CAR",
+                "displayName": "Carolina Panthers",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "0",
+              "records": [],
+              "team": {
+                "abbreviation": "CHI",
+                "displayName": "Chicago Bears",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401872922",
+      "name": "Cleveland Browns at Jacksonville Jaguars",
+      "date": "2026-09-13T17:00Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401872922/browns-jaguars",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 1
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Sun, September 13th at 1:00 PM EDT",
+              "shortDetail": "9/13 - 1:00 PM EDT"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "0",
+              "records": [],
+              "team": {
+                "abbreviation": "JAX",
+                "displayName": "Jacksonville Jaguars",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "0",
+              "records": [],
+              "team": {
+                "abbreviation": "CLE",
+                "displayName": "Cleveland Browns",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401872660",
+      "name": "Buffalo Bills at Houston Texans",
+      "date": "2026-09-13T17:00Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401872660/bills-texans",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 1
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Sun, September 13th at 1:00 PM EDT",
+              "shortDetail": "9/13 - 1:00 PM EDT"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "0",
+              "records": [],
+              "team": {
+                "abbreviation": "HOU",
+                "displayName": "Houston Texans",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "0",
+              "records": [],
+              "team": {
+                "abbreviation": "BUF",
+                "displayName": "Buffalo Bills",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401872928",
+      "name": "Miami Dolphins at Las Vegas Raiders",
+      "date": "2026-09-13T20:25Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401872928/dolphins-raiders",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 1
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Sun, September 13th at 4:25 PM EDT",
+              "shortDetail": "9/13 - 4:25 PM EDT"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "0",
+              "records": [],
+              "team": {
+                "abbreviation": "LV",
+                "displayName": "Las Vegas Raiders",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "0",
+              "records": [],
+              "team": {
+                "abbreviation": "MIA",
+                "displayName": "Miami Dolphins",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401872927",
+      "name": "Green Bay Packers at Minnesota Vikings",
+      "date": "2026-09-13T20:25Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401872927/packers-vikings",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 1
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Sun, September 13th at 4:25 PM EDT",
+              "shortDetail": "9/13 - 4:25 PM EDT"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "0",
+              "records": [],
+              "team": {
+                "abbreviation": "MIN",
+                "displayName": "Minnesota Vikings",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "0",
+              "records": [],
+              "team": {
+                "abbreviation": "GB",
+                "displayName": "Green Bay Packers",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401872929",
+      "name": "Washington Commanders at Philadelphia Eagles",
+      "date": "2026-09-13T20:25Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401872929/commanders-eagles",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 1
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Sun, September 13th at 4:25 PM EDT",
+              "shortDetail": "9/13 - 4:25 PM EDT"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "0",
+              "records": [],
+              "team": {
+                "abbreviation": "PHI",
+                "displayName": "Philadelphia Eagles",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "0",
+              "records": [],
+              "team": {
+                "abbreviation": "WSH",
+                "displayName": "Washington Commanders",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401872926",
+      "name": "Arizona Cardinals at Los Angeles Chargers",
+      "date": "2026-09-13T20:25Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401872926/cardinals-chargers",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 1
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Sun, September 13th at 4:25 PM EDT",
+              "shortDetail": "9/13 - 4:25 PM EDT"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "0",
+              "records": [],
+              "team": {
+                "abbreviation": "LAC",
+                "displayName": "Los Angeles Chargers",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "0",
+              "records": [],
+              "team": {
+                "abbreviation": "ARI",
+                "displayName": "Arizona Cardinals",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401872930",
+      "name": "Dallas Cowboys at New York Giants",
+      "date": "2026-09-14T00:20Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401872930/cowboys-giants",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 1
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Sun, September 13th at 8:20 PM EDT",
+              "shortDetail": "9/13 - 8:20 PM EDT"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "0",
+              "records": [],
+              "team": {
+                "abbreviation": "NYG",
+                "displayName": "New York Giants",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "0",
+              "records": [],
+              "team": {
+                "abbreviation": "DAL",
+                "displayName": "Dallas Cowboys",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401872931",
+      "name": "Denver Broncos at Kansas City Chiefs",
+      "date": "2026-09-15T00:15Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401872931/broncos-chiefs",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 1
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Mon, September 14th at 8:15 PM EDT",
+              "shortDetail": "9/14 - 8:15 PM EDT"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "0",
+              "records": [],
+              "team": {
+                "abbreviation": "KC",
+                "displayName": "Kansas City Chiefs",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "0",
+              "records": [],
+              "team": {
+                "abbreviation": "DEN",
+                "displayName": "Denver Broncos",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png"
               }
             }
           ]
@@ -149,5 +1112,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-14T19:42:41.590956Z"
+  "lastUpdated": "2026-05-15T02:54:54.583068Z"
 }
