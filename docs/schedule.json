@@ -55,7 +55,24 @@
             {
               "homeAway": "home",
               "score": "0",
-              "records": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
               "team": {
                 "abbreviation": "SEA",
                 "displayName": "Seattle Seahawks",
@@ -65,7 +82,24 @@
             {
               "homeAway": "away",
               "score": "0",
-              "records": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
               "team": {
                 "abbreviation": "NE",
                 "displayName": "New England Patriots",
@@ -124,7 +158,24 @@
             {
               "homeAway": "home",
               "score": "0",
-              "records": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
               "team": {
                 "abbreviation": "LAR",
                 "displayName": "Los Angeles Rams",
@@ -134,7 +185,24 @@
             {
               "homeAway": "away",
               "score": "0",
-              "records": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
               "team": {
                 "abbreviation": "SF",
                 "displayName": "San Francisco 49ers",
@@ -193,7 +261,24 @@
             {
               "homeAway": "home",
               "score": "0",
-              "records": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
               "team": {
                 "abbreviation": "CIN",
                 "displayName": "Cincinnati Bengals",
@@ -203,7 +288,24 @@
             {
               "homeAway": "away",
               "score": "0",
-              "records": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
               "team": {
                 "abbreviation": "TB",
                 "displayName": "Tampa Bay Buccaneers",
@@ -262,7 +364,24 @@
             {
               "homeAway": "home",
               "score": "0",
-              "records": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
               "team": {
                 "abbreviation": "DET",
                 "displayName": "Detroit Lions",
@@ -272,7 +391,24 @@
             {
               "homeAway": "away",
               "score": "0",
-              "records": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
               "team": {
                 "abbreviation": "NO",
                 "displayName": "New Orleans Saints",
@@ -331,7 +467,24 @@
             {
               "homeAway": "home",
               "score": "0",
-              "records": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
               "team": {
                 "abbreviation": "TEN",
                 "displayName": "Tennessee Titans",
@@ -341,7 +494,24 @@
             {
               "homeAway": "away",
               "score": "0",
-              "records": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
               "team": {
                 "abbreviation": "NYJ",
                 "displayName": "New York Jets",
@@ -400,7 +570,24 @@
             {
               "homeAway": "home",
               "score": "0",
-              "records": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
               "team": {
                 "abbreviation": "IND",
                 "displayName": "Indianapolis Colts",
@@ -410,7 +597,24 @@
             {
               "homeAway": "away",
               "score": "0",
-              "records": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
               "team": {
                 "abbreviation": "BAL",
                 "displayName": "Baltimore Ravens",
@@ -469,7 +673,24 @@
             {
               "homeAway": "home",
               "score": "0",
-              "records": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
               "team": {
                 "abbreviation": "PIT",
                 "displayName": "Pittsburgh Steelers",
@@ -479,7 +700,24 @@
             {
               "homeAway": "away",
               "score": "0",
-              "records": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
               "team": {
                 "abbreviation": "ATL",
                 "displayName": "Atlanta Falcons",
@@ -538,7 +776,24 @@
             {
               "homeAway": "home",
               "score": "0",
-              "records": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
               "team": {
                 "abbreviation": "CAR",
                 "displayName": "Carolina Panthers",
@@ -548,7 +803,24 @@
             {
               "homeAway": "away",
               "score": "0",
-              "records": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
               "team": {
                 "abbreviation": "CHI",
                 "displayName": "Chicago Bears",
@@ -607,7 +879,24 @@
             {
               "homeAway": "home",
               "score": "0",
-              "records": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
               "team": {
                 "abbreviation": "JAX",
                 "displayName": "Jacksonville Jaguars",
@@ -617,7 +906,24 @@
             {
               "homeAway": "away",
               "score": "0",
-              "records": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
               "team": {
                 "abbreviation": "CLE",
                 "displayName": "Cleveland Browns",
@@ -676,7 +982,24 @@
             {
               "homeAway": "home",
               "score": "0",
-              "records": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
               "team": {
                 "abbreviation": "HOU",
                 "displayName": "Houston Texans",
@@ -686,7 +1009,24 @@
             {
               "homeAway": "away",
               "score": "0",
-              "records": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
               "team": {
                 "abbreviation": "BUF",
                 "displayName": "Buffalo Bills",
@@ -745,7 +1085,24 @@
             {
               "homeAway": "home",
               "score": "0",
-              "records": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
               "team": {
                 "abbreviation": "LV",
                 "displayName": "Las Vegas Raiders",
@@ -755,7 +1112,24 @@
             {
               "homeAway": "away",
               "score": "0",
-              "records": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
               "team": {
                 "abbreviation": "MIA",
                 "displayName": "Miami Dolphins",
@@ -814,7 +1188,24 @@
             {
               "homeAway": "home",
               "score": "0",
-              "records": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
               "team": {
                 "abbreviation": "MIN",
                 "displayName": "Minnesota Vikings",
@@ -824,7 +1215,24 @@
             {
               "homeAway": "away",
               "score": "0",
-              "records": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
               "team": {
                 "abbreviation": "GB",
                 "displayName": "Green Bay Packers",
@@ -883,7 +1291,24 @@
             {
               "homeAway": "home",
               "score": "0",
-              "records": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
               "team": {
                 "abbreviation": "PHI",
                 "displayName": "Philadelphia Eagles",
@@ -893,7 +1318,24 @@
             {
               "homeAway": "away",
               "score": "0",
-              "records": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
               "team": {
                 "abbreviation": "WSH",
                 "displayName": "Washington Commanders",
@@ -952,7 +1394,24 @@
             {
               "homeAway": "home",
               "score": "0",
-              "records": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
               "team": {
                 "abbreviation": "LAC",
                 "displayName": "Los Angeles Chargers",
@@ -962,7 +1421,24 @@
             {
               "homeAway": "away",
               "score": "0",
-              "records": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
               "team": {
                 "abbreviation": "ARI",
                 "displayName": "Arizona Cardinals",
@@ -1021,7 +1497,24 @@
             {
               "homeAway": "home",
               "score": "0",
-              "records": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
               "team": {
                 "abbreviation": "NYG",
                 "displayName": "New York Giants",
@@ -1031,7 +1524,24 @@
             {
               "homeAway": "away",
               "score": "0",
-              "records": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
               "team": {
                 "abbreviation": "DAL",
                 "displayName": "Dallas Cowboys",
@@ -1090,7 +1600,24 @@
             {
               "homeAway": "home",
               "score": "0",
-              "records": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
               "team": {
                 "abbreviation": "KC",
                 "displayName": "Kansas City Chiefs",
@@ -1100,7 +1627,24 @@
             {
               "homeAway": "away",
               "score": "0",
-              "records": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Any",
+                  "type": "total",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
               "team": {
                 "abbreviation": "DEN",
                 "displayName": "Denver Broncos",
@@ -1112,5 +1656,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-07-20T13:59:31.352504Z"
+  "lastUpdated": "2026-07-20T19:40:15.813582Z"
 }
