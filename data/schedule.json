@@ -15,13 +15,51 @@
         {
           "language": "en-US",
           "rel": [
-            "summary",
+            "live",
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/game/_/gameId/401873286/raiders-texans",
+          "href": "https://www.espn.com/nfl/game?gameId=401873286",
           "text": "Gamecast",
           "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873286",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401873286",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873286",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
           "isExternal": false,
           "isPremium": false
         }
@@ -37,24 +75,24 @@
       "competitions": [
         {
           "status": {
-            "clock": 0.0,
-            "displayClock": "0:00",
-            "period": 0,
+            "clock": 417.0,
+            "displayClock": "6:57",
+            "period": 2,
             "type": {
-              "id": "1",
-              "name": "STATUS_SCHEDULED",
-              "state": "pre",
+              "id": "2",
+              "name": "STATUS_IN_PROGRESS",
+              "state": "in",
               "completed": false,
-              "description": "Scheduled",
-              "detail": "Thu, August 20th at 8:00 PM EDT",
-              "shortDetail": "8/20 - 8:00 PM EDT"
+              "description": "In Progress",
+              "detail": "6:57 - 2nd Quarter",
+              "shortDetail": "6:57 - 2nd"
             },
             "isTBDFlex": false
           },
           "competitors": [
             {
               "homeAway": "home",
-              "score": "0",
+              "score": "17",
               "records": [
                 {
                   "name": "overall",
@@ -81,7 +119,7 @@
             },
             {
               "homeAway": "away",
-              "score": "0",
+              "score": "3",
               "records": [
                 {
                   "name": "overall",
@@ -1656,5 +1694,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-08-20T18:33:59.514004Z"
+  "lastUpdated": "2026-08-21T01:06:39.389309Z"
 }
