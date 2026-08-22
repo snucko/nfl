@@ -15,13 +15,39 @@
         {
           "language": "en-US",
           "rel": [
-            "summary",
+            "live",
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/game/_/gameId/401873601/commanders-lions",
+          "href": "https://www.espn.com/nfl/game?gameId=401873601",
           "text": "Gamecast",
           "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873601",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873601",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
           "isExternal": false,
           "isPremium": false
         }
@@ -37,24 +63,24 @@
       "competitions": [
         {
           "status": {
-            "clock": 0.0,
-            "displayClock": "0:00",
-            "period": 0,
+            "clock": 722.0,
+            "displayClock": "12:02",
+            "period": 4,
             "type": {
-              "id": "1",
-              "name": "STATUS_SCHEDULED",
-              "state": "pre",
+              "id": "2",
+              "name": "STATUS_IN_PROGRESS",
+              "state": "in",
               "completed": false,
-              "description": "Scheduled",
-              "detail": "Sat, August 22nd at 12:00 PM EDT",
-              "shortDetail": "8/22 - 12:00 PM EDT"
+              "description": "In Progress",
+              "detail": "12:02 - 4th Quarter",
+              "shortDetail": "12:02 - 4th"
             },
             "isTBDFlex": false
           },
           "competitors": [
             {
               "homeAway": "home",
-              "score": "0",
+              "score": "14",
               "records": [
                 {
                   "name": "overall",
@@ -81,7 +107,7 @@
             },
             {
               "homeAway": "away",
-              "score": "0",
+              "score": "13",
               "records": [
                 {
                   "name": "overall",
@@ -118,13 +144,39 @@
         {
           "language": "en-US",
           "rel": [
-            "summary",
+            "live",
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/game/_/gameId/401873294/bills-browns",
+          "href": "https://www.espn.com/nfl/game?gameId=401873294",
           "text": "Gamecast",
           "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873294",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873294",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
           "isExternal": false,
           "isPremium": false
         }
@@ -140,17 +192,17 @@
       "competitions": [
         {
           "status": {
-            "clock": 0.0,
-            "displayClock": "0:00",
-            "period": 0,
+            "clock": 498.0,
+            "displayClock": "8:18",
+            "period": 1,
             "type": {
-              "id": "1",
-              "name": "STATUS_SCHEDULED",
-              "state": "pre",
+              "id": "2",
+              "name": "STATUS_IN_PROGRESS",
+              "state": "in",
               "completed": false,
-              "description": "Scheduled",
-              "detail": "Sat, August 22nd at 1:00 PM EDT",
-              "shortDetail": "8/22 - 1:00 PM EDT"
+              "description": "In Progress",
+              "detail": "8:18 - 1st Quarter",
+              "shortDetail": "8:18 - 1st"
             },
             "isTBDFlex": false
           },
@@ -184,7 +236,7 @@
             },
             {
               "homeAway": "away",
-              "score": "0",
+              "score": "7",
               "records": [
                 {
                   "name": "overall",
@@ -221,13 +273,39 @@
         {
           "language": "en-US",
           "rel": [
-            "summary",
+            "live",
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/game/_/gameId/401873295/falcons-colts",
+          "href": "https://www.espn.com/nfl/game?gameId=401873295",
           "text": "Gamecast",
           "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873295",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873295",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
           "isExternal": false,
           "isPremium": false
         }
@@ -243,24 +321,24 @@
       "competitions": [
         {
           "status": {
-            "clock": 0.0,
-            "displayClock": "0:00",
-            "period": 0,
+            "clock": 120.0,
+            "displayClock": "2:00",
+            "period": 2,
             "type": {
-              "id": "1",
-              "name": "STATUS_SCHEDULED",
-              "state": "pre",
+              "id": "2",
+              "name": "STATUS_IN_PROGRESS",
+              "state": "in",
               "completed": false,
-              "description": "Scheduled",
-              "detail": "Sat, August 22nd at 1:00 PM EDT",
-              "shortDetail": "8/22 - 1:00 PM EDT"
+              "description": "In Progress",
+              "detail": "2:00 - 2nd Quarter",
+              "shortDetail": "2:00 - 2nd"
             },
             "isTBDFlex": false
           },
           "competitors": [
             {
               "homeAway": "home",
-              "score": "0",
+              "score": "6",
               "records": [
                 {
                   "name": "overall",
@@ -287,7 +365,7 @@
             },
             {
               "homeAway": "away",
-              "score": "0",
+              "score": "17",
               "records": [
                 {
                   "name": "overall",
@@ -324,13 +402,39 @@
         {
           "language": "en-US",
           "rel": [
-            "summary",
+            "live",
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/game/_/gameId/401873291/ravens-vikings",
+          "href": "https://www.espn.com/nfl/game?gameId=401873291",
           "text": "Gamecast",
           "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873291",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873291",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
           "isExternal": false,
           "isPremium": false
         }
@@ -348,22 +452,22 @@
           "status": {
             "clock": 0.0,
             "displayClock": "0:00",
-            "period": 0,
+            "period": 2,
             "type": {
-              "id": "1",
-              "name": "STATUS_SCHEDULED",
-              "state": "pre",
+              "id": "23",
+              "name": "STATUS_HALFTIME",
+              "state": "in",
               "completed": false,
-              "description": "Scheduled",
-              "detail": "Sat, August 22nd at 1:00 PM EDT",
-              "shortDetail": "8/22 - 1:00 PM EDT"
+              "description": "Halftime",
+              "detail": "Halftime",
+              "shortDetail": "Halftime"
             },
             "isTBDFlex": false
           },
           "competitors": [
             {
               "homeAway": "home",
-              "score": "0",
+              "score": "3",
               "records": [
                 {
                   "name": "overall",
@@ -390,7 +494,7 @@
             },
             {
               "homeAway": "away",
-              "score": "0",
+              "score": "3",
               "records": [
                 {
                   "name": "overall",
@@ -1911,5 +2015,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-08-22T12:31:59.251657Z"
+  "lastUpdated": "2026-08-22T18:24:36.292724Z"
 }
