@@ -38,6 +38,7 @@ def filter_payload(data):
                 'links': event.get('links', []),
                 'season': event.get('season', {}),
                 'week': event.get('week', {}),
+                'status': event.get('status', comp.get('status', {})),
                 'competitions': [{
                     'status': comp.get('status', {}),
                     'competitors': [
