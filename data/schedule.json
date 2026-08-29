@@ -24,6 +24,57 @@
           "shortText": "Gamecast",
           "isExternal": false,
           "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873308",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401873308",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873308",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401873308",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
         }
       ],
       "season": {
@@ -37,15 +88,15 @@
       "status": {
         "clock": 0.0,
         "displayClock": "0:00",
-        "period": 0,
+        "period": 4,
         "type": {
-          "id": "1",
-          "name": "STATUS_SCHEDULED",
-          "state": "pre",
-          "completed": false,
-          "description": "Scheduled",
-          "detail": "Sat, August 29th at 1:00 PM EDT",
-          "shortDetail": "8/29 - 1:00 PM EDT"
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
         }
       },
       "competitions": [
@@ -53,33 +104,33 @@
           "status": {
             "clock": 0.0,
             "displayClock": "0:00",
-            "period": 0,
+            "period": 4,
             "type": {
-              "id": "1",
-              "name": "STATUS_SCHEDULED",
-              "state": "pre",
-              "completed": false,
-              "description": "Scheduled",
-              "detail": "Sat, August 29th at 1:00 PM EDT",
-              "shortDetail": "8/29 - 1:00 PM EDT"
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
             },
             "isTBDFlex": false
           },
           "competitors": [
             {
               "homeAway": "home",
-              "score": "0",
+              "score": "16",
               "records": [
                 {
                   "name": "overall",
-                  "abbreviation": "Any",
+                  "abbreviation": "Game",
                   "type": "total",
-                  "summary": "0-1-1"
+                  "summary": "0-2-1"
                 },
                 {
                   "name": "Home",
                   "type": "home",
-                  "summary": "0-1"
+                  "summary": "0-2"
                 },
                 {
                   "name": "Road",
@@ -95,13 +146,13 @@
             },
             {
               "homeAway": "away",
-              "score": "0",
+              "score": "25",
               "records": [
                 {
                   "name": "overall",
-                  "abbreviation": "Any",
+                  "abbreviation": "Game",
                   "type": "total",
-                  "summary": "1-1"
+                  "summary": "2-1"
                 },
                 {
                   "name": "Home",
@@ -111,7 +162,7 @@
                 {
                   "name": "Road",
                   "type": "road",
-                  "summary": "0-1"
+                  "summary": "1-1"
                 }
               ],
               "team": {
@@ -2581,5 +2632,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-08-29T12:15:01.741457Z"
+  "lastUpdated": "2026-08-29T20:22:32.517173Z"
 }
