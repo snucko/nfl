@@ -15,13 +15,39 @@
         {
           "language": "en-US",
           "rel": [
-            "summary",
+            "live",
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/game/_/gameId/401872656/patriots-seahawks",
+          "href": "https://www.espn.com/nfl/game?gameId=401872656",
           "text": "Gamecast",
           "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401872656",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401872656",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
           "isExternal": false,
           "isPremium": false
         }
@@ -35,40 +61,40 @@
         "number": 1
       },
       "status": {
-        "clock": 0.0,
-        "displayClock": "0:00",
-        "period": 0,
+        "clock": 350.0,
+        "displayClock": "5:50",
+        "period": 4,
         "type": {
-          "id": "1",
-          "name": "STATUS_SCHEDULED",
-          "state": "pre",
+          "id": "2",
+          "name": "STATUS_IN_PROGRESS",
+          "state": "in",
           "completed": false,
-          "description": "Scheduled",
-          "detail": "Wed, September 9th at 8:20 PM EDT",
-          "shortDetail": "9/9 - 8:20 PM EDT"
+          "description": "In Progress",
+          "detail": "5:50 - 4th Quarter",
+          "shortDetail": "5:50 - 4th"
         }
       },
       "competitions": [
         {
           "status": {
-            "clock": 0.0,
-            "displayClock": "0:00",
-            "period": 0,
+            "clock": 350.0,
+            "displayClock": "5:50",
+            "period": 4,
             "type": {
-              "id": "1",
-              "name": "STATUS_SCHEDULED",
-              "state": "pre",
+              "id": "2",
+              "name": "STATUS_IN_PROGRESS",
+              "state": "in",
               "completed": false,
-              "description": "Scheduled",
-              "detail": "Wed, September 9th at 8:20 PM EDT",
-              "shortDetail": "9/9 - 8:20 PM EDT"
+              "description": "In Progress",
+              "detail": "5:50 - 4th Quarter",
+              "shortDetail": "5:50 - 4th"
             },
             "isTBDFlex": false
           },
           "competitors": [
             {
               "homeAway": "home",
-              "score": "0",
+              "score": "13",
               "records": [
                 {
                   "name": "overall",
@@ -95,7 +121,7 @@
             },
             {
               "homeAway": "away",
-              "score": "0",
+              "score": "10",
               "records": [
                 {
                   "name": "overall",
@@ -1880,5 +1906,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-09T20:22:58.765730Z"
+  "lastUpdated": "2026-09-10T03:00:39.172018Z"
 }
