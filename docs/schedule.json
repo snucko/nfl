@@ -8,149 +8,6 @@
   },
   "events": [
     {
-      "id": "401872657",
-      "name": "San Francisco 49ers at Los Angeles Rams",
-      "date": "2026-09-11T00:35Z",
-      "links": [
-        {
-          "language": "en-US",
-          "rel": [
-            "live",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/game?gameId=401872657",
-          "text": "Gamecast",
-          "shortText": "Gamecast",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "boxscore",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401872657",
-          "text": "Box Score",
-          "shortText": "Box Score",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "pbp",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401872657",
-          "text": "Play-by-Play",
-          "shortText": "Play-by-Play",
-          "isExternal": false,
-          "isPremium": false
-        }
-      ],
-      "season": {
-        "year": 2026,
-        "type": 2,
-        "slug": "regular-season"
-      },
-      "week": {
-        "number": 1
-      },
-      "status": {
-        "clock": 629.0,
-        "displayClock": "10:29",
-        "period": 4,
-        "type": {
-          "id": "2",
-          "name": "STATUS_IN_PROGRESS",
-          "state": "in",
-          "completed": false,
-          "description": "In Progress",
-          "detail": "10:29 - 4th Quarter",
-          "shortDetail": "10:29 - 4th"
-        }
-      },
-      "competitions": [
-        {
-          "status": {
-            "clock": 629.0,
-            "displayClock": "10:29",
-            "period": 4,
-            "type": {
-              "id": "2",
-              "name": "STATUS_IN_PROGRESS",
-              "state": "in",
-              "completed": false,
-              "description": "In Progress",
-              "detail": "10:29 - 4th Quarter",
-              "shortDetail": "10:29 - 4th"
-            },
-            "isTBDFlex": false
-          },
-          "competitors": [
-            {
-              "homeAway": "home",
-              "score": "7",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "0-0"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "0-0"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "0-0"
-                }
-              ],
-              "team": {
-                "abbreviation": "LAR",
-                "displayName": "Los Angeles Rams",
-                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png"
-              }
-            },
-            {
-              "homeAway": "away",
-              "score": "24",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "0-0"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "0-0"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "0-0"
-                }
-              ],
-              "team": {
-                "abbreviation": "SF",
-                "displayName": "San Francisco 49ers",
-                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "401872656",
       "name": "New England Patriots at Seattle Seahawks",
       "date": "2026-09-10T00:20Z",
@@ -312,6 +169,174 @@
                 "abbreviation": "NE",
                 "displayName": "New England Patriots",
                 "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401872657",
+      "name": "San Francisco 49ers at Los Angeles Rams",
+      "date": "2026-09-11T00:35Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401872657/49ers-rams",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401872657",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401872657",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401872657",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401872657",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 1
+      },
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "7",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "0-1"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
+              "team": {
+                "abbreviation": "LAR",
+                "displayName": "Los Angeles Rams",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "27",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "1-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "1-0"
+                }
+              ],
+              "team": {
+                "abbreviation": "SF",
+                "displayName": "San Francisco 49ers",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png"
               }
             }
           ]
@@ -1957,5 +1982,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-11T02:56:45.575509Z"
+  "lastUpdated": "2026-09-11T10:34:30.914800Z"
 }
