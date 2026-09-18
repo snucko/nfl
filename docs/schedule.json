@@ -15,11 +15,11 @@
         {
           "language": "en-US",
           "rel": [
-            "live",
+            "summary",
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/game?gameId=401872932",
+          "href": "https://www.espn.com/nfl/game/_/gameId/401872932/lions-bills",
           "text": "Gamecast",
           "shortText": "Gamecast",
           "isExternal": false,
@@ -41,6 +41,18 @@
         {
           "language": "en-US",
           "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401872932",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
             "pbp",
             "desktop",
             "event"
@@ -48,6 +60,19 @@
           "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401872932",
           "text": "Play-by-Play",
           "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401872932",
+          "text": "Recap",
+          "shortText": "Recap",
           "isExternal": false,
           "isPremium": false
         }
@@ -61,51 +86,51 @@
         "number": 2
       },
       "status": {
-        "clock": 365.0,
-        "displayClock": "6:05",
+        "clock": 0.0,
+        "displayClock": "0:00",
         "period": 4,
         "type": {
-          "id": "2",
-          "name": "STATUS_IN_PROGRESS",
-          "state": "in",
-          "completed": false,
-          "description": "In Progress",
-          "detail": "6:05 - 4th Quarter",
-          "shortDetail": "6:05 - 4th"
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
         }
       },
       "competitions": [
         {
           "status": {
-            "clock": 365.0,
-            "displayClock": "6:05",
+            "clock": 0.0,
+            "displayClock": "0:00",
             "period": 4,
             "type": {
-              "id": "2",
-              "name": "STATUS_IN_PROGRESS",
-              "state": "in",
-              "completed": false,
-              "description": "In Progress",
-              "detail": "6:05 - 4th Quarter",
-              "shortDetail": "6:05 - 4th"
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
             },
             "isTBDFlex": false
           },
           "competitors": [
             {
               "homeAway": "home",
-              "score": "34",
+              "score": "41",
               "records": [
                 {
                   "name": "overall",
-                  "abbreviation": "Any",
+                  "abbreviation": "Game",
                   "type": "total",
-                  "summary": "1-0"
+                  "summary": "2-0"
                 },
                 {
                   "name": "Home",
                   "type": "home",
-                  "summary": "0-0"
+                  "summary": "1-0"
                 },
                 {
                   "name": "Road",
@@ -121,13 +146,13 @@
             },
             {
               "homeAway": "away",
-              "score": "24",
+              "score": "31",
               "records": [
                 {
                   "name": "overall",
-                  "abbreviation": "Any",
+                  "abbreviation": "Game",
                   "type": "total",
-                  "summary": "1-0"
+                  "summary": "1-1"
                 },
                 {
                   "name": "Home",
@@ -137,7 +162,7 @@
                 {
                   "name": "Road",
                   "type": "road",
-                  "summary": "0-0"
+                  "summary": "0-1"
                 }
               ],
               "team": {
@@ -1906,5 +1931,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-09-18T03:07:48.173012Z"
+  "lastUpdated": "2026-09-18T10:32:07.728275Z"
 }
