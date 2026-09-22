@@ -8,161 +8,6 @@
   },
   "events": [
     {
-      "id": "401872947",
-      "name": "New York Giants at Los Angeles Rams",
-      "date": "2026-09-22T00:15Z",
-      "links": [
-        {
-          "language": "en-US",
-          "rel": [
-            "summary",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/game/_/gameId/401872947/giants-rams",
-          "text": "Gamecast",
-          "shortText": "Gamecast",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "boxscore",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401872947",
-          "text": "Box Score",
-          "shortText": "Box Score",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "highlights",
-            "desktop"
-          ],
-          "href": "https://www.espn.com/nfl/video?gameId=401872947",
-          "text": "Highlights",
-          "shortText": "Highlights",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "pbp",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401872947",
-          "text": "Play-by-Play",
-          "shortText": "Play-by-Play",
-          "isExternal": false,
-          "isPremium": false
-        }
-      ],
-      "season": {
-        "year": 2026,
-        "type": 2,
-        "slug": "regular-season"
-      },
-      "week": {
-        "number": 2
-      },
-      "status": {
-        "clock": 0.0,
-        "displayClock": "0:00",
-        "period": 4,
-        "type": {
-          "id": "3",
-          "name": "STATUS_FINAL",
-          "state": "post",
-          "completed": true,
-          "description": "Final",
-          "detail": "Final",
-          "shortDetail": "Final"
-        }
-      },
-      "competitions": [
-        {
-          "status": {
-            "clock": 0.0,
-            "displayClock": "0:00",
-            "period": 4,
-            "type": {
-              "id": "3",
-              "name": "STATUS_FINAL",
-              "state": "post",
-              "completed": true,
-              "description": "Final",
-              "detail": "Final",
-              "shortDetail": "Final"
-            },
-            "isTBDFlex": false
-          },
-          "competitors": [
-            {
-              "homeAway": "home",
-              "score": "28",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Game",
-                  "type": "total",
-                  "summary": "1-1"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "1-1"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "0-0"
-                }
-              ],
-              "team": {
-                "abbreviation": "LAR",
-                "displayName": "Los Angeles Rams",
-                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png"
-              }
-            },
-            {
-              "homeAway": "away",
-              "score": "6",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Game",
-                  "type": "total",
-                  "summary": "1-1"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "1-0"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "0-1"
-                }
-              ],
-              "team": {
-                "abbreviation": "NYG",
-                "displayName": "New York Giants",
-                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "401872932",
       "name": "Detroit Lions at Buffalo Bills",
       "date": "2026-09-18T00:15Z",
@@ -277,7 +122,7 @@
               "score": "41",
               "records": [
                 {
-                  "name": "overall",
+                  "name": "YTD",
                   "abbreviation": "Game",
                   "type": "total",
                   "summary": "2-0"
@@ -613,7 +458,7 @@
               "score": "3",
               "records": [
                 {
-                  "name": "overall",
+                  "name": "YTD",
                   "abbreviation": "Game",
                   "type": "total",
                   "summary": "1-1"
@@ -1287,7 +1132,7 @@
               "score": "19",
               "records": [
                 {
-                  "name": "overall",
+                  "name": "YTD",
                   "abbreviation": "Game",
                   "type": "total",
                   "summary": "0-2"
@@ -1959,7 +1804,7 @@
               "score": "14",
               "records": [
                 {
-                  "name": "overall",
+                  "name": "YTD",
                   "abbreviation": "Game",
                   "type": "total",
                   "summary": "0-2"
@@ -2685,7 +2530,175 @@
           ]
         }
       ]
+    },
+    {
+      "id": "401872947",
+      "name": "New York Giants at Los Angeles Rams",
+      "date": "2026-09-22T00:15Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401872947/giants-rams",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401872947",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401872947",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401872947",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401872947",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 2
+      },
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "28",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "1-1"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-0"
+                }
+              ],
+              "team": {
+                "abbreviation": "LAR",
+                "displayName": "Los Angeles Rams",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "6",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "1-1"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-1"
+                }
+              ],
+              "team": {
+                "abbreviation": "NYG",
+                "displayName": "New York Giants",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png"
+              }
+            }
+          ]
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-09-22T03:15:01.969502Z"
+  "lastUpdated": "2026-09-22T10:56:39.592343Z"
 }
