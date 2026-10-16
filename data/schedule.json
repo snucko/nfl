@@ -117,11 +117,11 @@
         {
           "language": "en-US",
           "rel": [
-            "live",
+            "summary",
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/game?gameId=401872995",
+          "href": "https://www.espn.com/nfl/game/_/gameId/401872995/seahawks-broncos",
           "text": "Gamecast",
           "shortText": "Gamecast",
           "isExternal": false,
@@ -164,6 +164,19 @@
           "shortText": "Play-by-Play",
           "isExternal": false,
           "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401872995",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
         }
       ],
       "season": {
@@ -175,51 +188,53 @@
         "number": 6
       },
       "status": {
-        "clock": 204.0,
-        "displayClock": "3:24",
-        "period": 4,
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 5,
         "type": {
-          "id": "2",
-          "name": "STATUS_IN_PROGRESS",
-          "state": "in",
-          "completed": false,
-          "description": "In Progress",
-          "detail": "3:24 - 4th Quarter",
-          "shortDetail": "3:24 - 4th"
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final/OT",
+          "shortDetail": "Final/OT",
+          "altDetail": "OT"
         }
       },
       "competitions": [
         {
           "status": {
-            "clock": 204.0,
-            "displayClock": "3:24",
-            "period": 4,
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 5,
             "type": {
-              "id": "2",
-              "name": "STATUS_IN_PROGRESS",
-              "state": "in",
-              "completed": false,
-              "description": "In Progress",
-              "detail": "3:24 - 4th Quarter",
-              "shortDetail": "3:24 - 4th"
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final/OT",
+              "shortDetail": "Final/OT",
+              "altDetail": "OT"
             },
             "isTBDFlex": false
           },
           "competitors": [
             {
               "homeAway": "home",
-              "score": "14",
+              "score": "17",
               "records": [
                 {
                   "name": "overall",
-                  "abbreviation": "Any",
+                  "abbreviation": "Game",
                   "type": "total",
-                  "summary": "3-2"
+                  "summary": "4-2"
                 },
                 {
                   "name": "Home",
                   "type": "home",
-                  "summary": "2-0"
+                  "summary": "3-0"
                 },
                 {
                   "name": "Road",
@@ -235,13 +250,13 @@
             },
             {
               "homeAway": "away",
-              "score": "11",
+              "score": "14",
               "records": [
                 {
                   "name": "overall",
-                  "abbreviation": "Any",
+                  "abbreviation": "Game",
                   "type": "total",
-                  "summary": "3-2"
+                  "summary": "3-3"
                 },
                 {
                   "name": "Home",
@@ -251,7 +266,7 @@
                 {
                   "name": "Road",
                   "type": "road",
-                  "summary": "1-1"
+                  "summary": "1-2"
                 }
               ],
               "team": {
@@ -1786,5 +1801,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-16T03:04:06.756934Z"
+  "lastUpdated": "2026-10-16T10:39:45.162215Z"
 }
