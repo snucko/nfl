@@ -117,13 +117,51 @@
         {
           "language": "en-US",
           "rel": [
-            "summary",
+            "live",
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/game/_/gameId/401872995/seahawks-broncos",
+          "href": "https://www.espn.com/nfl/game?gameId=401872995",
           "text": "Gamecast",
           "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401872995",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401872995",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401872995",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
           "isExternal": false,
           "isPremium": false
         }
@@ -137,40 +175,40 @@
         "number": 6
       },
       "status": {
-        "clock": 0.0,
-        "displayClock": "0:00",
-        "period": 0,
+        "clock": 204.0,
+        "displayClock": "3:24",
+        "period": 4,
         "type": {
-          "id": "1",
-          "name": "STATUS_SCHEDULED",
-          "state": "pre",
+          "id": "2",
+          "name": "STATUS_IN_PROGRESS",
+          "state": "in",
           "completed": false,
-          "description": "Scheduled",
-          "detail": "Thu, October 15th at 8:15 PM EDT",
-          "shortDetail": "10/15 - 8:15 PM EDT"
+          "description": "In Progress",
+          "detail": "3:24 - 4th Quarter",
+          "shortDetail": "3:24 - 4th"
         }
       },
       "competitions": [
         {
           "status": {
-            "clock": 0.0,
-            "displayClock": "0:00",
-            "period": 0,
+            "clock": 204.0,
+            "displayClock": "3:24",
+            "period": 4,
             "type": {
-              "id": "1",
-              "name": "STATUS_SCHEDULED",
-              "state": "pre",
+              "id": "2",
+              "name": "STATUS_IN_PROGRESS",
+              "state": "in",
               "completed": false,
-              "description": "Scheduled",
-              "detail": "Thu, October 15th at 8:15 PM EDT",
-              "shortDetail": "10/15 - 8:15 PM EDT"
+              "description": "In Progress",
+              "detail": "3:24 - 4th Quarter",
+              "shortDetail": "3:24 - 4th"
             },
             "isTBDFlex": false
           },
           "competitors": [
             {
               "homeAway": "home",
-              "score": "0",
+              "score": "14",
               "records": [
                 {
                   "name": "overall",
@@ -197,7 +235,7 @@
             },
             {
               "homeAway": "away",
-              "score": "0",
+              "score": "11",
               "records": [
                 {
                   "name": "overall",
@@ -1748,5 +1786,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-15T20:54:35.568191Z"
+  "lastUpdated": "2026-10-16T03:04:06.756934Z"
 }
