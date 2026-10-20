@@ -17,7 +17,7 @@
         </div>
         <div class="col">
           <div class="row row--center">
-            {% if game.status.type.state == "in" %}
+            {% if game.status.type.state == "in" or game.status.type.state == "post" %}
               <span class="value value--large">{{ away.score }}-{{ home.score }}</span>
               <div class="status">{{ game.status.type.shortDetail }}</div>
             {% else %}

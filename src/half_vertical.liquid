@@ -14,7 +14,7 @@
         {% endfor %}
       </div>
       <div class="value">
-        {% if event.status.type.state == "in" %}
+        {% if event.status.type.state == "in" or event.status.type.state == "post" %}
           {{ teams[0].score }}-{{ teams[1].score }}
         {% else %}
           {{ event.status.type.shortDetail }}
