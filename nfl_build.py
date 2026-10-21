@@ -9,18 +9,33 @@ import json
 import os
 from datetime import datetime, UTC
 
-def fetch_nfl_data():
-    """Fetch live NFL data from ESPN API"""
+def fetch_nfl_data(week=None, seasontype=None):
+    """Fetch NFL data from ESPN API. With no args, returns the current week."""
     url = "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"
+    params = {}
+    if week is not None:
+        params["week"] = week
+    if seasontype is not None:
+        params["seasontype"] = seasontype
     try:
-        response = requests.get(url, timeout=10)
+        response = requests.get(url, params=params, timeout=10)
         response.raise_for_status()
         return response.json()
     except Exception as e:
         print(f"Error fetching ESPN data: {e}")
         return None
 
-def filter_payload(data):
+def all_games_not_started(data):
+    """True if every event in this payload is still in the 'pre' (not started) state."""
+    events = data.get('events', [])
+    if not events:
+        return True
+    return all(
+        e.get('competitions', [{}])[0].get('status', {}).get('type', {}).get('state') == 'pre'
+        for e in events
+    )
+
+def filter_payload(data, is_previous_week=False):
     """Filter ESPN payload to minimal JSON (~20KB instead of 210KB)"""
     if not data or 'events' not in data:
         return None
@@ -65,6 +80,7 @@ def filter_payload(data):
         'season': data.get('season', {}),
         'week': data.get('week', {}),
         'events': filtered_events,
+        'isPreviousWeek': is_previous_week,
         'lastUpdated': datetime.now(UTC).isoformat().replace('+00:00', 'Z')
     }
 
@@ -79,14 +95,29 @@ def save_schedule(data, filepath):
 def main():
     print("Fetching NFL schedule from ESPN...")
     raw_data = fetch_nfl_data()
-    
+
     if not raw_data:
         print("Failed to fetch data")
         return
-    
+
     print(f"Raw ESPN payload: {len(json.dumps(raw_data))/1024:.1f} KB")
-    
-    filtered_data = filter_payload(raw_data)
+
+    is_previous_week = False
+    if all_games_not_started(raw_data):
+        current_week = raw_data.get('week', {}).get('number')
+        seasontype = raw_data.get('season', {}).get('type')
+        if current_week and current_week > 1:
+            print(f"No games started yet in week {current_week}; falling back to week {current_week - 1}'s final scores...")
+            prev_data = fetch_nfl_data(week=current_week - 1, seasontype=seasontype)
+            if prev_data and prev_data.get('events'):
+                raw_data = prev_data
+                is_previous_week = True
+            else:
+                print("Could not fetch previous week; showing current (upcoming) week as-is")
+        else:
+            print("No games started yet, and no previous week to fall back to (week 1 or missing week number)")
+
+    filtered_data = filter_payload(raw_data, is_previous_week=is_previous_week)
     if not filtered_data:
         print("Failed to filter data")
         return

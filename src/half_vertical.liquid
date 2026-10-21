@@ -1,7 +1,7 @@
 <div class="view view--half_vertical">
   <div class="layout">
     <div class="title-bar">
-      <span class="title">NFL Week {{ week.number }}</span>
+      <span class="title">NFL Week {{ week.number }}{% if isPreviousWeek %} (Final){% endif %}</span>
     </div>
 
     {% for event in events limit:8 %}
