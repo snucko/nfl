@@ -3,32 +3,30 @@
 {% assign home = matchup | where: "homeAway", "home" | first %}
 {% assign away = matchup | where: "homeAway", "away" | first %}
 
-<div class="view view--quadrant">
-  <div class="layout">
-    <div class="title-bar">
-      <span class="title">NFL{% if isPreviousWeek %} (Final){% endif %}</span>
-    </div>
+<div class="layout">
+  <div class="title_bar">
+    <span class="title">NFL{% if isPreviousWeek %} (Final){% endif %}</span>
+  </div>
 
-    <div class="flex flex--center-x">
-      <div class="flex flex--row">
-        <div class="">
-          <img src="{{ matchup[0].team.logo }}" alt="{{ matchup[0].team.displayName }}" width="40">
-          <div><small>{{ matchup[0].records[0].summary }}</small></div>
+  <div class="flex flex--center-x">
+    <div class="flex flex--row">
+      <div class="">
+        <img src="{{ matchup[0].team.logo }}" alt="{{ matchup[0].team.displayName }}" width="40">
+        <div><small>{{ matchup[0].records[0].summary }}</small></div>
+      </div>
+      <div class="col">
+        <div class="row row--center">
+          {% if game.status.type.state == "in" or game.status.type.state == "post" %}
+            <span class="value value--large">{{ away.score }}-{{ home.score }}</span>
+            <div class="status">{{ game.status.type.shortDetail }}</div>
+          {% else %}
+            <span class="value">{{ game.status.type.shortDetail }}</span>
+          {% endif %}
         </div>
-        <div class="col">
-          <div class="row row--center">
-            {% if game.status.type.state == "in" or game.status.type.state == "post" %}
-              <span class="value value--large">{{ away.score }}-{{ home.score }}</span>
-              <div class="status">{{ game.status.type.shortDetail }}</div>
-            {% else %}
-              <span class="value">{{ game.status.type.shortDetail }}</span>
-            {% endif %}
-          </div>
-        </div>
-        <div class="">
-          <img src="{{ matchup[1].team.logo }}" alt="{{ matchup[1].team.displayName }}" width="40">
-          <div><small>{{ matchup[1].records[0].summary }}</small></div>
-        </div>
+      </div>
+      <div class="">
+        <img src="{{ matchup[1].team.logo }}" alt="{{ matchup[1].team.displayName }}" width="40">
+        <div><small>{{ matchup[1].records[0].summary }}</small></div>
       </div>
     </div>
   </div>

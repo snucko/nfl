@@ -1,28 +1,31 @@
-<div class="view view--half_vertical">
-  <div class="layout">
-    <div class="title-bar">
-      <span class="title">NFL Week {{ week.number }}{% if isPreviousWeek %} (Final){% endif %}</span>
-    </div>
+<div class="layout">
+  <div class="title_bar">
+    <span class="title">NFL Week {{ week.number }}{% if isPreviousWeek %} (Final){% endif %}</span>
+  </div>
 
+  <div class="list">
     {% for event in events limit:8 %}
     {% assign teams = event.competitions[0].competitors %}
     <div class="item">
-      <div class="label">
-        {% for team in teams %}
-        <img src="{{ team.team.logo }}" alt="{{ team.team.displayName }}" width="20">
-        {{ team.team.abbreviation }}
-        {% endfor %}
-      </div>
-      <div class="value">
-        {% if event.status.type.state == "in" or event.status.type.state == "post" %}
-          {{ teams[0].score }}-{{ teams[1].score }}
-        {% else %}
-          {{ event.status.type.shortDetail }}
-        {% endif %}
+      <div class="meta"></div>
+      <div class="content">
+        <div class="flex flex--row flex--between">
+          <span class="label">
+            {% for team in teams %}
+            <img src="{{ team.team.logo }}" alt="{{ team.team.displayName }}" width="20">
+            {{ team.team.abbreviation }}
+            {% endfor %}
+          </span>
+          <span class="value">
+            {% if event.status.type.state == "in" or event.status.type.state == "post" %}
+              {{ teams[0].score }}-{{ teams[1].score }}
+            {% else %}
+              {{ event.status.type.shortDetail }}
+            {% endif %}
+          </span>
+        </div>
       </div>
     </div>
     {% endfor %}
   </div>
 </div>
-
-

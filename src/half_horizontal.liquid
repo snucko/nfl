@@ -3,57 +3,55 @@
 {% assign home = matchup | where: "homeAway", "home" | first %}
 {% assign away = matchup | where: "homeAway", "away" | first %}
 
-<div class="mashup mashup--1Tx1B">
-  <div class="view view--half_horizontal">
-    <div class="layout">
-      <div class="flex flex--row flex--center-x">
-        <div class="flex flex--row">
-          <div class="">
-            <img src="{{ matchup[0].team.logo }}" alt="{{ matchup[0].team.displayName }}" width="60">
-            <div><strong>{{ matchup[0].team.displayName }}</strong></div>
-            <div><small>{{ matchup[0].records[0].summary }}</small></div>
-          </div>
-          <div class="col">
-            <div class="row row--center">
-              {% if game.status.type.state == "in" or game.status.type.state == "post" %}
-                <span class="value">{{ away.score }}-{{ home.score }}</span>
-                <div class="status">{{ game.status.type.shortDetail }}</div>
-              {% else %}
-                <span class="value value--small">{{ game.status.type.shortDetail }}</span>
-              {% endif %}
-            </div>
-          </div>
-          <div class="">
-            <img src="{{ matchup[1].team.logo }}" alt="{{ matchup[1].team.displayName }}" width="60">
-            <div><strong>{{ matchup[1].team.displayName }}</strong></div>
-            <div><small>{{ matchup[1].records[0].summary }}</small></div>
-          </div>
+<div class="layout layout--col gap">
+  <div class="flex flex--row flex--center-x">
+    <div class="flex flex--row">
+      <div class="">
+        <img src="{{ matchup[0].team.logo }}" alt="{{ matchup[0].team.displayName }}" width="60">
+        <div><strong>{{ matchup[0].team.displayName }}</strong></div>
+        <div><small>{{ matchup[0].records[0].summary }}</small></div>
+      </div>
+      <div class="col">
+        <div class="row row--center">
+          {% if game.status.type.state == "in" or game.status.type.state == "post" %}
+            <span class="value">{{ away.score }}-{{ home.score }}</span>
+            <div class="status">{{ game.status.type.shortDetail }}</div>
+          {% else %}
+            <span class="value value--small">{{ game.status.type.shortDetail }}</span>
+          {% endif %}
         </div>
+      </div>
+      <div class="">
+        <img src="{{ matchup[1].team.logo }}" alt="{{ matchup[1].team.displayName }}" width="60">
+        <div><strong>{{ matchup[1].team.displayName }}</strong></div>
+        <div><small>{{ matchup[1].records[0].summary }}</small></div>
       </div>
     </div>
   </div>
 
-  <div class="view view--half_horizontal">
-    <div class="layout">
-      {% assign rest = events | slice:1,3 %}
-      <div class="grid grid--cols-3">
-        {% for game in rest %}
-        {% assign teams = game.competitions[0].competitors %}
-        <div class="col layout--center">
-          {% for team in teams %}
-          <img src="{{ team.team.logo }}" alt="{{ team.team.displayName }}" width="20">
-          <div><small>{{ team.team.abbreviation }}</small></div>
-          {% endfor %}
-          {% if game.status.type.state == "in" or game.status.type.state == "post" %}
-            <small>{{ teams[0].score }}-{{ teams[1].score }}</small>
-          {% else %}
-            <small>{{ game.status.type.shortDetail }}</small>
-          {% endif %}
-        </div>
-        {% endfor %}
-      </div>
+  <div class="divider"></div>
+
+  {% assign rest = events | slice:1,3 %}
+  <div class="grid grid--cols-3">
+    {% for game in rest %}
+    {% assign teams = game.competitions[0].competitors %}
+    <div class="col layout--center">
+      {% for team in teams %}
+      <img src="{{ team.team.logo }}" alt="{{ team.team.displayName }}" width="20">
+      <div><small>{{ team.team.abbreviation }}</small></div>
+      {% endfor %}
+      {% if game.status.type.state == "in" or game.status.type.state == "post" %}
+        <small>{{ teams[0].score }}-{{ teams[1].score }}</small>
+      {% else %}
+        <small>{{ game.status.type.shortDetail }}</small>
+      {% endif %}
     </div>
+    {% endfor %}
   </div>
+</div>
+
+<div class="title_bar">
+  <span class="title">NFL Week {{ week.number }}{% if isPreviousWeek %} (Final){% endif %}</span>
 </div>
 
 <style>
