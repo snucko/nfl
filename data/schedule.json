@@ -110,9 +110,9 @@
   },
   "events": [
     {
-      "id": "401873016",
-      "name": "New York Giants at Houston Texans",
-      "date": "2026-10-25T17:00Z",
+      "id": "401873022",
+      "name": "Kansas City Chiefs at Seattle Seahawks",
+      "date": "2026-10-26T00:20Z",
       "links": [
         {
           "language": "en-US",
@@ -121,7 +121,7 @@
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/game?gameId=401873016",
+          "href": "https://www.espn.com/nfl/game?gameId=401873022",
           "text": "Gamecast",
           "shortText": "Gamecast",
           "isExternal": false,
@@ -134,7 +134,7 @@
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873016",
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873022",
           "text": "Box Score",
           "shortText": "Box Score",
           "isExternal": false,
@@ -147,7 +147,7 @@
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873016",
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873022",
           "text": "Play-by-Play",
           "shortText": "Play-by-Play",
           "isExternal": false,
@@ -163,205 +163,62 @@
         "number": 7
       },
       "status": {
-        "clock": 453.0,
-        "displayClock": "7:33",
-        "period": 5,
+        "clock": 193.0,
+        "displayClock": "3:13",
+        "period": 4,
         "type": {
           "id": "2",
           "name": "STATUS_IN_PROGRESS",
           "state": "in",
           "completed": false,
           "description": "In Progress",
-          "detail": "7:33 - OT",
-          "shortDetail": "7:33 - OT"
+          "detail": "3:13 - 4th Quarter",
+          "shortDetail": "3:13 - 4th"
         }
       },
       "competitions": [
         {
           "status": {
-            "clock": 453.0,
-            "displayClock": "7:33",
-            "period": 5,
+            "clock": 193.0,
+            "displayClock": "3:13",
+            "period": 4,
             "type": {
               "id": "2",
               "name": "STATUS_IN_PROGRESS",
               "state": "in",
               "completed": false,
               "description": "In Progress",
-              "detail": "7:33 - OT",
-              "shortDetail": "7:33 - OT"
+              "detail": "3:13 - 4th Quarter",
+              "shortDetail": "3:13 - 4th"
             },
             "isTBDFlex": false
           },
           "competitors": [
             {
               "homeAway": "home",
-              "score": "21",
+              "score": "20",
               "records": [
                 {
                   "name": "overall",
                   "abbreviation": "Any",
                   "type": "total",
-                  "summary": "2-4"
+                  "summary": "3-3"
                 },
                 {
                   "name": "Home",
                   "type": "home",
-                  "summary": "0-3"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
                   "summary": "2-1"
-                }
-              ],
-              "team": {
-                "abbreviation": "HOU",
-                "displayName": "Houston Texans",
-                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png"
-              }
-            },
-            {
-              "homeAway": "away",
-              "score": "21",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "3-2-1"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "3-1"
                 },
                 {
                   "name": "Road",
                   "type": "road",
-                  "summary": "0-1-1"
+                  "summary": "1-2"
                 }
               ],
               "team": {
-                "abbreviation": "NYG",
-                "displayName": "New York Giants",
-                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "401873019",
-      "name": "Denver Broncos at Arizona Cardinals",
-      "date": "2026-10-25T20:05Z",
-      "links": [
-        {
-          "language": "en-US",
-          "rel": [
-            "live",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/game?gameId=401873019",
-          "text": "Gamecast",
-          "shortText": "Gamecast",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "boxscore",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873019",
-          "text": "Box Score",
-          "shortText": "Box Score",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "pbp",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873019",
-          "text": "Play-by-Play",
-          "shortText": "Play-by-Play",
-          "isExternal": false,
-          "isPremium": false
-        }
-      ],
-      "season": {
-        "year": 2026,
-        "type": 2,
-        "slug": "regular-season"
-      },
-      "week": {
-        "number": 7
-      },
-      "status": {
-        "clock": 591.0,
-        "displayClock": "9:51",
-        "period": 1,
-        "type": {
-          "id": "2",
-          "name": "STATUS_IN_PROGRESS",
-          "state": "in",
-          "completed": false,
-          "description": "In Progress",
-          "detail": "9:51 - 1st Quarter",
-          "shortDetail": "9:51 - 1st"
-        }
-      },
-      "competitions": [
-        {
-          "status": {
-            "clock": 591.0,
-            "displayClock": "9:51",
-            "period": 1,
-            "type": {
-              "id": "2",
-              "name": "STATUS_IN_PROGRESS",
-              "state": "in",
-              "completed": false,
-              "description": "In Progress",
-              "detail": "9:51 - 1st Quarter",
-              "shortDetail": "9:51 - 1st"
-            },
-            "isTBDFlex": false
-          },
-          "competitors": [
-            {
-              "homeAway": "home",
-              "score": "0",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "2-4"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "0-2"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "2-2"
-                }
-              ],
-              "team": {
-                "abbreviation": "ARI",
-                "displayName": "Arizona Cardinals",
-                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png"
+                "abbreviation": "SEA",
+                "displayName": "Seattle Seahawks",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png"
               }
             },
             {
@@ -372,7 +229,7 @@
                   "name": "overall",
                   "abbreviation": "Any",
                   "type": "total",
-                  "summary": "4-2"
+                  "summary": "5-0"
                 },
                 {
                   "name": "Home",
@@ -382,13 +239,13 @@
                 {
                   "name": "Road",
                   "type": "road",
-                  "summary": "1-2"
+                  "summary": "2-0"
                 }
               ],
               "team": {
-                "abbreviation": "DEN",
-                "displayName": "Denver Broncos",
-                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png"
+                "abbreviation": "KC",
+                "displayName": "Kansas City Chiefs",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png"
               }
             }
           ]
@@ -618,6 +475,19 @@
           "shortText": "Play-by-Play",
           "isExternal": false,
           "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401873017",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
         }
       ],
       "season": {
@@ -771,6 +641,19 @@
           "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873013",
           "text": "Play-by-Play",
           "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401873013",
+          "text": "Recap",
+          "shortText": "Recap",
           "isExternal": false,
           "isPremium": false
         }
@@ -1094,6 +977,19 @@
           "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873015",
           "text": "Play-by-Play",
           "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401873015",
+          "text": "Recap",
+          "shortText": "Recap",
           "isExternal": false,
           "isPremium": false
         }
@@ -1533,6 +1429,344 @@
       ]
     },
     {
+      "id": "401873016",
+      "name": "New York Giants at Houston Texans",
+      "date": "2026-10-25T17:00Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401873016/giants-texans",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873016",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401873016",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873016",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401873016",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 7
+      },
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 5,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final/OT",
+          "shortDetail": "Final/OT",
+          "altDetail": "OT"
+        }
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 5,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final/OT",
+              "shortDetail": "Final/OT",
+              "altDetail": "OT"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "21",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "2-5"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-4"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-1"
+                }
+              ],
+              "team": {
+                "abbreviation": "HOU",
+                "displayName": "Houston Texans",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "27",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "4-2-1"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "3-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "1-1-1"
+                }
+              ],
+              "team": {
+                "abbreviation": "NYG",
+                "displayName": "New York Giants",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401873019",
+      "name": "Denver Broncos at Arizona Cardinals",
+      "date": "2026-10-25T20:05Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401873019/broncos-cardinals",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873019",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401873019",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873019",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401873019",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 7
+      },
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "16",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "2-5"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-3"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-2"
+                }
+              ],
+              "team": {
+                "abbreviation": "ARI",
+                "displayName": "Arizona Cardinals",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "30",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "5-2"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "3-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-2"
+                }
+              ],
+              "team": {
+                "abbreviation": "DEN",
+                "displayName": "Denver Broncos",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "401873020",
       "name": "Green Bay Packers at Detroit Lions",
       "date": "2026-10-25T20:25Z",
@@ -1549,6 +1783,57 @@
           "shortText": "Gamecast",
           "isExternal": false,
           "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873020",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401873020",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873020",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401873020",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
         }
       ],
       "season": {
@@ -1562,15 +1847,15 @@
       "status": {
         "clock": 0.0,
         "displayClock": "0:00",
-        "period": 0,
+        "period": 4,
         "type": {
-          "id": "1",
-          "name": "STATUS_SCHEDULED",
-          "state": "pre",
-          "completed": false,
-          "description": "Scheduled",
-          "detail": "Sun, October 25th at 4:25 PM EDT",
-          "shortDetail": "10/25 - 4:25 PM EDT"
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
         }
       },
       "competitions": [
@@ -1578,33 +1863,33 @@
           "status": {
             "clock": 0.0,
             "displayClock": "0:00",
-            "period": 0,
+            "period": 4,
             "type": {
-              "id": "1",
-              "name": "STATUS_SCHEDULED",
-              "state": "pre",
-              "completed": false,
-              "description": "Scheduled",
-              "detail": "Sun, October 25th at 4:25 PM EDT",
-              "shortDetail": "10/25 - 4:25 PM EDT"
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
             },
             "isTBDFlex": false
           },
           "competitors": [
             {
               "homeAway": "home",
-              "score": "0",
+              "score": "20",
               "records": [
                 {
                   "name": "overall",
-                  "abbreviation": "Any",
+                  "abbreviation": "Game",
                   "type": "total",
-                  "summary": "3-2"
+                  "summary": "4-2"
                 },
                 {
                   "name": "Home",
                   "type": "home",
-                  "summary": "2-0"
+                  "summary": "3-0"
                 },
                 {
                   "name": "Road",
@@ -1620,13 +1905,13 @@
             },
             {
               "homeAway": "away",
-              "score": "0",
+              "score": "17",
               "records": [
                 {
                   "name": "overall",
-                  "abbreviation": "Any",
+                  "abbreviation": "Game",
                   "type": "total",
-                  "summary": "4-2"
+                  "summary": "4-3"
                 },
                 {
                   "name": "Home",
@@ -1636,7 +1921,7 @@
                 {
                   "name": "Road",
                   "type": "road",
-                  "summary": "2-1"
+                  "summary": "2-2"
                 }
               ],
               "team": {
@@ -1666,121 +1951,55 @@
           "shortText": "Gamecast",
           "isExternal": false,
           "isPremium": false
-        }
-      ],
-      "season": {
-        "year": 2026,
-        "type": 2,
-        "slug": "regular-season"
-      },
-      "week": {
-        "number": 7
-      },
-      "status": {
-        "clock": 0.0,
-        "displayClock": "0:00",
-        "period": 0,
-        "type": {
-          "id": "1",
-          "name": "STATUS_SCHEDULED",
-          "state": "pre",
-          "completed": false,
-          "description": "Scheduled",
-          "detail": "Sun, October 25th at 4:25 PM EDT",
-          "shortDetail": "10/25 - 4:25 PM EDT"
-        }
-      },
-      "competitions": [
-        {
-          "status": {
-            "clock": 0.0,
-            "displayClock": "0:00",
-            "period": 0,
-            "type": {
-              "id": "1",
-              "name": "STATUS_SCHEDULED",
-              "state": "pre",
-              "completed": false,
-              "description": "Scheduled",
-              "detail": "Sun, October 25th at 4:25 PM EDT",
-              "shortDetail": "10/25 - 4:25 PM EDT"
-            },
-            "isTBDFlex": false
-          },
-          "competitors": [
-            {
-              "homeAway": "home",
-              "score": "0",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "3-3"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "1-2"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "2-1"
-                }
-              ],
-              "team": {
-                "abbreviation": "LV",
-                "displayName": "Las Vegas Raiders",
-                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png"
-              }
-            },
-            {
-              "homeAway": "away",
-              "score": "0",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "2-4"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "1-3"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "1-1"
-                }
-              ],
-              "team": {
-                "abbreviation": "LAR",
-                "displayName": "Los Angeles Rams",
-                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "401873022",
-      "name": "Kansas City Chiefs at Seattle Seahawks",
-      "date": "2026-10-26T00:20Z",
-      "links": [
+        },
         {
           "language": "en-US",
           "rel": [
-            "summary",
+            "boxscore",
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/game/_/gameId/401873022/chiefs-seahawks",
-          "text": "Gamecast",
-          "shortText": "Gamecast",
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873021",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401873021",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873021",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401873021",
+          "text": "Recap",
+          "shortText": "Recap",
           "isExternal": false,
           "isPremium": false
         }
@@ -1796,15 +2015,15 @@
       "status": {
         "clock": 0.0,
         "displayClock": "0:00",
-        "period": 0,
+        "period": 4,
         "type": {
-          "id": "1",
-          "name": "STATUS_SCHEDULED",
-          "state": "pre",
-          "completed": false,
-          "description": "Scheduled",
-          "detail": "Sun, October 25th at 8:20 PM EDT",
-          "shortDetail": "10/25 - 8:20 PM EDT"
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
         }
       },
       "competitions": [
@@ -1812,71 +2031,71 @@
           "status": {
             "clock": 0.0,
             "displayClock": "0:00",
-            "period": 0,
+            "period": 4,
             "type": {
-              "id": "1",
-              "name": "STATUS_SCHEDULED",
-              "state": "pre",
-              "completed": false,
-              "description": "Scheduled",
-              "detail": "Sun, October 25th at 8:20 PM EDT",
-              "shortDetail": "10/25 - 8:20 PM EDT"
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
             },
             "isTBDFlex": false
           },
           "competitors": [
             {
               "homeAway": "home",
-              "score": "0",
+              "score": "21",
               "records": [
                 {
                   "name": "overall",
-                  "abbreviation": "Any",
+                  "abbreviation": "Game",
                   "type": "total",
-                  "summary": "3-3"
+                  "summary": "3-4"
                 },
                 {
                   "name": "Home",
                   "type": "home",
-                  "summary": "2-1"
+                  "summary": "1-3"
                 },
                 {
                   "name": "Road",
                   "type": "road",
-                  "summary": "1-2"
+                  "summary": "2-1"
                 }
               ],
               "team": {
-                "abbreviation": "SEA",
-                "displayName": "Seattle Seahawks",
-                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png"
+                "abbreviation": "LV",
+                "displayName": "Las Vegas Raiders",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png"
               }
             },
             {
               "homeAway": "away",
-              "score": "0",
+              "score": "35",
               "records": [
                 {
                   "name": "overall",
-                  "abbreviation": "Any",
+                  "abbreviation": "Game",
                   "type": "total",
-                  "summary": "5-0"
+                  "summary": "3-4"
                 },
                 {
                   "name": "Home",
                   "type": "home",
-                  "summary": "3-0"
+                  "summary": "1-3"
                 },
                 {
                   "name": "Road",
                   "type": "road",
-                  "summary": "2-0"
+                  "summary": "2-1"
                 }
               ],
               "team": {
-                "abbreviation": "KC",
-                "displayName": "Kansas City Chiefs",
-                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png"
+                "abbreviation": "LAR",
+                "displayName": "Los Angeles Rams",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png"
               }
             }
           ]
@@ -2158,5 +2377,5 @@
     }
   ],
   "isPreviousWeek": false,
-  "lastUpdated": "2026-10-25T20:21:21.886224Z"
+  "lastUpdated": "2026-10-26T03:08:19.867774Z"
 }
