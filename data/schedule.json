@@ -110,46 +110,20 @@
   },
   "events": [
     {
-      "id": "401873022",
-      "name": "Kansas City Chiefs at Seattle Seahawks",
-      "date": "2026-10-26T00:20Z",
+      "id": "401873009",
+      "name": "Dallas Cowboys at Philadelphia Eagles",
+      "date": "2026-10-27T00:15Z",
       "links": [
         {
           "language": "en-US",
           "rel": [
-            "live",
+            "summary",
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/game?gameId=401873022",
+          "href": "https://www.espn.com/nfl/game/_/gameId/401873009/cowboys-eagles",
           "text": "Gamecast",
           "shortText": "Gamecast",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "boxscore",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873022",
-          "text": "Box Score",
-          "shortText": "Box Score",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "pbp",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873022",
-          "text": "Play-by-Play",
-          "shortText": "Play-by-Play",
           "isExternal": false,
           "isPremium": false
         }
@@ -163,51 +137,51 @@
         "number": 7
       },
       "status": {
-        "clock": 193.0,
-        "displayClock": "3:13",
-        "period": 4,
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 0,
         "type": {
-          "id": "2",
-          "name": "STATUS_IN_PROGRESS",
-          "state": "in",
+          "id": "1",
+          "name": "STATUS_SCHEDULED",
+          "state": "pre",
           "completed": false,
-          "description": "In Progress",
-          "detail": "3:13 - 4th Quarter",
-          "shortDetail": "3:13 - 4th"
+          "description": "Scheduled",
+          "detail": "Mon, October 26th at 8:15 PM EDT",
+          "shortDetail": "10/26 - 8:15 PM EDT"
         }
       },
       "competitions": [
         {
           "status": {
-            "clock": 193.0,
-            "displayClock": "3:13",
-            "period": 4,
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 0,
             "type": {
-              "id": "2",
-              "name": "STATUS_IN_PROGRESS",
-              "state": "in",
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
               "completed": false,
-              "description": "In Progress",
-              "detail": "3:13 - 4th Quarter",
-              "shortDetail": "3:13 - 4th"
+              "description": "Scheduled",
+              "detail": "Mon, October 26th at 8:15 PM EDT",
+              "shortDetail": "10/26 - 8:15 PM EDT"
             },
             "isTBDFlex": false
           },
           "competitors": [
             {
               "homeAway": "home",
-              "score": "20",
+              "score": "0",
               "records": [
                 {
                   "name": "overall",
                   "abbreviation": "Any",
                   "type": "total",
-                  "summary": "3-3"
+                  "summary": "2-4"
                 },
                 {
                   "name": "Home",
                   "type": "home",
-                  "summary": "2-1"
+                  "summary": "1-2"
                 },
                 {
                   "name": "Road",
@@ -216,20 +190,176 @@
                 }
               ],
               "team": {
-                "abbreviation": "SEA",
-                "displayName": "Seattle Seahawks",
-                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png"
+                "abbreviation": "PHI",
+                "displayName": "Philadelphia Eagles",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png"
               }
             },
             {
               "homeAway": "away",
-              "score": "3",
+              "score": "0",
               "records": [
                 {
                   "name": "overall",
                   "abbreviation": "Any",
                   "type": "total",
-                  "summary": "5-0"
+                  "summary": "2-4"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-2"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "1-2"
+                }
+              ],
+              "team": {
+                "abbreviation": "DAL",
+                "displayName": "Dallas Cowboys",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401873010",
+      "name": "New England Patriots at Chicago Bears",
+      "date": "2026-10-23T00:15Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401873010/patriots-bears",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873010",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873010",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401873010",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 7
+      },
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "30",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "5-2"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "3-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-1"
+                }
+              ],
+              "team": {
+                "abbreviation": "CHI",
+                "displayName": "Chicago Bears",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "24",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "4-3"
                 },
                 {
                   "name": "Home",
@@ -239,13 +369,13 @@
                 {
                   "name": "Road",
                   "type": "road",
-                  "summary": "2-0"
+                  "summary": "1-3"
                 }
               ],
               "team": {
-                "abbreviation": "KC",
-                "displayName": "Kansas City Chiefs",
-                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png"
+                "abbreviation": "NE",
+                "displayName": "New England Patriots",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png"
               }
             }
           ]
@@ -2103,9 +2233,9 @@
       ]
     },
     {
-      "id": "401873010",
-      "name": "New England Patriots at Chicago Bears",
-      "date": "2026-10-23T00:15Z",
+      "id": "401873022",
+      "name": "Kansas City Chiefs at Seattle Seahawks",
+      "date": "2026-10-26T00:20Z",
       "links": [
         {
           "language": "en-US",
@@ -2114,7 +2244,7 @@
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/game/_/gameId/401873010/patriots-bears",
+          "href": "https://www.espn.com/nfl/game/_/gameId/401873022/chiefs-seahawks",
           "text": "Gamecast",
           "shortText": "Gamecast",
           "isExternal": false,
@@ -2127,9 +2257,21 @@
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873010",
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873022",
           "text": "Box Score",
           "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401873022",
+          "text": "Highlights",
+          "shortText": "Highlights",
           "isExternal": false,
           "isPremium": false
         },
@@ -2140,7 +2282,7 @@
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873010",
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873022",
           "text": "Play-by-Play",
           "shortText": "Play-by-Play",
           "isExternal": false,
@@ -2153,7 +2295,7 @@
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/recap?gameId=401873010",
+          "href": "https://www.espn.com/nfl/recap?gameId=401873022",
           "text": "Recap",
           "shortText": "Recap",
           "isExternal": false,
@@ -2202,34 +2344,7 @@
           "competitors": [
             {
               "homeAway": "home",
-              "score": "30",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Game",
-                  "type": "total",
-                  "summary": "5-2"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "3-1"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "2-1"
-                }
-              ],
-              "team": {
-                "abbreviation": "CHI",
-                "displayName": "Chicago Bears",
-                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png"
-              }
-            },
-            {
-              "homeAway": "away",
-              "score": "24",
+              "score": "20",
               "records": [
                 {
                   "name": "overall",
@@ -2240,135 +2355,45 @@
                 {
                   "name": "Home",
                   "type": "home",
+                  "summary": "3-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "1-2"
+                }
+              ],
+              "team": {
+                "abbreviation": "SEA",
+                "displayName": "Seattle Seahawks",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "3",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "5-1"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
                   "summary": "3-0"
                 },
                 {
                   "name": "Road",
                   "type": "road",
-                  "summary": "1-3"
+                  "summary": "2-1"
                 }
               ],
               "team": {
-                "abbreviation": "NE",
-                "displayName": "New England Patriots",
-                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "401873009",
-      "name": "Dallas Cowboys at Philadelphia Eagles",
-      "date": "2026-10-27T00:15Z",
-      "links": [
-        {
-          "language": "en-US",
-          "rel": [
-            "summary",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/game/_/gameId/401873009/cowboys-eagles",
-          "text": "Gamecast",
-          "shortText": "Gamecast",
-          "isExternal": false,
-          "isPremium": false
-        }
-      ],
-      "season": {
-        "year": 2026,
-        "type": 2,
-        "slug": "regular-season"
-      },
-      "week": {
-        "number": 7
-      },
-      "status": {
-        "clock": 0.0,
-        "displayClock": "0:00",
-        "period": 0,
-        "type": {
-          "id": "1",
-          "name": "STATUS_SCHEDULED",
-          "state": "pre",
-          "completed": false,
-          "description": "Scheduled",
-          "detail": "Mon, October 26th at 8:15 PM EDT",
-          "shortDetail": "10/26 - 8:15 PM EDT"
-        }
-      },
-      "competitions": [
-        {
-          "status": {
-            "clock": 0.0,
-            "displayClock": "0:00",
-            "period": 0,
-            "type": {
-              "id": "1",
-              "name": "STATUS_SCHEDULED",
-              "state": "pre",
-              "completed": false,
-              "description": "Scheduled",
-              "detail": "Mon, October 26th at 8:15 PM EDT",
-              "shortDetail": "10/26 - 8:15 PM EDT"
-            },
-            "isTBDFlex": false
-          },
-          "competitors": [
-            {
-              "homeAway": "home",
-              "score": "0",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "2-4"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "1-2"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "1-2"
-                }
-              ],
-              "team": {
-                "abbreviation": "PHI",
-                "displayName": "Philadelphia Eagles",
-                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png"
-              }
-            },
-            {
-              "homeAway": "away",
-              "score": "0",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "2-4"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "1-2"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "1-2"
-                }
-              ],
-              "team": {
-                "abbreviation": "DAL",
-                "displayName": "Dallas Cowboys",
-                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png"
+                "abbreviation": "KC",
+                "displayName": "Kansas City Chiefs",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png"
               }
             }
           ]
@@ -2377,5 +2402,5 @@
     }
   ],
   "isPreviousWeek": false,
-  "lastUpdated": "2026-10-26T03:08:19.867774Z"
+  "lastUpdated": "2026-10-26T12:13:35.411955Z"
 }
