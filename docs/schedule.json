@@ -455,18 +455,6 @@
         {
           "language": "en-US",
           "rel": [
-            "highlights",
-            "desktop"
-          ],
-          "href": "https://www.espn.com/nfl/video?gameId=401873017",
-          "text": "Highlights",
-          "shortText": "Highlights",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
             "pbp",
             "desktop",
             "event"
@@ -929,18 +917,6 @@
           "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873015",
           "text": "Box Score",
           "shortText": "Box Score",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "highlights",
-            "desktop"
-          ],
-          "href": "https://www.espn.com/nfl/video?gameId=401873015",
-          "text": "Highlights",
-          "shortText": "Highlights",
           "isExternal": false,
           "isPremium": false
         },
@@ -1753,18 +1729,6 @@
         {
           "language": "en-US",
           "rel": [
-            "highlights",
-            "desktop"
-          ],
-          "href": "https://www.espn.com/nfl/video?gameId=401873020",
-          "text": "Highlights",
-          "shortText": "Highlights",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
             "pbp",
             "desktop",
             "event"
@@ -2089,18 +2053,6 @@
         {
           "language": "en-US",
           "rel": [
-            "highlights",
-            "desktop"
-          ],
-          "href": "https://www.espn.com/nfl/video?gameId=401873022",
-          "text": "Highlights",
-          "shortText": "Highlights",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
             "pbp",
             "desktop",
             "event"
@@ -2393,5 +2345,5 @@
     }
   ],
   "isPreviousWeek": false,
-  "lastUpdated": "2026-10-27T21:47:54.673073Z"
+  "lastUpdated": "2026-10-28T03:55:32.071947Z"
 }
