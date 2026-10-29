@@ -1247,18 +1247,6 @@
         {
           "language": "en-US",
           "rel": [
-            "highlights",
-            "desktop"
-          ],
-          "href": "https://www.espn.com/nfl/video?gameId=401873012",
-          "text": "Highlights",
-          "shortText": "Highlights",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
             "pbp",
             "desktop",
             "event"
@@ -1567,18 +1555,6 @@
           "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873019",
           "text": "Box Score",
           "shortText": "Box Score",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "highlights",
-            "desktop"
-          ],
-          "href": "https://www.espn.com/nfl/video?gameId=401873019",
-          "text": "Highlights",
-          "shortText": "Highlights",
           "isExternal": false,
           "isPremium": false
         },
@@ -2221,18 +2197,6 @@
         {
           "language": "en-US",
           "rel": [
-            "highlights",
-            "desktop"
-          ],
-          "href": "https://www.espn.com/nfl/video?gameId=401873009",
-          "text": "Highlights",
-          "shortText": "Highlights",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
             "pbp",
             "desktop",
             "event"
@@ -2357,5 +2321,5 @@
     }
   ],
   "isPreviousWeek": true,
-  "lastUpdated": "2026-10-28T22:08:51.727871Z"
+  "lastUpdated": "2026-10-29T04:18:46.990050Z"
 }
