@@ -9,6 +9,10 @@ import json
 import os
 from datetime import datetime, UTC
 
+# Team logos are cached in this repo's docs/logos/ (served via GitHub Pages)
+# instead of hotlinking ESPN's CDN on every TRMNL poll. See docs/logos/<abbr>.png.
+LOGO_BASE_URL = "https://snucko.github.io/nfl/logos"
+
 def fetch_nfl_data(week=None, seasontype=None):
     """Fetch NFL data from ESPN API. With no args, returns the current week."""
     url = "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"
@@ -64,7 +68,7 @@ def filter_payload(data, is_previous_week=False):
                             'team': {
                                 'abbreviation': c.get('team', {}).get('abbreviation'),
                                 'displayName': c.get('team', {}).get('displayName'),
-                                'logo': c.get('team', {}).get('logo')
+                                'logo': f"{LOGO_BASE_URL}/{c.get('team', {}).get('abbreviation', '').lower()}.png"
                             }
                         }
                         for c in competitors
