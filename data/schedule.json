@@ -110,9 +110,9 @@
   },
   "events": [
     {
-      "id": "401873032",
-      "name": "Los Angeles Chargers at Los Angeles Rams",
-      "date": "2026-11-01T21:05Z",
+      "id": "401873035",
+      "name": "Philadelphia Eagles at Washington Commanders",
+      "date": "2026-11-02T01:20Z",
       "links": [
         {
           "language": "en-US",
@@ -121,7 +121,7 @@
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/game?gameId=401873032",
+          "href": "https://www.espn.com/nfl/game?gameId=401873035",
           "text": "Gamecast",
           "shortText": "Gamecast",
           "isExternal": false,
@@ -134,7 +134,7 @@
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873032",
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873035",
           "text": "Box Score",
           "shortText": "Box Score",
           "isExternal": false,
@@ -147,7 +147,7 @@
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873032",
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873035",
           "text": "Play-by-Play",
           "shortText": "Play-by-Play",
           "isExternal": false,
@@ -163,78 +163,51 @@
         "number": 8
       },
       "status": {
-        "clock": 418.0,
-        "displayClock": "6:58",
-        "period": 3,
+        "clock": 112.0,
+        "displayClock": "1:52",
+        "period": 4,
         "type": {
           "id": "2",
           "name": "STATUS_IN_PROGRESS",
           "state": "in",
           "completed": false,
           "description": "In Progress",
-          "detail": "6:58 - 3rd Quarter",
-          "shortDetail": "6:58 - 3rd"
+          "detail": "1:52 - 4th Quarter",
+          "shortDetail": "1:52 - 4th"
         }
       },
       "competitions": [
         {
           "status": {
-            "clock": 418.0,
-            "displayClock": "6:58",
-            "period": 3,
+            "clock": 112.0,
+            "displayClock": "1:52",
+            "period": 4,
             "type": {
               "id": "2",
               "name": "STATUS_IN_PROGRESS",
               "state": "in",
               "completed": false,
               "description": "In Progress",
-              "detail": "6:58 - 3rd Quarter",
-              "shortDetail": "6:58 - 3rd"
+              "detail": "1:52 - 4th Quarter",
+              "shortDetail": "1:52 - 4th"
             },
             "isTBDFlex": false
           },
           "competitors": [
             {
               "homeAway": "home",
-              "score": "17",
+              "score": "27",
               "records": [
                 {
                   "name": "overall",
                   "abbreviation": "Any",
                   "type": "total",
-                  "summary": "3-4"
+                  "summary": "1-4-1"
                 },
                 {
                   "name": "Home",
                   "type": "home",
-                  "summary": "1-3"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "2-1"
-                }
-              ],
-              "team": {
-                "abbreviation": "LAR",
-                "displayName": "Los Angeles Rams",
-                "logo": "https://snucko.github.io/nfl/logos/lar.png"
-              }
-            },
-            {
-              "homeAway": "away",
-              "score": "9",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "0-6"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "0-3"
+                  "summary": "1-1-1"
                 },
                 {
                   "name": "Road",
@@ -243,295 +216,36 @@
                 }
               ],
               "team": {
-                "abbreviation": "LAC",
-                "displayName": "Los Angeles Chargers",
-                "logo": "https://snucko.github.io/nfl/logos/lac.png"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "401873033",
-      "name": "Kansas City Chiefs at Denver Broncos",
-      "date": "2026-11-01T21:25Z",
-      "links": [
-        {
-          "language": "en-US",
-          "rel": [
-            "live",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/game?gameId=401873033",
-          "text": "Gamecast",
-          "shortText": "Gamecast",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "boxscore",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873033",
-          "text": "Box Score",
-          "shortText": "Box Score",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "pbp",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873033",
-          "text": "Play-by-Play",
-          "shortText": "Play-by-Play",
-          "isExternal": false,
-          "isPremium": false
-        }
-      ],
-      "season": {
-        "year": 2026,
-        "type": 2,
-        "slug": "regular-season"
-      },
-      "week": {
-        "number": 8
-      },
-      "status": {
-        "clock": 0.0,
-        "displayClock": "0:00",
-        "period": 2,
-        "type": {
-          "id": "23",
-          "name": "STATUS_HALFTIME",
-          "state": "in",
-          "completed": false,
-          "description": "Halftime",
-          "detail": "Halftime",
-          "shortDetail": "Halftime"
-        }
-      },
-      "competitions": [
-        {
-          "status": {
-            "clock": 0.0,
-            "displayClock": "0:00",
-            "period": 2,
-            "type": {
-              "id": "23",
-              "name": "STATUS_HALFTIME",
-              "state": "in",
-              "completed": false,
-              "description": "Halftime",
-              "detail": "Halftime",
-              "shortDetail": "Halftime"
-            },
-            "isTBDFlex": false
-          },
-          "competitors": [
-            {
-              "homeAway": "home",
-              "score": "13",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "5-2"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "3-0"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "2-2"
-                }
-              ],
-              "team": {
-                "abbreviation": "DEN",
-                "displayName": "Denver Broncos",
-                "logo": "https://snucko.github.io/nfl/logos/den.png"
+                "abbreviation": "WSH",
+                "displayName": "Washington Commanders",
+                "logo": "https://snucko.github.io/nfl/logos/wsh.png"
               }
             },
             {
               "homeAway": "away",
-              "score": "17",
+              "score": "10",
               "records": [
                 {
                   "name": "overall",
                   "abbreviation": "Any",
                   "type": "total",
-                  "summary": "5-1"
+                  "summary": "2-5"
                 },
                 {
                   "name": "Home",
                   "type": "home",
-                  "summary": "3-0"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "2-1"
-                }
-              ],
-              "team": {
-                "abbreviation": "KC",
-                "displayName": "Kansas City Chiefs",
-                "logo": "https://snucko.github.io/nfl/logos/kc.png"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "401873034",
-      "name": "New England Patriots at Miami Dolphins",
-      "date": "2026-11-01T21:25Z",
-      "links": [
-        {
-          "language": "en-US",
-          "rel": [
-            "live",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/game?gameId=401873034",
-          "text": "Gamecast",
-          "shortText": "Gamecast",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "boxscore",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873034",
-          "text": "Box Score",
-          "shortText": "Box Score",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "pbp",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873034",
-          "text": "Play-by-Play",
-          "shortText": "Play-by-Play",
-          "isExternal": false,
-          "isPremium": false
-        }
-      ],
-      "season": {
-        "year": 2026,
-        "type": 2,
-        "slug": "regular-season"
-      },
-      "week": {
-        "number": 8
-      },
-      "status": {
-        "clock": 0.0,
-        "displayClock": "0:00",
-        "period": 2,
-        "type": {
-          "id": "23",
-          "name": "STATUS_HALFTIME",
-          "state": "in",
-          "completed": false,
-          "description": "Halftime",
-          "detail": "Halftime",
-          "shortDetail": "Halftime"
-        }
-      },
-      "competitions": [
-        {
-          "status": {
-            "clock": 0.0,
-            "displayClock": "0:00",
-            "period": 2,
-            "type": {
-              "id": "23",
-              "name": "STATUS_HALFTIME",
-              "state": "in",
-              "completed": false,
-              "description": "Halftime",
-              "detail": "Halftime",
-              "shortDetail": "Halftime"
-            },
-            "isTBDFlex": false
-          },
-          "competitors": [
-            {
-              "homeAway": "home",
-              "score": "13",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "1-5"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "0-2"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
                   "summary": "1-3"
-                }
-              ],
-              "team": {
-                "abbreviation": "MIA",
-                "displayName": "Miami Dolphins",
-                "logo": "https://snucko.github.io/nfl/logos/mia.png"
-              }
-            },
-            {
-              "homeAway": "away",
-              "score": "3",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "4-3"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "3-0"
                 },
                 {
                   "name": "Road",
                   "type": "road",
-                  "summary": "1-3"
+                  "summary": "1-2"
                 }
               ],
               "team": {
-                "abbreviation": "NE",
-                "displayName": "New England Patriots",
-                "logo": "https://snucko.github.io/nfl/logos/ne.png"
+                "abbreviation": "PHI",
+                "displayName": "Philadelphia Eagles",
+                "logo": "https://snucko.github.io/nfl/logos/phi.png"
               }
             }
           ]
@@ -1887,9 +1601,9 @@
       ]
     },
     {
-      "id": "401873035",
-      "name": "Philadelphia Eagles at Washington Commanders",
-      "date": "2026-11-02T01:20Z",
+      "id": "401873032",
+      "name": "Los Angeles Chargers at Los Angeles Rams",
+      "date": "2026-11-01T21:05Z",
       "links": [
         {
           "language": "en-US",
@@ -1898,9 +1612,60 @@
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/game/_/gameId/401873035/eagles-commanders",
+          "href": "https://www.espn.com/nfl/game/_/gameId/401873032/chargers-rams",
           "text": "Gamecast",
           "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873032",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401873032",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873032",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401873032",
+          "text": "Recap",
+          "shortText": "Recap",
           "isExternal": false,
           "isPremium": false
         }
@@ -1916,15 +1681,15 @@
       "status": {
         "clock": 0.0,
         "displayClock": "0:00",
-        "period": 0,
+        "period": 4,
         "type": {
-          "id": "1",
-          "name": "STATUS_SCHEDULED",
-          "state": "pre",
-          "completed": false,
-          "description": "Scheduled",
-          "detail": "Sun, November 1st at 8:20 PM EST",
-          "shortDetail": "11/1 - 8:20 PM EST"
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
         }
       },
       "competitions": [
@@ -1932,71 +1697,407 @@
           "status": {
             "clock": 0.0,
             "displayClock": "0:00",
-            "period": 0,
+            "period": 4,
             "type": {
-              "id": "1",
-              "name": "STATUS_SCHEDULED",
-              "state": "pre",
-              "completed": false,
-              "description": "Scheduled",
-              "detail": "Sun, November 1st at 8:20 PM EST",
-              "shortDetail": "11/1 - 8:20 PM EST"
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
             },
             "isTBDFlex": false
           },
           "competitors": [
             {
               "homeAway": "home",
-              "score": "0",
+              "score": "24",
               "records": [
                 {
                   "name": "overall",
-                  "abbreviation": "Any",
+                  "abbreviation": "Game",
                   "type": "total",
-                  "summary": "1-4-1"
+                  "summary": "4-4"
                 },
                 {
                   "name": "Home",
                   "type": "home",
-                  "summary": "1-1-1"
+                  "summary": "2-3"
                 },
                 {
                   "name": "Road",
                   "type": "road",
-                  "summary": "0-3"
+                  "summary": "2-1"
                 }
               ],
               "team": {
-                "abbreviation": "WSH",
-                "displayName": "Washington Commanders",
-                "logo": "https://snucko.github.io/nfl/logos/wsh.png"
+                "abbreviation": "LAR",
+                "displayName": "Los Angeles Rams",
+                "logo": "https://snucko.github.io/nfl/logos/lar.png"
               }
             },
             {
               "homeAway": "away",
-              "score": "0",
+              "score": "9",
               "records": [
                 {
                   "name": "overall",
-                  "abbreviation": "Any",
+                  "abbreviation": "Game",
                   "type": "total",
-                  "summary": "2-5"
+                  "summary": "0-7"
                 },
                 {
                   "name": "Home",
                   "type": "home",
-                  "summary": "1-3"
+                  "summary": "0-3"
                 },
                 {
                   "name": "Road",
                   "type": "road",
-                  "summary": "1-2"
+                  "summary": "0-4"
                 }
               ],
               "team": {
-                "abbreviation": "PHI",
-                "displayName": "Philadelphia Eagles",
-                "logo": "https://snucko.github.io/nfl/logos/phi.png"
+                "abbreviation": "LAC",
+                "displayName": "Los Angeles Chargers",
+                "logo": "https://snucko.github.io/nfl/logos/lac.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401873033",
+      "name": "Kansas City Chiefs at Denver Broncos",
+      "date": "2026-11-01T21:25Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401873033/chiefs-broncos",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873033",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401873033",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873033",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401873033",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 8
+      },
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "28",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "6-2"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "4-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-2"
+                }
+              ],
+              "team": {
+                "abbreviation": "DEN",
+                "displayName": "Denver Broncos",
+                "logo": "https://snucko.github.io/nfl/logos/den.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "24",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "5-2"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "3-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-2"
+                }
+              ],
+              "team": {
+                "abbreviation": "KC",
+                "displayName": "Kansas City Chiefs",
+                "logo": "https://snucko.github.io/nfl/logos/kc.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401873034",
+      "name": "New England Patriots at Miami Dolphins",
+      "date": "2026-11-01T21:25Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401873034/patriots-dolphins",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873034",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401873034",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873034",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401873034",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 8
+      },
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "19",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "1-6"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-3"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "1-3"
+                }
+              ],
+              "team": {
+                "abbreviation": "MIA",
+                "displayName": "Miami Dolphins",
+                "logo": "https://snucko.github.io/nfl/logos/mia.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "24",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "5-3"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "3-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-3"
+                }
+              ],
+              "team": {
+                "abbreviation": "NE",
+                "displayName": "New England Patriots",
+                "logo": "https://snucko.github.io/nfl/logos/ne.png"
               }
             }
           ]
@@ -2278,5 +2379,5 @@
     }
   ],
   "isPreviousWeek": false,
-  "lastUpdated": "2026-11-01T23:00:00.205539Z"
+  "lastUpdated": "2026-11-02T04:20:17.081043Z"
 }
