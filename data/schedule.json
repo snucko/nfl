@@ -60,18 +60,18 @@
   },
   "events": [
     {
-      "id": "401873040",
-      "name": "Dallas Cowboys at Indianapolis Colts",
-      "date": "2026-11-08T18:00Z",
+      "id": "401873050",
+      "name": "Tampa Bay Buccaneers at Chicago Bears",
+      "date": "2026-11-09T01:20Z",
       "links": [
         {
           "language": "en-US",
           "rel": [
-            "summary",
+            "live",
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/game/_/gameId/401873040/cowboys-colts",
+          "href": "https://www.espn.com/nfl/game?gameId=401873050",
           "text": "Gamecast",
           "shortText": "Gamecast",
           "isExternal": false,
@@ -84,21 +84,9 @@
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873040",
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873050",
           "text": "Box Score",
           "shortText": "Box Score",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "highlights",
-            "desktop"
-          ],
-          "href": "https://www.espn.com/nfl/video?gameId=401873040",
-          "text": "Highlights",
-          "shortText": "Highlights",
           "isExternal": false,
           "isPremium": false
         },
@@ -109,7 +97,7 @@
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873040",
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873050",
           "text": "Play-by-Play",
           "shortText": "Play-by-Play",
           "isExternal": false,
@@ -125,201 +113,71 @@
         "number": 9
       },
       "status": {
-        "clock": 0.0,
-        "displayClock": "0:00",
+        "clock": 82.0,
+        "displayClock": "1:22",
         "period": 4,
         "type": {
-          "id": "3",
-          "name": "STATUS_FINAL",
-          "state": "post",
-          "completed": true,
-          "description": "Final",
-          "detail": "Final",
-          "shortDetail": "Final"
+          "id": "2",
+          "name": "STATUS_IN_PROGRESS",
+          "state": "in",
+          "completed": false,
+          "description": "In Progress",
+          "detail": "1:22 - 4th Quarter",
+          "shortDetail": "1:22 - 4th"
         }
       },
       "competitions": [
         {
           "status": {
-            "clock": 0.0,
-            "displayClock": "0:00",
+            "clock": 82.0,
+            "displayClock": "1:22",
             "period": 4,
             "type": {
-              "id": "3",
-              "name": "STATUS_FINAL",
-              "state": "post",
-              "completed": true,
-              "description": "Final",
-              "detail": "Final",
-              "shortDetail": "Final"
+              "id": "2",
+              "name": "STATUS_IN_PROGRESS",
+              "state": "in",
+              "completed": false,
+              "description": "In Progress",
+              "detail": "1:22 - 4th Quarter",
+              "shortDetail": "1:22 - 4th"
             },
             "isTBDFlex": false
           },
           "competitors": [
             {
               "homeAway": "home",
-              "score": "23",
+              "score": "24",
               "records": [
                 {
                   "name": "overall",
-                  "abbreviation": "Game",
+                  "abbreviation": "Any",
                   "type": "total",
-                  "summary": "2-7"
+                  "summary": "6-2"
                 },
                 {
                   "name": "Home",
                   "type": "home",
-                  "summary": "1-3"
+                  "summary": "3-1"
                 },
                 {
                   "name": "Road",
                   "type": "road",
-                  "summary": "1-4"
+                  "summary": "3-1"
                 }
               ],
               "team": {
-                "abbreviation": "IND",
-                "displayName": "Indianapolis Colts",
-                "logo": "https://snucko.github.io/nfl/logos/ind.png"
+                "abbreviation": "CHI",
+                "displayName": "Chicago Bears",
+                "logo": "https://snucko.github.io/nfl/logos/chi.png"
               }
             },
             {
               "homeAway": "away",
-              "score": "27",
+              "score": "24",
               "records": [
                 {
                   "name": "overall",
-                  "abbreviation": "Game",
-                  "type": "total",
-                  "summary": "4-5"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "1-3"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "3-2"
-                }
-              ],
-              "team": {
-                "abbreviation": "DAL",
-                "displayName": "Dallas Cowboys",
-                "logo": "https://snucko.github.io/nfl/logos/dal.png"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "401873039",
-      "name": "Cleveland Browns at New Orleans Saints",
-      "date": "2026-11-08T18:00Z",
-      "links": [
-        {
-          "language": "en-US",
-          "rel": [
-            "summary",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/game/_/gameId/401873039/browns-saints",
-          "text": "Gamecast",
-          "shortText": "Gamecast",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "boxscore",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873039",
-          "text": "Box Score",
-          "shortText": "Box Score",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "highlights",
-            "desktop"
-          ],
-          "href": "https://www.espn.com/nfl/video?gameId=401873039",
-          "text": "Highlights",
-          "shortText": "Highlights",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "pbp",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873039",
-          "text": "Play-by-Play",
-          "shortText": "Play-by-Play",
-          "isExternal": false,
-          "isPremium": false
-        }
-      ],
-      "season": {
-        "year": 2026,
-        "type": 2,
-        "slug": "regular-season"
-      },
-      "week": {
-        "number": 9
-      },
-      "status": {
-        "clock": 0.0,
-        "displayClock": "0:00",
-        "period": 5,
-        "type": {
-          "id": "3",
-          "name": "STATUS_FINAL",
-          "state": "post",
-          "completed": true,
-          "description": "Final",
-          "detail": "Final/OT",
-          "shortDetail": "Final/OT",
-          "altDetail": "OT"
-        }
-      },
-      "competitions": [
-        {
-          "status": {
-            "clock": 0.0,
-            "displayClock": "0:00",
-            "period": 5,
-            "type": {
-              "id": "3",
-              "name": "STATUS_FINAL",
-              "state": "post",
-              "completed": true,
-              "description": "Final",
-              "detail": "Final/OT",
-              "shortDetail": "Final/OT",
-              "altDetail": "OT"
-            },
-            "isTBDFlex": false
-          },
-          "competitors": [
-            {
-              "homeAway": "home",
-              "score": "23",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Game",
+                  "abbreviation": "Any",
                   "type": "total",
                   "summary": "3-5"
                 },
@@ -335,608 +193,9 @@
                 }
               ],
               "team": {
-                "abbreviation": "NO",
-                "displayName": "New Orleans Saints",
-                "logo": "https://snucko.github.io/nfl/logos/no.png"
-              }
-            },
-            {
-              "homeAway": "away",
-              "score": "22",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Game",
-                  "type": "total",
-                  "summary": "5-4"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "3-0"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "2-4"
-                }
-              ],
-              "team": {
-                "abbreviation": "CLE",
-                "displayName": "Cleveland Browns",
-                "logo": "https://snucko.github.io/nfl/logos/cle.png"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "401873046",
-      "name": "Houston Texans at Los Angeles Chargers",
-      "date": "2026-11-08T21:05Z",
-      "links": [
-        {
-          "language": "en-US",
-          "rel": [
-            "live",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/game?gameId=401873046",
-          "text": "Gamecast",
-          "shortText": "Gamecast",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "boxscore",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873046",
-          "text": "Box Score",
-          "shortText": "Box Score",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "pbp",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873046",
-          "text": "Play-by-Play",
-          "shortText": "Play-by-Play",
-          "isExternal": false,
-          "isPremium": false
-        }
-      ],
-      "season": {
-        "year": 2026,
-        "type": 2,
-        "slug": "regular-season"
-      },
-      "week": {
-        "number": 9
-      },
-      "status": {
-        "clock": 50.0,
-        "displayClock": "0:50",
-        "period": 1,
-        "type": {
-          "id": "2",
-          "name": "STATUS_IN_PROGRESS",
-          "state": "in",
-          "completed": false,
-          "description": "In Progress",
-          "detail": "0:50 - 1st Quarter",
-          "shortDetail": "0:50 - 1st"
-        }
-      },
-      "competitions": [
-        {
-          "status": {
-            "clock": 50.0,
-            "displayClock": "0:50",
-            "period": 1,
-            "type": {
-              "id": "2",
-              "name": "STATUS_IN_PROGRESS",
-              "state": "in",
-              "completed": false,
-              "description": "In Progress",
-              "detail": "0:50 - 1st Quarter",
-              "shortDetail": "0:50 - 1st"
-            },
-            "isTBDFlex": false
-          },
-          "competitors": [
-            {
-              "homeAway": "home",
-              "score": "3",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "0-7"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "0-3"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "0-4"
-                }
-              ],
-              "team": {
-                "abbreviation": "LAC",
-                "displayName": "Los Angeles Chargers",
-                "logo": "https://snucko.github.io/nfl/logos/lac.png"
-              }
-            },
-            {
-              "homeAway": "away",
-              "score": "10",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "2-5"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "0-4"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "2-1"
-                }
-              ],
-              "team": {
-                "abbreviation": "HOU",
-                "displayName": "Houston Texans",
-                "logo": "https://snucko.github.io/nfl/logos/hou.png"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "401873049",
-      "name": "Green Bay Packers at New England Patriots",
-      "date": "2026-11-08T21:25Z",
-      "links": [
-        {
-          "language": "en-US",
-          "rel": [
-            "live",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/game?gameId=401873049",
-          "text": "Gamecast",
-          "shortText": "Gamecast",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "boxscore",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873049",
-          "text": "Box Score",
-          "shortText": "Box Score",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "pbp",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873049",
-          "text": "Play-by-Play",
-          "shortText": "Play-by-Play",
-          "isExternal": false,
-          "isPremium": false
-        }
-      ],
-      "season": {
-        "year": 2026,
-        "type": 2,
-        "slug": "regular-season"
-      },
-      "week": {
-        "number": 9
-      },
-      "status": {
-        "clock": 563.0,
-        "displayClock": "9:23",
-        "period": 1,
-        "type": {
-          "id": "2",
-          "name": "STATUS_IN_PROGRESS",
-          "state": "in",
-          "completed": false,
-          "description": "In Progress",
-          "detail": "9:23 - 1st Quarter",
-          "shortDetail": "9:23 - 1st"
-        }
-      },
-      "competitions": [
-        {
-          "status": {
-            "clock": 563.0,
-            "displayClock": "9:23",
-            "period": 1,
-            "type": {
-              "id": "2",
-              "name": "STATUS_IN_PROGRESS",
-              "state": "in",
-              "completed": false,
-              "description": "In Progress",
-              "detail": "9:23 - 1st Quarter",
-              "shortDetail": "9:23 - 1st"
-            },
-            "isTBDFlex": false
-          },
-          "competitors": [
-            {
-              "homeAway": "home",
-              "score": "0",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "5-3"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "3-0"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "2-3"
-                }
-              ],
-              "team": {
-                "abbreviation": "NE",
-                "displayName": "New England Patriots",
-                "logo": "https://snucko.github.io/nfl/logos/ne.png"
-              }
-            },
-            {
-              "homeAway": "away",
-              "score": "7",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "5-3"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "3-1"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "2-2"
-                }
-              ],
-              "team": {
-                "abbreviation": "GB",
-                "displayName": "Green Bay Packers",
-                "logo": "https://snucko.github.io/nfl/logos/gb.png"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "401873047",
-      "name": "Las Vegas Raiders at San Francisco 49ers",
-      "date": "2026-11-08T21:25Z",
-      "links": [
-        {
-          "language": "en-US",
-          "rel": [
-            "live",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/game?gameId=401873047",
-          "text": "Gamecast",
-          "shortText": "Gamecast",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "boxscore",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873047",
-          "text": "Box Score",
-          "shortText": "Box Score",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "pbp",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873047",
-          "text": "Play-by-Play",
-          "shortText": "Play-by-Play",
-          "isExternal": false,
-          "isPremium": false
-        }
-      ],
-      "season": {
-        "year": 2026,
-        "type": 2,
-        "slug": "regular-season"
-      },
-      "week": {
-        "number": 9
-      },
-      "status": {
-        "clock": 508.0,
-        "displayClock": "8:28",
-        "period": 1,
-        "type": {
-          "id": "2",
-          "name": "STATUS_IN_PROGRESS",
-          "state": "in",
-          "completed": false,
-          "description": "In Progress",
-          "detail": "8:28 - 1st Quarter",
-          "shortDetail": "8:28 - 1st"
-        }
-      },
-      "competitions": [
-        {
-          "status": {
-            "clock": 508.0,
-            "displayClock": "8:28",
-            "period": 1,
-            "type": {
-              "id": "2",
-              "name": "STATUS_IN_PROGRESS",
-              "state": "in",
-              "completed": false,
-              "description": "In Progress",
-              "detail": "8:28 - 1st Quarter",
-              "shortDetail": "8:28 - 1st"
-            },
-            "isTBDFlex": false
-          },
-          "competitors": [
-            {
-              "homeAway": "home",
-              "score": "7",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "6-1"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "4-0"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "2-1"
-                }
-              ],
-              "team": {
-                "abbreviation": "SF",
-                "displayName": "San Francisco 49ers",
-                "logo": "https://snucko.github.io/nfl/logos/sf.png"
-              }
-            },
-            {
-              "homeAway": "away",
-              "score": "0",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "4-4"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "1-3"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "3-1"
-                }
-              ],
-              "team": {
-                "abbreviation": "LV",
-                "displayName": "Las Vegas Raiders",
-                "logo": "https://snucko.github.io/nfl/logos/lv.png"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "401873048",
-      "name": "Arizona Cardinals at Seattle Seahawks",
-      "date": "2026-11-08T21:25Z",
-      "links": [
-        {
-          "language": "en-US",
-          "rel": [
-            "live",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/game?gameId=401873048",
-          "text": "Gamecast",
-          "shortText": "Gamecast",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "boxscore",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873048",
-          "text": "Box Score",
-          "shortText": "Box Score",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "pbp",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873048",
-          "text": "Play-by-Play",
-          "shortText": "Play-by-Play",
-          "isExternal": false,
-          "isPremium": false
-        }
-      ],
-      "season": {
-        "year": 2026,
-        "type": 2,
-        "slug": "regular-season"
-      },
-      "week": {
-        "number": 9
-      },
-      "status": {
-        "clock": 563.0,
-        "displayClock": "9:23",
-        "period": 1,
-        "type": {
-          "id": "2",
-          "name": "STATUS_IN_PROGRESS",
-          "state": "in",
-          "completed": false,
-          "description": "In Progress",
-          "detail": "9:23 - 1st Quarter",
-          "shortDetail": "9:23 - 1st"
-        }
-      },
-      "competitions": [
-        {
-          "status": {
-            "clock": 563.0,
-            "displayClock": "9:23",
-            "period": 1,
-            "type": {
-              "id": "2",
-              "name": "STATUS_IN_PROGRESS",
-              "state": "in",
-              "completed": false,
-              "description": "In Progress",
-              "detail": "9:23 - 1st Quarter",
-              "shortDetail": "9:23 - 1st"
-            },
-            "isTBDFlex": false
-          },
-          "competitors": [
-            {
-              "homeAway": "home",
-              "score": "0",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "4-4"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "3-2"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "1-2"
-                }
-              ],
-              "team": {
-                "abbreviation": "SEA",
-                "displayName": "Seattle Seahawks",
-                "logo": "https://snucko.github.io/nfl/logos/sea.png"
-              }
-            },
-            {
-              "homeAway": "away",
-              "score": "3",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "3-5"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "0-3"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "3-2"
-                }
-              ],
-              "team": {
-                "abbreviation": "ARI",
-                "displayName": "Arizona Cardinals",
-                "logo": "https://snucko.github.io/nfl/logos/ari.png"
+                "abbreviation": "TB",
+                "displayName": "Tampa Bay Buccaneers",
+                "logo": "https://snucko.github.io/nfl/logos/tb.png"
               }
             }
           ]
@@ -1105,6 +364,174 @@
                 "abbreviation": "CIN",
                 "displayName": "Cincinnati Bengals",
                 "logo": "https://snucko.github.io/nfl/logos/cin.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401873040",
+      "name": "Dallas Cowboys at Indianapolis Colts",
+      "date": "2026-11-08T18:00Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401873040/cowboys-colts",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873040",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401873040",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873040",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401873040",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 9
+      },
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "23",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "2-7"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-3"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "1-4"
+                }
+              ],
+              "team": {
+                "abbreviation": "IND",
+                "displayName": "Indianapolis Colts",
+                "logo": "https://snucko.github.io/nfl/logos/ind.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "27",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "4-5"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-3"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "3-2"
+                }
+              ],
+              "team": {
+                "abbreviation": "DAL",
+                "displayName": "Dallas Cowboys",
+                "logo": "https://snucko.github.io/nfl/logos/dal.png"
               }
             }
           ]
@@ -1441,6 +868,176 @@
                 "abbreviation": "DET",
                 "displayName": "Detroit Lions",
                 "logo": "https://snucko.github.io/nfl/logos/det.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401873039",
+      "name": "Cleveland Browns at New Orleans Saints",
+      "date": "2026-11-08T18:00Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401873039/browns-saints",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873039",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401873039",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873039",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401873039",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 9
+      },
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 5,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final/OT",
+          "shortDetail": "Final/OT",
+          "altDetail": "OT"
+        }
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 5,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final/OT",
+              "shortDetail": "Final/OT",
+              "altDetail": "OT"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "23",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "3-5"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-4"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-1"
+                }
+              ],
+              "team": {
+                "abbreviation": "NO",
+                "displayName": "New Orleans Saints",
+                "logo": "https://snucko.github.io/nfl/logos/no.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "22",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "5-4"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "3-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-4"
+                }
+              ],
+              "team": {
+                "abbreviation": "CLE",
+                "displayName": "Cleveland Browns",
+                "logo": "https://snucko.github.io/nfl/logos/cle.png"
               }
             }
           ]
@@ -1838,6 +1435,19 @@
           "shortText": "Play-by-Play",
           "isExternal": false,
           "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401873041",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
         }
       ],
       "season": {
@@ -1939,9 +1549,9 @@
       ]
     },
     {
-      "id": "401873050",
-      "name": "Tampa Bay Buccaneers at Chicago Bears",
-      "date": "2026-11-09T01:20Z",
+      "id": "401873046",
+      "name": "Houston Texans at Los Angeles Chargers",
+      "date": "2026-11-08T21:05Z",
       "links": [
         {
           "language": "en-US",
@@ -1950,9 +1560,60 @@
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/game/_/gameId/401873050/buccaneers-bears",
+          "href": "https://www.espn.com/nfl/game/_/gameId/401873046/texans-chargers",
           "text": "Gamecast",
           "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873046",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401873046",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873046",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401873046",
+          "text": "Recap",
+          "shortText": "Recap",
           "isExternal": false,
           "isPremium": false
         }
@@ -1968,15 +1629,15 @@
       "status": {
         "clock": 0.0,
         "displayClock": "0:00",
-        "period": 0,
+        "period": 4,
         "type": {
-          "id": "1",
-          "name": "STATUS_SCHEDULED",
-          "state": "pre",
-          "completed": false,
-          "description": "Scheduled",
-          "detail": "Sun, November 8th at 8:20 PM EST",
-          "shortDetail": "11/8 - 8:20 PM EST"
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
         }
       },
       "competitions": [
@@ -1984,28 +1645,196 @@
           "status": {
             "clock": 0.0,
             "displayClock": "0:00",
-            "period": 0,
+            "period": 4,
             "type": {
-              "id": "1",
-              "name": "STATUS_SCHEDULED",
-              "state": "pre",
-              "completed": false,
-              "description": "Scheduled",
-              "detail": "Sun, November 8th at 8:20 PM EST",
-              "shortDetail": "11/8 - 8:20 PM EST"
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
             },
             "isTBDFlex": false
           },
           "competitors": [
             {
               "homeAway": "home",
-              "score": "0",
+              "score": "22",
               "records": [
                 {
                   "name": "overall",
-                  "abbreviation": "Any",
+                  "abbreviation": "Game",
                   "type": "total",
-                  "summary": "6-2"
+                  "summary": "0-8"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-4"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-4"
+                }
+              ],
+              "team": {
+                "abbreviation": "LAC",
+                "displayName": "Los Angeles Chargers",
+                "logo": "https://snucko.github.io/nfl/logos/lac.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "44",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "3-5"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-4"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "3-1"
+                }
+              ],
+              "team": {
+                "abbreviation": "HOU",
+                "displayName": "Houston Texans",
+                "logo": "https://snucko.github.io/nfl/logos/hou.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401873049",
+      "name": "Green Bay Packers at New England Patriots",
+      "date": "2026-11-08T21:25Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401873049/packers-patriots",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873049",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401873049",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873049",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401873049",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 9
+      },
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "27",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "5-4"
                 },
                 {
                   "name": "Home",
@@ -2015,29 +1844,170 @@
                 {
                   "name": "Road",
                   "type": "road",
-                  "summary": "3-1"
+                  "summary": "2-3"
                 }
               ],
               "team": {
-                "abbreviation": "CHI",
-                "displayName": "Chicago Bears",
-                "logo": "https://snucko.github.io/nfl/logos/chi.png"
+                "abbreviation": "NE",
+                "displayName": "New England Patriots",
+                "logo": "https://snucko.github.io/nfl/logos/ne.png"
               }
             },
             {
               "homeAway": "away",
-              "score": "0",
+              "score": "45",
               "records": [
                 {
                   "name": "overall",
-                  "abbreviation": "Any",
+                  "abbreviation": "Game",
                   "type": "total",
-                  "summary": "3-5"
+                  "summary": "6-3"
                 },
                 {
                   "name": "Home",
                   "type": "home",
-                  "summary": "1-4"
+                  "summary": "3-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "3-2"
+                }
+              ],
+              "team": {
+                "abbreviation": "GB",
+                "displayName": "Green Bay Packers",
+                "logo": "https://snucko.github.io/nfl/logos/gb.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401873047",
+      "name": "Las Vegas Raiders at San Francisco 49ers",
+      "date": "2026-11-08T21:25Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401873047/raiders-49ers",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873047",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401873047",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873047",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401873047",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 9
+      },
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "38",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "7-1"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "5-0"
                 },
                 {
                   "name": "Road",
@@ -2046,9 +2016,204 @@
                 }
               ],
               "team": {
-                "abbreviation": "TB",
-                "displayName": "Tampa Bay Buccaneers",
-                "logo": "https://snucko.github.io/nfl/logos/tb.png"
+                "abbreviation": "SF",
+                "displayName": "San Francisco 49ers",
+                "logo": "https://snucko.github.io/nfl/logos/sf.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "17",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "4-5"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-3"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "3-2"
+                }
+              ],
+              "team": {
+                "abbreviation": "LV",
+                "displayName": "Las Vegas Raiders",
+                "logo": "https://snucko.github.io/nfl/logos/lv.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401873048",
+      "name": "Arizona Cardinals at Seattle Seahawks",
+      "date": "2026-11-08T21:25Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401873048/cardinals-seahawks",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873048",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401873048",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873048",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401873048",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 9
+      },
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "17",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "5-4"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "4-2"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "1-2"
+                }
+              ],
+              "team": {
+                "abbreviation": "SEA",
+                "displayName": "Seattle Seahawks",
+                "logo": "https://snucko.github.io/nfl/logos/sea.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "3",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "3-6"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-3"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "3-3"
+                }
+              ],
+              "team": {
+                "abbreviation": "ARI",
+                "displayName": "Arizona Cardinals",
+                "logo": "https://snucko.github.io/nfl/logos/ari.png"
               }
             }
           ]
@@ -2330,5 +2495,5 @@
     }
   ],
   "isPreviousWeek": false,
-  "lastUpdated": "2026-11-08T21:39:20.937556Z"
+  "lastUpdated": "2026-11-09T04:35:44.001120Z"
 }
