@@ -143,6 +143,18 @@
         {
           "language": "en-US",
           "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401873052",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
             "pbp",
             "desktop",
             "event"
@@ -2331,5 +2343,5 @@
     }
   ],
   "isPreviousWeek": true,
-  "lastUpdated": "2026-11-18T15:03:19.212407Z"
+  "lastUpdated": "2026-11-18T23:51:58.227956Z"
 }
