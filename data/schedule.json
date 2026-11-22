@@ -160,162 +160,6 @@
   },
   "events": [
     {
-      "id": "401873066",
-      "name": "Indianapolis Colts at Houston Texans",
-      "date": "2026-11-20T01:15Z",
-      "links": [
-        {
-          "language": "en-US",
-          "rel": [
-            "summary",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/game/_/gameId/401873066/colts-texans",
-          "text": "Gamecast",
-          "shortText": "Gamecast",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "boxscore",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873066",
-          "text": "Box Score",
-          "shortText": "Box Score",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "pbp",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873066",
-          "text": "Play-by-Play",
-          "shortText": "Play-by-Play",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "recap",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/recap?gameId=401873066",
-          "text": "Recap",
-          "shortText": "Recap",
-          "isExternal": false,
-          "isPremium": false
-        }
-      ],
-      "season": {
-        "year": 2026,
-        "type": 2,
-        "slug": "regular-season"
-      },
-      "week": {
-        "number": 11
-      },
-      "status": {
-        "clock": 0.0,
-        "displayClock": "0:00",
-        "period": 4,
-        "type": {
-          "id": "3",
-          "name": "STATUS_FINAL",
-          "state": "post",
-          "completed": true,
-          "description": "Final",
-          "detail": "Final",
-          "shortDetail": "Final"
-        }
-      },
-      "competitions": [
-        {
-          "status": {
-            "clock": 0.0,
-            "displayClock": "0:00",
-            "period": 4,
-            "type": {
-              "id": "3",
-              "name": "STATUS_FINAL",
-              "state": "post",
-              "completed": true,
-              "description": "Final",
-              "detail": "Final",
-              "shortDetail": "Final"
-            },
-            "isTBDFlex": false
-          },
-          "competitors": [
-            {
-              "homeAway": "home",
-              "score": "26",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Game",
-                  "type": "total",
-                  "summary": "4-6"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "1-4"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "3-2"
-                }
-              ],
-              "team": {
-                "abbreviation": "HOU",
-                "displayName": "Houston Texans",
-                "logo": "https://snucko.github.io/nfl/logos/hou.png"
-              }
-            },
-            {
-              "homeAway": "away",
-              "score": "3",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Game",
-                  "type": "total",
-                  "summary": "3-8"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "2-3"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "1-5"
-                }
-              ],
-              "team": {
-                "abbreviation": "IND",
-                "displayName": "Indianapolis Colts",
-                "logo": "https://snucko.github.io/nfl/logos/ind.png"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "401873070",
       "name": "Miami Dolphins at Buffalo Bills",
       "date": "2026-11-22T18:00Z",
@@ -1603,6 +1447,162 @@
       ]
     },
     {
+      "id": "401873066",
+      "name": "Indianapolis Colts at Houston Texans",
+      "date": "2026-11-20T01:15Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401873066/colts-texans",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873066",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873066",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401873066",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 11
+      },
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "26",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "4-6"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-4"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "3-2"
+                }
+              ],
+              "team": {
+                "abbreviation": "HOU",
+                "displayName": "Houston Texans",
+                "logo": "https://snucko.github.io/nfl/logos/hou.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "3",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "3-8"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "2-3"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "1-5"
+                }
+              ],
+              "team": {
+                "abbreviation": "IND",
+                "displayName": "Indianapolis Colts",
+                "logo": "https://snucko.github.io/nfl/logos/ind.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "401873078",
       "name": "Cincinnati Bengals at Washington Commanders",
       "date": "2026-11-24T01:15Z",
@@ -1721,5 +1721,5 @@
     }
   ],
   "isPreviousWeek": false,
-  "lastUpdated": "2026-11-22T04:59:39.866769Z"
+  "lastUpdated": "2026-11-22T14:00:36.407171Z"
 }
