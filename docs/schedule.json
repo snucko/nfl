@@ -167,13 +167,51 @@
         {
           "language": "en-US",
           "rel": [
-            "summary",
+            "live",
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/game/_/gameId/401873078/bengals-commanders",
+          "href": "https://www.espn.com/nfl/game?gameId=401873078",
           "text": "Gamecast",
           "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873078",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401873078",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873078",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
           "isExternal": false,
           "isPremium": false
         }
@@ -187,40 +225,40 @@
         "number": 11
       },
       "status": {
-        "clock": 0.0,
-        "displayClock": "0:00",
-        "period": 0,
+        "clock": 632.0,
+        "displayClock": "10:32",
+        "period": 4,
         "type": {
-          "id": "1",
-          "name": "STATUS_SCHEDULED",
-          "state": "pre",
+          "id": "2",
+          "name": "STATUS_IN_PROGRESS",
+          "state": "in",
           "completed": false,
-          "description": "Scheduled",
-          "detail": "Mon, November 23rd at 8:15 PM EST",
-          "shortDetail": "11/23 - 8:15 PM EST"
+          "description": "In Progress",
+          "detail": "10:32 - 4th Quarter",
+          "shortDetail": "10:32 - 4th"
         }
       },
       "competitions": [
         {
           "status": {
-            "clock": 0.0,
-            "displayClock": "0:00",
-            "period": 0,
+            "clock": 632.0,
+            "displayClock": "10:32",
+            "period": 4,
             "type": {
-              "id": "1",
-              "name": "STATUS_SCHEDULED",
-              "state": "pre",
+              "id": "2",
+              "name": "STATUS_IN_PROGRESS",
+              "state": "in",
               "completed": false,
-              "description": "Scheduled",
-              "detail": "Mon, November 23rd at 8:15 PM EST",
-              "shortDetail": "11/23 - 8:15 PM EST"
+              "description": "In Progress",
+              "detail": "10:32 - 4th Quarter",
+              "shortDetail": "10:32 - 4th"
             },
             "isTBDFlex": false
           },
           "competitors": [
             {
               "homeAway": "home",
-              "score": "0",
+              "score": "16",
               "records": [
                 {
                   "name": "overall",
@@ -247,7 +285,7 @@
             },
             {
               "homeAway": "away",
-              "score": "0",
+              "score": "17",
               "records": [
                 {
                   "name": "overall",
@@ -2282,5 +2320,5 @@
     }
   ],
   "isPreviousWeek": false,
-  "lastUpdated": "2026-11-23T17:20:29.309477Z"
+  "lastUpdated": "2026-11-24T03:46:56.195593Z"
 }
