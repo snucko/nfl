@@ -8,149 +8,6 @@
   },
   "events": [
     {
-      "id": "401873079",
-      "name": "Green Bay Packers at Los Angeles Rams",
-      "date": "2026-11-26T01:00Z",
-      "links": [
-        {
-          "language": "en-US",
-          "rel": [
-            "live",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/game?gameId=401873079",
-          "text": "Gamecast",
-          "shortText": "Gamecast",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "boxscore",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873079",
-          "text": "Box Score",
-          "shortText": "Box Score",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "pbp",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873079",
-          "text": "Play-by-Play",
-          "shortText": "Play-by-Play",
-          "isExternal": false,
-          "isPremium": false
-        }
-      ],
-      "season": {
-        "year": 2026,
-        "type": 2,
-        "slug": "regular-season"
-      },
-      "week": {
-        "number": 12
-      },
-      "status": {
-        "clock": 448.0,
-        "displayClock": "7:28",
-        "period": 1,
-        "type": {
-          "id": "2",
-          "name": "STATUS_IN_PROGRESS",
-          "state": "in",
-          "completed": false,
-          "description": "In Progress",
-          "detail": "7:28 - 1st Quarter",
-          "shortDetail": "7:28 - 1st"
-        }
-      },
-      "competitions": [
-        {
-          "status": {
-            "clock": 448.0,
-            "displayClock": "7:28",
-            "period": 1,
-            "type": {
-              "id": "2",
-              "name": "STATUS_IN_PROGRESS",
-              "state": "in",
-              "completed": false,
-              "description": "In Progress",
-              "detail": "7:28 - 1st Quarter",
-              "shortDetail": "7:28 - 1st"
-            },
-            "isTBDFlex": false
-          },
-          "competitors": [
-            {
-              "homeAway": "home",
-              "score": "3",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "6-4"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "2-3"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "4-1"
-                }
-              ],
-              "team": {
-                "abbreviation": "LAR",
-                "displayName": "Los Angeles Rams",
-                "logo": "https://snucko.github.io/nfl/logos/lar.png"
-              }
-            },
-            {
-              "homeAway": "away",
-              "score": "0",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "6-4"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "3-2"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "3-2"
-                }
-              ],
-              "team": {
-                "abbreviation": "GB",
-                "displayName": "Green Bay Packers",
-                "logo": "https://snucko.github.io/nfl/logos/gb.png"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "401873081",
       "name": "Chicago Bears at Detroit Lions",
       "date": "2026-11-26T18:00Z",
@@ -495,6 +352,174 @@
                 "abbreviation": "KC",
                 "displayName": "Kansas City Chiefs",
                 "logo": "https://snucko.github.io/nfl/logos/kc.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401873079",
+      "name": "Green Bay Packers at Los Angeles Rams",
+      "date": "2026-11-26T01:00Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401873079/packers-rams",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873079",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401873079",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873079",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401873079",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 12
+      },
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "26",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "7-4"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "3-3"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "4-1"
+                }
+              ],
+              "team": {
+                "abbreviation": "LAR",
+                "displayName": "Los Angeles Rams",
+                "logo": "https://snucko.github.io/nfl/logos/lar.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "13",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "6-5"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "3-2"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "3-3"
+                }
+              ],
+              "team": {
+                "abbreviation": "GB",
+                "displayName": "Green Bay Packers",
+                "logo": "https://snucko.github.io/nfl/logos/gb.png"
               }
             }
           ]
@@ -1907,5 +1932,5 @@
     }
   ],
   "isPreviousWeek": false,
-  "lastUpdated": "2026-11-26T01:31:20.068435Z"
+  "lastUpdated": "2026-11-26T16:21:18.740221Z"
 }
