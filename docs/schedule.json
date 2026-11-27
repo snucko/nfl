@@ -8,123 +8,6 @@
   },
   "events": [
     {
-      "id": "401873081",
-      "name": "Chicago Bears at Detroit Lions",
-      "date": "2026-11-26T18:00Z",
-      "links": [
-        {
-          "language": "en-US",
-          "rel": [
-            "summary",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/game/_/gameId/401873081/bears-lions",
-          "text": "Gamecast",
-          "shortText": "Gamecast",
-          "isExternal": false,
-          "isPremium": false
-        }
-      ],
-      "season": {
-        "year": 2026,
-        "type": 2,
-        "slug": "regular-season"
-      },
-      "week": {
-        "number": 12
-      },
-      "status": {
-        "clock": 0.0,
-        "displayClock": "0:00",
-        "period": 0,
-        "type": {
-          "id": "1",
-          "name": "STATUS_SCHEDULED",
-          "state": "pre",
-          "completed": false,
-          "description": "Scheduled",
-          "detail": "Thu, November 26th at 1:00 PM EST",
-          "shortDetail": "11/26 - 1:00 PM EST"
-        }
-      },
-      "competitions": [
-        {
-          "status": {
-            "clock": 0.0,
-            "displayClock": "0:00",
-            "period": 0,
-            "type": {
-              "id": "1",
-              "name": "STATUS_SCHEDULED",
-              "state": "pre",
-              "completed": false,
-              "description": "Scheduled",
-              "detail": "Thu, November 26th at 1:00 PM EST",
-              "shortDetail": "11/26 - 1:00 PM EST"
-            },
-            "isTBDFlex": false
-          },
-          "competitors": [
-            {
-              "homeAway": "home",
-              "score": "0",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "8-2"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "6-0"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "2-2"
-                }
-              ],
-              "team": {
-                "abbreviation": "DET",
-                "displayName": "Detroit Lions",
-                "logo": "https://snucko.github.io/nfl/logos/det.png"
-              }
-            },
-            {
-              "homeAway": "away",
-              "score": "0",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Any",
-                  "type": "total",
-                  "summary": "8-2"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "5-1"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "3-1"
-                }
-              ],
-              "team": {
-                "abbreviation": "CHI",
-                "displayName": "Chicago Bears",
-                "logo": "https://snucko.github.io/nfl/logos/chi.png"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "401873080",
       "name": "Philadelphia Eagles at Dallas Cowboys",
       "date": "2026-11-26T21:30Z",
@@ -132,13 +15,39 @@
         {
           "language": "en-US",
           "rel": [
-            "summary",
+            "live",
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/nfl/game/_/gameId/401873080/eagles-cowboys",
+          "href": "https://www.espn.com/nfl/game?gameId=401873080",
           "text": "Gamecast",
           "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873080",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873080",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
           "isExternal": false,
           "isPremium": false
         }
@@ -152,40 +61,40 @@
         "number": 12
       },
       "status": {
-        "clock": 0.0,
-        "displayClock": "0:00",
-        "period": 0,
+        "clock": 15.0,
+        "displayClock": "0:15",
+        "period": 4,
         "type": {
-          "id": "1",
-          "name": "STATUS_SCHEDULED",
-          "state": "pre",
+          "id": "2",
+          "name": "STATUS_IN_PROGRESS",
+          "state": "in",
           "completed": false,
-          "description": "Scheduled",
-          "detail": "Thu, November 26th at 4:30 PM EST",
-          "shortDetail": "11/26 - 4:30 PM EST"
+          "description": "In Progress",
+          "detail": "0:15 - 4th Quarter",
+          "shortDetail": "0:15 - 4th"
         }
       },
       "competitions": [
         {
           "status": {
-            "clock": 0.0,
-            "displayClock": "0:00",
-            "period": 0,
+            "clock": 15.0,
+            "displayClock": "0:15",
+            "period": 4,
             "type": {
-              "id": "1",
-              "name": "STATUS_SCHEDULED",
-              "state": "pre",
+              "id": "2",
+              "name": "STATUS_IN_PROGRESS",
+              "state": "in",
               "completed": false,
-              "description": "Scheduled",
-              "detail": "Thu, November 26th at 4:30 PM EST",
-              "shortDetail": "11/26 - 4:30 PM EST"
+              "description": "In Progress",
+              "detail": "0:15 - 4th Quarter",
+              "shortDetail": "0:15 - 4th"
             },
             "isTBDFlex": false
           },
           "competitors": [
             {
               "homeAway": "home",
-              "score": "0",
+              "score": "38",
               "records": [
                 {
                   "name": "overall",
@@ -212,7 +121,7 @@
             },
             {
               "homeAway": "away",
-              "score": "0",
+              "score": "36",
               "records": [
                 {
                   "name": "overall",
@@ -235,6 +144,174 @@
                 "abbreviation": "PHI",
                 "displayName": "Philadelphia Eagles",
                 "logo": "https://snucko.github.io/nfl/logos/phi.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401873081",
+      "name": "Chicago Bears at Detroit Lions",
+      "date": "2026-11-26T18:00Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401873081/bears-lions",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873081",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401873081",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873081",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401873081",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 12
+      },
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "35",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "8-3"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "6-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-2"
+                }
+              ],
+              "team": {
+                "abbreviation": "DET",
+                "displayName": "Detroit Lions",
+                "logo": "https://snucko.github.io/nfl/logos/det.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "39",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "9-2"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "5-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "4-1"
+                }
+              ],
+              "team": {
+                "abbreviation": "CHI",
+                "displayName": "Chicago Bears",
+                "logo": "https://snucko.github.io/nfl/logos/chi.png"
               }
             }
           ]
@@ -1932,5 +2009,5 @@
     }
   ],
   "isPreviousWeek": false,
-  "lastUpdated": "2026-11-26T16:21:18.740221Z"
+  "lastUpdated": "2026-11-27T01:27:57.645162Z"
 }
