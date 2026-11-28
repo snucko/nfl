@@ -8,174 +8,6 @@
   },
   "events": [
     {
-      "id": "401873083",
-      "name": "Denver Broncos at Pittsburgh Steelers",
-      "date": "2026-11-27T20:00Z",
-      "links": [
-        {
-          "language": "en-US",
-          "rel": [
-            "summary",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/game/_/gameId/401873083/broncos-steelers",
-          "text": "Gamecast",
-          "shortText": "Gamecast",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "boxscore",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873083",
-          "text": "Box Score",
-          "shortText": "Box Score",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "highlights",
-            "desktop"
-          ],
-          "href": "https://www.espn.com/nfl/video?gameId=401873083",
-          "text": "Highlights",
-          "shortText": "Highlights",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "pbp",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873083",
-          "text": "Play-by-Play",
-          "shortText": "Play-by-Play",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "recap",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/nfl/recap?gameId=401873083",
-          "text": "Recap",
-          "shortText": "Recap",
-          "isExternal": false,
-          "isPremium": false
-        }
-      ],
-      "season": {
-        "year": 2026,
-        "type": 2,
-        "slug": "regular-season"
-      },
-      "week": {
-        "number": 12
-      },
-      "status": {
-        "clock": 0.0,
-        "displayClock": "0:00",
-        "period": 4,
-        "type": {
-          "id": "3",
-          "name": "STATUS_FINAL",
-          "state": "post",
-          "completed": true,
-          "description": "Final",
-          "detail": "Final",
-          "shortDetail": "Final"
-        }
-      },
-      "competitions": [
-        {
-          "status": {
-            "clock": 0.0,
-            "displayClock": "0:00",
-            "period": 4,
-            "type": {
-              "id": "3",
-              "name": "STATUS_FINAL",
-              "state": "post",
-              "completed": true,
-              "description": "Final",
-              "detail": "Final",
-              "shortDetail": "Final"
-            },
-            "isTBDFlex": false
-          },
-          "competitors": [
-            {
-              "homeAway": "home",
-              "score": "27",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Game",
-                  "type": "total",
-                  "summary": "7-4"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "5-0"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "2-4"
-                }
-              ],
-              "team": {
-                "abbreviation": "PIT",
-                "displayName": "Pittsburgh Steelers",
-                "logo": "https://snucko.github.io/nfl/logos/pit.png"
-              }
-            },
-            {
-              "homeAway": "away",
-              "score": "5",
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Game",
-                  "type": "total",
-                  "summary": "8-3"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "5-0"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "3-3"
-                }
-              ],
-              "team": {
-                "abbreviation": "DEN",
-                "displayName": "Denver Broncos",
-                "logo": "https://snucko.github.io/nfl/logos/den.png"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "401873079",
       "name": "Green Bay Packers at Los Angeles Rams",
       "date": "2026-11-26T01:00Z",
@@ -203,18 +35,6 @@
           "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873079",
           "text": "Box Score",
           "shortText": "Box Score",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "highlights",
-            "desktop"
-          ],
-          "href": "https://www.espn.com/nfl/video?gameId=401873079",
-          "text": "Highlights",
-          "shortText": "Highlights",
           "isExternal": false,
           "isPremium": false
         },
@@ -841,6 +661,174 @@
                 "abbreviation": "KC",
                 "displayName": "Kansas City Chiefs",
                 "logo": "https://snucko.github.io/nfl/logos/kc.png"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "401873083",
+      "name": "Denver Broncos at Pittsburgh Steelers",
+      "date": "2026-11-27T20:00Z",
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401873083/broncos-steelers",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401873083",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/nfl/video?gameId=401873083",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401873083",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401873083",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 12
+      },
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      },
+      "competitions": [
+        {
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "competitors": [
+            {
+              "homeAway": "home",
+              "score": "27",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "7-4"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "5-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-4"
+                }
+              ],
+              "team": {
+                "abbreviation": "PIT",
+                "displayName": "Pittsburgh Steelers",
+                "logo": "https://snucko.github.io/nfl/logos/pit.png"
+              }
+            },
+            {
+              "homeAway": "away",
+              "score": "5",
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "8-3"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "5-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "3-3"
+                }
+              ],
+              "team": {
+                "abbreviation": "DEN",
+                "displayName": "Denver Broncos",
+                "logo": "https://snucko.github.io/nfl/logos/den.png"
               }
             }
           ]
@@ -2136,5 +2124,5 @@
     }
   ],
   "isPreviousWeek": false,
-  "lastUpdated": "2026-11-28T01:03:16.091403Z"
+  "lastUpdated": "2026-11-28T15:00:02.369918Z"
 }
